@@ -70,6 +70,19 @@ GitHub Pages には書き換えの設定が無いため、`dist/404.html` に `i
 どの項目をどこから取っているかは [docs/data-sources.md](docs/data-sources.md) を参照。
 生成の優先順位は `scripts/parse_official.py` の冒頭にも書いてある。
 
+## コミットメッセージ
+
+[Conventional Commits](https://www.conventionalcommits.org/ja/v1.0.0/) に沿って書く。
+書式と型の一覧は [docs/commit-messages.md](docs/commit-messages.md)。
+`.claude/skills/commit/` に同じルールをスキルとして置いてあるので、Claude Code から
+`/commit` で呼び出せる。
+
+クローンし直したら、テンプレートの設定を1回だけ実行する。
+
+```sh
+git config commit.template .gitmessage
+```
+
 ## お断り
 
 個人が趣味で作ったもので、株式会社ポケモン・タカラトミーアーツ・ゲームフリークとは

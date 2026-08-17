@@ -1,0 +1,24 @@
+
+# <型>(<範囲>): <要約>   ← 50文字以内・言い切り（「直す」）・末尾に句点なし
+#
+# <本文>   ← 空行のあとに「なぜ」を書く。1行72文字くらいで折り返す
+#
+# <フッター>   ← BREAKING CHANGE: / Co-Authored-By:
+#
+# 型:  feat     機能の追加・変更（画面の見た目や動きが変わる）
+#      fix      不具合の修正
+#      data     src/data/*.json や assets/types/*.png の作り直し
+#      docs     文書だけ（README・docs/・コメント）
+#      refactor 動きを変えない作り直し
+#      perf     速さ・軽さの改善
+#      build    ビルドと依存関係（package.json・Expo の設定）
+#      ci       GitHub Actions
+#      chore    上記に入らないもの（.gitignore など）
+#
+# 範囲（省略可）: list detail party trainers record / search filter collection
+#                 / sw pwa / ocr icons scripts
+#
+# 所持データ（localStorage）の形が変わるときは feat(collection)!: か
+# BREAKING CHANGE: を必ず付ける。子供の記録が消えるため。
+#
+# 詳しくは docs/commit-messages.md
