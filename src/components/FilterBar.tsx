@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
 
 import { TypeIcon } from "@/components/TypeIcon";
-import { loadFilterOpen, saveFilterOpen } from "@/lib/filterPrefs";
+import { CARD_SIZES, type CardSize, loadFilterOpen, saveFilterOpen } from "@/lib/filterPrefs";
 import { PICK_SETS } from "@/lib/picks";
 import { GROUP_ORDER, GROUP_STYLES, TYPE_COLORS, TYPE_ORDER } from "@/theme/pokemonTypes";
 import type { PickGroup, SetKey } from "@/types";
@@ -94,9 +94,15 @@ type Props = {
   onChange: (next: Filters) => void;
   /** 登録中は、ひらいていても自動でたたむ */
   compact?: boolean;
+  /**
+   * カードの大きさ。しぼりこみではないが、たまに変えるだけの設定なので
+   * 専用の画面はつくらず、この中に置いている。
+   */
+  cardSize: CardSize;
+  onCardSizeChange: (size: CardSize) => void;
 };
 
-export function FilterBar({ filters, onChange, compact }: Props) {
+export function FilterBar({ filters, onChange, compact, cardSize, onCardSizeChange }: Props) {
   // ひらいたままだと画面の半分ちかくを占めるので、ふだんはたたんでおく。
   // どちらにしていたかは覚えておく。
   const [open, setOpen] = useState(false);
@@ -267,6 +273,18 @@ export function FilterBar({ filters, onChange, compact }: Props) {
                 color={TYPE_COLORS[t]}
                 active={filters.type === t}
                 onPress={() => toggle("type", t)}
+              />
+            ))}
+          </Row>
+
+          <Row title="おおきさ">
+            {CARD_SIZES.map(({ key, label }) => (
+              <Chip
+                key={key}
+                label={label}
+                color="#7B3FBF"
+                active={cardSize === key}
+                onPress={() => onCardSizeChange(key)}
               />
             ))}
           </Row>

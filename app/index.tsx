@@ -19,11 +19,17 @@ import { PickCard } from "@/components/PickCard";
 import { PrefetchBar } from "@/components/PrefetchBar";
 import { setBrowseOrder } from "@/lib/browseOrder";
 import { useCollection } from "@/lib/collection";
-import { loadSetFilter, saveSetFilter } from "@/lib/filterPrefs";
+import {
+  type CardSize,
+  DEFAULT_CARD_SIZE,
+  cardTarget,
+  loadCardSize,
+  loadSetFilter,
+  saveCardSize,
+  saveSetFilter,
+} from "@/lib/filterPrefs";
 import { ALL_PICKS } from "@/lib/picks";
 import { matchesQuery } from "@/lib/search";
-
-const CARD_TARGET = 168;
 
 export default function DexScreen() {
   const router = useRouter();
@@ -31,12 +37,19 @@ export default function DexScreen() {
   const { collection, adjust, ready } = useCollection();
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
   const [registerMode, setRegisterMode] = useState(false);
+  const [cardSize, setCardSize] = useState<CardSize>(DEFAULT_CARD_SIZE);
 
-  // 前に見ていた だん を復元する。ほかの条件は毎回まっさらでよい
+  // 前に見ていた だん と カードの大きさ を復元する。ほかの条件は毎回まっさらでよい
   useEffect(() => {
     loadSetFilter().then((sets) => {
       if (sets.length > 0) setFilters((prev) => ({ ...prev, sets }));
     });
+    loadCardSize().then(setCardSize);
+  }, []);
+
+  const changeCardSize = useCallback((size: CardSize) => {
+    setCardSize(size);
+    saveCardSize(size);
   }, []);
 
   const changeFilters = useCallback(
@@ -60,6 +73,12 @@ export default function DexScreen() {
   const scrollY = useRef(0);
   /** いま逃がしてあるかどうか。変わったときだけアニメを動かす */
   const hidden = useRef(false);
+  /**
+   * 覚えておいた場所へ戻すときの行き先。戻している最中だけ数が入る。
+   * ただし FlatList は描画ずみのぶんしか高さを持っていないので、遠くへは一度で飛べない。
+   * 中身が伸びるたびに近づけ直す（onContentSizeChange から呼ぶ）。
+   */
+  const target = useRef<number | null>(null);
 
   const onScroll = useCallback(
     (e: NativeSyntheticEvent<NativeScrollEvent>) => {
@@ -67,6 +86,10 @@ export default function DexScreen() {
       scrollY.current = y;
       const dy = y - lastY.current;
       lastY.current = y;
+
+      // 自分でスクロールし直している最中（まわしたとき・カードの大きさを変えたとき）は
+      // 動かさない。ここで逃がしてしまうと、しぼりこみが消えて大きさを続けて選べない
+      if (target.current !== null) return;
 
       // 上のほうに居るあいだは、かならず出しておく。
       // 小さな揺れで出たり消えたりしないよう、うごきは12pxから見る
@@ -105,7 +128,9 @@ export default function DexScreen() {
   const [pending, setPending] = useState<{ index: number; fromHeight: number } | null>(null);
   const prevColumns = useRef(0);
 
-  const columns = Math.max(2, Math.floor(width / CARD_TARGET));
+  // 大きさを変えると列数が変わる。まわしたときと同じ仕組みで、
+  // 見ていたあたりへ戻る（下の prevColumns のところ）
+  const columns = Math.max(2, Math.floor(width / cardTarget(cardSize)));
   // グリッドの左右にも padding:6 があるので、そのぶんを引かないと右はしが切れる
   const cardWidth = (width - 12) / columns - 12;
 
@@ -187,13 +212,6 @@ export default function DexScreen() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [columns]);
 
-  /**
-   * 新しい行の高さが出てから、覚えておいた場所へ戻す。
-   * ただし FlatList は描画ずみのぶんしか高さを持っていないので、遠くへは一度で飛べない。
-   * 中身が伸びるたびに近づけ直す（onContentSizeChange から呼ぶ）。
-   */
-  const target = useRef<number | null>(null);
-
   const restore = useCallback(() => {
     if (target.current === null) return;
     listRef.current?.scrollToOffset({ offset: target.current, animated: false });
@@ -204,7 +222,9 @@ export default function DexScreen() {
   useEffect(() => {
     if (pending === null || rowHeight === 0 || rowHeight === pending.fromHeight) return;
     const row = Math.floor(pending.index / columns);
-    target.current = row * rowHeight + chromeHeight + 6;
+    // いちばん上に居たなら上のままにする。ここで chromeHeight ぶん動かすと、
+    // 見た目が跳ねたうえに、しぼりこみが上へ逃げてしまう
+    target.current = row === 0 ? 0 : row * rowHeight + chromeHeight + 6;
     setPending(null);
     restore();
   }, [pending, rowHeight, columns, chromeHeight, restore]);
@@ -247,7 +267,13 @@ export default function DexScreen() {
         style={[styles.chrome, { paddingTop: insets.top, transform: [{ translateY: slide }] }]}
         onLayout={(e) => setChromeHeight(e.nativeEvent.layout.height)}
       >
-      <FilterBar filters={filters} onChange={changeFilters} compact={registerMode} />
+      <FilterBar
+        filters={filters}
+        onChange={changeFilters}
+        compact={registerMode}
+        cardSize={cardSize}
+        onCardSizeChange={changeCardSize}
+      />
 
       <View style={styles.statusBar}>
         <View style={styles.progressWrap}>

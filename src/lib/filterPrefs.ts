@@ -53,3 +53,43 @@ export async function loadFilterOpen(): Promise<boolean> {
 export function saveFilterOpen(open: boolean): void {
   AsyncStorage.setItem(OPEN_KEY, open ? "1" : "0").catch(() => {});
 }
+
+/**
+ * ずかん一覧のカードの大きさ。
+ *
+ * target は「カード1枚にこれくらいの幅を使いたい」という目安で、画面の幅を
+ * これで割った数が列数になる（app/index.tsx）。実際のカード幅は画面によって
+ * 変わるので、px をそのまま指定する作りにはしていない。
+ * 目が小さいものを見分けにくいので、はじめは「おおきい」にしてある。
+ */
+export type CardSize = "small" | "medium" | "large" | "huge";
+
+export const CARD_SIZES: { key: CardSize; label: string; target: number }[] = [
+  { key: "small", label: "ちいさい", target: 140 },
+  { key: "medium", label: "ふつう", target: 170 },
+  { key: "large", label: "おおきい", target: 210 },
+  { key: "huge", label: "とても おおきい", target: 260 },
+];
+
+export const DEFAULT_CARD_SIZE: CardSize = "large";
+
+export function cardTarget(size: CardSize): number {
+  return (CARD_SIZES.find((s) => s.key === size) ?? CARD_SIZES[2]).target;
+}
+
+const SIZE_KEY = "frienda.card.size.v1";
+
+export async function loadCardSize(): Promise<CardSize> {
+  try {
+    const value = await AsyncStorage.getItem(SIZE_KEY);
+    return CARD_SIZES.some((s) => s.key === value) ? (value as CardSize) : DEFAULT_CARD_SIZE;
+  } catch {
+    return DEFAULT_CARD_SIZE;
+  }
+}
+
+export function saveCardSize(size: CardSize): void {
+  AsyncStorage.setItem(SIZE_KEY, size).catch(() => {
+    // 覚えられなくても使えなくはならない
+  });
+}
