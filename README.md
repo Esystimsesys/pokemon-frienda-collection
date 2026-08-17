@@ -70,14 +70,22 @@ GitHub Pages には書き換えの設定が無いため、`dist/404.html` に `i
 どの項目をどこから取っているかは [docs/data-sources.md](docs/data-sources.md) を参照。
 生成の優先順位は `scripts/parse_official.py` の冒頭にも書いてある。
 
-## コミットメッセージ
+## コミットとブランチ
 
-[Conventional Commits](https://www.conventionalcommits.org/ja/v1.0.0/) に沿って書く。
-書式と型の一覧は [docs/commit-messages.md](docs/commit-messages.md)。
-`.claude/skills/commit/` に同じルールをスキルとして置いてあるので、Claude Code から
-`/commit` で呼び出せる。
+コミットメッセージは [Conventional Commits](https://www.conventionalcommits.org/ja/v1.0.0/)
+に沿って書く。**大きめの改修は作業用ブランチを作る**。`main` への push が
+そのまま公開になるので、作りかけを子供の画面に出さないため。
 
-クローンし直したら、テンプレートの設定を1回だけ実行する。
+このリポジトリだけの決めごと:
+
+| | |
+|---|---|
+| 型に `data` を足す | `src/data/*.json` や `assets/types/*.png` の作り直し |
+| よく使う範囲 | `list` `detail` `party` `trainers` `record` / `search` `filter` `collection` / `sw` `pwa` / `ocr` `icons` `scripts` |
+| `BREAKING CHANGE` | 所持データ（localStorage）の形が変わって、今まで登録したぶんが読めなくなるとき。子供の記録が消えるので必ず明示する |
+| main に入れる前 | `npx tsc --noEmit` と `npm run build:web` を通す。落ちたまま push すると公開が止まる |
+
+`git commit` で出る雛形は `.gitmessage`。クローンし直したら、設定を1回だけ実行する。
 
 ```sh
 git config commit.template .gitmessage

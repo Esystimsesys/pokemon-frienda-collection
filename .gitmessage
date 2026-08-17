@@ -21,4 +21,5 @@
 # 所持データ（localStorage）の形が変わるときは feat(collection)!: か
 # BREAKING CHANGE: を必ず付ける。子供の記録が消えるため。
 #
-# 詳しくは docs/commit-messages.md
+# 書式の詳しいところは共通ルール（commit スキル）、
+# このリポジトリだけの型・範囲は README を見ること
