@@ -21,7 +21,7 @@ description: このリポジトリのコミットメッセージを Conventional
      （例: `scripts/ocr/export_type_icons.py` と `assets/types/*.png` は一緒に）
 4. 型と範囲を決めて、下の書式で書く。
 5. 後方互換を壊すなら `!` か `BREAKING CHANGE:` を必ず付ける（下記）。
-6. Claude が書いたコミットは `Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>` を末尾に置く。
+6. `Co-Authored-By:` は**付けない**。Claude が書いたコミットでも付けない。
 
 ## 書式
 

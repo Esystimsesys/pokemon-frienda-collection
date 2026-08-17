@@ -3,7 +3,7 @@
 #
 # <本文>   ← 空行のあとに「なぜ」を書く。1行72文字くらいで折り返す
 #
-# <フッター>   ← BREAKING CHANGE: / Co-Authored-By:
+# <フッター>   ← BREAKING CHANGE: のみ。Co-Authored-By: は付けない
 #
 # 型:  feat     機能の追加・変更（画面の見た目や動きが変わる）
 #      fix      不具合の修正
