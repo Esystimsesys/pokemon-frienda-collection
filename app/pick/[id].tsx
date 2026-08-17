@@ -3,6 +3,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { PanResponder, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 import { PickImage } from "@/components/PickImage";
+import { PickZoom } from "@/components/PickZoom";
 import { neighbours } from "@/lib/browseOrder";
 import { useCollection } from "@/lib/collection";
 import { MAX_ENERGY, MAX_STAT, PICK_BY_ID, STAT_FIELDS } from "@/lib/picks";
@@ -15,14 +16,16 @@ export default function PickDetailScreen() {
   const router = useRouter();
   const { countOf, adjust } = useCollection();
   const [side, setSide] = useState<"front" | "back">("front");
+  const [zoomed, setZoomed] = useState(false);
   const [heroWidth, setHeroWidth] = useState(0);
   const pick = id ? PICK_BY_ID.get(id) : undefined;
 
   const { prev, next } = useMemo(() => neighbours(id ?? ""), [id]);
 
-  // 別のピックへ移ったら、表面から見せる
+  // 別のピックへ移ったら、表面から見せる。拡大していたら閉じる
   useEffect(() => {
     setSide("front");
+    setZoomed(false);
   }, [id]);
 
   /**
@@ -89,7 +92,22 @@ export default function PickDetailScreen() {
           </TouchableOpacity>
 
           {heroWidth > 0 && (
-            <PickImage uri={pick.image} side={side} width={heroWidth - 96} style={styles.image} />
+            <TouchableOpacity
+              onPress={() => setZoomed(true)}
+              activeOpacity={0.85}
+              accessibilityRole="button"
+              accessibilityLabel={`${pick.name} の えを おおきく みる`}
+            >
+              <PickImage uri={pick.image} side={side} width={heroWidth - 96} style={styles.image} />
+              {/* 押せることが分からないので、目じるしを重ねておく。
+                  絵の下がわは、おもて（きらめきの余白）でも うら（券のふち）でも
+                  だいじな印字が無いので、まん中下に置く */}
+              <View style={styles.zoomHintWrap} pointerEvents="none">
+                <View style={styles.zoomHint}>
+                  <Text style={styles.zoomHintText}>タップで おおきく</Text>
+                </View>
+              </View>
+            </TouchableOpacity>
           )}
 
           <TouchableOpacity
@@ -242,6 +260,15 @@ export default function PickDetailScreen() {
           {count > 0 ? "もってる！" : "まだ もってない"}
         </Text>
       </View>
+
+      <PickZoom
+        visible={zoomed}
+        uri={pick.image}
+        side={side}
+        name={pick.name}
+        onFlip={() => setSide((s) => (s === "front" ? "back" : "front"))}
+        onClose={() => setZoomed(false)}
+      />
     </ScrollView>
   );
 }
@@ -260,6 +287,14 @@ const styles = StyleSheet.create({
   },
   gradeText: { color: "#fff", fontWeight: "800", fontSize: 13 },
   image: { alignSelf: "center" },
+  zoomHintWrap: { position: "absolute", left: 0, right: 0, bottom: 6, alignItems: "center" },
+  zoomHint: {
+    backgroundColor: "rgba(26, 54, 93, 0.72)",
+    borderRadius: 12,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+  },
+  zoomHintText: { color: "#fff", fontSize: 11, fontWeight: "800" },
   heroBody: { flexDirection: "row", alignItems: "center", marginTop: 10 },
   arrow: {
     width: 44,
