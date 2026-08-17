@@ -1,0 +1,580 @@
+{
+ "1-1-020": {
+  "specialMove": "スパーキングギガボルト"
+ },
+ "1-2-008": {
+  "specialMove": "ぜんりょくむそうげきれつけん"
+ },
+ "1-2-022": {
+  "specialMove": "ぜんりょくむそうげきれつけん"
+ },
+ "1-3-004": {
+  "specialMove": "ぜんりょくむそうげきれつけん"
+ },
+ "1-3-012": {
+  "specialMove": "ぜんりょくむそうげきれつけん"
+ },
+ "1-4-022": {
+  "specialMove": "スパーキングギガボルト"
+ },
+ "1-4-W03": {
+  "moveName": "かえんほうしゃ",
+  "moveType": "ほのお"
+ },
+ "1-5-007": {
+  "moveName": "ドラゴンダイブ",
+  "moveType": "ドラゴン"
+ },
+ "1-5-008": {
+  "moveName": "きあいだま",
+  "moveType": "かくとう",
+  "specialMove": "ぜんりょくむそうげきれつけん"
+ },
+ "1-5-010": {
+  "moveType": "ドラゴン"
+ },
+ "1-5-014": {
+  "moveType": "くさ",
+  "moveName": "ソーラービーム"
+ },
+ "1-5-017": {
+  "moveName": "ヘドロウェーブ",
+  "moveType": "どく"
+ },
+ "1-5-021": {
+  "moveType": "ドラゴン"
+ },
+ "1-5-025": {
+  "moveName": "リーフブレード",
+  "moveType": "くさ"
+ },
+ "1-5-058": {
+  "moveName": "ワイドブレイカー",
+  "moveType": "ドラゴン"
+ },
+ "1-5-070": {
+  "moveType": "ドラゴン"
+ },
+ "1-5-W01": {
+  "moveType": "くさ"
+ },
+ "1-5-W02": {
+  "moveType": "あく"
+ },
+ "1-5-W03": {
+  "specialMove": "かえんほうしゃ",
+  "moveType": "ほのお"
+ },
+ "1-5-W04": {
+  "moveType": "みず"
+ },
+ "2-1-006": {
+  "moveType": "ゴースト"
+ },
+ "2-1-007": {
+  "moveType": "あく"
+ },
+ "2-1-008": {
+  "moveType": "かくとう"
+ },
+ "2-1-010": {
+  "moveType": "ドラゴン"
+ },
+ "2-1-012": {
+  "moveName": "かえんほうしゃ",
+  "moveType": "ほのお"
+ },
+ "2-1-015": {
+  "moveType": "むし"
+ },
+ "2-1-016": {
+  "moveType": "ゴースト"
+ },
+ "2-1-017": {
+  "moveType": "フェアリー"
+ },
+ "2-1-018": {
+  "moveType": "でんき",
+  "moveName": "１０まんボルト"
+ },
+ "2-1-019": {
+  "moveName": "じごくづき",
+  "moveType": "あく"
+ },
+ "2-1-022": {
+  "moveName": "ドラゴンダイブ",
+  "moveType": "ドラゴン"
+ },
+ "2-1-023": {
+  "moveName": "ヘドロウェーブ",
+  "moveType": "どく"
+ },
+ "2-1-037": {
+  "moveName": "ワイドブレイカー",
+  "moveType": "ドラゴン"
+ },
+ "2-2-004": {
+  "moveType": "むし"
+ },
+ "2-2-005": {
+  "moveType": "エスパー"
+ },
+ "2-2-006": {
+  "specialMove": "ドラゴンダイブ",
+  "moveType": "ドラゴン"
+ },
+ "2-2-010": {
+  "specialMove": "ガーディアン・デ・アローラ"
+ },
+ "2-2-014": {
+  "moveType": "はがね"
+ },
+ "2-2-015": {
+  "specialMove": "じごくづき",
+  "moveType": "あく"
+ },
+ "2-2-016": {
+  "moveType": "こおり"
+ },
+ "2-2-029": {
+  "moveName": "ひのこ",
+  "moveType": "ほのお"
+ },
+ "2-2-069": {
+  "moveName": "つばめがえし",
+  "moveType": "ひこう"
+ },
+ "2-2-W02": {
+  "moveType": "ゴースト"
+ },
+ "2-3-004": {
+  "moveType": "ドラゴン"
+ },
+ "2-3-005": {
+  "moveType": "はがね"
+ },
+ "2-3-006": {
+  "moveType": "じめん"
+ },
+ "2-3-007": {
+  "moveType": "かくとう"
+ },
+ "2-3-013": {
+  "moveName": "ヘドロウェーブ",
+  "moveType": "どく"
+ },
+ "2-3-014": {
+  "moveType": "むし"
+ },
+ "2-3-015": {
+  "moveType": "ひこう"
+ },
+ "2-3-016": {
+  "specialMove": "かえんほうしゃ",
+  "moveType": "ほのお"
+ },
+ "2-3-023": {
+  "moveName": "フレアドライブ",
+  "moveType": "ほのお"
+ },
+ "2-3-024": {
+  "moveName": "ドラゴンダイブ",
+  "moveType": "ドラゴン"
+ },
+ "2-3-041": {
+  "moveName": "ワイドブレイカー",
+  "moveType": "ドラゴン"
+ },
+ "2-3-065": {
+  "moveType": "ドラゴン"
+ },
+ "2-4-002": {
+  "moveName": "シャドーダイブ",
+  "moveType": "ゴースト"
+ },
+ "2-4-004": {
+  "specialMove": "ブレイブバード",
+  "moveType": "ひこう"
+ },
+ "2-4-005": {
+  "specialMove": "ドラゴンダイブ",
+  "moveType": "ドラゴン"
+ },
+ "2-4-006": {
+  "moveType": "いわ"
+ },
+ "2-4-007": {
+  "moveName": "Vジェネレート",
+  "moveType": "ほのお"
+ },
+ "2-4-008": {
+  "specialMove": "スパーキングギガボルト"
+ },
+ "2-4-011": {
+  "moveName": "ブレイブバード",
+  "moveType": "ひこう"
+ },
+ "2-4-013": {
+  "moveType": "くさ"
+ },
+ "2-4-014": {
+  "moveType": "ドラゴン"
+ },
+ "2-4-015": {
+  "moveType": "ドラゴン"
+ },
+ "2-4-021": {
+  "moveName": "つららばり",
+  "moveType": "こおり"
+ },
+ "2-4-024": {
+  "moveType": "かくとう"
+ },
+ "2-4-039": {
+  "moveType": "ドラゴン"
+ },
+ "2-4-040": {
+  "moveType": "ドラゴン"
+ },
+ "2-4-048": {
+  "moveName": "ワイドブレイカー",
+  "moveType": "ドラゴン"
+ },
+ "2-4-049": {
+  "moveType": "ドラゴン"
+ },
+ "2-4-050": {
+  "moveName": "つららばり",
+  "moveType": "こおり"
+ },
+ "2-4-053": {
+  "moveName": "しおみず",
+  "moveType": "みず"
+ },
+ "2-4-053★": {
+  "moveName": "しおみず",
+  "moveType": "みず"
+ },
+ "2-4-057": {
+  "moveType": "ドラゴン"
+ },
+ "2-4-W03": {
+  "moveName": "リーフブレード",
+  "moveType": "くさ"
+ },
+ "2-5-001": {
+  "moveType": "ドラゴン"
+ },
+ "2-5-002": {
+  "moveType": "ドラゴン"
+ },
+ "2-5-003★": {
+  "energy": "352",
+  "moveType": "ひこう"
+ },
+ "2-5-004★": {
+  "specialMove": "コアパニッシャー / むにきすひかり",
+  "moveType": "ドラゴン"
+ },
+ "2-5-005": {
+  "moveType": "あく"
+ },
+ "2-5-006": {
+  "moveType": "くさ"
+ },
+ "2-5-007": {
+  "moveType": "かくとう"
+ },
+ "2-5-008": {
+  "specialMove": "アクアブレイク",
+  "moveType": "みず"
+ },
+ "2-5-011": {
+  "moveType": "みず"
+ },
+ "2-5-012": {
+  "specialMove": "ばかぢから",
+  "moveType": "かくとう"
+ },
+ "2-5-013": {
+  "moveType": "はがね"
+ },
+ "2-5-014": {
+  "moveType": "じめん"
+ },
+ "2-5-015": {
+  "moveType": "どく"
+ },
+ "2-5-023": {
+  "specialMove": "ウェーブタックル"
+ },
+ "2-5-024": {
+  "specialMove": "じごくづき"
+ },
+ "2-5-061": {
+  "moveName": "ワイドブレイカー",
+  "moveType": "ドラゴン"
+ },
+ "2-5-061★": {
+  "moveName": "ワイドブレイカー",
+  "moveType": "ドラゴン"
+ },
+ "2-5-W02": {
+  "moveType": "ドラゴン"
+ },
+ "3-1-001": {
+  "moveType": "かくとう"
+ },
+ "3-1-002": {
+  "moveType": "エスパー"
+ },
+ "3-1-003": {
+  "moveType": "でんき"
+ },
+ "3-1-004": {
+  "specialMove": "きょだいべんたつ"
+ },
+ "3-1-005": {
+  "moveName": "かえんほうしゃ",
+  "moveType": "ほのお"
+ },
+ "3-1-006": {
+  "specialMove": "キョダイホウゲキ"
+ },
+ "3-1-009": {
+  "moveName": "メテオドライブ",
+  "moveType": "はがね"
+ },
+ "3-1-014": {
+  "moveType": "でんき"
+ },
+ "3-1-015": {
+  "moveType": "はがね"
+ },
+ "3-1-016": {
+  "moveType": "むし"
+ },
+ "3-1-018": {
+  "moveName": "ゴーストダイブ",
+  "moveType": "ゴースト"
+ },
+ "3-1-023": {
+  "moveName": "ブレイブバード",
+  "moveType": "ひこう"
+ },
+ "3-1-W03": {
+  "energy": "320"
+ },
+ "p011": {
+  "specialMove": "スパーキングギガボルト"
+ },
+ "p012": {
+  "moveName": "ツタこんぼう",
+  "moveType": "くさ"
+ },
+ "p015": {
+  "moveName": "かえんほうしゃ",
+  "moveType": "ほのお"
+ },
+ "p016": {
+  "specialMove": "スパーキングギガボルト"
+ },
+ "p019": {
+  "moveName": "ゴーストダイブ",
+  "moveType": "ゴースト",
+  "specialMove": "ゴーストダイブ"
+ },
+ "p020": {
+  "moveName": "かえんほうしゃ",
+  "moveType": "ほのお"
+ },
+ "p023": {
+  "moveType": "ほのお"
+ },
+ "p024": {
+  "moveType": "ひこう",
+  "moveName": "エアロブラスト"
+ },
+ "p030": {
+  "moveType": "くさ"
+ },
+ "p031": {
+  "moveType": "こおり"
+ },
+ "p032": {
+  "moveType": "でんき"
+ },
+ "p033": {
+  "moveType": "ほのお"
+ },
+ "p034": {
+  "moveType": "ひこう",
+  "moveName": "ガリョウテンセイ"
+ },
+ "p035": {
+  "moveType": "でんき"
+ },
+ "p039": {
+  "moveName": "ブレイブバード",
+  "moveType": "ひこう"
+ },
+ "p041": {
+  "specialMove": "ぜんりょくむそうげきれつけん"
+ },
+ "p044": {
+  "moveName": "じごくづき",
+  "moveType": "あく"
+ },
+ "p045": {
+  "moveName": "かえんほうしゃ",
+  "moveType": "ほのお"
+ },
+ "p047": {
+  "specialMove": "かえんほうしゃ"
+ },
+ "p049": {
+  "specialMove": "なみのり"
+ },
+ "p050": {
+  "moveName": "かえんほうしゃ",
+  "moveType": "ほのお"
+ },
+ "p051": {
+  "moveType": "くさ"
+ },
+ "p052": {
+  "specialMove": "サイコブレイク"
+ },
+ "p053-ayNdxXS8": {
+  "specialMove": "インファイト",
+  "moveType": "かくとう"
+ },
+ "p059": {
+  "moveType": "ノーマル"
+ },
+ "p060": {
+  "moveType": "でんき"
+ },
+ "p061": {
+  "moveName": "かえんほうしゃ",
+  "moveType": "ほのお",
+  "specialMove": "むねんのつるぎ"
+ },
+ "p065": {
+  "specialMove": "ぜんりょくむそうげきれつけん"
+ },
+ "p067": {
+  "moveType": "ゴースト"
+ },
+ "p069": {
+  "moveName": "ドラゴンダイブ",
+  "moveType": "ドラゴン"
+ },
+ "p070": {
+  "moveType": "ゴースト"
+ },
+ "p071": {
+  "moveType": "かくとう"
+ },
+ "p072": {
+  "specialMove": "かえんほうしゃ",
+  "moveType": "ほのお"
+ },
+ "p073": {
+  "energy": "264",
+  "moveType": "あく"
+ },
+ "p074": {
+  "energy": "264",
+  "specialMove": "かえんほうしゃ",
+  "moveType": "ほのお"
+ },
+ "p076": {
+  "moveName": "かみなり",
+  "moveType": "でんき"
+ },
+ "p080": {
+  "specialMove": "ドラゴンダイブ",
+  "moveType": "ドラゴン"
+ },
+ "p081": {
+  "specialMove": "コメットパンチ",
+  "moveType": "はがね"
+ },
+ "p083": {
+  "moveType": "じめん"
+ },
+ "p084": {
+  "moveType": "むし"
+ },
+ "p085": {
+  "moveType": "あく"
+ },
+ "p086": {
+  "specialMove": "ドラゴンダイブ",
+  "moveType": "ドラゴン"
+ },
+ "p089": {
+  "moveType": "くさ",
+  "moveName": "リーフブレード"
+ },
+ "p092": {
+  "moveType": "みず"
+ },
+ "p093": {
+  "moveType": "ほのお"
+ },
+ "p094": {
+  "moveType": "くさ"
+ },
+ "p095": {
+  "moveType": "ほのお",
+  "moveName": "かえんほうしゃ"
+ },
+ "p096": {
+  "moveType": "ドラゴン"
+ },
+ "p099": {
+  "moveName": "ツタこんぼう",
+  "moveType": "みず"
+ },
+ "p100": {
+  "energy": "300"
+ },
+ "p103": {
+  "specialMove": "ゴールドラッシュ"
+ },
+ "p106": {
+  "moveName": "かえんほうしゃ",
+  "moveType": "ほのお",
+  "specialMove": "キョダイゴクエン"
+ },
+ "p109": {
+  "specialMove": "スパーキングギガボルト"
+ },
+ "p110": {
+  "specialMove": "ドラゴンダイブ",
+  "moveType": "ドラゴン"
+ },
+ "p111": {
+  "moveType": "でんき"
+ },
+ "p112": {
+  "specialMove": "ドラゴンダイブ",
+  "moveType": "ドラゴン"
+ },
+ "p113": {
+  "moveType": "いわ"
+ },
+ "p114": {
+  "specialMove": "ドラゴンダイブ",
+  "moveType": "ドラゴン"
+ },
+ "p119": {
+  "specialMove": "ガリョウテンセイ",
+  "moveType": "ひこう"
+ },
+ "p120": {
+  "moveType": "でんき"
+ }
+}

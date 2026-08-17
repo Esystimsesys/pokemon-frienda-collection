@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+  Expo の web 出力（output: "single"）はこのファイルをテンプレートとして読む。
+  下のプレースホルダはビルド時に app.json の値へ置き換わり、bundle の読み込みタグが
+  body の末尾に差し込まれる。置換は「最初に見つかった1か所だけ」なので、
+  プレースホルダと同じ文字列をこのコメントに書いてはいけない。
+-->
+<html lang="%LANG_ISO_CODE%">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <!-- viewport-fit=cover でノッチの下まで背景を伸ばす。子供が誤ってピンチ拡大しないよう固定 -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <title>%WEB_TITLE%</title>
+
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="theme-color" content="#2B6CB0" />
+
+    <!-- iOS はマニフェストの display を見ないので、こちらでも全画面を指定する -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="ピックずかん" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="icon" href="./favicon.png" type="image/png" />
+
+    <!-- リポジトリ名がURLに入る置きかた（GitHub Pages）でも動くよう、
+         ここのパスはすべて相対にしてある。ルート配信なら結果は同じ -->
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+      body {
+        background-color: #f2f6fb;
+        overscroll-behavior-y: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>JavaScript を ONに してください</noscript>
+    <div id="root"></div>
+    <script>
+      // sw.js は expo export のあとに scripts/build_sw.mjs が作る。
+      // 開発サーバーには存在しないので、失敗しても黙って無視する。
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("./sw.js").catch(function () {});
+        });
+      }
+    </script>
+  </body>
+</html>

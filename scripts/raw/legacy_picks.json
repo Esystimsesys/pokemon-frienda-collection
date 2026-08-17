@@ -1,0 +1,9552 @@
+[
+  {
+    "id": "2-0-001",
+    "label": "0-001",
+    "wave": 0,
+    "name": "ルギア_紫",
+    "types": [
+      "ひこう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "エアロブラスト",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/2-0-001.webp",
+    "energy": 236,
+    "hp": 128,
+    "attack": 73,
+    "defense": 103,
+    "spAttack": 73,
+    "spDefense": 122
+  },
+  {
+    "id": "113-0-001",
+    "label": "0-001",
+    "wave": 0,
+    "name": "ルギア_金",
+    "types": [
+      "ひこう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "エアロブラスト",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/113-0-001.webp",
+    "energy": 236,
+    "hp": 128,
+    "attack": 73,
+    "defense": 103,
+    "spAttack": 73,
+    "spDefense": 122
+  },
+  {
+    "id": "3-0-002",
+    "label": "0-002",
+    "wave": 0,
+    "name": "ホウオウ_紫",
+    "types": [
+      "ほのお",
+      "ひこう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "せいなるほのお",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/3-0-002.webp",
+    "energy": 236,
+    "hp": 128,
+    "attack": 103,
+    "defense": 73,
+    "spAttack": 88,
+    "spDefense": 122
+  },
+  {
+    "id": "114-0-002",
+    "label": "0-002",
+    "wave": 0,
+    "name": "ホウオウ_金",
+    "types": [
+      "ほのお",
+      "ひこう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "せいなるほのお",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/114-0-002.webp",
+    "energy": 236,
+    "hp": 128,
+    "attack": 103,
+    "defense": 73,
+    "spAttack": 88,
+    "spDefense": 122
+  },
+  {
+    "id": "4-0-003",
+    "label": "0-003",
+    "wave": 0,
+    "name": "フシギバナ",
+    "types": [
+      "くさ"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "リーフストーム",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/4-0-003.webp",
+    "energy": 168,
+    "hp": 98,
+    "attack": 60,
+    "defense": 61,
+    "spAttack": 73,
+    "spDefense": 73
+  },
+  {
+    "id": "5-0-004",
+    "label": "0-004",
+    "wave": 0,
+    "name": "リザードン",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "かえんほうしゃ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/5-0-004.webp",
+    "energy": 172,
+    "hp": 97,
+    "attack": 62,
+    "defense": 58,
+    "spAttack": 79,
+    "spDefense": 62
+  },
+  {
+    "id": "6-0-005",
+    "label": "0-005",
+    "wave": 0,
+    "name": "カメックス",
+    "types": [
+      "みず"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ハイドロポンプ",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/6-0-005.webp",
+    "energy": 172,
+    "hp": 97,
+    "attack": 61,
+    "defense": 73,
+    "spAttack": 62,
+    "spDefense": 76
+  },
+  {
+    "id": "7-0-006",
+    "label": "0-006",
+    "wave": 0,
+    "name": "ピカチュウ",
+    "types": [
+      "でんき"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "１０まんボルト",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/7-0-006.webp",
+    "energy": 158,
+    "hp": 84,
+    "attack": 53,
+    "defense": 49,
+    "spAttack": 49,
+    "spDefense": 49
+  },
+  {
+    "id": "8-0-007",
+    "label": "0-007",
+    "wave": 0,
+    "name": "クレベース",
+    "types": [
+      "こおり"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "アイススピナー",
+        "type": "こおり"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/8-0-007.webp",
+    "energy": 168,
+    "hp": 108,
+    "attack": 84,
+    "defense": 130,
+    "spAttack": 34,
+    "spDefense": 36
+  },
+  {
+    "id": "9-0-008",
+    "label": "0-008",
+    "wave": 0,
+    "name": "ドンファン",
+    "types": [
+      "じめん"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "あなをほる",
+        "type": "じめん"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/9-0-008.webp",
+    "energy": 164,
+    "hp": 105,
+    "attack": 86,
+    "defense": 86,
+    "spAttack": 45,
+    "spDefense": 45
+  },
+  {
+    "id": "10-0-009",
+    "label": "0-009",
+    "wave": 0,
+    "name": "ニャオハ",
+    "types": [
+      "くさ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "このは",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/10-0-009.webp",
+    "energy": 80,
+    "hp": 51,
+    "attack": 33,
+    "defense": 29,
+    "spAttack": 25,
+    "spDefense": 25
+  },
+  {
+    "id": "11-0-010",
+    "label": "0-010",
+    "wave": 0,
+    "name": "ニャローテ",
+    "types": [
+      "くさ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "くさわけ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/11-0-010.webp",
+    "energy": 96,
+    "hp": 81,
+    "attack": 41,
+    "defense": 33,
+    "spAttack": 32,
+    "spDefense": 33
+  },
+  {
+    "id": "12-0-011",
+    "label": "0-011",
+    "wave": 0,
+    "name": "マスカーニャ",
+    "types": [
+      "くさ"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "マジカルリーフ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/12-0-011.webp",
+    "energy": 140,
+    "hp": 78,
+    "attack": 64,
+    "defense": 42,
+    "spAttack": 48,
+    "spDefense": 42
+  },
+  {
+    "id": "13-0-012",
+    "label": "0-012",
+    "wave": 0,
+    "name": "ホゲータ",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ひのこ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/13-0-012.webp",
+    "energy": 80,
+    "hp": 83,
+    "attack": 26,
+    "defense": 32,
+    "spAttack": 33,
+    "spDefense": 23
+  },
+  {
+    "id": "14-0-013",
+    "label": "0-013",
+    "wave": 0,
+    "name": "アチゲータ",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ニトロチャージ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/14-0-013.webp",
+    "energy": 96,
+    "hp": 70,
+    "attack": 30,
+    "defense": 40,
+    "spAttack": 48,
+    "spDefense": 31
+  },
+  {
+    "id": "15-0-014",
+    "label": "0-014",
+    "wave": 0,
+    "name": "ラウドボーン",
+    "types": [
+      "ほのお",
+      "ゴースト"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "やきつくす",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/15-0-014.webp",
+    "energy": 140,
+    "hp": 93,
+    "attack": 45,
+    "defense": 59,
+    "spAttack": 64,
+    "spDefense": 45
+  },
+  {
+    "id": "16-0-015",
+    "label": "0-015",
+    "wave": 0,
+    "name": "クワッス",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずでっぽう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/16-0-015.webp",
+    "energy": 80,
+    "hp": 68,
+    "attack": 34,
+    "defense": 25,
+    "spAttack": 28,
+    "spDefense": 23
+  },
+  {
+    "id": "17-0-016",
+    "label": "0-016",
+    "wave": 0,
+    "name": "ウェルカモ",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ひやみず",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/17-0-016.webp",
+    "energy": 96,
+    "hp": 65,
+    "attack": 44,
+    "defense": 34,
+    "spAttack": 34,
+    "spDefense": 32
+  },
+  {
+    "id": "18-0-017",
+    "label": "0-017",
+    "wave": 0,
+    "name": "ウェーニバル",
+    "types": [
+      "みず"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずのはどう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/18-0-017.webp",
+    "energy": 136,
+    "hp": 52,
+    "attack": 69,
+    "defense": 40,
+    "spAttack": 50,
+    "spDefense": 45
+  },
+  {
+    "id": "19-0-018",
+    "label": "0-018",
+    "wave": 0,
+    "name": "ピカチュウ",
+    "types": [
+      "でんき"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "スパーク",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/19-0-018.webp",
+    "energy": 116,
+    "hp": 89,
+    "attack": 43,
+    "defense": 33,
+    "spAttack": 40,
+    "spDefense": 40
+  },
+  {
+    "id": "20-0-019",
+    "label": "0-019",
+    "wave": 0,
+    "name": "ヒトデマン",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずでっぽう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/20-0-019.webp",
+    "energy": 84,
+    "hp": 48,
+    "attack": 25,
+    "defense": 30,
+    "spAttack": 37,
+    "spDefense": 30
+  },
+  {
+    "id": "21-0-020",
+    "label": "0-020",
+    "wave": 0,
+    "name": "スターミー",
+    "types": [
+      "みず"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "しおみず",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/21-0-020.webp",
+    "energy": 136,
+    "hp": 83,
+    "attack": 45,
+    "defense": 50,
+    "spAttack": 68,
+    "spDefense": 50
+  },
+  {
+    "id": "22-0-021",
+    "label": "0-021",
+    "wave": 0,
+    "name": "ルージュラ",
+    "types": [
+      "エスパー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ゆきなだれ",
+        "type": "こおり"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/22-0-021.webp",
+    "energy": 124,
+    "hp": 72,
+    "attack": 32,
+    "defense": 23,
+    "spAttack": 67,
+    "spDefense": 56
+  },
+  {
+    "id": "23-0-022",
+    "label": "0-022",
+    "wave": 0,
+    "name": "イーブイ",
+    "types": [
+      "ノーマル"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ほしがる",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/23-0-022.webp",
+    "energy": 120,
+    "hp": 83,
+    "attack": 43,
+    "defense": 40,
+    "spAttack": 38,
+    "spDefense": 50
+  },
+  {
+    "id": "24-0-023",
+    "label": "0-023",
+    "wave": 0,
+    "name": "ラプラス",
+    "types": [
+      "みず",
+      "こおり"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ゆきなだれ",
+        "type": "こおり"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/24-0-023.webp",
+    "energy": 140,
+    "hp": 107,
+    "attack": 50,
+    "defense": 48,
+    "spAttack": 50,
+    "spDefense": 56
+  },
+  {
+    "id": "25-0-024",
+    "label": "0-024",
+    "wave": 0,
+    "name": "ゴマゾウ",
+    "types": [
+      "じめん"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "たいあたり",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/25-0-024.webp",
+    "energy": 84,
+    "hp": 74,
+    "attack": 32,
+    "defense": 32,
+    "spAttack": 23,
+    "spDefense": 23
+  },
+  {
+    "id": "26-0-025",
+    "label": "0-025",
+    "wave": 0,
+    "name": "ドンファン",
+    "types": [
+      "じめん"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "じならし",
+        "type": "じめん"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/26-0-025.webp",
+    "energy": 132,
+    "hp": 85,
+    "attack": 68,
+    "defense": 88,
+    "spAttack": 37,
+    "spDefense": 37
+  },
+  {
+    "id": "27-0-026",
+    "label": "0-026",
+    "wave": 0,
+    "name": "モンメン",
+    "types": [
+      "エスパー"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "りんしょう",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/27-0-026.webp",
+    "energy": 76,
+    "hp": 51,
+    "attack": 17,
+    "defense": 32,
+    "spAttack": 22,
+    "spDefense": 28
+  },
+  {
+    "id": "28-0-027",
+    "label": "0-027",
+    "wave": 0,
+    "name": "エルフーン",
+    "types": [
+      "エスパー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "はっぱカッター",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/28-0-027.webp",
+    "energy": 128,
+    "hp": 69,
+    "attack": 41,
+    "defense": 50,
+    "spAttack": 46,
+    "spDefense": 45
+  },
+  {
+    "id": "29-0-028",
+    "label": "0-028",
+    "wave": 0,
+    "name": "ヤトウモリ",
+    "types": [
+      "どく",
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ひのこ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/29-0-028.webp",
+    "energy": 80,
+    "hp": 55,
+    "attack": 25,
+    "defense": 23,
+    "spAttack": 37,
+    "spDefense": 23
+  },
+  {
+    "id": "30-0-029",
+    "label": "0-029",
+    "wave": 0,
+    "name": "エンニュート",
+    "types": [
+      "エスパー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "やきつくす",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/0th/30-0-029.webp",
+    "energy": 128,
+    "hp": 73,
+    "attack": 39,
+    "defense": 37,
+    "spAttack": 64,
+    "spDefense": 37
+  },
+  {
+    "id": "32-1-1-001",
+    "label": "1-1-001",
+    "wave": 1,
+    "name": "コライドン",
+    "types": [
+      "かくとう",
+      "ドラゴン"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "アクセルブレイク",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/32-1-1-001.webp",
+    "energy": 244,
+    "hp": 130,
+    "attack": 113,
+    "defense": 97,
+    "spAttack": 73,
+    "spDefense": 85
+  },
+  {
+    "id": "33-1-1-002",
+    "label": "1-1-002",
+    "wave": 1,
+    "name": "ミライドン",
+    "types": [
+      "でんき",
+      "ドラゴン"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "イナズマドライブ",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/33-1-1-002.webp",
+    "energy": 244,
+    "hp": 130,
+    "attack": 73,
+    "defense": 85,
+    "spAttack": 113,
+    "spDefense": 97
+  },
+  {
+    "id": "34-1-1-003",
+    "label": "1-1-003",
+    "wave": 1,
+    "name": "オーガポン",
+    "types": [
+      "くさ"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ツタこんぼう",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/34-1-1-003.webp",
+    "energy": 220,
+    "hp": 121,
+    "attack": 108,
+    "defense": 77,
+    "spAttack": 56,
+    "spDefense": 87
+  },
+  {
+    "id": "35-1-1-004",
+    "label": "1-1-004",
+    "wave": 1,
+    "name": "マスカーニャ",
+    "types": [
+      "くさ",
+      "あく"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "トリックフラワー",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/35-1-1-004.webp",
+    "energy": 212,
+    "hp": 118,
+    "attack": 99,
+    "defense": 65,
+    "spAttack": 74,
+    "spDefense": 65
+  },
+  {
+    "id": "36-1-1-005",
+    "label": "1-1-005",
+    "wave": 1,
+    "name": "ラウドボーン",
+    "types": [
+      "ほのお",
+      "ゴースト"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "フレアソング",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/36-1-1-005.webp",
+    "energy": 212,
+    "hp": 142,
+    "attack": 69,
+    "defense": 91,
+    "spAttack": 99,
+    "spDefense": 69
+  },
+  {
+    "id": "37-1-1-006",
+    "label": "1-1-006",
+    "wave": 1,
+    "name": "ウェーニバル",
+    "types": [
+      "みず",
+      "かくとう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "アクアステップ",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/37-1-1-006.webp",
+    "energy": 212,
+    "hp": 126,
+    "attack": 108,
+    "defense": 73,
+    "spAttack": 78,
+    "spDefense": 69
+  },
+  {
+    "id": "38-1-1-007",
+    "label": "1-1-007",
+    "wave": 1,
+    "name": "ルカリオ",
+    "types": [
+      "かくとう",
+      "はがね"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "きあいだま",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/38-1-1-007.webp",
+    "energy": 212,
+    "hp": 113,
+    "attack": 99,
+    "defense": 65,
+    "spAttack": 103,
+    "spDefense": 65
+  },
+  {
+    "id": "39-1-1-008",
+    "label": "1-1-008",
+    "wave": 1,
+    "name": "セレビィ",
+    "types": [
+      "エスパー",
+      "くさ"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "リーフストーム",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/39-1-1-008.webp",
+    "energy": 224,
+    "hp": 130,
+    "attack": 85,
+    "defense": 85,
+    "spAttack": 85,
+    "spDefense": 85
+  },
+  {
+    "id": "40-1-1-009",
+    "label": "1-1-009",
+    "wave": 1,
+    "name": "ウインディ",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "だいもんじ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/40-1-1-009.webp",
+    "energy": 220,
+    "hp": 130,
+    "attack": 99,
+    "defense": 73,
+    "spAttack": 91,
+    "spDefense": 73
+  },
+  {
+    "id": "41-1-1-010",
+    "label": "1-1-010",
+    "wave": 1,
+    "name": "ミロカロス",
+    "types": [
+      "みず"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "なみのり",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/41-1-1-010.webp",
+    "energy": 218,
+    "hp": 134,
+    "attack": 56,
+    "defense": 72,
+    "spAttack": 91,
+    "spDefense": 112
+  },
+  {
+    "id": "42-1-1-011",
+    "label": "1-1-011",
+    "wave": 1,
+    "name": "イイネイヌ",
+    "types": [
+      "どく",
+      "かくとう"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "どくづき",
+        "type": "どく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/42-1-1-011.webp",
+    "energy": 188,
+    "hp": 109,
+    "attack": 97,
+    "defense": 87,
+    "spAttack": 46,
+    "spDefense": 66
+  },
+  {
+    "id": "43-1-1-012",
+    "label": "1-1-012",
+    "wave": 1,
+    "name": "マシマシラ",
+    "types": [
+      "どく",
+      "エスパー"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "サイコキネシス",
+        "type": "エスパー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/43-1-1-012.webp",
+    "energy": 188,
+    "hp": 109,
+    "attack": 59,
+    "defense": 52,
+    "spAttack": 98,
+    "spDefense": 69
+  },
+  {
+    "id": "44-1-1-013",
+    "label": "1-1-013",
+    "wave": 1,
+    "name": "キチキギス",
+    "types": [
+      "どく",
+      "フェアリー"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "じゃれつく",
+        "type": "フェアリー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/44-1-1-013.webp",
+    "energy": 188,
+    "hp": 109,
+    "attack": 70,
+    "defense": 64,
+    "spAttack": 55,
+    "spDefense": 95
+  },
+  {
+    "id": "45-1-1-014",
+    "label": "1-1-014",
+    "wave": 1,
+    "name": "フシギバナ",
+    "types": [
+      "くさ",
+      "どく"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "リーフストーム",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/45-1-1-014.webp",
+    "energy": 180,
+    "hp": 103,
+    "attack": 64,
+    "defense": 64,
+    "spAttack": 77,
+    "spDefense": 77
+  },
+  {
+    "id": "46-1-1-015",
+    "label": "1-1-015",
+    "wave": 1,
+    "name": "リザードン",
+    "types": [
+      "ほのお",
+      "ひこう"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "かえんほうしゃ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/46-1-1-015.webp",
+    "energy": 180,
+    "hp": 102,
+    "attack": 65,
+    "defense": 61,
+    "spAttack": 83,
+    "spDefense": 66
+  },
+  {
+    "id": "47-1-1-016",
+    "label": "1-1-016",
+    "wave": 1,
+    "name": "カメックス",
+    "types": [
+      "みず"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ハイドロポンプ",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/47-1-1-016.webp",
+    "energy": 180,
+    "hp": 102,
+    "attack": 64,
+    "defense": 77,
+    "spAttack": 66,
+    "spDefense": 80
+  },
+  {
+    "id": "48-1-1-017",
+    "label": "1-1-017",
+    "wave": 1,
+    "name": "ヤドキング",
+    "types": [
+      "みず",
+      "エスパー"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "なみのり",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/48-1-1-017.webp",
+    "energy": 168,
+    "hp": 114,
+    "attack": 59,
+    "defense": 62,
+    "spAttack": 77,
+    "spDefense": 84
+  },
+  {
+    "id": "49-1-1-018",
+    "label": "1-1-018",
+    "wave": 1,
+    "name": "ヘルガー",
+    "types": [
+      "あく",
+      "ほのお"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "かえんほうしゃ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/49-1-1-018.webp",
+    "energy": 172,
+    "hp": 100,
+    "attack": 69,
+    "defense": 41,
+    "spAttack": 84,
+    "spDefense": 62
+  },
+  {
+    "id": "50-1-1-019",
+    "label": "1-1-019",
+    "wave": 1,
+    "name": "オリーヴァ",
+    "types": [
+      "くさ",
+      "ノーマル"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "エナジーボール",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/50-1-1-019.webp",
+    "energy": 176,
+    "hp": 102,
+    "attack": 54,
+    "defense": 69,
+    "spAttack": 95,
+    "spDefense": 83
+  },
+  {
+    "id": "51-1-1-020",
+    "label": "1-1-020",
+    "wave": 1,
+    "name": "ピカチュウ",
+    "types": [
+      "でんき"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "１０まんボルト",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/51-1-1-020.webp",
+    "energy": 156,
+    "hp": 91,
+    "attack": 57,
+    "defense": 43,
+    "spAttack": 53,
+    "spDefense": 53
+  },
+  {
+    "id": "52-1-1-021",
+    "label": "1-1-021",
+    "wave": 1,
+    "name": "ドンファン",
+    "types": [
+      "じめん"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "あなをほる",
+        "type": "じめん"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/52-1-1-021.webp",
+    "energy": 172,
+    "hp": 110,
+    "attack": 91,
+    "defense": 91,
+    "spAttack": 48,
+    "spDefense": 48
+  },
+  {
+    "id": "53-1-1-022",
+    "label": "1-1-022",
+    "wave": 1,
+    "name": "クレベース",
+    "types": [
+      "こおり"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "アイススピナー",
+        "type": "こおり"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/53-1-1-022.webp",
+    "energy": 176,
+    "hp": 114,
+    "attack": 89,
+    "defense": 137,
+    "spAttack": 36,
+    "spDefense": 38
+  },
+  {
+    "id": "54-1-1-023",
+    "label": "1-1-023",
+    "wave": 1,
+    "name": "タイカイデン",
+    "types": [
+      "でんき",
+      "ひこう"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "１０まんボルト",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/54-1-1-023.webp",
+    "energy": 168,
+    "hp": 96,
+    "attack": 55,
+    "defense": 48,
+    "spAttack": 80,
+    "spDefense": 48
+  },
+  {
+    "id": "55-1-1-024",
+    "label": "1-1-024",
+    "wave": 1,
+    "name": "ハルクジラ",
+    "types": [
+      "こおり"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "アイススピナー",
+        "type": "こおり"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/55-1-1-024.webp",
+    "energy": 176,
+    "hp": 168,
+    "attack": 86,
+    "defense": 51,
+    "spAttack": 37,
+    "spDefense": 44
+  },
+  {
+    "id": "56-1-1-025",
+    "label": "1-1-025",
+    "wave": 1,
+    "name": "ドオー",
+    "types": [
+      "どく",
+      "じめん"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "あなをほる",
+        "type": "じめん"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/56-1-1-025.webp",
+    "energy": 160,
+    "hp": 146,
+    "attack": 62,
+    "defense": 50,
+    "spAttack": 39,
+    "spDefense": 81
+  },
+  {
+    "id": "57-1-1-026",
+    "label": "1-1-026",
+    "wave": 1,
+    "name": "ニャオハ",
+    "types": [
+      "くさ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "このは",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/57-1-1-026.webp",
+    "energy": 88,
+    "hp": 56,
+    "attack": 36,
+    "defense": 33,
+    "spAttack": 28,
+    "spDefense": 28
+  },
+  {
+    "id": "58-1-1-027",
+    "label": "1-1-027",
+    "wave": 1,
+    "name": "ニャローテ",
+    "types": [
+      "くさ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "くさわけ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/58-1-1-027.webp",
+    "energy": 108,
+    "hp": 67,
+    "attack": 46,
+    "defense": 37,
+    "spAttack": 36,
+    "spDefense": 37
+  },
+  {
+    "id": "59-1-1-028",
+    "label": "1-1-028",
+    "wave": 1,
+    "name": "マスカーニャ",
+    "types": [
+      "くさ",
+      "あく"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "マジカルリーフ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/59-1-1-028.webp",
+    "energy": 144,
+    "hp": 80,
+    "attack": 66,
+    "defense": 44,
+    "spAttack": 50,
+    "spDefense": 44
+  },
+  {
+    "id": "60-1-1-029",
+    "label": "1-1-029",
+    "wave": 1,
+    "name": "ホゲータ",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ひのこ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/60-1-1-029.webp",
+    "energy": 88,
+    "hp": 70,
+    "attack": 28,
+    "defense": 35,
+    "spAttack": 37,
+    "spDefense": 25
+  },
+  {
+    "id": "61-1-1-030",
+    "label": "1-1-030",
+    "wave": 1,
+    "name": "アチゲータ",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ニトロチャージ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/61-1-1-030.webp",
+    "energy": 108,
+    "hp": 78,
+    "attack": 33,
+    "defense": 45,
+    "spAttack": 51,
+    "spDefense": 35
+  },
+  {
+    "id": "62-1-1-031",
+    "label": "1-1-031",
+    "wave": 1,
+    "name": "ラウドボーン",
+    "types": [
+      "ほのお",
+      "ゴースト"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "やきつくす",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/62-1-1-031.webp",
+    "energy": 144,
+    "hp": 96,
+    "attack": 47,
+    "defense": 61,
+    "spAttack": 66,
+    "spDefense": 47
+  },
+  {
+    "id": "63-1-1-032",
+    "label": "1-1-032",
+    "wave": 1,
+    "name": "クワッス",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずでっぽう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/63-1-1-032.webp",
+    "energy": 88,
+    "hp": 64,
+    "attack": 38,
+    "defense": 28,
+    "spAttack": 31,
+    "spDefense": 28
+  },
+  {
+    "id": "64-1-1-033",
+    "label": "1-1-033",
+    "wave": 1,
+    "name": "ウェルカモ",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ひやみず",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/64-1-1-033.webp",
+    "energy": 108,
+    "hp": 72,
+    "attack": 49,
+    "defense": 38,
+    "spAttack": 38,
+    "spDefense": 36
+  },
+  {
+    "id": "65-1-1-034",
+    "label": "1-1-034",
+    "wave": 1,
+    "name": "ウェーニバル",
+    "types": [
+      "みず",
+      "かくとう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずのはどう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/65-1-1-034.webp",
+    "energy": 144,
+    "hp": 85,
+    "attack": 72,
+    "defense": 49,
+    "spAttack": 52,
+    "spDefense": 47
+  },
+  {
+    "id": "66-1-1-035",
+    "label": "1-1-035",
+    "wave": 1,
+    "name": "フシギダネ",
+    "types": [
+      "くさ",
+      "どく"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "つるのムチ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/66-1-1-035.webp",
+    "energy": 88,
+    "hp": 59,
+    "attack": 30,
+    "defense": 30,
+    "spAttack": 38,
+    "spDefense": 38
+  },
+  {
+    "id": "67-1-1-036",
+    "label": "1-1-036",
+    "wave": 1,
+    "name": "フシギソウ",
+    "types": [
+      "くさ",
+      "どく"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "はっぱカッター",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/67-1-1-036.webp",
+    "energy": 108,
+    "hp": 67,
+    "attack": 37,
+    "defense": 37,
+    "spAttack": 46,
+    "spDefense": 46
+  },
+  {
+    "id": "68-1-1-037",
+    "label": "1-1-037",
+    "wave": 1,
+    "name": "フシギバナ",
+    "types": [
+      "くさ",
+      "どく"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "マジカルリーフ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/68-1-1-037.webp",
+    "energy": 140,
+    "hp": 82,
+    "attack": 50,
+    "defense": 51,
+    "spAttack": 61,
+    "spDefense": 61
+  },
+  {
+    "id": "69-1-1-038",
+    "label": "1-1-038",
+    "wave": 1,
+    "name": "ヒトカゲ",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ひのこ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/69-1-1-038.webp",
+    "energy": 88,
+    "hp": 56,
+    "attack": 32,
+    "defense": 27,
+    "spAttack": 36,
+    "spDefense": 31
+  },
+  {
+    "id": "70-1-1-039",
+    "label": "1-1-039",
+    "wave": 1,
+    "name": "リザード",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ニトロチャージ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/70-1-1-039.webp",
+    "energy": 108,
+    "hp": 66,
+    "attack": 38,
+    "defense": 35,
+    "spAttack": 46,
+    "spDefense": 38
+  },
+  {
+    "id": "71-1-1-040",
+    "label": "1-1-040",
+    "wave": 1,
+    "name": "リザードン",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ほのおのキバ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/71-1-1-040.webp",
+    "energy": 144,
+    "hp": 81,
+    "attack": 52,
+    "defense": 48,
+    "spAttack": 66,
+    "spDefense": 52
+  },
+  {
+    "id": "72-1-1-041",
+    "label": "1-1-041",
+    "wave": 1,
+    "name": "ゼニガメ",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずでっぽう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/72-1-1-041.webp",
+    "energy": 88,
+    "hp": 58,
+    "attack": 29,
+    "defense": 38,
+    "spAttack": 31,
+    "spDefense": 38
+  },
+  {
+    "id": "73-1-1-042",
+    "label": "1-1-042",
+    "wave": 1,
+    "name": "カメール",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ひやみず",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/73-1-1-042.webp",
+    "energy": 108,
+    "hp": 66,
+    "attack": 37,
+    "defense": 46,
+    "spAttack": 38,
+    "spDefense": 46
+  },
+  {
+    "id": "74-1-1-043",
+    "label": "1-1-043",
+    "wave": 1,
+    "name": "カメックス",
+    "types": [
+      "みず"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずのはどう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/74-1-1-043.webp",
+    "energy": 144,
+    "hp": 82,
+    "attack": 51,
+    "defense": 61,
+    "spAttack": 52,
+    "spDefense": 63
+  },
+  {
+    "id": "75-1-1-044",
+    "label": "1-1-044",
+    "wave": 1,
+    "name": "ミニーブ",
+    "types": [
+      "くさ",
+      "ノーマル"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "すいとる",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/75-1-1-044.webp",
+    "energy": 76,
+    "hp": 57,
+    "attack": 23,
+    "defense": 28,
+    "spAttack": 35,
+    "spDefense": 31
+  },
+  {
+    "id": "76-1-1-045",
+    "label": "1-1-045",
+    "wave": 1,
+    "name": "オリーニョ",
+    "types": [
+      "くさ",
+      "ノーマル"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "メガドレイン",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/76-1-1-045.webp",
+    "energy": 96,
+    "hp": 63,
+    "attack": 32,
+    "defense": 36,
+    "spAttack": 45,
+    "spDefense": 45
+  },
+  {
+    "id": "77-1-1-046",
+    "label": "1-1-046",
+    "wave": 1,
+    "name": "オリーヴァ",
+    "types": [
+      "くさ",
+      "ノーマル"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "マジカルリーフ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/77-1-1-046.webp",
+    "energy": 140,
+    "hp": 81,
+    "attack": 43,
+    "defense": 55,
+    "spAttack": 75,
+    "spDefense": 66
+  },
+  {
+    "id": "78-1-1-047",
+    "label": "1-1-047",
+    "wave": 1,
+    "name": "カイデン",
+    "types": [
+      "でんき"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "でんきショック",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/78-1-1-047.webp",
+    "energy": 80,
+    "hp": 56,
+    "attack": 25,
+    "defense": 23,
+    "spAttack": 33,
+    "spDefense": 25
+  },
+  {
+    "id": "79-1-1-048",
+    "label": "1-1-048",
+    "wave": 1,
+    "name": "タイカイデン",
+    "types": [
+      "でんき",
+      "ひこう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "エレキネット",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/79-1-1-048.webp",
+    "energy": 136,
+    "hp": 77,
+    "attack": 44,
+    "defense": 38,
+    "spAttack": 63,
+    "spDefense": 38
+  },
+  {
+    "id": "80-1-1-049",
+    "label": "1-1-049",
+    "wave": 1,
+    "name": "アルクジラ",
+    "types": [
+      "こおり"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "こおりのつぶて",
+        "type": "こおり"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/80-1-1-049.webp",
+    "energy": 92,
+    "hp": 92,
+    "attack": 40,
+    "defense": 28,
+    "spAttack": 20,
+    "spDefense": 25
+  },
+  {
+    "id": "81-1-1-050",
+    "label": "1-1-050",
+    "wave": 1,
+    "name": "ハルクジラ",
+    "types": [
+      "こおり"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "こおりのキバ",
+        "type": "こおり"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/81-1-1-050.webp",
+    "energy": 140,
+    "hp": 133,
+    "attack": 68,
+    "defense": 41,
+    "spAttack": 30,
+    "spDefense": 35
+  },
+  {
+    "id": "82-1-1-051",
+    "label": "1-1-051",
+    "wave": 1,
+    "name": "パルデアウパー",
+    "types": [
+      "どく",
+      "じめん"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "どろかけ",
+        "type": "じめん"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/82-1-1-051.webp",
+    "energy": 68,
+    "hp": 64,
+    "attack": 28,
+    "defense": 28,
+    "spAttack": 18,
+    "spDefense": 18
+  },
+  {
+    "id": "83-1-1-052",
+    "label": "1-1-052",
+    "wave": 1,
+    "name": "ドオー",
+    "types": [
+      "どく",
+      "じめん"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "じならし",
+        "type": "じめん"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/83-1-1-052.webp",
+    "energy": 120,
+    "hp": 110,
+    "attack": 47,
+    "defense": 38,
+    "spAttack": 30,
+    "spDefense": 61
+  },
+  {
+    "id": "84-1-1-053",
+    "label": "1-1-053",
+    "wave": 1,
+    "name": "ウミディグダ",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずでっぽう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/84-1-1-053.webp",
+    "energy": 76,
+    "hp": 41,
+    "attack": 33,
+    "defense": 18,
+    "spAttack": 23,
+    "spDefense": 18
+  },
+  {
+    "id": "85-1-1-054",
+    "label": "1-1-054",
+    "wave": 1,
+    "name": "ウミトリオ",
+    "types": [
+      "みず"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずのはどう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/85-1-1-054.webp",
+    "energy": 120,
+    "hp": 57,
+    "attack": 61,
+    "defense": 33,
+    "spAttack": 33,
+    "spDefense": 44
+  },
+  {
+    "id": "86-1-1-055",
+    "label": "1-1-055",
+    "wave": 1,
+    "name": "ピカチュウ",
+    "types": [
+      "でんき"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "スパーク",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/86-1-1-055.webp",
+    "energy": 96,
+    "hp": 57,
+    "attack": 35,
+    "defense": 27,
+    "spAttack": 33,
+    "spDefense": 33
+  },
+  {
+    "id": "87-1-1-056",
+    "label": "1-1-056",
+    "wave": 1,
+    "name": "ポニータ",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ひのこ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/87-1-1-056.webp",
+    "energy": 108,
+    "hp": 62,
+    "attack": 49,
+    "defense": 33,
+    "spAttack": 38,
+    "spDefense": 38
+  },
+  {
+    "id": "88-1-1-057",
+    "label": "1-1-057",
+    "wave": 1,
+    "name": "ギャロップ",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "かえんぐるま",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/88-1-1-057.webp",
+    "energy": 136,
+    "hp": 74,
+    "attack": 61,
+    "defense": 44,
+    "spAttack": 49,
+    "spDefense": 49
+  },
+  {
+    "id": "89-1-1-058",
+    "label": "1-1-058",
+    "wave": 1,
+    "name": "ヒトデマン",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずでっぽう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/89-1-1-058.webp",
+    "energy": 96,
+    "hp": 51,
+    "attack": 28,
+    "defense": 33,
+    "spAttack": 41,
+    "spDefense": 33
+  },
+  {
+    "id": "90-1-1-059",
+    "label": "1-1-059",
+    "wave": 1,
+    "name": "スターミー",
+    "types": [
+      "みず",
+      "エスパー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "しおみず",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/90-1-1-059.webp",
+    "energy": 140,
+    "hp": 71,
+    "attack": 47,
+    "defense": 52,
+    "spAttack": 61,
+    "spDefense": 52
+  },
+  {
+    "id": "91-1-1-060",
+    "label": "1-1-060",
+    "wave": 1,
+    "name": "ルージュラ",
+    "types": [
+      "こおり",
+      "エスパー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ゆきなだれ",
+        "type": "こおり"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/91-1-1-060.webp",
+    "energy": 128,
+    "hp": 74,
+    "attack": 33,
+    "defense": 24,
+    "spAttack": 69,
+    "spDefense": 58
+  },
+  {
+    "id": "92-1-1-061",
+    "label": "1-1-061",
+    "wave": 1,
+    "name": "ラプラス",
+    "types": [
+      "みず",
+      "こおり"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ゆきなだれ",
+        "type": "こおり"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/92-1-1-061.webp",
+    "energy": 144,
+    "hp": 110,
+    "attack": 52,
+    "defense": 49,
+    "spAttack": 52,
+    "spDefense": 58
+  },
+  {
+    "id": "93-1-1-062",
+    "label": "1-1-062",
+    "wave": 1,
+    "name": "ゴマゾウ",
+    "types": [
+      "じめん"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "たいあたり",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/93-1-1-062.webp",
+    "energy": 92,
+    "hp": 82,
+    "attack": 36,
+    "defense": 36,
+    "spAttack": 25,
+    "spDefense": 25
+  },
+  {
+    "id": "94-1-1-063",
+    "label": "1-1-063",
+    "wave": 1,
+    "name": "ドンファン",
+    "types": [
+      "じめん"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "じならし",
+        "type": "じめん"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/94-1-1-063.webp",
+    "energy": 136,
+    "hp": 88,
+    "attack": 72,
+    "defense": 72,
+    "spAttack": 38,
+    "spDefense": 38
+  },
+  {
+    "id": "95-1-1-064",
+    "label": "1-1-064",
+    "wave": 1,
+    "name": "モンメン",
+    "types": [
+      "くさ",
+      "フェアリー"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "すいとる",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/95-1-1-064.webp",
+    "energy": 84,
+    "hp": 56,
+    "attack": 19,
+    "defense": 36,
+    "spAttack": 24,
+    "spDefense": 31
+  },
+  {
+    "id": "96-1-1-065",
+    "label": "1-1-065",
+    "wave": 1,
+    "name": "エルフーン",
+    "types": [
+      "くさ",
+      "フェアリー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "はっぱカッター",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/96-1-1-065.webp",
+    "energy": 132,
+    "hp": 71,
+    "attack": 42,
+    "defense": 52,
+    "spAttack": 48,
+    "spDefense": 47
+  },
+  {
+    "id": "97-1-1-066",
+    "label": "1-1-066",
+    "wave": 1,
+    "name": "ヤトウモリ",
+    "types": [
+      "どく",
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ひのこ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/97-1-1-066.webp",
+    "energy": 88,
+    "hp": 60,
+    "attack": 27,
+    "defense": 25,
+    "spAttack": 41,
+    "spDefense": 25
+  },
+  {
+    "id": "98-1-1-067",
+    "label": "1-1-067",
+    "wave": 1,
+    "name": "エンニュート",
+    "types": [
+      "どく",
+      "ほのお"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "やきつくす",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/98-1-1-067.webp",
+    "energy": 132,
+    "hp": 76,
+    "attack": 40,
+    "defense": 38,
+    "spAttack": 67,
+    "spDefense": 38
+  },
+  {
+    "id": "99-1-1-068",
+    "label": "1-1-068",
+    "wave": 1,
+    "name": "バクガメス",
+    "types": [
+      "ほのお",
+      "ドラゴン"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "やきつくす",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/99-1-1-068.webp",
+    "energy": 132,
+    "hp": 71,
+    "attack": 48,
+    "defense": 80,
+    "spAttack": 55,
+    "spDefense": 52
+  },
+  {
+    "id": "100-1-1-069",
+    "label": "1-1-069",
+    "wave": 1,
+    "name": "ウッウ",
+    "types": [
+      "ひこう",
+      "みず"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずのはどう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/100-1-1-069.webp",
+    "energy": 132,
+    "hp": 77,
+    "attack": 52,
+    "defense": 35,
+    "spAttack": 52,
+    "spDefense": 58
+  },
+  {
+    "id": "101-1-1-070",
+    "label": "1-1-070",
+    "wave": 1,
+    "name": "イーブイ",
+    "types": [
+      "ノーマル"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ほしがる",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/101-1-1-070.webp",
+    "energy": 96,
+    "hp": 68,
+    "attack": 35,
+    "defense": 33,
+    "spAttack": 30,
+    "spDefense": 41
+  },
+  {
+    "id": "109-P",
+    "label": "P",
+    "wave": 1,
+    "name": "マスカーニャ",
+    "types": [
+      "くさ",
+      "あく"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "トリックフラワー",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/109-P.webp",
+    "energy": 144,
+    "hp": 80,
+    "attack": 66,
+    "defense": 44,
+    "spAttack": 50,
+    "spDefense": 44
+  },
+  {
+    "id": "108-P",
+    "label": "P",
+    "wave": 1,
+    "name": "ウインディ",
+    "types": [
+      "ほのお"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "だいもんじ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/108-P.webp",
+    "energy": 148,
+    "hp": 88,
+    "attack": 66,
+    "defense": 49,
+    "spAttack": 61,
+    "spDefense": 49
+  },
+  {
+    "id": "111-P",
+    "label": "P",
+    "wave": 1,
+    "name": "ウェーニバル",
+    "types": [
+      "みず",
+      "かくとう"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "アクアステップ",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/111-P.webp",
+    "energy": 144,
+    "hp": 85,
+    "attack": 72,
+    "defense": 49,
+    "spAttack": 52,
+    "spDefense": 47
+  },
+  {
+    "id": "107-P",
+    "label": "P",
+    "wave": 1,
+    "name": "ピカチュウ",
+    "types": [
+      "でんき"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "１０まんボルト",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/107-P.webp",
+    "energy": 136,
+    "hp": 81,
+    "attack": 51,
+    "defense": 38,
+    "spAttack": 47,
+    "spDefense": 47
+  },
+  {
+    "id": "105-P",
+    "label": "P",
+    "wave": 1,
+    "name": "マスカーニャ",
+    "types": [
+      "くさ"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "トリックフラワー",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/105-P.webp",
+    "energy": 160,
+    "hp": 90,
+    "attack": 75,
+    "defense": 49,
+    "spAttack": 56,
+    "spDefense": 49
+  },
+  {
+    "id": "104-P",
+    "label": "P",
+    "wave": 1,
+    "name": "ラウドボーン",
+    "types": [
+      "ほのお"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "フレアソング",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/104-P.webp",
+    "energy": 164,
+    "hp": 108,
+    "attack": 53,
+    "defense": 69,
+    "spAttack": 75,
+    "spDefense": 53
+  },
+  {
+    "id": "1-P",
+    "label": "P",
+    "wave": 1,
+    "name": "ピカチュウ",
+    "types": [
+      "でんき"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "１０まんボルト",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/1-P.webp",
+    "energy": 120,
+    "hp": 71,
+    "attack": 44,
+    "defense": 33,
+    "spAttack": 41,
+    "spDefense": 41
+  },
+  {
+    "id": "110-P",
+    "label": "P",
+    "wave": 1,
+    "name": "ラウドボーン",
+    "types": [
+      "ほのお",
+      "ゴースト"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "フレアソング",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/110-P.webp",
+    "energy": 144,
+    "hp": 96,
+    "attack": 47,
+    "defense": 61,
+    "spAttack": 66,
+    "spDefense": 47
+  },
+  {
+    "id": "106-P",
+    "label": "P",
+    "wave": 1,
+    "name": "オーガポン",
+    "types": [
+      "くさ"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "ツタこんぼう",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/106-P.webp",
+    "energy": 148,
+    "hp": 82,
+    "attack": 72,
+    "defense": 52,
+    "spAttack": 38,
+    "spDefense": 58
+  },
+  {
+    "id": "102-P",
+    "label": "P",
+    "wave": 1,
+    "name": "ニャローテ",
+    "types": [
+      "くさ"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "マジカルリーフ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/102-P.webp",
+    "energy": 132,
+    "hp": 81,
+    "attack": 56,
+    "defense": 45,
+    "spAttack": 43,
+    "spDefense": 45
+  },
+  {
+    "id": "103-P",
+    "label": "P",
+    "wave": 1,
+    "name": "ウェーニバル",
+    "types": [
+      "みず"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "アクアステップ",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/103-P.webp",
+    "energy": 160,
+    "hp": 96,
+    "attack": 81,
+    "defense": 56,
+    "spAttack": 59,
+    "spDefense": 53
+  },
+  {
+    "id": "31-P",
+    "label": "P",
+    "wave": 1,
+    "name": "ルカリオ",
+    "types": [
+      "かくとう",
+      "はがね"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "きあいだま",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/1th/31-P.webp",
+    "energy": 180,
+    "hp": 96,
+    "attack": 84,
+    "defense": 55,
+    "spAttack": 87,
+    "spDefense": 55
+  },
+  {
+    "id": "112-1-2-001",
+    "label": "1-2-001",
+    "wave": 2,
+    "name": "レックウザ",
+    "types": [
+      "ドラゴン",
+      "ひこう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ガリョウテンセイ",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/112-1-2-001.webp",
+    "energy": 260,
+    "hp": 140,
+    "attack": 131,
+    "defense": 80,
+    "spAttack": 131,
+    "spDefense": 80
+  },
+  {
+    "id": "115-1-2-002",
+    "label": "1-2-002",
+    "wave": 2,
+    "name": "ルギア",
+    "types": [
+      "エスパー",
+      "ひこう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "エアロブラスト",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/115-1-2-002.webp",
+    "energy": 260,
+    "hp": 141,
+    "attack": 80,
+    "defense": 114,
+    "spAttack": 80,
+    "spDefense": 134
+  },
+  {
+    "id": "116-1-2-003",
+    "label": "1-2-003",
+    "wave": 2,
+    "name": "ホウオウ",
+    "types": [
+      "ほのお",
+      "ひこう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "せいなるほのお",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/116-1-2-003.webp",
+    "energy": 260,
+    "hp": 141,
+    "attack": 114,
+    "defense": 80,
+    "spAttack": 97,
+    "spDefense": 134
+  },
+  {
+    "id": "117-1-2-004",
+    "label": "1-2-004",
+    "wave": 2,
+    "name": "オーガポン",
+    "types": [
+      "くさ"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ツタこんぼう",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/117-1-2-004.webp",
+    "energy": 228,
+    "hp": 127,
+    "attack": 113,
+    "defense": 80,
+    "spAttack": 59,
+    "spDefense": 91
+  },
+  {
+    "id": "118-1-2-005",
+    "label": "1-2-005",
+    "wave": 2,
+    "name": "オーガポン",
+    "types": [
+      "いわ"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ツタこんぼう",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/118-1-2-005.webp",
+    "energy": 228,
+    "hp": 127,
+    "attack": 113,
+    "defense": 80,
+    "spAttack": 59,
+    "spDefense": 91
+  },
+  {
+    "id": "119-1-2-006",
+    "label": "1-2-006",
+    "wave": 2,
+    "name": "メルメタル",
+    "types": [
+      "はがね"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ダブルパンツァー",
+        "type": "はがね"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/119-1-2-006.webp",
+    "energy": 240,
+    "hp": 172,
+    "attack": 130,
+    "defense": 130,
+    "spAttack": 75,
+    "spDefense": 62
+  },
+  {
+    "id": "120-1-2-007",
+    "label": "1-2-007",
+    "wave": 2,
+    "name": "デカヌチャン",
+    "types": [
+      "フェアリー",
+      "はがね"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "デカハンマー",
+        "type": "はがね"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/120-1-2-007.webp",
+    "energy": 212,
+    "hp": 131,
+    "attack": 72,
+    "defense": 74,
+    "spAttack": 68,
+    "spDefense": 99
+  },
+  {
+    "id": "121-1-2-008",
+    "label": "1-2-008",
+    "wave": 2,
+    "name": "ブリガロン",
+    "types": [
+      "くさ",
+      "かくとう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "アームハンマー",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/121-1-2-008.webp",
+    "energy": 220,
+    "hp": 134,
+    "attack": 101,
+    "defense": 114,
+    "spAttack": 71,
+    "spDefense": 72
+  },
+  {
+    "id": "122-1-2-009",
+    "label": "1-2-009",
+    "wave": 2,
+    "name": "マフォクシー",
+    "types": [
+      "ほのお",
+      "エスパー"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "だいもんじ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/122-1-2-009.webp",
+    "energy": 224,
+    "hp": 122,
+    "attack": 67,
+    "defense": 69,
+    "spAttack": 107,
+    "spDefense": 95
+  },
+  {
+    "id": "123-1-2-010",
+    "label": "1-2-010",
+    "wave": 2,
+    "name": "ゲッコウガ",
+    "types": [
+      "みず",
+      "あく"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずしゅりけん",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/123-1-2-010.webp",
+    "energy": 220,
+    "hp": 119,
+    "attack": 90,
+    "defense": 65,
+    "spAttack": 97,
+    "spDefense": 68
+  },
+  {
+    "id": "124-1-2-011",
+    "label": "1-2-011",
+    "wave": 2,
+    "name": "チオンジェン",
+    "types": [
+      "あく",
+      "くさ"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "エナジーボール",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/124-1-2-011.webp",
+    "energy": 200,
+    "hp": 112,
+    "attack": 69,
+    "defense": 81,
+    "spAttack": 77,
+    "spDefense": 107
+  },
+  {
+    "id": "125-1-2-012",
+    "label": "1-2-012",
+    "wave": 2,
+    "name": "パオジアン",
+    "types": [
+      "あく",
+      "こおり"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "アイススピナー",
+        "type": "こおり"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/125-1-2-012.webp",
+    "energy": 200,
+    "hp": 108,
+    "attack": 96,
+    "defense": 65,
+    "spAttack": 73,
+    "spDefense": 54
+  },
+  {
+    "id": "126-1-2-013",
+    "label": "1-2-013",
+    "wave": 2,
+    "name": "ディンルー",
+    "types": [
+      "あく",
+      "じめん"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "あなをほる",
+        "type": "じめん"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/126-1-2-013.webp",
+    "energy": 200,
+    "hp": 165,
+    "attack": 88,
+    "defense": 100,
+    "spAttack": 46,
+    "spDefense": 65
+  },
+  {
+    "id": "127-1-2-014",
+    "label": "1-2-014",
+    "wave": 2,
+    "name": "イーユイ",
+    "types": [
+      "あく",
+      "ほのお"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "かえんほうしゃ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/127-1-2-014.webp",
+    "energy": 200,
+    "hp": 89,
+    "attack": 65,
+    "defense": 65,
+    "spAttack": 107,
+    "spDefense": 96
+  },
+  {
+    "id": "128-1-2-015",
+    "label": "1-2-015",
+    "wave": 2,
+    "name": "マスカーニャ",
+    "types": [
+      "くさ",
+      "あく"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "トリックフラワー",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/128-1-2-015.webp",
+    "energy": 188,
+    "hp": 105,
+    "attack": 88,
+    "defense": 58,
+    "spAttack": 66,
+    "spDefense": 58
+  },
+  {
+    "id": "129-1-2-016",
+    "label": "1-2-016",
+    "wave": 2,
+    "name": "ラウドボーン",
+    "types": [
+      "ほのお",
+      "ゴースト"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "フレアソング",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/129-1-2-016.webp",
+    "energy": 192,
+    "hp": 127,
+    "attack": 62,
+    "defense": 81,
+    "spAttack": 88,
+    "spDefense": 62
+  },
+  {
+    "id": "130-1-2-017",
+    "label": "1-2-017",
+    "wave": 2,
+    "name": "ウェーニバル",
+    "types": [
+      "みず",
+      "かくとう"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "アクアステップ",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/130-1-2-017.webp",
+    "energy": 188,
+    "hp": 112,
+    "attack": 96,
+    "defense": 65,
+    "spAttack": 69,
+    "spDefense": 62
+  },
+  {
+    "id": "131-1-2-018",
+    "label": "1-2-018",
+    "wave": 2,
+    "name": "アーマーガア",
+    "types": [
+      "ひこう",
+      "はがね"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ブレイブバード",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/131-1-2-018.webp",
+    "energy": 180,
+    "hp": 122,
+    "attack": 71,
+    "defense": 84,
+    "spAttack": 45,
+    "spDefense": 69
+  },
+  {
+    "id": "132-1-2-019",
+    "label": "1-2-019",
+    "wave": 2,
+    "name": "パーモット",
+    "types": [
+      "でんき",
+      "かくとう"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "でんこうそうげき",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/132-1-2-019.webp",
+    "energy": 176,
+    "hp": 101,
+    "attack": 92,
+    "defense": 58,
+    "spAttack": 58,
+    "spDefense": 50
+  },
+  {
+    "id": "133-1-2-020",
+    "label": "1-2-020",
+    "wave": 2,
+    "name": "キョジオーン",
+    "types": [
+      "いわ"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ストーンエッジ",
+        "type": "いわ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/133-1-2-020.webp",
+    "energy": 180,
+    "hp": 124,
+    "attack": 81,
+    "defense": 103,
+    "spAttack": 39,
+    "spDefense": 73
+  },
+  {
+    "id": "134-1-2-021",
+    "label": "1-2-021",
+    "wave": 2,
+    "name": "ボスゴドラ",
+    "types": [
+      "はがね",
+      "いわ"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "アイアンテール",
+        "type": "はがね"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/134-1-2-021.webp",
+    "energy": 188,
+    "hp": 101,
+    "attack": 88,
+    "defense": 141,
+    "spAttack": 50,
+    "spDefense": 50
+  },
+  {
+    "id": "135-1-2-022",
+    "label": "1-2-022",
+    "wave": 2,
+    "name": "キテルグマ",
+    "types": [
+      "ノーマル",
+      "かくとう"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "アームハンマー",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/135-1-2-022.webp",
+    "energy": 180,
+    "hp": 139,
+    "attack": 100,
+    "defense": 65,
+    "spAttack": 48,
+    "spDefense": 50
+  },
+  {
+    "id": "136-1-2-023",
+    "label": "1-2-023",
+    "wave": 2,
+    "name": "パルデアケンタロス",
+    "types": [
+      "かくとう"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ボディプレス",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/136-1-2-023.webp",
+    "energy": 176,
+    "hp": 105,
+    "attack": 88,
+    "defense": 84,
+    "spAttack": 27,
+    "spDefense": 58
+  },
+  {
+    "id": "137-1-2-024",
+    "label": "1-2-024",
+    "wave": 2,
+    "name": "ブロロローム",
+    "types": [
+      "はがね",
+      "どく"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ホイールスピン",
+        "type": "はがね"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/137-1-2-024.webp",
+    "energy": 180,
+    "hp": 108,
+    "attack": 95,
+    "defense": 73,
+    "spAttack": 46,
+    "spDefense": 55
+  },
+  {
+    "id": "138-1-2-025",
+    "label": "1-2-025",
+    "wave": 2,
+    "name": "ハカドッグ",
+    "types": [
+      "ゴースト"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ゴーストダイブ",
+        "type": "ゴースト"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/138-1-2-025.webp",
+    "energy": 176,
+    "hp": 102,
+    "attack": 81,
+    "defense": 81,
+    "spAttack": 43,
+    "spDefense": 78
+  },
+  {
+    "id": "139-1-2-026",
+    "label": "1-2-026",
+    "wave": 2,
+    "name": "ハリマロン",
+    "types": [
+      "くさ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "つるのムチ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/139-1-2-026.webp",
+    "energy": 92,
+    "hp": 67,
+    "attack": 37,
+    "defense": 40,
+    "spAttack": 30,
+    "spDefense": 29
+  },
+  {
+    "id": "140-1-2-027",
+    "label": "1-2-027",
+    "wave": 2,
+    "name": "ハリボーグ",
+    "types": [
+      "くさ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "くさわけ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/140-1-2-027.webp",
+    "energy": 112,
+    "hp": 69,
+    "attack": 47,
+    "defense": 56,
+    "spAttack": 35,
+    "spDefense": 36
+  },
+  {
+    "id": "141-1-2-028",
+    "label": "1-2-028",
+    "wave": 2,
+    "name": "ブリガロン",
+    "types": [
+      "くさ",
+      "かくとう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ローキック",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/141-1-2-028.webp",
+    "energy": 148,
+    "hp": 90,
+    "attack": 67,
+    "defense": 75,
+    "spAttack": 47,
+    "spDefense": 48
+  },
+  {
+    "id": "142-1-2-029",
+    "label": "1-2-029",
+    "wave": 2,
+    "name": "フォッコ",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ひのこ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/142-1-2-029.webp",
+    "energy": 92,
+    "hp": 58,
+    "attack": 29,
+    "defense": 26,
+    "spAttack": 38,
+    "spDefense": 37
+  },
+  {
+    "id": "143-1-2-030",
+    "label": "1-2-030",
+    "wave": 2,
+    "name": "テールナー",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ニトロチャージ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/143-1-2-030.webp",
+    "energy": 112,
+    "hp": 68,
+    "attack": 36,
+    "defense": 36,
+    "spAttack": 53,
+    "spDefense": 42
+  },
+  {
+    "id": "144-1-2-031",
+    "label": "1-2-031",
+    "wave": 2,
+    "name": "マフォクシー",
+    "types": [
+      "ほのお",
+      "エスパー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "マジカルフレイム",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/144-1-2-031.webp",
+    "energy": 148,
+    "hp": 82,
+    "attack": 45,
+    "defense": 46,
+    "spAttack": 71,
+    "spDefense": 63
+  },
+  {
+    "id": "145-1-2-032",
+    "label": "1-2-032",
+    "wave": 2,
+    "name": "ケロマツ",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずでっぽう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/145-1-2-032.webp",
+    "energy": 92,
+    "hp": 59,
+    "attack": 35,
+    "defense": 26,
+    "spAttack": 38,
+    "spDefense": 28
+  },
+  {
+    "id": "146-1-2-033",
+    "label": "1-2-033",
+    "wave": 2,
+    "name": "ゲコガシラ",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずのはどう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/146-1-2-033.webp",
+    "energy": 112,
+    "hp": 66,
+    "attack": 39,
+    "defense": 33,
+    "spAttack": 49,
+    "spDefense": 35
+  },
+  {
+    "id": "147-1-2-034",
+    "label": "1-2-034",
+    "wave": 2,
+    "name": "ゲッコウガ",
+    "types": [
+      "みず",
+      "あく"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "たきのぼり",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/147-1-2-034.webp",
+    "energy": 148,
+    "hp": 80,
+    "attack": 60,
+    "defense": 43,
+    "spAttack": 64,
+    "spDefense": 46
+  },
+  {
+    "id": "148-1-2-035",
+    "label": "1-2-035",
+    "wave": 2,
+    "name": "パモ",
+    "types": [
+      "でんき"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ほっぺすりすり",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/148-1-2-035.webp",
+    "energy": 76,
+    "hp": 61,
+    "attack": 32,
+    "defense": 15,
+    "spAttack": 26,
+    "spDefense": 18
+  },
+  {
+    "id": "149-1-2-036",
+    "label": "1-2-036",
+    "wave": 2,
+    "name": "パモット",
+    "types": [
+      "でんき",
+      "かくとう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "でんきショック",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/149-1-2-036.webp",
+    "energy": 100,
+    "hp": 69,
+    "attack": 45,
+    "defense": 26,
+    "spAttack": 32,
+    "spDefense": 26
+  },
+  {
+    "id": "150-1-2-037",
+    "label": "1-2-037",
+    "wave": 2,
+    "name": "パーモット",
+    "types": [
+      "でんき",
+      "かくとう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "スパーク",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/150-1-2-037.webp",
+    "energy": 136,
+    "hp": 79,
+    "attack": 71,
+    "defense": 45,
+    "spAttack": 45,
+    "spDefense": 39
+  },
+  {
+    "id": "151-1-2-038",
+    "label": "1-2-038",
+    "wave": 2,
+    "name": "コジオ",
+    "types": [
+      "いわ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "たいあたり",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/151-1-2-038.webp",
+    "energy": 84,
+    "hp": 66,
+    "attack": 34,
+    "defense": 45,
+    "spAttack": 23,
+    "spDefense": 23
+  },
+  {
+    "id": "152-1-2-039",
+    "label": "1-2-039",
+    "wave": 2,
+    "name": "ジオヅム",
+    "types": [
+      "いわ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "いわおとし",
+        "type": "いわ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/152-1-2-039.webp",
+    "energy": 100,
+    "hp": 69,
+    "attack": 37,
+    "defense": 59,
+    "spAttack": 23,
+    "spDefense": 40
+  },
+  {
+    "id": "153-1-2-040",
+    "label": "1-2-040",
+    "wave": 2,
+    "name": "キョジオーン",
+    "types": [
+      "いわ"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "がんせきふうじ",
+        "type": "いわ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/153-1-2-040.webp",
+    "energy": 140,
+    "hp": 97,
+    "attack": 63,
+    "defense": 80,
+    "spAttack": 31,
+    "spDefense": 57
+  },
+  {
+    "id": "154-1-2-041",
+    "label": "1-2-041",
+    "wave": 2,
+    "name": "ブロロン",
+    "types": [
+      "はがね",
+      "どく"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "スモッグ",
+        "type": "どく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/154-1-2-041.webp",
+    "energy": 88,
+    "hp": 61,
+    "attack": 42,
+    "defense": 39,
+    "spAttack": 21,
+    "spDefense": 29
+  },
+  {
+    "id": "155-1-2-042",
+    "label": "1-2-042",
+    "wave": 2,
+    "name": "ブロロローム",
+    "types": [
+      "はがね",
+      "どく"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ヘドロこうげき",
+        "type": "どく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/155-1-2-042.webp",
+    "energy": 140,
+    "hp": 85,
+    "attack": 74,
+    "defense": 57,
+    "spAttack": 36,
+    "spDefense": 43
+  },
+  {
+    "id": "156-1-2-043",
+    "label": "1-2-043",
+    "wave": 2,
+    "name": "ミミズズ",
+    "types": [
+      "はがね"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "じならし",
+        "type": "じめん"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/156-1-2-043.webp",
+    "energy": 136,
+    "hp": 79,
+    "attack": 54,
+    "defense": 88,
+    "spAttack": 39,
+    "spDefense": 36
+  },
+  {
+    "id": "157-1-2-044",
+    "label": "1-2-044",
+    "wave": 2,
+    "name": "ボチ",
+    "types": [
+      "ゴースト"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "したでなめる",
+        "type": "ゴースト"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/157-1-2-044.webp",
+    "energy": 88,
+    "hp": 64,
+    "attack": 37,
+    "defense": 37,
+    "spAttack": 21,
+    "spDefense": 34
+  },
+  {
+    "id": "158-1-2-045",
+    "label": "1-2-045",
+    "wave": 2,
+    "name": "ハカドッグ",
+    "types": [
+      "ゴースト"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "たたりめ",
+        "type": "ゴースト"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/158-1-2-045.webp",
+    "energy": 140,
+    "hp": 80,
+    "attack": 63,
+    "defense": 63,
+    "spAttack": 34,
+    "spDefense": 61
+  },
+  {
+    "id": "159-1-2-046",
+    "label": "1-2-046",
+    "wave": 2,
+    "name": "カラミンゴ",
+    "types": [
+      "ひこう",
+      "かくとう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "にどげり",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/159-1-2-046.webp",
+    "energy": 140,
+    "hp": 86,
+    "attack": 71,
+    "defense": 42,
+    "spAttack": 48,
+    "spDefense": 47
+  },
+  {
+    "id": "160-1-2-047",
+    "label": "1-2-047",
+    "wave": 2,
+    "name": "ツツケラ",
+    "types": [
+      "ノーマル",
+      "ひこう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "つつく",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/160-1-2-047.webp",
+    "energy": 80,
+    "hp": 55,
+    "attack": 45,
+    "defense": 21,
+    "spAttack": 21,
+    "spDefense": 21
+  },
+  {
+    "id": "161-1-2-048",
+    "label": "1-2-048",
+    "wave": 2,
+    "name": "ケララッパ",
+    "types": [
+      "ノーマル",
+      "ひこう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "アクロバット",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/161-1-2-048.webp",
+    "energy": 100,
+    "hp": 66,
+    "attack": 50,
+    "defense": 32,
+    "spAttack": 26,
+    "spDefense": 32
+  },
+  {
+    "id": "162-1-2-049",
+    "label": "1-2-049",
+    "wave": 2,
+    "name": "ドデカバシ",
+    "types": [
+      "ノーマル",
+      "ひこう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ついばむ",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/162-1-2-049.webp",
+    "energy": 136,
+    "hp": 85,
+    "attack": 74,
+    "defense": 48,
+    "spAttack": 48,
+    "spDefense": 48
+  },
+  {
+    "id": "163-1-2-050",
+    "label": "1-2-050",
+    "wave": 2,
+    "name": "ココドラ",
+    "types": [
+      "はがね",
+      "いわ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "たいあたり",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/163-1-2-050.webp",
+    "energy": 96,
+    "hp": 64,
+    "attack": 42,
+    "defense": 59,
+    "spAttack": 26,
+    "spDefense": 26
+  },
+  {
+    "id": "164-1-2-051",
+    "label": "1-2-051",
+    "wave": 2,
+    "name": "コドラ",
+    "types": [
+      "はがね",
+      "いわ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "がんせきふうじ",
+        "type": "いわ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/164-1-2-051.webp",
+    "energy": 116,
+    "hp": 69,
+    "attack": 53,
+    "defense": 80,
+    "spAttack": 32,
+    "spDefense": 32
+  },
+  {
+    "id": "165-1-2-052",
+    "label": "1-2-052",
+    "wave": 2,
+    "name": "ボスコドラ",
+    "types": [
+      "はがね",
+      "いわ"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "いわなだれ",
+        "type": "いわ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/165-1-2-052.webp",
+    "energy": 148,
+    "hp": 79,
+    "attack": 68,
+    "defense": 109,
+    "spAttack": 39,
+    "spDefense": 39
+  },
+  {
+    "id": "166-1-2-053",
+    "label": "1-2-053",
+    "wave": 2,
+    "name": "チョンチー",
+    "types": [
+      "みず",
+      "でんき"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "チャージビーム",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/166-1-2-053.webp",
+    "energy": 96,
+    "hp": 77,
+    "attack": 25,
+    "defense": 25,
+    "spAttack": 35,
+    "spDefense": 35
+  },
+  {
+    "id": "167-1-2-054",
+    "label": "1-2-054",
+    "wave": 2,
+    "name": "ランターン",
+    "types": [
+      "みず",
+      "でんき"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "スパーク",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/167-1-2-054.webp",
+    "energy": 132,
+    "hp": 111,
+    "attack": 38,
+    "defense": 38,
+    "spAttack": 49,
+    "spDefense": 49
+  },
+  {
+    "id": "168-1-2-055",
+    "label": "1-2-055",
+    "wave": 2,
+    "name": "カラカラ",
+    "types": [
+      "じめん"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "どろかけ",
+        "type": "じめん"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/168-1-2-055.webp",
+    "energy": 92,
+    "hp": 64,
+    "attack": 32,
+    "defense": 56,
+    "spAttack": 26,
+    "spDefense": 32
+  },
+  {
+    "id": "169-1-2-056",
+    "label": "1-2-056",
+    "wave": 2,
+    "name": "ガラガラ",
+    "types": [
+      "じめん"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "じならし",
+        "type": "じめん"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/169-1-2-056.webp",
+    "energy": 124,
+    "hp": 73,
+    "attack": 51,
+    "defense": 68,
+    "spAttack": 34,
+    "spDefense": 51
+  },
+  {
+    "id": "170-1-2-057",
+    "label": "1-2-057",
+    "wave": 2,
+    "name": "マケンカニ",
+    "types": [
+      "かくとう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "いわくだき",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/170-1-2-057.webp",
+    "energy": 96,
+    "hp": 62,
+    "attack": 49,
+    "defense": 36,
+    "spAttack": 27,
+    "spDefense": 30
+  },
+  {
+    "id": "171-1-2-058",
+    "label": "1-2-058",
+    "wave": 2,
+    "name": "ケケンカニ",
+    "types": [
+      "かくとう",
+      "こおり"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "かわらわり",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/171-1-2-058.webp",
+    "energy": 136,
+    "hp": 95,
+    "attack": 81,
+    "defense": 48,
+    "spAttack": 40,
+    "spDefense": 43
+  },
+  {
+    "id": "172-1-2-059",
+    "label": "1-2-059",
+    "wave": 2,
+    "name": "ホーホー",
+    "types": [
+      "ノーマル",
+      "ひこう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "つつく",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/172-1-2-059.webp",
+    "energy": 80,
+    "hp": 69,
+    "attack": 21,
+    "defense": 21,
+    "spAttack": 24,
+    "spDefense": 35
+  },
+  {
+    "id": "173-1-2-060",
+    "label": "1-2-060",
+    "wave": 2,
+    "name": "ヨルノズク",
+    "types": [
+      "ノーマル",
+      "ひこう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "エアカッター",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/173-1-2-060.webp",
+    "energy": 128,
+    "hp": 97,
+    "attack": 34,
+    "defense": 34,
+    "spAttack": 54,
+    "spDefense": 60
+  },
+  {
+    "id": "174-1-2-061",
+    "label": "1-2-061",
+    "wave": 2,
+    "name": "ヌイコグマ",
+    "types": [
+      "ノーマル",
+      "かくとう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "たいあたり",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/174-1-2-061.webp",
+    "energy": 96,
+    "hp": 74,
+    "attack": 45,
+    "defense": 32,
+    "spAttack": 29,
+    "spDefense": 32
+  },
+  {
+    "id": "175-1-2-062",
+    "label": "1-2-062",
+    "wave": 2,
+    "name": "キテルグマ",
+    "types": [
+      "ノーマル",
+      "かくとう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ローキック",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/175-1-2-062.webp",
+    "energy": 140,
+    "hp": 108,
+    "attack": 77,
+    "defense": 51,
+    "spAttack": 36,
+    "spDefense": 39
+  },
+  {
+    "id": "176-1-2-063",
+    "label": "1-2-063",
+    "wave": 2,
+    "name": "ゾウドウ",
+    "types": [
+      "はがね"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "たいあたり",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/176-1-2-063.webp",
+    "energy": 96,
+    "hp": 75,
+    "attack": 48,
+    "defense": 31,
+    "spAttack": 26,
+    "spDefense": 31
+  },
+  {
+    "id": "177-1-2-064",
+    "label": "1-2-064",
+    "wave": 2,
+    "name": "ダイオウドウ",
+    "types": [
+      "はがね"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ふみつけ",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/177-1-2-064.webp",
+    "energy": 140,
+    "hp": 109,
+    "attack": 80,
+    "defense": 45,
+    "spAttack": 51,
+    "spDefense": 45
+  },
+  {
+    "id": "178-1-2-065",
+    "label": "1-2-065",
+    "wave": 2,
+    "name": "ヤンチャム",
+    "types": [
+      "かくとう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "つっぱり",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/178-1-2-065.webp",
+    "energy": 100,
+    "hp": 73,
+    "attack": 49,
+    "defense": 38,
+    "spAttack": 29,
+    "spDefense": 30
+  },
+  {
+    "id": "179-1-2-066",
+    "label": "1-2-066",
+    "wave": 2,
+    "name": "ゴロンダ",
+    "types": [
+      "かくとう",
+      "あく"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "あてみなげ",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/179-1-2-066.webp",
+    "energy": 140,
+    "hp": 94,
+    "attack": 76,
+    "defense": 50,
+    "spAttack": 45,
+    "spDefense": 46
+  },
+  {
+    "id": "180-1-2-067",
+    "label": "1-2-067",
+    "wave": 2,
+    "name": "エアームド",
+    "types": [
+      "はがね",
+      "ひこう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "はがねのつばさ",
+        "type": "はがね"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/180-1-2-067.webp",
+    "energy": 132,
+    "hp": 76,
+    "attack": 51,
+    "defense": 86,
+    "spAttack": 28,
+    "spDefense": 45
+  },
+  {
+    "id": "181-1-2-068",
+    "label": "1-2-068",
+    "wave": 2,
+    "name": "パチリス",
+    "types": [
+      "でんき"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "スパーク",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/181-1-2-068.webp",
+    "energy": 120,
+    "hp": 73,
+    "attack": 31,
+    "defense": 45,
+    "spAttack": 31,
+    "spDefense": 57
+  },
+  {
+    "id": "182-1-2-069",
+    "label": "1-2-069",
+    "wave": 2,
+    "name": "マッギョ",
+    "types": [
+      "じめん",
+      "でんき"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "マッドショット",
+        "type": "じめん"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/182-1-2-069.webp",
+    "energy": 132,
+    "hp": 102,
+    "attack": 43,
+    "defense": 53,
+    "spAttack": 51,
+    "spDefense": 62
+  },
+  {
+    "id": "183-1-2-070",
+    "label": "1-2-070",
+    "wave": 2,
+    "name": "クレッフィ",
+    "types": [
+      "はがね",
+      "フェアリー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ドレインキッス",
+        "type": "フェアリー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/183-1-2-070.webp",
+    "energy": 132,
+    "hp": 72,
+    "attack": 51,
+    "defense": 57,
+    "spAttack": 51,
+    "spDefense": 55
+  },
+  {
+    "id": "187-1-2-W01",
+    "label": "1-2-W01",
+    "wave": 2,
+    "name": "ゲンガー",
+    "types": [
+      "ゴースト",
+      "どく"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "シャドーボール",
+        "type": "ゴースト"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/187-1-2-W01.webp",
+    "energy": 212,
+    "hp": 109,
+    "attack": 63,
+    "defense": 59,
+    "spAttack": 122,
+    "spDefense": 72
+  },
+  {
+    "id": "188-1-2-W02",
+    "label": "1-2-W02",
+    "wave": 2,
+    "name": "ミミッキュ",
+    "types": [
+      "ゴースト",
+      "フェアリー"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "じゃれつく",
+        "type": "フェアリー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/188-1-2-W02.webp",
+    "energy": 204,
+    "hp": 104,
+    "attack": 86,
+    "defense": 77,
+    "spAttack": 50,
+    "spDefense": 99
+  },
+  {
+    "id": "189-1-2-W03",
+    "label": "1-2-W03",
+    "wave": 2,
+    "name": "ソウブレイズ",
+    "types": [
+      "ほのお",
+      "ゴースト"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "むねんのつるぎ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/189-1-2-W03.webp",
+    "energy": 220,
+    "hp": 122,
+    "attack": 117,
+    "defense": 77,
+    "spAttack": 59,
+    "spDefense": 95
+  },
+  {
+    "id": "186-P",
+    "label": "P",
+    "wave": 2,
+    "name": "ヘルガー",
+    "types": [
+      "あく",
+      "ほのお"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "かえんほうしゃ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/186-P.webp",
+    "energy": 156,
+    "hp": 90,
+    "attack": 62,
+    "defense": 37,
+    "spAttack": 75,
+    "spDefense": 56
+  },
+  {
+    "id": "185-P",
+    "label": "P",
+    "wave": 2,
+    "name": "セレビィ",
+    "types": [
+      "エスパー",
+      "くさ"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "リーフストーム",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/185-P.webp",
+    "energy": 164,
+    "hp": 97,
+    "attack": 63,
+    "defense": 63,
+    "spAttack": 63,
+    "spDefense": 63
+  },
+  {
+    "id": "184-P",
+    "label": "P",
+    "wave": 2,
+    "name": "デカヌチャン",
+    "types": [
+      "フェアリー",
+      "はがね"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "デカハンマー",
+        "type": "はがね"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/2th/184-P.webp",
+    "energy": 152,
+    "hp": 93,
+    "attack": 51,
+    "defense": 52,
+    "spAttack": 48,
+    "spDefense": 70
+  },
+  {
+    "id": "190-1-3-001",
+    "label": "1-3-001",
+    "wave": 3,
+    "name": "テラパゴス",
+    "types": [
+      "ノーマル"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "テラクラスター",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/190-1-3-001.webp",
+    "energy": 256,
+    "hp": 146,
+    "attack": 94,
+    "defense": 108,
+    "spAttack": 103,
+    "spDefense": 108
+  },
+  {
+    "id": "191-1-3-002",
+    "label": "1-3-002",
+    "wave": 3,
+    "name": "オーガポン",
+    "types": [
+      "くさ",
+      "ほのお"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ツタこんぼう",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/191-1-3-002.webp",
+    "energy": 240,
+    "hp": 132,
+    "attack": 117,
+    "defense": 83,
+    "spAttack": 61,
+    "spDefense": 95
+  },
+  {
+    "id": "192-1-3-003",
+    "label": "1-3-003",
+    "wave": 3,
+    "name": "デオキシス",
+    "types": [
+      "エスパー"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "サイコブースト",
+        "type": "エスパー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/192-1-3-003.webp",
+    "energy": 260,
+    "hp": 104,
+    "attack": 146,
+    "defense": 52,
+    "spAttack": 146,
+    "spDefense": 52
+  },
+  {
+    "id": "193-1-3-004",
+    "label": "1-3-004",
+    "wave": 3,
+    "name": "ケルディオ",
+    "types": [
+      "みず",
+      "かくとう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "しんぴのつるぎ",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/193-1-3-004.webp",
+    "energy": 248,
+    "hp": 142,
+    "attack": 72,
+    "defense": 89,
+    "spAttack": 126,
+    "spDefense": 89
+  },
+  {
+    "id": "194-1-3-005",
+    "label": "1-3-005",
+    "wave": 3,
+    "name": "ザルード",
+    "types": [
+      "あく",
+      "くさ"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "パワーウィップ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/194-1-3-005.webp",
+    "energy": 256,
+    "hp": 155,
+    "attack": 117,
+    "defense": 103,
+    "spAttack": 70,
+    "spDefense": 94
+  },
+  {
+    "id": "195-1-3-006",
+    "label": "1-3-006",
+    "wave": 3,
+    "name": "ドドゲザン",
+    "types": [
+      "あく",
+      "はがね"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ドゲザン",
+        "type": "あく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/195-1-3-006.webp",
+    "energy": 240,
+    "hp": 151,
+    "attack": 131,
+    "defense": 117,
+    "spAttack": 61,
+    "spDefense": 84
+  },
+  {
+    "id": "196-1-3-007",
+    "label": "1-3-007",
+    "wave": 3,
+    "name": "リザードン",
+    "types": [
+      "ほのお",
+      "ひこう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "かえんほうしゃ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/196-1-3-007.webp",
+    "energy": 232,
+    "hp": 130,
+    "attack": 83,
+    "defense": 78,
+    "spAttack": 107,
+    "spDefense": 84
+  },
+  {
+    "id": "197-1-3-008",
+    "label": "1-3-008",
+    "wave": 3,
+    "name": "トドロクツキ",
+    "types": [
+      "ドラゴン",
+      "あく"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "じごくづき",
+        "type": "あく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/197-1-3-008.webp",
+    "energy": 252,
+    "hp": 155,
+    "attack": 135,
+    "defense": 71,
+    "spAttack": 56,
+    "spDefense": 99
+  },
+  {
+    "id": "198-1-3-009",
+    "label": "1-3-009",
+    "wave": 3,
+    "name": "テツノブジン",
+    "types": [
+      "フェアリー",
+      "かくとう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "インファイト",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/198-1-3-009.webp",
+    "energy": 252,
+    "hp": 126,
+    "attack": 127,
+    "defense": 89,
+    "spAttack": 117,
+    "spDefense": 61
+  },
+  {
+    "id": "199-1-3-010",
+    "label": "1-3-010",
+    "wave": 3,
+    "name": "レックウザ",
+    "types": [
+      "ドラゴン",
+      "ひこう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ガリョウテンセイ",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/199-1-3-010.webp",
+    "energy": 272,
+    "hp": 146,
+    "attack": 137,
+    "defense": 84,
+    "spAttack": 137,
+    "spDefense": 84
+  },
+  {
+    "id": "200-1-3-011",
+    "label": "1-3-011",
+    "wave": 3,
+    "name": "ドダイトス",
+    "types": [
+      "くさ",
+      "じめん"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "リーフストーム",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/200-1-3-011.webp",
+    "energy": 200,
+    "hp": 128,
+    "attack": 94,
+    "defense": 91,
+    "spAttack": 66,
+    "spDefense": 74
+  },
+  {
+    "id": "201-1-3-012",
+    "label": "1-3-012",
+    "wave": 3,
+    "name": "ゴウカザル",
+    "types": [
+      "ほのお",
+      "かくとう"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "インファイト",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/201-1-3-012.webp",
+    "energy": 204,
+    "hp": 113,
+    "attack": 90,
+    "defense": 63,
+    "spAttack": 90,
+    "spDefense": 63
+  },
+  {
+    "id": "202-1-3-013",
+    "label": "1-3-013",
+    "wave": 3,
+    "name": "エンペルト",
+    "types": [
+      "みず",
+      "はがね"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ラスターカノン",
+        "type": "はがね"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/202-1-3-013.webp",
+    "energy": 204,
+    "hp": 119,
+    "attack": 75,
+    "defense": 77,
+    "spAttack": 96,
+    "spDefense": 87
+  },
+  {
+    "id": "203-1-3-014",
+    "label": "1-3-014",
+    "wave": 3,
+    "name": "イダイナキバ",
+    "types": [
+      "じめん",
+      "かくとう"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "インファイト",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/203-1-3-014.webp",
+    "energy": 212,
+    "hp": 142,
+    "attack": 109,
+    "defense": 109,
+    "spAttack": 47,
+    "spDefense": 47
+  },
+  {
+    "id": "204-1-3-015",
+    "label": "1-3-015",
+    "wave": 3,
+    "name": "チヲハウハネ",
+    "types": [
+      "むし",
+      "かくとう"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "であいがしら",
+        "type": "むし"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/204-1-3-015.webp",
+    "energy": 212,
+    "hp": 118,
+    "attack": 113,
+    "defense": 68,
+    "spAttack": 73,
+    "spDefense": 89
+  },
+  {
+    "id": "205-1-3-016",
+    "label": "1-3-016",
+    "wave": 3,
+    "name": "テツノコウベ",
+    "types": [
+      "あく",
+      "ひこう"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "エアスラッシュ",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/205-1-3-016.webp",
+    "energy": 212,
+    "hp": 125,
+    "attack": 69,
+    "defense": 73,
+    "spAttack": 102,
+    "spDefense": 69
+  },
+  {
+    "id": "206-1-3-017",
+    "label": "1-3-017",
+    "wave": 3,
+    "name": "テツノイバラ",
+    "types": [
+      "いわ",
+      "でんき"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ストーンエッジ",
+        "type": "いわ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/206-1-3-017.webp",
+    "energy": 212,
+    "hp": 130,
+    "attack": 112,
+    "defense": 93,
+    "spAttack": 61,
+    "spDefense": 72
+  },
+  {
+    "id": "207-1-3-018",
+    "label": "1-3-018",
+    "wave": 3,
+    "name": "タギングル",
+    "types": [
+      "どく",
+      "ノーマル"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "どくづき",
+        "type": "どく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/207-1-3-018.webp",
+    "energy": 196,
+    "hp": 107,
+    "attack": 86,
+    "defense": 60,
+    "spAttack": 73,
+    "spDefense": 66
+  },
+  {
+    "id": "208-1-3-019",
+    "label": "1-3-019",
+    "wave": 3,
+    "name": "クエスバトラ",
+    "types": [
+      "エスパー"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "サイコキネシス",
+        "type": "エスパー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/208-1-3-019.webp",
+    "energy": 196,
+    "hp": 134,
+    "attack": 56,
+    "defense": 56,
+    "spAttack": 91,
+    "spDefense": 56
+  },
+  {
+    "id": "209-1-3-020",
+    "label": "1-3-020",
+    "wave": 3,
+    "name": "エクスレッグ",
+    "types": [
+      "むし",
+      "あく"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "じごくづき",
+        "type": "あく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/209-1-3-020.webp",
+    "energy": 188,
+    "hp": 116,
+    "attack": 94,
+    "defense": 73,
+    "spAttack": 50,
+    "spDefense": 53
+  },
+  {
+    "id": "210-1-3-021",
+    "label": "1-3-021",
+    "wave": 3,
+    "name": "プクリン",
+    "types": [
+      "ノーマル",
+      "フェアリー"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "じゃれつく",
+        "type": "フェアリー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/210-1-3-021.webp",
+    "energy": 184,
+    "hp": 177,
+    "attack": 66,
+    "defense": 44,
+    "spAttack": 79,
+    "spDefense": 49
+  },
+  {
+    "id": "211-1-3-022",
+    "label": "1-3-022",
+    "wave": 3,
+    "name": "ゴチルゼル",
+    "types": [
+      "エスパー"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "サイコキネシス",
+        "type": "エスパー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/211-1-3-022.webp",
+    "energy": 196,
+    "hp": 110,
+    "attack": 51,
+    "defense": 84,
+    "spAttack": 84,
+    "spDefense": 97
+  },
+  {
+    "id": "212-1-3-023",
+    "label": "1-3-023",
+    "wave": 3,
+    "name": "ソウブレイズ",
+    "types": [
+      "ほのお",
+      "ゴースト"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "むねんのつるぎ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/212-1-3-023.webp",
+    "energy": 200,
+    "hp": 112,
+    "attack": 107,
+    "defense": 70,
+    "spAttack": 54,
+    "spDefense": 87
+  },
+  {
+    "id": "213-1-3-024",
+    "label": "1-3-024",
+    "wave": 3,
+    "name": "オリーヴァ",
+    "types": [
+      "くさ",
+      "ノーマル"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "エナジーボール",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/213-1-3-024.webp",
+    "energy": 196,
+    "hp": 114,
+    "attack": 61,
+    "defense": 78,
+    "spAttack": 107,
+    "spDefense": 94
+  },
+  {
+    "id": "214-1-3-025",
+    "label": "1-3-025",
+    "wave": 3,
+    "name": "ガラルファイヤー",
+    "types": [
+      "あく",
+      "ひこう"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "もえあがるいかり",
+        "type": "あく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/214-1-3-025.webp",
+    "energy": 216,
+    "hp": 122,
+    "attack": 73,
+    "defense": 77,
+    "spAttack": 85,
+    "spDefense": 105
+  },
+  {
+    "id": "215-1-3-026",
+    "label": "1-3-026",
+    "wave": 3,
+    "name": "ナエトル",
+    "types": [
+      "くさ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "すいとる",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/215-1-3-026.webp",
+    "energy": 96,
+    "hp": 68,
+    "attack": 43,
+    "defense": 40,
+    "spAttack": 30,
+    "spDefense": 35
+  },
+  {
+    "id": "216-1-3-027",
+    "label": "1-3-027",
+    "wave": 3,
+    "name": "ハヤシガメ",
+    "types": [
+      "くさ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "はっぱカッター",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/216-1-3-027.webp",
+    "energy": 116,
+    "hp": 80,
+    "attack": 54,
+    "defense": 52,
+    "spAttack": 35,
+    "spDefense": 41
+  },
+  {
+    "id": "217-1-3-028",
+    "label": "1-3-028",
+    "wave": 3,
+    "name": "ドダイトス",
+    "types": [
+      "くさ",
+      "じめん"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "マジカルリーフ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/217-1-3-028.webp",
+    "energy": 99,
+    "hp": 99,
+    "attack": 72,
+    "defense": 70,
+    "spAttack": 51,
+    "spDefense": 57
+  },
+  {
+    "id": "218-1-3-029",
+    "label": "1-3-029",
+    "wave": 3,
+    "name": "ヒコザル",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ひのこ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/218-1-3-029.webp",
+    "energy": 62,
+    "hp": 62,
+    "attack": 37,
+    "defense": 29,
+    "spAttack": 37,
+    "spDefense": 29
+  },
+  {
+    "id": "219-1-3-030",
+    "label": "1-3-030",
+    "wave": 3,
+    "name": "モウカザル",
+    "types": [
+      "ほのお",
+      "かくとう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "マッハパンチ",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/219-1-3-030.webp",
+    "energy": 116,
+    "hp": 73,
+    "attack": 48,
+    "defense": 34,
+    "spAttack": 48,
+    "spDefense": 34
+  },
+  {
+    "id": "220-1-3-031",
+    "label": "1-3-031",
+    "wave": 3,
+    "name": "ゴウカザル",
+    "types": [
+      "ほのお",
+      "かくとう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ローキック",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/220-1-3-031.webp",
+    "energy": 160,
+    "hp": 88,
+    "attack": 69,
+    "defense": 49,
+    "spAttack": 69,
+    "spDefense": 49
+  },
+  {
+    "id": "221-1-3-032",
+    "label": "1-3-032",
+    "wave": 3,
+    "name": "ポッチャマ",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずでっぽう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/221-1-3-032.webp",
+    "energy": 96,
+    "hp": 67,
+    "attack": 33,
+    "defense": 34,
+    "spAttack": 39,
+    "spDefense": 36
+  },
+  {
+    "id": "222-1-3-033",
+    "label": "1-3-033",
+    "wave": 3,
+    "name": "ポッタイシ",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずのはどう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/222-1-3-033.webp",
+    "energy": 116,
+    "hp": 73,
+    "attack": 41,
+    "defense": 43,
+    "spAttack": 50,
+    "spDefense": 47
+  },
+  {
+    "id": "223-1-3-034",
+    "label": "1-3-034",
+    "wave": 3,
+    "name": "エンペルト",
+    "types": [
+      "みず",
+      "はがね"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "マッハパンチ",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/223-1-3-034.webp",
+    "energy": 156,
+    "hp": 93,
+    "attack": 58,
+    "defense": 59,
+    "spAttack": 73,
+    "spDefense": 67
+  },
+  {
+    "id": "224-1-3-035",
+    "label": "1-3-035",
+    "wave": 3,
+    "name": "グルトン",
+    "types": [
+      "ノーマル"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "たいあたり",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/224-1-3-035.webp",
+    "energy": 80,
+    "hp": 68,
+    "attack": 30,
+    "defense": 27,
+    "spAttack": 24,
+    "spDefense": 30
+  },
+  {
+    "id": "225-1-3-036",
+    "label": "1-3-036",
+    "wave": 3,
+    "name": "パフュートン",
+    "types": [
+      "ノーマル"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ずつき",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/225-1-3-036.webp",
+    "energy": 148,
+    "hp": 109,
+    "attack": 67,
+    "defense": 51,
+    "spAttack": 41,
+    "spDefense": 54
+  },
+  {
+    "id": "226-1-3-037",
+    "label": "1-3-037",
+    "wave": 3,
+    "name": "マメバッタ",
+    "types": [
+      "むし"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "むしのていこう",
+        "type": "むし"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/226-1-3-037.webp",
+    "energy": 72,
+    "hp": 56,
+    "attack": 30,
+    "defense": 27,
+    "spAttack": 16,
+    "spDefense": 19
+  },
+  {
+    "id": "227-1-3-038",
+    "label": "1-3-038",
+    "wave": 3,
+    "name": "エクスレッグ",
+    "types": [
+      "むし",
+      "あく"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ふいうち",
+        "type": "あく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/227-1-3-038.webp",
+    "energy": 136,
+    "hp": 85,
+    "attack": 68,
+    "defense": 53,
+    "spAttack": 37,
+    "spDefense": 38
+  },
+  {
+    "id": "228-1-3-039",
+    "label": "1-3-039",
+    "wave": 3,
+    "name": "シルシュルー",
+    "types": [
+      "どく",
+      "ノーマル"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "アシッドボム",
+        "type": "どく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/228-1-3-039.webp",
+    "energy": 88,
+    "hp": 60,
+    "attack": 41,
+    "defense": 24,
+    "spAttack": 27,
+    "spDefense": 24
+  },
+  {
+    "id": "229-1-3-040",
+    "label": "1-3-040",
+    "wave": 3,
+    "name": "タギングル",
+    "types": [
+      "どく",
+      "ノーマル"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ベノムショック",
+        "type": "どく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/229-1-3-040.webp",
+    "energy": 144,
+    "hp": 80,
+    "attack": 63,
+    "defense": 45,
+    "spAttack": 54,
+    "spDefense": 49
+  },
+  {
+    "id": "230-1-3-041",
+    "label": "1-3-041",
+    "wave": 3,
+    "name": "ヒラヒナ",
+    "types": [
+      "エスパー"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ねんりき",
+        "type": "エスパー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/230-1-3-041.webp",
+    "energy": 80,
+    "hp": 54,
+    "attack": 24,
+    "defense": 21,
+    "spAttack": 35,
+    "spDefense": 21
+  },
+  {
+    "id": "231-1-3-042",
+    "label": "1-3-042",
+    "wave": 3,
+    "name": "クエスパトラ",
+    "types": [
+      "エスパー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "サイケこうせん",
+        "type": "エスパー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/231-1-3-042.webp",
+    "energy": 144,
+    "hp": 99,
+    "attack": 42,
+    "defense": 42,
+    "spAttack": 67,
+    "spDefense": 42
+  },
+  {
+    "id": "232-1-3-043",
+    "label": "1-3-043",
+    "wave": 3,
+    "name": "オトシドリ",
+    "types": [
+      "ひこう",
+      "あく"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "はたきおとす",
+        "type": "あく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/232-1-3-043.webp",
+    "energy": 144,
+    "hp": 84,
+    "attack": 68,
+    "defense": 57,
+    "spAttack": 42,
+    "spDefense": 57
+  },
+  {
+    "id": "233-1-3-044",
+    "label": "1-3-044",
+    "wave": 3,
+    "name": "パルデアケンタロス",
+    "types": [
+      "かくとう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "にどげり",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/233-1-3-044.webp",
+    "energy": 148,
+    "hp": 87,
+    "attack": 73,
+    "defense": 70,
+    "spAttack": 23,
+    "spDefense": 48
+  },
+  {
+    "id": "234-1-3-045",
+    "label": "1-3-045",
+    "wave": 3,
+    "name": "ヤドン",
+    "types": [
+      "みず",
+      "エスパー"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ねんりき",
+        "type": "エスパー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/234-1-3-045.webp",
+    "energy": 96,
+    "hp": 88,
+    "attack": 41,
+    "defense": 41,
+    "spAttack": 27,
+    "spDefense": 27
+  },
+  {
+    "id": "235-1-3-046",
+    "label": "1-3-046",
+    "wave": 3,
+    "name": "ヤドラン",
+    "types": [
+      "みず",
+      "エスパー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずのはどう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/235-1-3-046.webp",
+    "energy": 148,
+    "hp": 99,
+    "attack": 51,
+    "defense": 73,
+    "spAttack": 67,
+    "spDefense": 54
+  },
+  {
+    "id": "236-1-3-047",
+    "label": "1-3-047",
+    "wave": 3,
+    "name": "ヤドキング",
+    "types": [
+      "みず",
+      "エスパー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "サイケこうせん",
+        "type": "エスパー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/236-1-3-047.webp",
+    "energy": 148,
+    "hp": 99,
+    "attack": 51,
+    "defense": 54,
+    "spAttack": 67,
+    "spDefense": 73
+  },
+  {
+    "id": "237-1-3-048",
+    "label": "1-3-048",
+    "wave": 3,
+    "name": "ヨーデリー",
+    "types": [
+      "ノーマル"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "たいあたり",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/237-1-3-048.webp",
+    "energy": 63,
+    "hp": 63,
+    "attack": 38,
+    "defense": 30,
+    "spAttack": 19,
+    "spDefense": 30
+  },
+  {
+    "id": "238-1-3-049",
+    "label": "1-3-049",
+    "wave": 3,
+    "name": "ハーデリア",
+    "types": [
+      "ノーマル"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "りんしょう",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/238-1-3-049.webp",
+    "energy": 108,
+    "hp": 74,
+    "attack": 49,
+    "defense": 41,
+    "spAttack": 24,
+    "spDefense": 41
+  },
+  {
+    "id": "239-1-3-050",
+    "label": "1-3-050",
+    "wave": 3,
+    "name": "ムーランド",
+    "types": [
+      "ノーマル"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "からげんき",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/239-1-3-050.webp",
+    "energy": 148,
+    "hp": 93,
+    "attack": 73,
+    "defense": 60,
+    "spAttack": 32,
+    "spDefense": 60
+  },
+  {
+    "id": "240-1-3-051",
+    "label": "1-3-051",
+    "wave": 3,
+    "name": "ププリン",
+    "types": [
+      "ノーマル",
+      "フェアリー"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "チャームボイス",
+        "type": "フェアリー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/240-1-3-051.webp",
+    "energy": 72,
+    "hp": 88,
+    "attack": 21,
+    "defense": 13,
+    "spAttack": 27,
+    "spDefense": 16
+  },
+  {
+    "id": "241-1-3-052",
+    "label": "1-3-052",
+    "wave": 3,
+    "name": "プリン",
+    "types": [
+      "ノーマル",
+      "フェアリー"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ドレインキッス",
+        "type": "フェアリー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/241-1-3-052.webp",
+    "energy": 84,
+    "hp": 102,
+    "attack": 30,
+    "defense": 16,
+    "spAttack": 30,
+    "spDefense": 19
+  },
+  {
+    "id": "242-1-3-053",
+    "label": "1-3-053",
+    "wave": 3,
+    "name": "プクリン",
+    "types": [
+      "ノーマル",
+      "フェアリー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "スピードスター",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/242-1-3-053.webp",
+    "energy": 132,
+    "hp": 127,
+    "attack": 48,
+    "defense": 32,
+    "spAttack": 57,
+    "spDefense": 36
+  },
+  {
+    "id": "243-1-3-054",
+    "label": "1-3-054",
+    "wave": 3,
+    "name": "リオル",
+    "types": [
+      "かくとう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "でんこうせっか",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/243-1-3-054.webp",
+    "energy": 88,
+    "hp": 60,
+    "attack": 44,
+    "defense": 27,
+    "spAttack": 24,
+    "spDefense": 27
+  },
+  {
+    "id": "244-1-3-055",
+    "label": "1-3-055",
+    "wave": 3,
+    "name": "ルカリオ",
+    "types": [
+      "かくとう",
+      "はがね"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "はっけい",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/244-1-3-055.webp",
+    "energy": 156,
+    "hp": 84,
+    "attack": 73,
+    "defense": 48,
+    "spAttack": 76,
+    "spDefense": 48
+  },
+  {
+    "id": "245-1-3-056",
+    "label": "1-3-056",
+    "wave": 3,
+    "name": "アローラコラッタ",
+    "types": [
+      "あく",
+      "ノーマル"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "たいあたり",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/245-1-3-056.webp",
+    "energy": 80,
+    "hp": 54,
+    "attack": 36,
+    "defense": 24,
+    "spAttack": 19,
+    "spDefense": 24
+  },
+  {
+    "id": "246-1-3-057",
+    "label": "1-3-057",
+    "wave": 3,
+    "name": "アローララッタ",
+    "types": [
+      "あく",
+      "ノーマル"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "かみつく",
+        "type": "あく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/246-1-3-057.webp",
+    "energy": 128,
+    "hp": 87,
+    "attack": 49,
+    "defense": 48,
+    "spAttack": 29,
+    "spDefense": 54
+  },
+  {
+    "id": "247-1-3-058",
+    "label": "1-3-058",
+    "wave": 3,
+    "name": "デルビル",
+    "types": [
+      "あく",
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ひのこ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/247-1-3-058.webp",
+    "energy": 100,
+    "hp": 63,
+    "attack": 38,
+    "defense": 21,
+    "spAttack": 49,
+    "spDefense": 33
+  },
+  {
+    "id": "248-1-3-059",
+    "label": "1-3-059",
+    "wave": 3,
+    "name": "ヘルガー",
+    "types": [
+      "あく",
+      "ほのお"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "バークアウト",
+        "type": "あく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/248-1-3-059.webp",
+    "energy": 148,
+    "hp": 87,
+    "attack": 60,
+    "defense": 36,
+    "spAttack": 73,
+    "spDefense": 54
+  },
+  {
+    "id": "249-1-3-060",
+    "label": "1-3-060",
+    "wave": 3,
+    "name": "ゴクリン",
+    "types": [
+      "どく"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "アシッドボム",
+        "type": "どく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/249-1-3-060.webp",
+    "energy": 92,
+    "hp": 77,
+    "attack": 29,
+    "defense": 34,
+    "spAttack": 29,
+    "spDefense": 34
+  },
+  {
+    "id": "250-1-3-061",
+    "label": "1-3-061",
+    "wave": 3,
+    "name": "マルノーム",
+    "types": [
+      "どく"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ヘドロこうげき",
+        "type": "どく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/250-1-3-061.webp",
+    "energy": 140,
+    "hp": 103,
+    "attack": 50,
+    "defense": 56,
+    "spAttack": 50,
+    "spDefense": 56
+  },
+  {
+    "id": "251-1-3-062",
+    "label": "1-3-062",
+    "wave": 3,
+    "name": "サボネア",
+    "types": [
+      "くさ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "くさわけ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/251-1-3-062.webp",
+    "energy": 100,
+    "hp": 66,
+    "attack": 52,
+    "defense": 27,
+    "spAttack": 52,
+    "spDefense": 27
+  },
+  {
+    "id": "252-1-3-063",
+    "label": "1-3-063",
+    "wave": 3,
+    "name": "ノクタス",
+    "types": [
+      "くさ",
+      "あく"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "はたきおとす",
+        "type": "あく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/252-1-3-063.webp",
+    "energy": 144,
+    "hp": 84,
+    "attack": 76,
+    "defense": 42,
+    "spAttack": 76,
+    "spDefense": 42
+  },
+  {
+    "id": "253-1-3-064",
+    "label": "1-3-064",
+    "wave": 3,
+    "name": "ドーミラー",
+    "types": [
+      "はがね",
+      "エスパー"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ねんりき",
+        "type": "エスパー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/253-1-3-064.webp",
+    "energy": 92,
+    "hp": 69,
+    "attack": 18,
+    "defense": 53,
+    "spAttack": 18,
+    "spDefense": 53
+  },
+  {
+    "id": "254-1-3-065",
+    "label": "1-3-065",
+    "wave": 3,
+    "name": "ドータクン",
+    "types": [
+      "はがね",
+      "エスパー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "サイケこうせん",
+        "type": "エスパー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/254-1-3-065.webp",
+    "energy": 148,
+    "hp": 82,
+    "attack": 60,
+    "defense": 76,
+    "spAttack": 53,
+    "spDefense": 76
+  },
+  {
+    "id": "255-1-3-066",
+    "label": "1-3-066",
+    "wave": 3,
+    "name": "ガラルポニータ",
+    "types": [
+      "エスパー"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ねんりき",
+        "type": "エスパー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/255-1-3-066.webp",
+    "energy": 116,
+    "hp": 66,
+    "attack": 52,
+    "defense": 35,
+    "spAttack": 41,
+    "spDefense": 41
+  },
+  {
+    "id": "256-1-3-067",
+    "label": "1-3-067",
+    "wave": 3,
+    "name": "ガラルギャロップ",
+    "types": [
+      "エスパー",
+      "フェアリー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "サイケこうせん",
+        "type": "エスパー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/256-1-3-067.webp",
+    "energy": 148,
+    "hp": 81,
+    "attack": 67,
+    "defense": 48,
+    "spAttack": 54,
+    "spDefense": 54
+  },
+  {
+    "id": "257-1-3-068",
+    "label": "1-3-068",
+    "wave": 3,
+    "name": "タタッコ",
+    "types": [
+      "かくとう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "かわらわり",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/257-1-3-068.webp",
+    "energy": 96,
+    "hp": 66,
+    "attack": 43,
+    "defense": 38,
+    "spAttack": 33,
+    "spDefense": 33
+  },
+  {
+    "id": "258-1-3-069",
+    "label": "1-3-069",
+    "wave": 3,
+    "name": "オトスパス",
+    "types": [
+      "かくとう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "リベンジ",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/258-1-3-069.webp",
+    "energy": 144,
+    "hp": 90,
+    "attack": 78,
+    "defense": 60,
+    "spAttack": 48,
+    "spDefense": 54
+  },
+  {
+    "id": "259-1-3-070",
+    "label": "1-3-070",
+    "wave": 3,
+    "name": "タイレーツ",
+    "types": [
+      "かくとう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "かわらわり",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/259-1-3-070.webp",
+    "energy": 144,
+    "hp": 81,
+    "attack": 67,
+    "defense": 67,
+    "spAttack": 48,
+    "spDefense": 42
+  },
+  {
+    "id": "269-1-3-W01",
+    "label": "1-3-W01",
+    "wave": 3,
+    "name": "レックウザ",
+    "types": [
+      "ドラゴン",
+      "ひこう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ガリョウテンセイ",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/269-1-3-W01.webp",
+    "energy": 272,
+    "hp": 146,
+    "attack": 137,
+    "defense": 84,
+    "spAttack": 137,
+    "spDefense": 84
+  },
+  {
+    "id": "270-1-3-W02",
+    "label": "1-3-W02",
+    "wave": 3,
+    "name": "レックウザ",
+    "types": [
+      "ドラゴン",
+      "ひこう"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ガリョウテンセイ",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/270-1-3-W02.webp",
+    "energy": 272,
+    "hp": 146,
+    "attack": 137,
+    "defense": 84,
+    "spAttack": 137,
+    "spDefense": 84
+  },
+  {
+    "id": "273-P",
+    "label": "P",
+    "wave": 3,
+    "name": "マスカーニャ",
+    "types": [
+      "くさ",
+      "あく"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "トリックフラワー",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/273-P.webp",
+    "energy": 200,
+    "hp": 110,
+    "attack": 93,
+    "defense": 61,
+    "spAttack": 69,
+    "spDefense": 61
+  },
+  {
+    "id": "265-P",
+    "label": "P",
+    "wave": 3,
+    "name": "オーガポン",
+    "types": [
+      "くさ"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "ツタこんぼう",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/265-P.webp",
+    "energy": 168,
+    "hp": 93,
+    "attack": 81,
+    "defense": 58,
+    "spAttack": 43,
+    "spDefense": 66
+  },
+  {
+    "id": "267-P",
+    "label": "P",
+    "wave": 3,
+    "name": "ホウオウ",
+    "types": [
+      "ほのお",
+      "ひこう"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "せいなるほのお",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/267-P.webp",
+    "energy": 176,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "266-P",
+    "label": "P",
+    "wave": 3,
+    "name": "ルギア",
+    "types": [
+      "エスパー",
+      "ひこう"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "エアロブラスト",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/266-P.webp",
+    "energy": 176,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "264-P",
+    "label": "P",
+    "wave": 3,
+    "name": "キャプテンピカチュウ",
+    "types": [
+      "でんき"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "ポルテッカー",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/264-P.webp",
+    "energy": 152,
+    "hp": 89,
+    "attack": 56,
+    "defense": 42,
+    "spAttack": 52,
+    "spDefense": 52
+  },
+  {
+    "id": "268-P",
+    "label": "P",
+    "wave": 3,
+    "name": "ゲッコウガ",
+    "types": [
+      "みず",
+      "あく"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずしゅりけん",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/268-P.webp",
+    "energy": 164,
+    "hp": 90,
+    "attack": 67,
+    "defense": 49,
+    "spAttack": 72,
+    "spDefense": 51
+  },
+  {
+    "id": "261-P",
+    "label": "P",
+    "wave": 3,
+    "name": "リザードン",
+    "types": [
+      "ほのお",
+      "ひこう"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "かえんほうしゃ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/261-P.webp",
+    "energy": 176,
+    "hp": 99,
+    "attack": 63,
+    "defense": 59,
+    "spAttack": 81,
+    "spDefense": 64
+  },
+  {
+    "id": "260-P",
+    "label": "P",
+    "wave": 3,
+    "name": "ソウブレイズ",
+    "types": [
+      "ほのお",
+      "ゴースト"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "ゴーストダイブ",
+        "type": "ゴースト"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/260-P.webp",
+    "energy": 176,
+    "hp": 97,
+    "attack": 92,
+    "defense": 61,
+    "spAttack": 47,
+    "spDefense": 75
+  },
+  {
+    "id": "263-P",
+    "label": "P",
+    "wave": 3,
+    "name": "ミライドン",
+    "types": [
+      "でんき",
+      "ドラゴン"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "イナズマドライブ",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/263-P.webp",
+    "energy": 176,
+    "hp": 94,
+    "attack": 52,
+    "defense": 61,
+    "spAttack": 80,
+    "spDefense": 69
+  },
+  {
+    "id": "271-P",
+    "label": "P",
+    "wave": 3,
+    "name": "ウェーニバル",
+    "types": [
+      "みず",
+      "かくとう"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "アクアステップ",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/271-P.webp",
+    "energy": 200,
+    "hp": 118,
+    "attack": 101,
+    "defense": 69,
+    "spAttack": 73,
+    "spDefense": 65
+  },
+  {
+    "id": "272-P",
+    "label": "P",
+    "wave": 3,
+    "name": "ラウドボーン",
+    "types": [
+      "ほのお",
+      "ゴースト"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "フレアソング",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/272-P.webp",
+    "energy": 200,
+    "hp": 133,
+    "attack": 65,
+    "defense": 85,
+    "spAttack": 93,
+    "spDefense": 65
+  },
+  {
+    "id": "262-P",
+    "label": "P",
+    "wave": 3,
+    "name": "ピカチュウ",
+    "types": [
+      "でんき"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "１０まんボルト",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/3th/262-P.webp",
+    "energy": 160,
+    "hp": 93,
+    "attack": 58,
+    "defense": 44,
+    "spAttack": 54,
+    "spDefense": 54
+  },
+  {
+    "id": "274-1-4-001",
+    "label": "1-4-001",
+    "wave": 4,
+    "name": "レシラム",
+    "types": [
+      "ドラゴン",
+      "ほのお"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "クロスフレイム",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/274-1-4-001.webp",
+    "energy": 284,
+    "hp": 148,
+    "attack": 115,
+    "defense": 97,
+    "spAttack": 143,
+    "spDefense": 115
+  },
+  {
+    "id": "275-1-4-002",
+    "label": "1-4-002",
+    "wave": 4,
+    "name": "ゼクロム",
+    "types": [
+      "ドラゴン",
+      "でんき"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "クロスサンダー",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/275-1-4-002.webp",
+    "energy": 284,
+    "hp": 148,
+    "attack": 143,
+    "defense": 115,
+    "spAttack": 115,
+    "spDefense": 97
+  },
+  {
+    "id": "277-1-4-003",
+    "label": "1-4-003",
+    "wave": 4,
+    "name": "キュレム",
+    "types": [
+      "ドラゴン",
+      "こおり"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ふぶき",
+        "type": "こおり"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/277-1-4-003.webp",
+    "energy": 276,
+    "hp": 171,
+    "attack": 124,
+    "defense": 87,
+    "spAttack": 124,
+    "spDefense": 87
+  },
+  {
+    "id": "278-1-4-004",
+    "label": "1-4-004",
+    "wave": 4,
+    "name": "オーガポン",
+    "types": [
+      "くさ",
+      "みず"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ツタこんぼう",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/278-1-4-004.webp",
+    "energy": 248,
+    "hp": 137,
+    "attack": 122,
+    "defense": 87,
+    "spAttack": 63,
+    "spDefense": 99
+  },
+  {
+    "id": "279-1-4-005",
+    "label": "1-4-005",
+    "wave": 4,
+    "name": "テツノイサハ",
+    "types": [
+      "くさ",
+      "エスパー"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "リーフブレード",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/279-1-4-005.webp",
+    "energy": 260,
+    "hp": 144,
+    "attack": 129,
+    "defense": 89,
+    "spAttack": 72,
+    "spDefense": 108
+  },
+  {
+    "id": "280-1-4-006",
+    "label": "1-4-006",
+    "wave": 4,
+    "name": "テツノイワオ",
+    "types": [
+      "いわ",
+      "エスパー"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ストーンエッジ",
+        "type": "いわ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/280-1-4-006.webp",
+    "energy": 260,
+    "hp": 144,
+    "attack": 120,
+    "defense": 81,
+    "spAttack": 70,
+    "spDefense": 108
+  },
+  {
+    "id": "281-1-4-007",
+    "label": "1-4-007",
+    "wave": 4,
+    "name": "テツノカシラ",
+    "types": [
+      "はがね",
+      "エスパー"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "タキオンカッター",
+        "type": "はがね"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/281-1-4-007.webp",
+    "energy": 260,
+    "hp": 144,
+    "attack": 74,
+    "defense": 101,
+    "spAttack": 122,
+    "spDefense": 108
+  },
+  {
+    "id": "282-1-4-008",
+    "label": "1-4-008",
+    "wave": 4,
+    "name": "バンギラス",
+    "types": [
+      "いわ",
+      "あく"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ストーンエッジ",
+        "type": "いわ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/282-1-4-008.webp",
+    "energy": 264,
+    "hp": 154,
+    "attack": 133,
+    "defense": 110,
+    "spAttack": 96,
+    "spDefense": 101
+  },
+  {
+    "id": "283-1-4-009",
+    "label": "1-4-009",
+    "wave": 4,
+    "name": "メタグロス",
+    "types": [
+      "はがね",
+      "エスパー"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "コメットパンチ",
+        "type": "はがね"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/283-1-4-009.webp",
+    "energy": 264,
+    "hp": 134,
+    "attack": 134,
+    "defense": 129,
+    "spAttack": 67,
+    "spDefense": 94
+  },
+  {
+    "id": "284-1-4-010",
+    "label": "1-4-010",
+    "wave": 4,
+    "name": "ウガツホムラ",
+    "types": [
+      "ほのお",
+      "ドラゴン"
+    ],
+    "grade": 5,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "だいふんげき",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/284-1-4-010.webp",
+    "energy": 260,
+    "hp": 158,
+    "attack": 115,
+    "defense": 121,
+    "spAttack": 67,
+    "spDefense": 94
+  },
+  {
+    "id": "285-1-4-011",
+    "label": "1-4-011",
+    "wave": 4,
+    "name": "ブリガロン",
+    "types": [
+      "くさ",
+      "かくとう"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "アームハンマー",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/285-1-4-011.webp",
+    "energy": 216,
+    "hp": 131,
+    "attack": 99,
+    "defense": 112,
+    "spAttack": 70,
+    "spDefense": 71
+  },
+  {
+    "id": "286-1-4-012",
+    "label": "1-4-012",
+    "wave": 4,
+    "name": "マフォクシー",
+    "types": [
+      "ほのお",
+      "エスパー"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "だいもんじ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/286-1-4-012.webp",
+    "energy": 220,
+    "hp": 120,
+    "attack": 65,
+    "defense": 68,
+    "spAttack": 105,
+    "spDefense": 93
+  },
+  {
+    "id": "287-1-4-013",
+    "label": "1-4-013",
+    "wave": 4,
+    "name": "ゲッコウガ",
+    "types": [
+      "みず",
+      "あく"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずしゅりけん",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/287-1-4-013.webp",
+    "energy": 216,
+    "hp": 117,
+    "attack": 88,
+    "defense": 63,
+    "spAttack": 95,
+    "spDefense": 67
+  },
+  {
+    "id": "288-1-4-014",
+    "label": "1-4-014",
+    "wave": 4,
+    "name": "サケブシッポ",
+    "types": [
+      "フェアリー",
+      "エスパー"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "じゃれつく",
+        "type": "フェアリー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/288-1-4-014.webp",
+    "energy": 224,
+    "hp": 151,
+    "attack": 60,
+    "defense": 90,
+    "spAttack": 60,
+    "spDefense": 103
+  },
+  {
+    "id": "289-1-4-015",
+    "label": "1-4-015",
+    "wave": 4,
+    "name": "ハバタクカミ",
+    "types": [
+      "ゴースト",
+      "フェアリー"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "シャドーボール",
+        "type": "ゴースト"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/289-1-4-015.webp",
+    "energy": 228,
+    "hp": 100,
+    "attack": 52,
+    "defense": 52,
+    "spAttack": 121,
+    "spDefense": 121
+  },
+  {
+    "id": "290-1-4-016",
+    "label": "1-4-016",
+    "wave": 4,
+    "name": "テツノツツミ",
+    "types": [
+      "こおり",
+      "みず"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "れいとうビーム",
+        "type": "こおり"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/290-1-4-016.webp",
+    "energy": 228,
+    "hp": 101,
+    "attack": 73,
+    "defense": 103,
+    "spAttack": 111,
+    "spDefense": 56
+  },
+  {
+    "id": "291-1-4-017",
+    "label": "1-4-017",
+    "wave": 4,
+    "name": "テツノカイナ",
+    "types": [
+      "かくとう",
+      "でんき"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "インファイト",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/291-1-4-017.webp",
+    "energy": 228,
+    "hp": 185,
+    "attack": 125,
+    "defense": 97,
+    "spAttack": 48,
+    "spDefense": 63
+  },
+  {
+    "id": "292-1-4-018",
+    "label": "1-4-018",
+    "wave": 4,
+    "name": "パウッツェル",
+    "types": [
+      "フェアリー"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "じゃれつく",
+        "type": "フェアリー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/292-1-4-018.webp",
+    "energy": 204,
+    "hp": 106,
+    "attack": 77,
+    "defense": 108,
+    "spAttack": 50,
+    "spDefense": 77
+  },
+  {
+    "id": "293-1-4-019",
+    "label": "1-4-019",
+    "wave": 4,
+    "name": "デカヌチャン",
+    "types": [
+      "フェアリー",
+      "はがね"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "デカハンマー",
+        "type": "はがね"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/293-1-4-019.webp",
+    "energy": 208,
+    "hp": 128,
+    "attack": 71,
+    "defense": 72,
+    "spAttack": 66,
+    "spDefense": 97
+  },
+  {
+    "id": "294-1-4-020",
+    "label": "1-4-020",
+    "wave": 4,
+    "name": "オンバーン",
+    "types": [
+      "ひこう",
+      "ドラゴン"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "エアスラッシュ",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/294-1-4-020.webp",
+    "energy": 220,
+    "hp": 128,
+    "attack": 66,
+    "defense": 75,
+    "spAttack": 90,
+    "spDefense": 75
+  },
+  {
+    "id": "295-1-4-021",
+    "label": "1-4-021",
+    "wave": 4,
+    "name": "ギガイアス",
+    "types": [
+      "いわ"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ストーンエッジ",
+        "type": "いわ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/295-1-4-021.webp",
+    "energy": 212,
+    "hp": 128,
+    "attack": 123,
+    "defense": 119,
+    "spAttack": 57,
+    "spDefense": 75
+  },
+  {
+    "id": "296-1-4-022",
+    "label": "1-4-022",
+    "wave": 4,
+    "name": "シビルドン",
+    "types": [
+      "でんき"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "でんじほう",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/296-1-4-022.webp",
+    "energy": 212,
+    "hp": 128,
+    "attack": 106,
+    "defense": 75,
+    "spAttack": 97,
+    "spDefense": 75
+  },
+  {
+    "id": "297-1-4-023",
+    "label": "1-4-023",
+    "wave": 4,
+    "name": "ファイアロー",
+    "types": [
+      "ほのお",
+      "ひこう"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ブレイブバード",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/297-1-4-023.webp",
+    "energy": 208,
+    "hp": 122,
+    "attack": 76,
+    "defense": 67,
+    "spAttack": 70,
+    "spDefense": 65
+  },
+  {
+    "id": "298-1-4-024",
+    "label": "1-4-024",
+    "wave": 4,
+    "name": "ラプラス",
+    "types": [
+      "みず",
+      "こおり"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "れいとうビーム",
+        "type": "こおり"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/298-1-4-024.webp",
+    "energy": 220,
+    "hp": 168,
+    "attack": 79,
+    "defense": 75,
+    "spAttack": 79,
+    "spDefense": 88
+  },
+  {
+    "id": "299-1-4-025",
+    "label": "1-4-025",
+    "wave": 4,
+    "name": "バサギリ",
+    "types": [
+      "むし",
+      "いわ"
+    ],
+    "grade": 4,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "がんせきアックス",
+        "type": "いわ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/299-1-4-025.webp",
+    "energy": 208,
+    "hp": 115,
+    "attack": 123,
+    "defense": 88,
+    "spAttack": 44,
+    "spDefense": 66
+  },
+  {
+    "id": "300-1-4-026",
+    "label": "1-4-026",
+    "wave": 4,
+    "name": "フシギダネ",
+    "types": [
+      "くさ",
+      "どく"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "つるのムチ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/300-1-4-026.webp",
+    "energy": 104,
+    "hp": 68,
+    "attack": 35,
+    "defense": 35,
+    "spAttack": 45,
+    "spDefense": 45
+  },
+  {
+    "id": "301-1-4-027",
+    "label": "1-4-027",
+    "wave": 4,
+    "name": "フシギソウ",
+    "types": [
+      "くさ",
+      "どく"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "くさわけ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/301-1-4-027.webp",
+    "energy": 128,
+    "hp": 78,
+    "attack": 43,
+    "defense": 44,
+    "spAttack": 54,
+    "spDefense": 54
+  },
+  {
+    "id": "302-1-4-028",
+    "label": "1-4-028",
+    "wave": 4,
+    "name": "フシギバナ",
+    "types": [
+      "くさ",
+      "どく"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "マジカルリーフ",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/302-1-4-028.webp",
+    "energy": 168,
+    "hp": 98,
+    "attack": 60,
+    "defense": 61,
+    "spAttack": 73,
+    "spDefense": 73
+  },
+  {
+    "id": "303-1-4-029",
+    "label": "1-4-029",
+    "wave": 4,
+    "name": "ヒトカゲ",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ひのこ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/303-1-4-029.webp",
+    "energy": 104,
+    "hp": 65,
+    "attack": 37,
+    "defense": 31,
+    "spAttack": 42,
+    "spDefense": 36
+  },
+  {
+    "id": "304-1-4-030",
+    "label": "1-4-030",
+    "wave": 4,
+    "name": "リザード",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ニトロチャージ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/304-1-4-030.webp",
+    "energy": 124,
+    "hp": 76,
+    "attack": 44,
+    "defense": 40,
+    "spAttack": 54,
+    "spDefense": 45
+  },
+  {
+    "id": "305-1-4-031",
+    "label": "1-4-031",
+    "wave": 4,
+    "name": "リザードン",
+    "types": [
+      "ほのお",
+      "ひこう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ほのおのキバ",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/305-1-4-031.webp",
+    "energy": 172,
+    "hp": 97,
+    "attack": 62,
+    "defense": 58,
+    "spAttack": 79,
+    "spDefense": 62
+  },
+  {
+    "id": "306-1-4-032",
+    "label": "1-4-032",
+    "wave": 4,
+    "name": "ゼニガメ",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずでっぽう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/306-1-4-032.webp",
+    "energy": 104,
+    "hp": 68,
+    "attack": 34,
+    "defense": 45,
+    "spAttack": 36,
+    "spDefense": 44
+  },
+  {
+    "id": "307-1-4-033",
+    "label": "1-4-033",
+    "wave": 4,
+    "name": "カメール",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ひやみず",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/307-1-4-033.webp",
+    "energy": 124,
+    "hp": 77,
+    "attack": 44,
+    "defense": 54,
+    "spAttack": 45,
+    "spDefense": 54
+  },
+  {
+    "id": "308-1-4-034",
+    "label": "1-4-034",
+    "wave": 4,
+    "name": "カメックス",
+    "types": [
+      "みず"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みずのはどう",
+        "type": "みず"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/308-1-4-034.webp",
+    "energy": 172,
+    "hp": 97,
+    "attack": 61,
+    "defense": 73,
+    "spAttack": 62,
+    "spDefense": 76
+  },
+  {
+    "id": "315-1-4-035",
+    "label": "1-4-035",
+    "wave": 4,
+    "name": "タマンチュラ",
+    "types": [
+      "むし"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "むしのていこう",
+        "type": "むし"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/315-1-4-035.webp",
+    "energy": 76,
+    "hp": 62,
+    "attack": 30,
+    "defense": 32,
+    "spAttack": 22,
+    "spDefense": 29
+  },
+  {
+    "id": "316-1-4-036",
+    "label": "1-4-036",
+    "wave": 4,
+    "name": "ワナイダー",
+    "types": [
+      "むし"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "むしくい",
+        "type": "むし"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/316-1-4-036.webp",
+    "energy": 136,
+    "hp": 84,
+    "attack": 58,
+    "defense": 67,
+    "spAttack": 40,
+    "spDefense": 63
+  },
+  {
+    "id": "317-1-4-037",
+    "label": "1-4-037",
+    "wave": 4,
+    "name": "パピモッチ",
+    "types": [
+      "フェアリー"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "たいあたり",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/317-1-4-037.webp",
+    "energy": 104,
+    "hp": 63,
+    "attack": 39,
+    "defense": 48,
+    "spAttack": 23,
+    "spDefense": 39
+  },
+  {
+    "id": "318-1-4-038",
+    "label": "1-4-038",
+    "wave": 4,
+    "name": "バウッツェル",
+    "types": [
+      "フェアリー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ほしがる",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/318-1-4-038.webp",
+    "energy": 156,
+    "hp": 82,
+    "attack": 59,
+    "defense": 83,
+    "spAttack": 39,
+    "spDefense": 59
+  },
+  {
+    "id": "319-1-4-039",
+    "label": "1-4-039",
+    "wave": 4,
+    "name": "カヌチャン",
+    "types": [
+      "フェアリー",
+      "はがね"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/319-1-4-039.webp",
+    "energy": 100,
+    "hp": 72,
+    "attack": 32,
+    "defense": 32,
+    "spAttack": 26,
+    "spDefense": 44
+  },
+  {
+    "id": "320-1-4-040",
+    "label": "1-4-040",
+    "wave": 4,
+    "name": "ナカヌチャン",
+    "types": [
+      "フェアリー",
+      "はがね"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ドレインキッス",
+        "type": "フェアリー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/320-1-4-040.webp",
+    "energy": 120,
+    "hp": 81,
+    "attack": 39,
+    "defense": 39,
+    "spAttack": 32,
+    "spDefense": 55
+  },
+  {
+    "id": "321-1-4-041",
+    "label": "1-4-041",
+    "wave": 4,
+    "name": "デカヌチャン",
+    "types": [
+      "フェアリー",
+      "はがね"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/321-1-4-041.webp",
+    "energy": 164,
+    "hp": 101,
+    "attack": 56,
+    "defense": 57,
+    "spAttack": 52,
+    "spDefense": 76
+  },
+  {
+    "id": "322-1-4-042",
+    "label": "1-4-042",
+    "wave": 4,
+    "name": "ドッコラー",
+    "types": [
+      "かくとう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "はたく",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/322-1-4-042.webp",
+    "energy": 100,
+    "hp": 87,
+    "attack": 54,
+    "defense": 39,
+    "spAttack": 20,
+    "spDefense": 26
+  },
+  {
+    "id": "323-1-4-043",
+    "label": "1-4-043",
+    "wave": 4,
+    "name": "ドッテコツ",
+    "types": [
+      "かくとう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ローキック",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/323-1-4-043.webp",
+    "energy": 124,
+    "hp": 93,
+    "attack": 70,
+    "defense": 57,
+    "spAttack": 29,
+    "spDefense": 36
+  },
+  {
+    "id": "324-1-4-044",
+    "label": "1-4-044",
+    "wave": 4,
+    "name": "ローブシン",
+    "types": [
+      "かくとう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "かわらわり",
+        "type": "かくとう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/324-1-4-044.webp",
+    "energy": 164,
+    "hp": 115,
+    "attack": 100,
+    "defense": 69,
+    "spAttack": 42,
+    "spDefense": 49
+  },
+  {
+    "id": "325-1-4-045",
+    "label": "1-4-045",
+    "wave": 4,
+    "name": "パラス",
+    "types": [
+      "むし",
+      "くさ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "すいとる",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/325-1-4-045.webp",
+    "energy": 96,
+    "hp": 62,
+    "attack": 48,
+    "defense": 39,
+    "spAttack": 32,
+    "spDefense": 39
+  },
+  {
+    "id": "326-1-4-046",
+    "label": "1-4-046",
+    "wave": 4,
+    "name": "パラセクト",
+    "types": [
+      "むし",
+      "くさ"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ギガドレイン",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/326-1-4-046.webp",
+    "energy": 136,
+    "hp": 84,
+    "attack": 69,
+    "defense": 59,
+    "spAttack": 45,
+    "spDefense": 59
+  },
+  {
+    "id": "331-1-4-047",
+    "label": "1-4-047",
+    "wave": 4,
+    "name": "コンバン",
+    "types": [
+      "むし",
+      "どく"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "とびつく",
+        "type": "むし"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/331-1-4-047.webp",
+    "energy": 100,
+    "hp": 78,
+    "attack": 39,
+    "defense": 36,
+    "spAttack": 29,
+    "spDefense": 39
+  },
+  {
+    "id": "332-1-4-048",
+    "label": "1-4-048",
+    "wave": 4,
+    "name": "モルフォン",
+    "types": [
+      "むし",
+      "どく"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ベノムショック",
+        "type": "どく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/332-1-4-048.webp",
+    "energy": 148,
+    "hp": 91,
+    "attack": 49,
+    "defense": 45,
+    "spAttack": 66,
+    "spDefense": 56
+  },
+  {
+    "id": "333-1-4-049",
+    "label": "1-4-049",
+    "wave": 4,
+    "name": "ドードー",
+    "types": [
+      "ノーマル",
+      "ひこう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "つつく",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/333-1-4-049.webp",
+    "energy": 100,
+    "hp": 62,
+    "attack": 57,
+    "defense": 32,
+    "spAttack": 26,
+    "spDefense": 26
+  },
+  {
+    "id": "334-1-4-050",
+    "label": "1-4-050",
+    "wave": 4,
+    "name": "ドードリオ",
+    "types": [
+      "ノーマル",
+      "ひこう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "みだれづき",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/334-1-4-050.webp",
+    "energy": 152,
+    "hp": 84,
+    "attack": 79,
+    "defense": 52,
+    "spAttack": 45,
+    "spDefense": 45
+  },
+  {
+    "id": "335-1-4-051",
+    "label": "1-4-051",
+    "wave": 4,
+    "name": "リリーラ",
+    "types": [
+      "いわ",
+      "くさ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "メガドレイン",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/335-1-4-051.webp",
+    "energy": 112,
+    "hp": 81,
+    "attack": 30,
+    "defense": 52,
+    "spAttack": 42,
+    "spDefense": 58
+  },
+  {
+    "id": "336-1-4-052",
+    "label": "1-4-052",
+    "wave": 4,
+    "name": "ユレイドル",
+    "types": [
+      "いわ",
+      "くさ"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/336-1-4-052.webp",
+    "energy": 160,
+    "hp": 102,
+    "attack": 60,
+    "defense": 70,
+    "spAttack": 60,
+    "spDefense": 77
+  },
+  {
+    "id": "337-1-4-053",
+    "label": "1-4-053",
+    "wave": 4,
+    "name": "ミツハニー",
+    "types": [
+      "むし",
+      "ひこう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/337-1-4-053.webp",
+    "energy": 88,
+    "hp": 59,
+    "attack": 23,
+    "defense": 31,
+    "spAttack": 23,
+    "spDefense": 31
+  },
+  {
+    "id": "338-1-4-054",
+    "label": "1-4-054",
+    "wave": 4,
+    "name": "ビークイン",
+    "types": [
+      "むし",
+      "ひこう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/338-1-4-054.webp",
+    "energy": 156,
+    "hp": 91,
+    "attack": 59,
+    "defense": 74,
+    "spAttack": 59,
+    "spDefense": 74
+  },
+  {
+    "id": "339-1-4-055",
+    "label": "1-4-055",
+    "wave": 4,
+    "name": "ムウマ",
+    "types": [
+      "ゴースト"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/339-1-4-055.webp",
+    "energy": 132,
+    "hp": 78,
+    "attack": 42,
+    "defense": 42,
+    "spAttack": 57,
+    "spDefense": 57
+  },
+  {
+    "id": "340-1-4-056",
+    "label": "1-4-056",
+    "wave": 4,
+    "name": "ムウマージ",
+    "types": [
+      "ゴースト"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "たたりめ",
+        "type": "ゴースト"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/340-1-4-056.webp",
+    "energy": 160,
+    "hp": 84,
+    "attack": 45,
+    "defense": 45,
+    "spAttack": 76,
+    "spDefense": 76
+  },
+  {
+    "id": "341-1-4-057",
+    "label": "1-4-057",
+    "wave": 4,
+    "name": "ヤミカラス",
+    "types": [
+      "あく",
+      "ひこう"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/341-1-4-057.webp",
+    "energy": 128,
+    "hp": 78,
+    "attack": 57,
+    "defense": 31,
+    "spAttack": 57,
+    "spDefense": 31
+  },
+  {
+    "id": "342-1-4-058",
+    "label": "1-4-058",
+    "wave": 4,
+    "name": "ドンカラス",
+    "types": [
+      "あく",
+      "ひこう"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ふいうち",
+        "type": "あく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/342-1-4-058.webp",
+    "energy": 164,
+    "hp": 112,
+    "attack": 90,
+    "defense": 40,
+    "spAttack": 76,
+    "spDefense": 40
+  },
+  {
+    "id": "343-1-4-059",
+    "label": "1-4-059",
+    "wave": 4,
+    "name": "ウソハチ",
+    "types": [
+      "いわ"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "いわおとし",
+        "type": "いわ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/343-1-4-059.webp",
+    "energy": 96,
+    "hp": 72,
+    "attack": 54,
+    "defense": 63,
+    "spAttack": 11,
+    "spDefense": 32
+  },
+  {
+    "id": "344-1-4-060",
+    "label": "1-4-060",
+    "wave": 4,
+    "name": "ウソッキー",
+    "types": [
+      "いわ"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "いわなだれ",
+        "type": "いわ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/344-1-4-060.webp",
+    "energy": 140,
+    "hp": 91,
+    "attack": 73,
+    "defense": 83,
+    "spAttack": 25,
+    "spDefense": 49
+  },
+  {
+    "id": "345-1-4-061",
+    "label": "1-4-061",
+    "wave": 4,
+    "name": "カチコール",
+    "types": [
+      "こおり"
+    ],
+    "grade": 2,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/345-1-4-061.webp",
+    "energy": 100,
+    "hp": 75,
+    "attack": 47,
+    "defense": 57,
+    "spAttack": 24,
+    "spDefense": 26
+  },
+  {
+    "id": "346-1-4-062",
+    "label": "1-4-062",
+    "wave": 4,
+    "name": "調査中",
+    "types": [],
+    "grade": 3,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/346-1-4-062.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "347-1-4-063",
+    "label": "1-4-063",
+    "wave": 4,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/347-1-4-063.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "348-1-4-064",
+    "label": "1-4-064",
+    "wave": 4,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/348-1-4-064.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "349-1-4-065",
+    "label": "1-4-065",
+    "wave": 4,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/349-1-4-065.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "350-1-4-066",
+    "label": "1-4-066",
+    "wave": 4,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/350-1-4-066.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "351-1-4-067",
+    "label": "1-4-067",
+    "wave": 4,
+    "name": "イーブイ",
+    "types": [
+      "ノーマル"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "ほしがる",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/351-1-4-067.webp",
+    "energy": 116,
+    "hp": 81,
+    "attack": 42,
+    "defense": 39,
+    "spAttack": 35,
+    "spDefense": 49
+  },
+  {
+    "id": "352-1-4-068",
+    "label": "1-4-068",
+    "wave": 4,
+    "name": "クチート",
+    "types": [
+      "はがね",
+      "フェアリー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "かみつく",
+        "type": "あく"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/352-1-4-068.webp",
+    "energy": 132,
+    "hp": 78,
+    "attack": 62,
+    "defense": 62,
+    "spAttack": 42,
+    "spDefense": 42
+  },
+  {
+    "id": "353-1-4-069",
+    "label": "1-4-069",
+    "wave": 4,
+    "name": "デデンネ",
+    "types": [
+      "でんき",
+      "フェアリー"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "パラボラチャージ",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/353-1-4-069.webp",
+    "energy": 144,
+    "hp": 89,
+    "attack": 44,
+    "defense": 43,
+    "spAttack": 60,
+    "spDefense": 50
+  },
+  {
+    "id": "354-1-4-070",
+    "label": "1-4-070",
+    "wave": 4,
+    "name": "ダダリン",
+    "types": [
+      "ゴースト",
+      "くさ"
+    ],
+    "grade": 3,
+    "isPromo": false,
+    "released": true,
+    "moves": [
+      {
+        "name": "たたりめ",
+        "type": "ゴースト"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/354-1-4-070.webp",
+    "energy": 168,
+    "hp": 91,
+    "attack": 94,
+    "defense": 73,
+    "spAttack": 63,
+    "spDefense": 66
+  },
+  {
+    "id": "329-P",
+    "label": "P",
+    "wave": 4,
+    "name": "パーモット",
+    "types": [
+      "でんき",
+      "かくとう"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "でんこうそうげき",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/329-P.webp",
+    "energy": 236,
+    "hp": 134,
+    "attack": 124,
+    "defense": 77,
+    "spAttack": 77,
+    "spDefense": 67
+  },
+  {
+    "id": "276-P",
+    "label": "P",
+    "wave": 4,
+    "name": "テラパゴス",
+    "types": [
+      "ノーマル"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "テラクラスター",
+        "type": "ノーマル"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/276-P.webp",
+    "energy": 164,
+    "hp": 94,
+    "attack": 60,
+    "defense": 68,
+    "spAttack": 65,
+    "spDefense": 68
+  },
+  {
+    "id": "327-P",
+    "label": "P",
+    "wave": 4,
+    "name": "メルメタル",
+    "types": [
+      "はがね"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "ダブルパンツァー",
+        "type": "はがね"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/327-P.webp",
+    "energy": 184,
+    "hp": 132,
+    "attack": 99,
+    "defense": 99,
+    "spAttack": 57,
+    "spDefense": 47
+  },
+  {
+    "id": "330-P",
+    "label": "P",
+    "wave": 4,
+    "name": "アーマーガア",
+    "types": [
+      "ひこう",
+      "はがね"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "ブレイブバード",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/330-P.webp",
+    "energy": 236,
+    "hp": 160,
+    "attack": 93,
+    "defense": 112,
+    "spAttack": 59,
+    "spDefense": 91
+  },
+  {
+    "id": "328-P",
+    "label": "P",
+    "wave": 4,
+    "name": "キョジオーン",
+    "types": [
+      "いわ"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "ストーンエッジ",
+        "type": "いわ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/328-P.webp",
+    "energy": 236,
+    "hp": 160,
+    "attack": 105,
+    "defense": 135,
+    "spAttack": 50,
+    "spDefense": 95
+  },
+  {
+    "id": "310-P",
+    "label": "P",
+    "wave": 4,
+    "name": "キュレム",
+    "types": [
+      "ドラゴン",
+      "こおり"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "ふぶき",
+        "type": "こおり"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/310-P.webp",
+    "energy": 196,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "312-P",
+    "label": "P",
+    "wave": 4,
+    "name": "レシラム",
+    "types": [
+      "ドラゴン",
+      "ほのお"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "クロスフレイム",
+        "type": "ほのお"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/312-P.webp",
+    "energy": 200,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "313-P",
+    "label": "P",
+    "wave": 4,
+    "name": "レックウザ",
+    "types": [
+      "ドラゴン",
+      "ひこう"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "ガリョウテンセイ",
+        "type": "ひこう"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/313-P.webp",
+    "energy": 200,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "356-P",
+    "label": "P",
+    "wave": 4,
+    "name": "シャワーズ",
+    "types": [],
+    "grade": null,
+    "isPromo": true,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/356-P.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "357-P",
+    "label": "P",
+    "wave": 4,
+    "name": "サンダース",
+    "types": [],
+    "grade": null,
+    "isPromo": true,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/357-P.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "358-P",
+    "label": "P",
+    "wave": 4,
+    "name": "ブースター",
+    "types": [],
+    "grade": null,
+    "isPromo": true,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/358-P.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "359-P",
+    "label": "P",
+    "wave": 4,
+    "name": "ニンフィア",
+    "types": [],
+    "grade": null,
+    "isPromo": true,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/359-P.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "309-P",
+    "label": "P",
+    "wave": 4,
+    "name": "オーガポン",
+    "types": [
+      "くさ"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "ツタこんぼう",
+        "type": "くさ"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/309-P.webp",
+    "energy": 180,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "355-P",
+    "label": "P",
+    "wave": 4,
+    "name": "デオキシス",
+    "types": [
+      "エスパー"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "サイコブースト",
+        "type": "エスパー"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/355-P.webp",
+    "energy": 184,
+    "hp": 76,
+    "attack": 104,
+    "defense": 38,
+    "spAttack": 104,
+    "spDefense": 38
+  },
+  {
+    "id": "311-P",
+    "label": "P",
+    "wave": 4,
+    "name": "ゼクロム",
+    "types": [
+      "ドラゴン",
+      "でんき"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "クロスサンダー",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/311-P.webp",
+    "energy": 200,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "314-P",
+    "label": "P",
+    "wave": 4,
+    "name": "ピカチュウ",
+    "types": [
+      "でんき"
+    ],
+    "grade": null,
+    "isPromo": true,
+    "released": true,
+    "moves": [
+      {
+        "name": "１０まんボルト",
+        "type": "でんき"
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/4th/314-P.webp",
+    "energy": 168,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "361-1-5-001",
+    "label": "1-5-001",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/361-1-5-001.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "362-1-5-002",
+    "label": "1-5-002",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/362-1-5-002.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "363-1-5-003",
+    "label": "1-5-003",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/363-1-5-003.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "364-1-5-004",
+    "label": "1-5-004",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/364-1-5-004.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "365-1-5-005",
+    "label": "1-5-005",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/365-1-5-005.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "366-1-5-006",
+    "label": "1-5-006",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/366-1-5-006.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "367-1-5-007",
+    "label": "1-5-007",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/367-1-5-007.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "368-1-5-008",
+    "label": "1-5-008",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/368-1-5-008.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "369-1-5-009",
+    "label": "1-5-009",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/369-1-5-009.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "370-1-5-010",
+    "label": "1-5-010",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/370-1-5-010.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "371-1-5-011",
+    "label": "1-5-011",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/371-1-5-011.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "372-1-5-012",
+    "label": "1-5-012",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/372-1-5-012.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "373-1-5-013",
+    "label": "1-5-013",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/373-1-5-013.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "374-1-5-014",
+    "label": "1-5-014",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/374-1-5-014.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "375-1-5-015",
+    "label": "1-5-015",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/375-1-5-015.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "376-1-5-016",
+    "label": "1-5-016",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/376-1-5-016.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  },
+  {
+    "id": "377-1-5-017",
+    "label": "1-5-017",
+    "wave": 5,
+    "name": "調査中",
+    "types": [],
+    "grade": null,
+    "isPromo": false,
+    "released": false,
+    "moves": [
+      {
+        "name": "不明",
+        "type": null
+      }
+    ],
+    "image": "https://play-frenda.jp/assets/img/pick/5th/377-1-5-017.webp",
+    "energy": 0,
+    "hp": 0,
+    "attack": 0,
+    "defense": 0,
+    "spAttack": 0,
+    "spDefense": 0
+  }
+]

@@ -1,0 +1,5750 @@
+[
+  {
+    "id": "1-1-001",
+    "firstMoveName": "アクセルブレイク",
+    "firstMoveNameEn": "Collision Course",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-002",
+    "firstMoveName": "イナズマドライブ",
+    "firstMoveNameEn": "Electro Drift",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-003",
+    "firstMoveName": "ツタこんぼう",
+    "firstMoveNameEn": "Ivy Cudgel",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-004",
+    "firstMoveName": "トリックフラワー",
+    "firstMoveNameEn": "Flower Trick",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-005",
+    "firstMoveName": "フレアソング",
+    "firstMoveNameEn": "Torch Song",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-006",
+    "firstMoveName": "アクアステップ",
+    "firstMoveNameEn": "Aqua Step",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-007",
+    "firstMoveName": "きあいだま",
+    "firstMoveNameEn": "Focus Blast",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-008",
+    "firstMoveName": "リーフストーム",
+    "firstMoveNameEn": "Leaf Storm",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-009",
+    "firstMoveName": "だいもんじ",
+    "firstMoveNameEn": "Fire Blast",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-010",
+    "firstMoveName": "なみのり",
+    "firstMoveNameEn": "Surf",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-011",
+    "firstMoveName": "どくづき",
+    "firstMoveNameEn": "Poison Jab",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-012",
+    "firstMoveName": "サイコキネシス",
+    "firstMoveNameEn": "Psychic",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-013",
+    "firstMoveName": "じゃれつく",
+    "firstMoveNameEn": "Play Rough",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-014",
+    "firstMoveName": "リーフストーム",
+    "firstMoveNameEn": "Leaf Storm",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-015",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-1-016",
+    "firstMoveName": "ハイドロポンプ",
+    "firstMoveNameEn": "Hydro Pump",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-017",
+    "firstMoveName": "なみのり",
+    "firstMoveNameEn": "Surf",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-018",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-1-019",
+    "firstMoveName": "エナジーボール",
+    "firstMoveNameEn": "Energy Ball",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-020",
+    "firstMoveName": "１０まんボルト",
+    "firstMoveNameEn": "Thunderbolt",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-021",
+    "firstMoveName": "あなをほる",
+    "firstMoveNameEn": "Dig",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-022",
+    "firstMoveName": "アイススピナー",
+    "firstMoveNameEn": "Ice Spinner",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-023",
+    "firstMoveName": "１０まんボルト",
+    "firstMoveNameEn": "Thunderbolt",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-024",
+    "firstMoveName": "アイススピナー",
+    "firstMoveNameEn": "Ice Spinner",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-025",
+    "firstMoveName": "あなをほる",
+    "firstMoveNameEn": "Dig",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-026",
+    "firstMoveName": "このは",
+    "firstMoveNameEn": "Leafage",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-027",
+    "firstMoveName": "くさわけ",
+    "firstMoveNameEn": "Trailblaze",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-028",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-029",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-030",
+    "firstMoveName": "ニトロチャージ",
+    "firstMoveNameEn": "Flame Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-031",
+    "firstMoveName": "やきつくす",
+    "firstMoveNameEn": "Incinerate",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-032",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-033",
+    "firstMoveName": "ひやみず",
+    "firstMoveNameEn": "Chilling Water",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-034",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-035",
+    "firstMoveName": "つるのムチ",
+    "firstMoveNameEn": "Vine Whip",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-036",
+    "firstMoveName": "はっぱカッター",
+    "firstMoveNameEn": "Razor Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-037",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-038",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-039",
+    "firstMoveName": "ニトロチャージ",
+    "firstMoveNameEn": "Flame Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-040",
+    "firstMoveName": "ほのおのキバ",
+    "firstMoveNameEn": "Fire Fang",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-041",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-042",
+    "firstMoveName": "ひやみず",
+    "firstMoveNameEn": "Chilling Water",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-043",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-044",
+    "firstMoveName": "すいとる",
+    "firstMoveNameEn": "Absorb",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-045",
+    "firstMoveName": "メガドレイン",
+    "firstMoveNameEn": "Mega Drain",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-046",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-047",
+    "firstMoveName": "でんきショック",
+    "firstMoveNameEn": "Thunder Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-048",
+    "firstMoveName": "エレキネット",
+    "firstMoveNameEn": "Electroweb",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-049",
+    "firstMoveName": "こおりのつぶて",
+    "firstMoveNameEn": "Ice Shard",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-050",
+    "firstMoveName": "こおりのキバ",
+    "firstMoveNameEn": "Ice Fang",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-051",
+    "firstMoveName": "どろかけ",
+    "firstMoveNameEn": "Mud-Slap",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-052",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-053",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-054",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-055",
+    "firstMoveName": "スパーク",
+    "firstMoveNameEn": "Spark",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-056",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-057",
+    "firstMoveName": "かえんぐるま",
+    "firstMoveNameEn": "Flame Wheel",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-058",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-059",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-1-060",
+    "firstMoveName": "ゆきなだれ",
+    "firstMoveNameEn": "Avalanche",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-061",
+    "firstMoveName": "ゆきなだれ",
+    "firstMoveNameEn": "Avalanche",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-062",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-063",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-064",
+    "firstMoveName": "すいとる",
+    "firstMoveNameEn": "Absorb",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-065",
+    "firstMoveName": "はっぱカッター",
+    "firstMoveNameEn": "Razor Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-066",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-067",
+    "firstMoveName": "やきつくす",
+    "firstMoveNameEn": "Incinerate",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-068",
+    "firstMoveName": "やきつくす",
+    "firstMoveNameEn": "Incinerate",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-069",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "1-1-070",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-2-001",
+    "firstMoveName": "ガリョウテンセイ",
+    "firstMoveNameEn": "Dragon Ascent",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-002",
+    "firstMoveName": "エアロブラスト",
+    "firstMoveNameEn": "Aeroblast",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-003",
+    "firstMoveName": "せいなるほのお",
+    "firstMoveNameEn": "Sacred Fire",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-004",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-2-005",
+    "firstMoveName": "ツタこんぼう",
+    "firstMoveNameEn": "Ivy Cudgel",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-006",
+    "firstMoveName": "ダブルパンツァー",
+    "firstMoveNameEn": "Double Iron Bash",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-007",
+    "firstMoveName": "デカハンマー",
+    "firstMoveNameEn": "Gigaton Hammer",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-008",
+    "firstMoveName": "アームハンマー",
+    "firstMoveNameEn": "Hammer Arm",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-009",
+    "firstMoveName": "だいもんじ",
+    "firstMoveNameEn": "Fire Blast",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-010",
+    "firstMoveName": "みずしゅりけん",
+    "firstMoveNameEn": "Water Shuriken",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-011",
+    "firstMoveName": "エナジーボール",
+    "firstMoveNameEn": "Energy Ball",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-012",
+    "firstMoveName": "アイススピナー",
+    "firstMoveNameEn": "Ice Spinner",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-013",
+    "firstMoveName": "あなをほる",
+    "firstMoveNameEn": "Dig",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-014",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-2-015",
+    "firstMoveName": "トリックフラワー",
+    "firstMoveNameEn": "Flower Trick",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-016",
+    "firstMoveName": "フレアソング",
+    "firstMoveNameEn": "Torch Song",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-017",
+    "firstMoveName": "アクアステップ",
+    "firstMoveNameEn": "Aqua Step",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-018",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-2-019",
+    "firstMoveName": "でんこうそうげき",
+    "firstMoveNameEn": "Double Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-020",
+    "firstMoveName": "ストーンエッジ",
+    "firstMoveNameEn": "Stone Edge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-021",
+    "firstMoveName": "アイアンテール",
+    "firstMoveNameEn": "Iron Tail",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-022",
+    "firstMoveName": "アームハンマー",
+    "firstMoveNameEn": "Hammer Arm",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-023",
+    "firstMoveName": "ボディプレス",
+    "firstMoveNameEn": "Body Press",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-024",
+    "firstMoveName": "ホイールスピン",
+    "firstMoveNameEn": "Spin Out",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-025",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_ja_mismatch"
+  },
+  {
+    "id": "1-2-026",
+    "firstMoveName": "つるのムチ",
+    "firstMoveNameEn": "Vine Whip",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-027",
+    "firstMoveName": "くさわけ",
+    "firstMoveNameEn": "Trailblaze",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-028",
+    "firstMoveName": "ローキック",
+    "firstMoveNameEn": "Low Sweep",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-029",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-030",
+    "firstMoveName": "ニトロチャージ",
+    "firstMoveNameEn": "Flame Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-031",
+    "firstMoveName": "マジカルフレイム",
+    "firstMoveNameEn": "Mystical Fire",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-032",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-033",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-034",
+    "firstMoveName": "たきのぼり",
+    "firstMoveNameEn": "Waterfall",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-035",
+    "firstMoveName": "ほっぺすりすり",
+    "firstMoveNameEn": "Nuzzle",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-036",
+    "firstMoveName": "でんきショック",
+    "firstMoveNameEn": "Thunder Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-037",
+    "firstMoveName": "スパーク",
+    "firstMoveNameEn": "Spark",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-038",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-039",
+    "firstMoveName": "いわおとし",
+    "firstMoveNameEn": "Rock Throw",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-040",
+    "firstMoveName": "がんせきふうじ",
+    "firstMoveNameEn": "Rock Tomb",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-041",
+    "firstMoveName": "スモッグ",
+    "firstMoveNameEn": "Smog",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-042",
+    "firstMoveName": "ヘドロこうげき",
+    "firstMoveNameEn": "Sludge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-043",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-044",
+    "firstMoveName": "したでなめる",
+    "firstMoveNameEn": "Lick",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-045",
+    "firstMoveName": "たたりめ",
+    "firstMoveNameEn": "Hex",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-046",
+    "firstMoveName": "にどげり",
+    "firstMoveNameEn": "Double Kick",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-047",
+    "firstMoveName": "つつく",
+    "firstMoveNameEn": "Peck",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-048",
+    "firstMoveName": "アクロバット",
+    "firstMoveNameEn": "Acrobatics",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-049",
+    "firstMoveName": "ついばむ",
+    "firstMoveNameEn": "Pluck",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-050",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-051",
+    "firstMoveName": "がんせきふうじ",
+    "firstMoveNameEn": "Rock Tomb",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-052",
+    "firstMoveName": "いわなだれ",
+    "firstMoveNameEn": "Rock Slide",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-053",
+    "firstMoveName": "チャージビーム",
+    "firstMoveNameEn": "Charge Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-054",
+    "firstMoveName": "スパーク",
+    "firstMoveNameEn": "Spark",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-055",
+    "firstMoveName": "どろかけ",
+    "firstMoveNameEn": "Mud-Slap",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-056",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-057",
+    "firstMoveName": "いわくだき",
+    "firstMoveNameEn": "Rock Smash",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-058",
+    "firstMoveName": "かわらわり",
+    "firstMoveNameEn": "Brick Break",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-059",
+    "firstMoveName": "つつく",
+    "firstMoveNameEn": "Peck",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-060",
+    "firstMoveName": "エアカッター",
+    "firstMoveNameEn": "Air Cutter",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-061",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-062",
+    "firstMoveName": "ローキック",
+    "firstMoveNameEn": "Low Sweep",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-063",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-064",
+    "firstMoveName": "ふみつけ",
+    "firstMoveNameEn": "Stomp",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-065",
+    "firstMoveName": "つっぱり",
+    "firstMoveNameEn": "Arm Thrust",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-066",
+    "firstMoveName": "あてみなげ",
+    "firstMoveNameEn": "Vital Throw",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-067",
+    "firstMoveName": "はがねのつばさ",
+    "firstMoveNameEn": "Steel Wing",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-068",
+    "firstMoveName": "スパーク",
+    "firstMoveNameEn": "Spark",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-069",
+    "firstMoveName": "マッドショット",
+    "firstMoveNameEn": "Mud Shot",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-070",
+    "firstMoveName": "ドレインキッス",
+    "firstMoveNameEn": "Draining Kiss",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-001",
+    "firstMoveName": "テラクラスター",
+    "firstMoveNameEn": "Tera Starstorm",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-002",
+    "firstMoveName": "ツタこんぼう",
+    "firstMoveNameEn": "Ivy Cudgel",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-003",
+    "firstMoveName": "サイコブースト",
+    "firstMoveNameEn": "Psycho Boost",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-004",
+    "firstMoveName": "しんぴのつるぎ",
+    "firstMoveNameEn": "Secret Sword",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-005",
+    "firstMoveName": "パワーウィップ",
+    "firstMoveNameEn": "Power Whip",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-006",
+    "firstMoveName": "ドゲザン",
+    "firstMoveNameEn": "Kowtow Cleave",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-007",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-3-008",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_ja_mismatch"
+  },
+  {
+    "id": "1-3-009",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_disagree"
+  },
+  {
+    "id": "1-3-010",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-3-011",
+    "firstMoveName": "リーフストーム",
+    "firstMoveNameEn": "Leaf Storm",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-012",
+    "firstMoveName": "インファイト",
+    "firstMoveNameEn": "Close Combat",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-013",
+    "firstMoveName": "ラスターカノン",
+    "firstMoveNameEn": "Flash Cannon",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-014",
+    "firstMoveName": "インファイト",
+    "firstMoveNameEn": "Close Combat",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-015",
+    "firstMoveName": "であいがしら",
+    "firstMoveNameEn": "First Impression",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-016",
+    "firstMoveName": "エアスラッシュ",
+    "firstMoveNameEn": "Air Slash",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-017",
+    "firstMoveName": "ストーンエッジ",
+    "firstMoveNameEn": "Stone Edge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-018",
+    "firstMoveName": "どくづき",
+    "firstMoveNameEn": "Poison Jab",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-019",
+    "firstMoveName": "サイコキネシス",
+    "firstMoveNameEn": "Psychic",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-020",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-3-021",
+    "firstMoveName": "じゃれつく",
+    "firstMoveNameEn": "Play Rough",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-022",
+    "firstMoveName": "サイコキネシス",
+    "firstMoveNameEn": "Psychic",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-023",
+    "firstMoveName": "むねんのつるぎ",
+    "firstMoveNameEn": "Bitter Blade",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-024",
+    "firstMoveName": "エナジーボール",
+    "firstMoveNameEn": "Energy Ball",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-025",
+    "firstMoveName": "もえあがるいかり",
+    "firstMoveNameEn": "Fiery Wrath",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-026",
+    "firstMoveName": "すいとる",
+    "firstMoveNameEn": "Absorb",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-027",
+    "firstMoveName": "はっぱカッター",
+    "firstMoveNameEn": "Razor Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-028",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-029",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-030",
+    "firstMoveName": "マッハパンチ",
+    "firstMoveNameEn": "Mach Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-031",
+    "firstMoveName": "ローキック",
+    "firstMoveNameEn": "Low Sweep",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-032",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-033",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-034",
+    "firstMoveName": "バブルこうせん",
+    "firstMoveNameEn": "Bubble Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-035",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-036",
+    "firstMoveName": "ずつき",
+    "firstMoveNameEn": "Headbutt",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-037",
+    "firstMoveName": "むしのていこう",
+    "firstMoveNameEn": "Struggle Bug",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-038",
+    "firstMoveName": "ふいうち",
+    "firstMoveNameEn": "Sucker Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-039",
+    "firstMoveName": "アシッドボム",
+    "firstMoveNameEn": "Acid Spray",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-040",
+    "firstMoveName": "ベノムショック",
+    "firstMoveNameEn": "Venoshock",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-041",
+    "firstMoveName": "ねんりき",
+    "firstMoveNameEn": "Confusion",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-042",
+    "firstMoveName": "サイケこうせん",
+    "firstMoveNameEn": "Psybeam",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-043",
+    "firstMoveName": "はたきおとす",
+    "firstMoveNameEn": "Knock Off",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-044",
+    "firstMoveName": "にどげり",
+    "firstMoveNameEn": "Double Kick",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-045",
+    "firstMoveName": "ねんりき",
+    "firstMoveNameEn": "Confusion",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-046",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-047",
+    "firstMoveName": "サイケこうせん",
+    "firstMoveNameEn": "Psybeam",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-048",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-049",
+    "firstMoveName": "りんしょう",
+    "firstMoveNameEn": "Round",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-050",
+    "firstMoveName": "からげんき",
+    "firstMoveNameEn": "Facade",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-051",
+    "firstMoveName": "チャームボイス",
+    "firstMoveNameEn": "Disarming Voice",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-052",
+    "firstMoveName": "ドレインキッス",
+    "firstMoveNameEn": "Draining Kiss",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-053",
+    "firstMoveName": "スピードスター",
+    "firstMoveNameEn": "Swift",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-054",
+    "firstMoveName": "でんこうせっか",
+    "firstMoveNameEn": "Quick Attack",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-055",
+    "firstMoveName": "はっけい",
+    "firstMoveNameEn": "Force Palm",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-056",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-057",
+    "firstMoveName": "かみつく",
+    "firstMoveNameEn": "Bite",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-058",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-059",
+    "firstMoveName": "バークアウト",
+    "firstMoveNameEn": "Snarl",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-060",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-3-061",
+    "firstMoveName": "ヘドロこうげき",
+    "firstMoveNameEn": "Sludge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-062",
+    "firstMoveName": "くさわけ",
+    "firstMoveNameEn": "Trailblaze",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-063",
+    "firstMoveName": "はたきおとす",
+    "firstMoveNameEn": "Knock Off",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-064",
+    "firstMoveName": "ねんりき",
+    "firstMoveNameEn": "Confusion",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-065",
+    "firstMoveName": "サイケこうせん",
+    "firstMoveNameEn": "Psybeam",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-066",
+    "firstMoveName": "ねんりき",
+    "firstMoveNameEn": "Confusion",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-067",
+    "firstMoveName": "サイケこうせん",
+    "firstMoveNameEn": "Psybeam",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-068",
+    "firstMoveName": "いわくだき",
+    "firstMoveNameEn": "Rock Smash",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-069",
+    "firstMoveName": "リベンジ",
+    "firstMoveNameEn": "Revenge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-070",
+    "firstMoveName": "かわらわり",
+    "firstMoveNameEn": "Brick Break",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-001",
+    "firstMoveName": "クロスフレイム",
+    "firstMoveNameEn": "Fusion Flare",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-002",
+    "firstMoveName": "クロスサンダー",
+    "firstMoveNameEn": "Fusion Bolt",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-003",
+    "firstMoveName": "ふぶき",
+    "firstMoveNameEn": "Blizzard",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-004",
+    "firstMoveName": "ツタこんぼう",
+    "firstMoveNameEn": "Ivy Cudgel",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-005",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-4-006",
+    "firstMoveName": "ストーンエッジ",
+    "firstMoveNameEn": "Stone Edge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-007",
+    "firstMoveName": "タキオンカッター",
+    "firstMoveNameEn": "Tachyon Cutter",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-008",
+    "firstMoveName": "ストーンエッジ",
+    "firstMoveNameEn": "Stone Edge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-009",
+    "firstMoveName": "コメットパンチ",
+    "firstMoveNameEn": "Meteor Mash",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-010",
+    "firstMoveName": "だいふんげき",
+    "firstMoveNameEn": "Raging Fury",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-011",
+    "firstMoveName": "アームハンマー",
+    "firstMoveNameEn": "Hammer Arm",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-012",
+    "firstMoveName": "だいもんじ",
+    "firstMoveNameEn": "Fire Blast",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-013",
+    "firstMoveName": "みずしゅりけん",
+    "firstMoveNameEn": "Water Shuriken",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-014",
+    "firstMoveName": "じゃれつく",
+    "firstMoveNameEn": "Play Rough",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-015",
+    "firstMoveName": "シャドーボール",
+    "firstMoveNameEn": "Shadow Ball",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-016",
+    "firstMoveName": "れいとうビーム",
+    "firstMoveNameEn": "Ice Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-017",
+    "firstMoveName": "インファイト",
+    "firstMoveNameEn": "Close Combat",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-018",
+    "firstMoveName": "じゃれつく",
+    "firstMoveNameEn": "Play Rough",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-019",
+    "firstMoveName": "デカハンマー",
+    "firstMoveNameEn": "Gigaton Hammer",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-020",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_disagree"
+  },
+  {
+    "id": "1-4-021",
+    "firstMoveName": "ストーンエッジ",
+    "firstMoveNameEn": "Stone Edge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-022",
+    "firstMoveName": "でんじほう",
+    "firstMoveNameEn": "Zap Cannon",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-023",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-4-024",
+    "firstMoveName": "れいとうビーム",
+    "firstMoveNameEn": "Ice Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-025",
+    "firstMoveName": "がんせきアックス",
+    "firstMoveNameEn": "Stone Axe",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-026",
+    "firstMoveName": "つるのムチ",
+    "firstMoveNameEn": "Vine Whip",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-027",
+    "firstMoveName": "くさわけ",
+    "firstMoveNameEn": "Trailblaze",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-028",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-029",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-030",
+    "firstMoveName": "ニトロチャージ",
+    "firstMoveNameEn": "Flame Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-031",
+    "firstMoveName": "ほのおのキバ",
+    "firstMoveNameEn": "Fire Fang",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-032",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-033",
+    "firstMoveName": "ひやみず",
+    "firstMoveNameEn": "Chilling Water",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-034",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-035",
+    "firstMoveName": "むしのていこう",
+    "firstMoveNameEn": "Struggle Bug",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-036",
+    "firstMoveName": "むしくい",
+    "firstMoveNameEn": "Bug Bite",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-037",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-038",
+    "firstMoveName": "ほしがる",
+    "firstMoveNameEn": "Covet",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-039",
+    "firstMoveName": "ようせいのかぜ",
+    "firstMoveNameEn": "Fairy Wind",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-040",
+    "firstMoveName": "ドレインキッス",
+    "firstMoveNameEn": "Draining Kiss",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-041",
+    "firstMoveName": "メタルクロー",
+    "firstMoveNameEn": "Metal Claw",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-042",
+    "firstMoveName": "はたく",
+    "firstMoveNameEn": "Pound",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-043",
+    "firstMoveName": "ローキック",
+    "firstMoveNameEn": "Low Sweep",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-044",
+    "firstMoveName": "かわらわり",
+    "firstMoveNameEn": "Brick Break",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-045",
+    "firstMoveName": "すいとる",
+    "firstMoveNameEn": "Absorb",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-046",
+    "firstMoveName": "ギガドレイン",
+    "firstMoveNameEn": "Giga Drain",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-047",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-4-048",
+    "firstMoveName": "ベノムショック",
+    "firstMoveNameEn": "Venoshock",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-049",
+    "firstMoveName": "つつく",
+    "firstMoveNameEn": "Peck",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-050",
+    "firstMoveName": "みだれづき",
+    "firstMoveNameEn": "Fury Attack",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-051",
+    "firstMoveName": "メガドレイン",
+    "firstMoveNameEn": "Mega Drain",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-052",
+    "firstMoveName": "げんしのちから",
+    "firstMoveNameEn": "Ancient Power",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-053",
+    "firstMoveName": "かぜおこし",
+    "firstMoveNameEn": "Gust",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-054",
+    "firstMoveName": "はいよるいちげき",
+    "firstMoveNameEn": "Skitter Smack",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-055",
+    "firstMoveName": "おどろかす",
+    "firstMoveNameEn": "Astonish",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-056",
+    "firstMoveName": "たたりめ",
+    "firstMoveNameEn": "Hex",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-057",
+    "firstMoveName": "ダメおし",
+    "firstMoveNameEn": "Assurance",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-058",
+    "firstMoveName": "ふいうち",
+    "firstMoveNameEn": "Sucker Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-059",
+    "firstMoveName": "いわおとし",
+    "firstMoveNameEn": "Rock Throw",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-060",
+    "firstMoveName": "いわなだれ",
+    "firstMoveNameEn": "Rock Slide",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-061",
+    "firstMoveName": "こなゆき",
+    "firstMoveNameEn": "Powder Snow",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-062",
+    "firstMoveName": "こおりのキバ",
+    "firstMoveNameEn": "Ice Fang",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-063",
+    "firstMoveName": "でんこうせっか",
+    "firstMoveNameEn": "Quick Attack",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-064",
+    "firstMoveName": "バークアウト",
+    "firstMoveNameEn": "Snarl",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-065",
+    "firstMoveName": "こなゆき",
+    "firstMoveNameEn": "Powder Snow",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-066",
+    "firstMoveName": "オーロラビーム",
+    "firstMoveNameEn": "Aurora Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-067",
+    "firstMoveName": "ほしがる",
+    "firstMoveNameEn": "Covet",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-068",
+    "firstMoveName": "かみつく",
+    "firstMoveNameEn": "Bite",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-069",
+    "firstMoveName": "パラボラチャージ",
+    "firstMoveNameEn": "Parabolic Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-070",
+    "firstMoveName": "たたりめ",
+    "firstMoveNameEn": "Hex",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-001",
+    "firstMoveName": "ムーンフォース",
+    "firstMoveNameEn": "Moonblast",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-002",
+    "firstMoveName": "あくのはどう",
+    "firstMoveNameEn": "Dark Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-003",
+    "firstMoveName": "テラクラスター",
+    "firstMoveNameEn": "Tera Starstorm",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-004",
+    "firstMoveName": "かみなり",
+    "firstMoveNameEn": "Thunder",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-005",
+    "firstMoveName": "ハイドロポンプ",
+    "firstMoveNameEn": "Hydro Pump",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-006",
+    "firstMoveName": "だいふんげき",
+    "firstMoveNameEn": "Raging Fury",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-007",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_ja_mismatch"
+  },
+  {
+    "id": "1-5-008",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_disagree"
+  },
+  {
+    "id": "1-5-009",
+    "firstMoveName": "ネズミざん",
+    "firstMoveNameEn": "Population Bomb",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-010",
+    "firstMoveName": "いっちょうあがり",
+    "firstMoveNameEn": "Order Up",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-011",
+    "firstMoveName": "リーフストーム",
+    "firstMoveNameEn": "Leaf Storm",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-012",
+    "firstMoveName": "フレアドライブ",
+    "firstMoveNameEn": "Flare Blitz",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-013",
+    "firstMoveName": "ハイドロポンプ",
+    "firstMoveNameEn": "Hydro Pump",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-014",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_disagree"
+  },
+  {
+    "id": "1-5-015",
+    "firstMoveName": "だいちのちから",
+    "firstMoveNameEn": "Earth Power",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-016",
+    "firstMoveName": "アイアンヘッド",
+    "firstMoveNameEn": "Iron Head",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-017",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-5-018",
+    "firstMoveName": "インファイト",
+    "firstMoveNameEn": "Close Combat",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-019",
+    "firstMoveName": "マジカルシャイン",
+    "firstMoveNameEn": "Dazzling Gleam",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-020",
+    "firstMoveName": "１０まんボルト",
+    "firstMoveNameEn": "Thunderbolt",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-021",
+    "firstMoveName": "りゅうのはどう",
+    "firstMoveNameEn": "Dragon Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-022",
+    "firstMoveName": "サイコキネシス",
+    "firstMoveNameEn": "Psychic",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-023",
+    "firstMoveName": "あくのはどう",
+    "firstMoveNameEn": "Dark Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-024",
+    "firstMoveName": "ふぶき",
+    "firstMoveNameEn": "Blizzard",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-025",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-5-026",
+    "firstMoveName": "つるのムチ",
+    "firstMoveNameEn": "Vine Whip",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-027",
+    "firstMoveName": "くさわけ",
+    "firstMoveNameEn": "Trailblaze",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-028",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-029",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-030",
+    "firstMoveName": "ニトロチャージ",
+    "firstMoveNameEn": "Flame Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-031",
+    "firstMoveName": "ほのおのパンチ",
+    "firstMoveNameEn": "Fire Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-032",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-033",
+    "firstMoveName": "ひやみず",
+    "firstMoveNameEn": "Chilling Water",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-034",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-035",
+    "firstMoveName": "でんきショック",
+    "firstMoveNameEn": "Thunder Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-036",
+    "firstMoveName": "エレキネット",
+    "firstMoveNameEn": "Electroweb",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-037",
+    "firstMoveName": "しっぺがえし",
+    "firstMoveNameEn": "Payback",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-038",
+    "firstMoveName": "かみつく",
+    "firstMoveNameEn": "Bite",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-039",
+    "firstMoveName": "マッドショット",
+    "firstMoveNameEn": "Mud Shot",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-040",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-041",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-042",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-043",
+    "firstMoveName": "はたく",
+    "firstMoveNameEn": "Pound",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-044",
+    "firstMoveName": "チャームボイス",
+    "firstMoveNameEn": "Disarming Voice",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-045",
+    "firstMoveName": "ドレインキッス",
+    "firstMoveNameEn": "Draining Kiss",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-046",
+    "firstMoveName": "いわくだき",
+    "firstMoveNameEn": "Rock Smash",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-047",
+    "firstMoveName": "ローキック",
+    "firstMoveNameEn": "Low Sweep",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-048",
+    "firstMoveName": "かわらわり",
+    "firstMoveNameEn": "Brick Break",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-049",
+    "firstMoveName": "はたく",
+    "firstMoveNameEn": "Pound",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-050",
+    "firstMoveName": "ねんりき",
+    "firstMoveNameEn": "Confusion",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-051",
+    "firstMoveName": "サイケこうせん",
+    "firstMoveNameEn": "Psybeam",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-052",
+    "firstMoveName": "つつく",
+    "firstMoveNameEn": "Peck",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-053",
+    "firstMoveName": "ついばむ",
+    "firstMoveNameEn": "Pluck",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-054",
+    "firstMoveName": "はがねのつばさ",
+    "firstMoveNameEn": "Steel Wing",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-055",
+    "firstMoveName": "クリアスモッグ",
+    "firstMoveNameEn": "Clear Smog",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-056",
+    "firstMoveName": "ヘドロこうげき",
+    "firstMoveNameEn": "Sludge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-057",
+    "firstMoveName": "ねんりき",
+    "firstMoveNameEn": "Confusion",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-058",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-5-059",
+    "firstMoveName": "ねんりき",
+    "firstMoveNameEn": "Confusion",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-060",
+    "firstMoveName": "サイケこうせん",
+    "firstMoveNameEn": "Psybeam",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-061",
+    "firstMoveName": "メタルクロー",
+    "firstMoveNameEn": "Metal Claw",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-062",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-063",
+    "firstMoveName": "アシッドボム",
+    "firstMoveNameEn": "Acid Spray",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-064",
+    "firstMoveName": "ヘドロこうげき",
+    "firstMoveNameEn": "Sludge",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-065",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-066",
+    "firstMoveName": "かえんぐるま",
+    "firstMoveNameEn": "Flame Wheel",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-067",
+    "firstMoveName": "ずつき",
+    "firstMoveNameEn": "Headbutt",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-068",
+    "firstMoveName": "かわらわり",
+    "firstMoveNameEn": "Brick Break",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-069",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-070",
+    "firstMoveName": "りゅうのいぶき",
+    "firstMoveNameEn": "Dragon Breath",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-001",
+    "firstMoveName": "サイコブレイク",
+    "firstMoveNameEn": "Psystrike",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-002",
+    "firstMoveName": "メテオドライブ",
+    "firstMoveNameEn": "Sunsteel Strike",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-003",
+    "firstMoveName": "シャドーレイ",
+    "firstMoveNameEn": "Moongeist Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-004",
+    "firstMoveName": "じゃどくのくさり",
+    "firstMoveNameEn": "Malignant Chain",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-005",
+    "firstMoveName": "はめつのねがい",
+    "firstMoveNameEn": "Doom Desire",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-006",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-1-007",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-1-008",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-1-009",
+    "firstMoveName": "マジカルシャイン",
+    "firstMoveNameEn": "Dazzling Gleam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-010",
+    "firstMoveName": "きまぐレーザー",
+    "firstMoveNameEn": "Fickle Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-011",
+    "firstMoveName": "ソーラービーム",
+    "firstMoveNameEn": "Solar Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-012",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-1-013",
+    "firstMoveName": "ハイドロポンプ",
+    "firstMoveNameEn": "Hydro Pump",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-014",
+    "firstMoveName": "だいちのちから",
+    "firstMoveNameEn": "Earth Power",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-015",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-1-016",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-1-017",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-1-018",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-1-019",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_ja_mismatch"
+  },
+  {
+    "id": "2-1-020",
+    "firstMoveName": "ふぶき",
+    "firstMoveNameEn": "Blizzard",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-021",
+    "firstMoveName": "スターアサルト",
+    "firstMoveNameEn": "Meteor Assault",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-022",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-1-023",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-1-024",
+    "firstMoveName": "ツインビーム",
+    "firstMoveNameEn": "Twin Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-025",
+    "firstMoveName": "シャドーボール",
+    "firstMoveNameEn": "Shadow Ball",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-026",
+    "firstMoveName": "くさわけ",
+    "firstMoveNameEn": "Trailblaze",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-027",
+    "firstMoveName": "はっぱカッター",
+    "firstMoveNameEn": "Razor Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-028",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-029",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-030",
+    "firstMoveName": "かえんぐるま",
+    "firstMoveNameEn": "Flame Wheel",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-031",
+    "firstMoveName": "しっとのほのお",
+    "firstMoveNameEn": "Burning Jealousy",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-032",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-033",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-034",
+    "firstMoveName": "クイックターン",
+    "firstMoveNameEn": "Flip Turn",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-035",
+    "firstMoveName": "むしのていこう",
+    "firstMoveNameEn": "Struggle Bug",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-036",
+    "firstMoveName": "サイケこうせん",
+    "firstMoveNameEn": "Psybeam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-037",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-1-038",
+    "firstMoveName": "アシッドボム",
+    "firstMoveNameEn": "Acid Spray",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-039",
+    "firstMoveName": "ベノムショック",
+    "firstMoveNameEn": "Venoshock",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-040",
+    "firstMoveName": "ねんりき",
+    "firstMoveNameEn": "Confusion",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-041",
+    "firstMoveName": "サイケこうせん",
+    "firstMoveNameEn": "Psybeam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-042",
+    "firstMoveName": "おどろかす",
+    "firstMoveNameEn": "Astonish",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-043",
+    "firstMoveName": "たたりめ",
+    "firstMoveNameEn": "Hex",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-044",
+    "firstMoveName": "エレキネット",
+    "firstMoveNameEn": "Electroweb",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-045",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-046",
+    "firstMoveName": "サイケこうせん",
+    "firstMoveNameEn": "Psybeam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-047",
+    "firstMoveName": "かみつく",
+    "firstMoveNameEn": "Bite",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-048",
+    "firstMoveName": "したでなめる",
+    "firstMoveNameEn": "Lick",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-049",
+    "firstMoveName": "シャドーパンチ",
+    "firstMoveNameEn": "Shadow Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-050",
+    "firstMoveName": "たたりめ",
+    "firstMoveNameEn": "Hex",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-051",
+    "firstMoveName": "どろかけ",
+    "firstMoveNameEn": "Mud-Slap",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-052",
+    "firstMoveName": "マッドショット",
+    "firstMoveNameEn": "Mud Shot",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-053",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-054",
+    "firstMoveName": "チャームボイス",
+    "firstMoveNameEn": "Disarming Voice",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-055",
+    "firstMoveName": "ドレインキッス",
+    "firstMoveNameEn": "Draining Kiss",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-056",
+    "firstMoveName": "ローキック",
+    "firstMoveNameEn": "Low Sweep",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-057",
+    "firstMoveName": "むしのていこう",
+    "firstMoveNameEn": "Struggle Bug",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-058",
+    "firstMoveName": "とびつく",
+    "firstMoveNameEn": "Pounce",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-059",
+    "firstMoveName": "むしくい",
+    "firstMoveNameEn": "Bug Bite",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-060",
+    "firstMoveName": "こなゆき",
+    "firstMoveNameEn": "Powder Snow",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-061",
+    "firstMoveName": "ドレインキッス",
+    "firstMoveNameEn": "Draining Kiss",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-062",
+    "firstMoveName": "かみつく",
+    "firstMoveNameEn": "Bite",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-063",
+    "firstMoveName": "はたきおとす",
+    "firstMoveNameEn": "Knock Off",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-064",
+    "firstMoveName": "いわおとし",
+    "firstMoveNameEn": "Rock Throw",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-065",
+    "firstMoveName": "がんせきふうじ",
+    "firstMoveNameEn": "Rock Tomb",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-066",
+    "firstMoveName": "ねんりき",
+    "firstMoveNameEn": "Confusion",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-067",
+    "firstMoveName": "エアカッター",
+    "firstMoveNameEn": "Air Cutter",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-068",
+    "firstMoveName": "アイアンヘッド",
+    "firstMoveNameEn": "Iron Head",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-069",
+    "firstMoveName": "エアカッター",
+    "firstMoveNameEn": "Air Cutter",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-070",
+    "firstMoveName": "スパーク",
+    "firstMoveNameEn": "Spark",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-001",
+    "firstMoveName": "ハイドロポンプ",
+    "firstMoveNameEn": "Hydro Pump",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-002",
+    "firstMoveName": "１０まんばりき",
+    "firstMoveNameEn": "High Horsepower",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-003",
+    "firstMoveName": "シャドークロー",
+    "firstMoveNameEn": "Shadow Claw",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-004",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-2-005",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-2-006",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-2-007",
+    "firstMoveName": "ブラッドムーン",
+    "firstMoveNameEn": "Blood Moon",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-008",
+    "firstMoveName": "アーマーキャノン",
+    "firstMoveNameEn": "Armor Cannon",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-009",
+    "firstMoveName": "エナジーボール",
+    "firstMoveNameEn": "Energy Ball",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-010",
+    "firstMoveName": "しぜんのいかり",
+    "firstMoveNameEn": "Nature's Madness",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-011",
+    "firstMoveName": "シャドーボール",
+    "firstMoveNameEn": "Shadow Ball",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-012",
+    "firstMoveName": "ストーンエッジ",
+    "firstMoveNameEn": "Stone Edge",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-013",
+    "firstMoveName": "であいがしら",
+    "firstMoveNameEn": "First Impression",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-014",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-2-015",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-2-016",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-2-017",
+    "firstMoveName": "ストーンエッジ",
+    "firstMoveNameEn": "Stone Edge",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-018",
+    "firstMoveName": "エナジーボール",
+    "firstMoveNameEn": "Energy Ball",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-019",
+    "firstMoveName": "あなをほる",
+    "firstMoveNameEn": "Dig",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-020",
+    "firstMoveName": "マグマストーム",
+    "firstMoveNameEn": "Magma Storm",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-021",
+    "firstMoveName": "スチームバースト",
+    "firstMoveNameEn": "Steam Eruption",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-022",
+    "firstMoveName": "ボルテッカー",
+    "firstMoveNameEn": "Volt Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-023",
+    "firstMoveName": "れいとうビーム",
+    "firstMoveNameEn": "Ice Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-024",
+    "firstMoveName": "だいちのちから",
+    "firstMoveNameEn": "Earth Power",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-025",
+    "firstMoveName": "ソーラービーム",
+    "firstMoveNameEn": "Solar Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-026",
+    "firstMoveName": "このは",
+    "firstMoveNameEn": "Leafage",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-027",
+    "firstMoveName": "メガドレイン",
+    "firstMoveNameEn": "Mega Drain",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-028",
+    "firstMoveName": "ギガドレイン",
+    "firstMoveNameEn": "Giga Drain",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-029",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_unreadable"
+  },
+  {
+    "id": "2-2-030",
+    "firstMoveName": "にどげり",
+    "firstMoveNameEn": "Double Kick",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-031",
+    "firstMoveName": "かわらわり",
+    "firstMoveNameEn": "Brick Break",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-032",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-033",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-034",
+    "firstMoveName": "じだんだ",
+    "firstMoveNameEn": "Stomping Tantrum",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-035",
+    "firstMoveName": "つばめがえし",
+    "firstMoveNameEn": "Aerial Ace",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-036",
+    "firstMoveName": "どろかけ",
+    "firstMoveNameEn": "Mud-Slap",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-037",
+    "firstMoveName": "マッドショット",
+    "firstMoveNameEn": "Mud Shot",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-038",
+    "firstMoveName": "いわなだれ",
+    "firstMoveNameEn": "Rock Slide",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-039",
+    "firstMoveName": "このは",
+    "firstMoveNameEn": "Leafage",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-040",
+    "firstMoveName": "タネマシンガン",
+    "firstMoveNameEn": "Bullet Seed",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-041",
+    "firstMoveName": "でんきショック",
+    "firstMoveNameEn": "Thunder Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-042",
+    "firstMoveName": "エレキネット",
+    "firstMoveNameEn": "Electroweb",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-043",
+    "firstMoveName": "かみなりパンチ",
+    "firstMoveNameEn": "Thunder Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-044",
+    "firstMoveName": "でんこうせっか",
+    "firstMoveNameEn": "Quick Attack",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-045",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-046",
+    "firstMoveName": "エレキネット",
+    "firstMoveNameEn": "Electroweb",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-047",
+    "firstMoveName": "ほのおのキバ",
+    "firstMoveNameEn": "Fire Fang",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-048",
+    "firstMoveName": "こごえるかぜ",
+    "firstMoveNameEn": "Icy Wind",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-049",
+    "firstMoveName": "ゆきなだれ",
+    "firstMoveNameEn": "Avalanche",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-050",
+    "firstMoveName": "つららおとし",
+    "firstMoveNameEn": "Icicle Crash",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-051",
+    "firstMoveName": "おどろかす",
+    "firstMoveNameEn": "Astonish",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-052",
+    "firstMoveName": "ニトロチャージ",
+    "firstMoveNameEn": "Flame Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-053",
+    "firstMoveName": "たたりめ",
+    "firstMoveNameEn": "Hex",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-054",
+    "firstMoveName": "うちおとす",
+    "firstMoveNameEn": "Smack Down",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-055",
+    "firstMoveName": "げんしのちから",
+    "firstMoveNameEn": "Ancient Power",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-056",
+    "firstMoveName": "いわなだれ",
+    "firstMoveNameEn": "Rock Slide",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-057",
+    "firstMoveName": "みだれひっかき",
+    "firstMoveNameEn": "Fury Swipes",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-058",
+    "firstMoveName": "きりさく",
+    "firstMoveNameEn": "Slash",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-059",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-060",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-061",
+    "firstMoveName": "かぜおこし",
+    "firstMoveNameEn": "Gust",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-062",
+    "firstMoveName": "エアスラッシュ",
+    "firstMoveNameEn": "Air Slash",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-063",
+    "firstMoveName": "メガドレイン",
+    "firstMoveNameEn": "Mega Drain",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-064",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-065",
+    "firstMoveName": "アシッドボム",
+    "firstMoveNameEn": "Acid Spray",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-066",
+    "firstMoveName": "ベノムショック",
+    "firstMoveNameEn": "Venoshock",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-067",
+    "firstMoveName": "むしのていこう",
+    "firstMoveNameEn": "Struggle Bug",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-068",
+    "firstMoveName": "ミサイルばり",
+    "firstMoveNameEn": "Pin Missile",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-069",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-2-070",
+    "firstMoveName": "たたりめ",
+    "firstMoveNameEn": "Hex",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-001",
+    "firstMoveName": "きょじゅうざん",
+    "firstMoveNameEn": "Behemoth Blade",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-002",
+    "firstMoveName": "きょじゅうだん",
+    "firstMoveNameEn": "Behemoth Bash",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-003",
+    "firstMoveName": "いじげんラッシュ",
+    "firstMoveNameEn": "Hyperspace Fury",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-004",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-3-005",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-3-006",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-3-007",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-3-008",
+    "firstMoveName": "マジカルシャイン",
+    "firstMoveNameEn": "Dazzling Gleam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-009",
+    "firstMoveName": "エレクトロビーム",
+    "firstMoveNameEn": "Electro Shot",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-010",
+    "firstMoveName": "ウェーブタックル",
+    "firstMoveNameEn": "Wave Crash",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-011",
+    "firstMoveName": "マジカルシャイン",
+    "firstMoveNameEn": "Dazzling Gleam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-012",
+    "firstMoveName": "インファイト",
+    "firstMoveNameEn": "Close Combat",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-013",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-3-014",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-3-015",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-3-016",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-3-017",
+    "firstMoveName": "あなをほる",
+    "firstMoveNameEn": "Dig",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-018",
+    "firstMoveName": "ドゲザン",
+    "firstMoveNameEn": "Kowtow Cleave",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-019",
+    "firstMoveName": "ハイドロポンプ",
+    "firstMoveNameEn": "Hydro Pump",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-020",
+    "firstMoveName": "でんじほう",
+    "firstMoveNameEn": "Zap Cannon",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-021",
+    "firstMoveName": "ゴッドバード",
+    "firstMoveNameEn": "Sky Attack",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-022",
+    "firstMoveName": "シャドーボール",
+    "firstMoveNameEn": "Shadow Ball",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-023",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-3-024",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-3-025",
+    "firstMoveName": "りんごさん",
+    "firstMoveNameEn": "Apple Acid",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-026",
+    "firstMoveName": "はっぱカッター",
+    "firstMoveNameEn": "Razor Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-027",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-028",
+    "firstMoveName": "ギガドレイン",
+    "firstMoveNameEn": "Giga Drain",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-029",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-030",
+    "firstMoveName": "つっぱり",
+    "firstMoveNameEn": "Arm Thrust",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-031",
+    "firstMoveName": "かわらわり",
+    "firstMoveNameEn": "Brick Break",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-032",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-033",
+    "firstMoveName": "ひやみず",
+    "firstMoveNameEn": "Chilling Water",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-034",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-035",
+    "firstMoveName": "つつく",
+    "firstMoveNameEn": "Peck",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-036",
+    "firstMoveName": "アクロバット",
+    "firstMoveNameEn": "Acrobatics",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-037",
+    "firstMoveName": "エアカッター",
+    "firstMoveNameEn": "Air Cutter",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-038",
+    "firstMoveName": "つっぱり",
+    "firstMoveNameEn": "Arm Thrust",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-039",
+    "firstMoveName": "どろぼう",
+    "firstMoveNameEn": "Thief",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-040",
+    "firstMoveName": "かぜおこし",
+    "firstMoveNameEn": "Gust",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-041",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_disagree"
+  },
+  {
+    "id": "2-3-042",
+    "firstMoveName": "ドレインキッス",
+    "firstMoveNameEn": "Draining Kiss",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-043",
+    "firstMoveName": "かみなりパンチ",
+    "firstMoveNameEn": "Thunder Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-044",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-045",
+    "firstMoveName": "タネマシンガン",
+    "firstMoveNameEn": "Bullet Seed",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-046",
+    "firstMoveName": "フリーズドライ",
+    "firstMoveNameEn": "Freeze-Dry",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-047",
+    "firstMoveName": "でんきショック",
+    "firstMoveNameEn": "Thunder Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-048",
+    "firstMoveName": "チャージビーム",
+    "firstMoveNameEn": "Charge Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-049",
+    "firstMoveName": "スパーク",
+    "firstMoveNameEn": "Spark",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-050",
+    "firstMoveName": "はたく",
+    "firstMoveNameEn": "Pound",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-051",
+    "firstMoveName": "ようせいのかぜ",
+    "firstMoveNameEn": "Fairy Wind",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-052",
+    "firstMoveName": "エアスラッシュ",
+    "firstMoveNameEn": "Air Slash",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-053",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-054",
+    "firstMoveName": "ほのおのキバ",
+    "firstMoveNameEn": "Fire Fang",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-055",
+    "firstMoveName": "いわおとし",
+    "firstMoveNameEn": "Rock Throw",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-056",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-057",
+    "firstMoveName": "むしのていこう",
+    "firstMoveNameEn": "Struggle Bug",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-058",
+    "firstMoveName": "メタルクロー",
+    "firstMoveNameEn": "Metal Claw",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-059",
+    "firstMoveName": "とびつく",
+    "firstMoveNameEn": "Pounce",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-060",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-061",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-062",
+    "firstMoveName": "おどろかす",
+    "firstMoveNameEn": "Astonish",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-063",
+    "firstMoveName": "たたりめ",
+    "firstMoveNameEn": "Hex",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-064",
+    "firstMoveName": "おどろかす",
+    "firstMoveNameEn": "Astonish",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-065",
+    "firstMoveName": "りゅうのいぶき",
+    "firstMoveNameEn": "Dragon Breath",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-066",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-067",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-068",
+    "firstMoveName": "ドレインキッス",
+    "firstMoveNameEn": "Draining Kiss",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-069",
+    "firstMoveName": "はたく",
+    "firstMoveNameEn": "Pound",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-070",
+    "firstMoveName": "ダブルアタック",
+    "firstMoveNameEn": "Double Hit",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-026A",
+    "firstMoveName": "はっぱカッター",
+    "firstMoveNameEn": "Razor Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-029A",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-032A",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-043A",
+    "firstMoveName": "かみなりパンチ",
+    "firstMoveNameEn": "Thunder Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-001",
+    "firstMoveName": "グランドフォース",
+    "firstMoveNameEn": "Land's Wrath",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-002",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-4-003",
+    "firstMoveName": "アームハンマー",
+    "firstMoveNameEn": "Hammer Arm",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-004",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-4-005",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-4-006",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-4-007",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-4-008",
+    "firstMoveName": "プラズマフィスト",
+    "firstMoveNameEn": "Plasma Fists",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-009",
+    "firstMoveName": "ギガインパクト",
+    "firstMoveNameEn": "Giga Impact",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-010",
+    "firstMoveName": "シードフレア",
+    "firstMoveNameEn": "Seed Flare",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-011",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-4-012",
+    "firstMoveName": "あなをほる",
+    "firstMoveNameEn": "Dig",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-013",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-4-014",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-4-015",
+    "firstMoveName": "げきりん",
+    "firstMoveNameEn": "Outrage",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-016",
+    "firstMoveName": "せいなるつるぎ",
+    "firstMoveNameEn": "Sacred Sword",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-017",
+    "firstMoveName": "ストーンエッジ",
+    "firstMoveNameEn": "Stone Edge",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-018",
+    "firstMoveName": "れいとうビーム",
+    "firstMoveNameEn": "Ice Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-019",
+    "firstMoveName": "ラスターカノン",
+    "firstMoveNameEn": "Flash Cannon",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-020",
+    "firstMoveName": "ロックブラスト",
+    "firstMoveNameEn": "Rock Blast",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-021",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-4-022",
+    "firstMoveName": "デカハンマー",
+    "firstMoveNameEn": "Gigaton Hammer",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-023",
+    "firstMoveName": "テラクラスター",
+    "firstMoveNameEn": "Tera Starstorm",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-024",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-4-025",
+    "firstMoveName": "じゃどくのくさり",
+    "firstMoveNameEn": "Malignant Chain",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-026",
+    "firstMoveName": "つるのムチ",
+    "firstMoveNameEn": "Vine Whip",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-027",
+    "firstMoveName": "くさわけ",
+    "firstMoveNameEn": "Trailblaze",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-028",
+    "firstMoveName": "ローキック",
+    "firstMoveNameEn": "Low Sweep",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-029",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-030",
+    "firstMoveName": "ニトロチャージ",
+    "firstMoveNameEn": "Flame Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-031",
+    "firstMoveName": "マジカルフレイム",
+    "firstMoveNameEn": "Mystical Fire",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-032",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-033",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-034",
+    "firstMoveName": "たきのぼり",
+    "firstMoveNameEn": "Waterfall",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-035",
+    "firstMoveName": "でんきショック",
+    "firstMoveNameEn": "Thunder Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-036",
+    "firstMoveName": "でんこうせっか",
+    "firstMoveNameEn": "Quick Attack",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-037",
+    "firstMoveName": "ドレインキッス",
+    "firstMoveNameEn": "Draining Kiss",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-038",
+    "firstMoveName": "すなじごく",
+    "firstMoveNameEn": "Sand Tomb",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-039",
+    "firstMoveName": "ドラゴンテール",
+    "firstMoveNameEn": "Dragon Tail",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-040",
+    "firstMoveName": "ドラゴンクロー",
+    "firstMoveNameEn": "Dragon Claw",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-041",
+    "firstMoveName": "でんきショック",
+    "firstMoveNameEn": "Thunder Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-042",
+    "firstMoveName": "かみつく",
+    "firstMoveNameEn": "Bite",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-043",
+    "firstMoveName": "スパーク",
+    "firstMoveNameEn": "Spark",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-044",
+    "firstMoveName": "すなじごく",
+    "firstMoveNameEn": "Sand Tomb",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-045",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-046",
+    "firstMoveName": "じだんだ",
+    "firstMoveNameEn": "Stomping Tantrum",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-047",
+    "firstMoveName": "ひっかく",
+    "firstMoveNameEn": "Scratch",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-048",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-4-049",
+    "firstMoveName": "りゅうのはどう",
+    "firstMoveNameEn": "Dragon Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-050",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-4-051",
+    "firstMoveName": "れいとうパンチ",
+    "firstMoveNameEn": "Ice Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-052",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-053",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-4-054",
+    "firstMoveName": "いわおとし",
+    "firstMoveNameEn": "Rock Throw",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-055",
+    "firstMoveName": "いわなだれ",
+    "firstMoveNameEn": "Rock Slide",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-056",
+    "firstMoveName": "つつく",
+    "firstMoveNameEn": "Peck",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-057",
+    "firstMoveName": "りゅうのいぶき",
+    "firstMoveNameEn": "Dragon Breath",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-058",
+    "firstMoveName": "すなじごく",
+    "firstMoveNameEn": "Sand Tomb",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-059",
+    "firstMoveName": "スマートホーン",
+    "firstMoveNameEn": "Smart Strike",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-060",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-061",
+    "firstMoveName": "ベノムショック",
+    "firstMoveNameEn": "Venoshock",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-062",
+    "firstMoveName": "サイケこうせん",
+    "firstMoveNameEn": "Psybeam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-063",
+    "firstMoveName": "ニトロチャージ",
+    "firstMoveNameEn": "Flame Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-064",
+    "firstMoveName": "サイケこうせん",
+    "firstMoveNameEn": "Psybeam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-065",
+    "firstMoveName": "シャドークロー",
+    "firstMoveNameEn": "Shadow Claw",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-066",
+    "firstMoveName": "メガトンパンチ",
+    "firstMoveNameEn": "Mega Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-067",
+    "firstMoveName": "ローキック",
+    "firstMoveNameEn": "Low Sweep",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-068",
+    "firstMoveName": "シザークロス",
+    "firstMoveNameEn": "X-Scissor",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-069",
+    "firstMoveName": "かわらわり",
+    "firstMoveNameEn": "Brick Break",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-070",
+    "firstMoveName": "パラボラチャージ",
+    "firstMoveNameEn": "Parabolic Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-037★",
+    "firstMoveName": "ドレインキッス",
+    "firstMoveNameEn": "Draining Kiss",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-041★",
+    "firstMoveName": "でんきショック",
+    "firstMoveNameEn": "Thunder Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-042★",
+    "firstMoveName": "かみつく",
+    "firstMoveNameEn": "Bite",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-043★",
+    "firstMoveName": "スパーク",
+    "firstMoveNameEn": "Spark",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-052★",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-053★",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-4-026A",
+    "firstMoveName": "つるのムチ",
+    "firstMoveNameEn": "Vine Whip",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-029A",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-032A",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-070A",
+    "firstMoveName": "パラボラチャージ",
+    "firstMoveNameEn": "Parabolic Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-001",
+    "firstMoveName": "ときのほうこう",
+    "firstMoveNameEn": "Roar of Time",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-002",
+    "firstMoveName": "あくうせつだん",
+    "firstMoveNameEn": "Spacial Rend",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-003★",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-5-004★",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-5-005",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-5-006",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-5-007",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-5-008",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-5-009",
+    "firstMoveName": "ゴールドラッシュ",
+    "firstMoveNameEn": "Make It Rain",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-010",
+    "firstMoveName": "じゃれつく",
+    "firstMoveNameEn": "Play Rough",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-011",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-5-012",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-5-013",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-5-014",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-5-015",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-5-016",
+    "firstMoveName": "シャドークロー",
+    "firstMoveNameEn": "Shadow Claw",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-017",
+    "firstMoveName": "ソウルクラッシュ",
+    "firstMoveNameEn": "Spirit Break",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-018",
+    "firstMoveName": "でんこうそうげき",
+    "firstMoveNameEn": "Double Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-019",
+    "firstMoveName": "ふぶき",
+    "firstMoveNameEn": "Blizzard",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-020",
+    "firstMoveName": "かみくだく",
+    "firstMoveNameEn": "Crunch",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-021",
+    "firstMoveName": "いじげんホール",
+    "firstMoveNameEn": "Hyperspace Hole",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-022",
+    "firstMoveName": "グランドフォース",
+    "firstMoveNameEn": "Land's Wrath",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-023",
+    "firstMoveName": "トリックフラワー",
+    "firstMoveNameEn": "Flower Trick",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-024",
+    "firstMoveName": "フレアソング",
+    "firstMoveNameEn": "Torch Song",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-025",
+    "firstMoveName": "ボルテッカー",
+    "firstMoveNameEn": "Volt Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-026",
+    "firstMoveName": "このは",
+    "firstMoveNameEn": "Leafage",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-027",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-028",
+    "firstMoveName": "つじぎり",
+    "firstMoveNameEn": "Night Slash",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-029",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-030",
+    "firstMoveName": "ニトロチャージ",
+    "firstMoveNameEn": "Flame Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-031",
+    "firstMoveName": "やきつくす",
+    "firstMoveNameEn": "Incinerate",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-032",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-033",
+    "firstMoveName": "けたぐり",
+    "firstMoveNameEn": "Low Kick",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-034",
+    "firstMoveName": "かわらわり",
+    "firstMoveNameEn": "Brick Break",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-035",
+    "firstMoveName": "スパーク",
+    "firstMoveNameEn": "Spark",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-036",
+    "firstMoveName": "でんこうせっか",
+    "firstMoveNameEn": "Quick Attack",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-037",
+    "firstMoveName": "どくばり",
+    "firstMoveNameEn": "Poison Sting",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-038",
+    "firstMoveName": "ころがる",
+    "firstMoveNameEn": "Rollout",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-039",
+    "firstMoveName": "ミサイルばり",
+    "firstMoveNameEn": "Pin Missile",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-040",
+    "firstMoveName": "ねこだまし",
+    "firstMoveNameEn": "Fake Out",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-041",
+    "firstMoveName": "ダメおし",
+    "firstMoveNameEn": "Assurance",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-042",
+    "firstMoveName": "ふいうち",
+    "firstMoveNameEn": "Sucker Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-043",
+    "firstMoveName": "すなじごく",
+    "firstMoveNameEn": "Sand Tomb",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-044",
+    "firstMoveName": "がんせきふうじ",
+    "firstMoveNameEn": "Rock Tomb",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-045",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-046",
+    "firstMoveName": "ほしがる",
+    "firstMoveNameEn": "Covet",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-047",
+    "firstMoveName": "でんきショック",
+    "firstMoveNameEn": "Thunder Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-048",
+    "firstMoveName": "エレキネット",
+    "firstMoveNameEn": "Electroweb",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-049",
+    "firstMoveName": "かみなりパンチ",
+    "firstMoveNameEn": "Thunder Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-050",
+    "firstMoveName": "スピードスター",
+    "firstMoveNameEn": "Swift",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-051",
+    "firstMoveName": "サイコカッター",
+    "firstMoveNameEn": "Psycho Cut",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-052",
+    "firstMoveName": "しねんのずつき",
+    "firstMoveNameEn": "Zen Headbutt",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-053",
+    "firstMoveName": "つっぱり",
+    "firstMoveNameEn": "Arm Thrust",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-054",
+    "firstMoveName": "はっけい",
+    "firstMoveNameEn": "Force Palm",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-055",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-056",
+    "firstMoveName": "がんせきふうじ",
+    "firstMoveNameEn": "Rock Tomb",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-057",
+    "firstMoveName": "いわなだれ",
+    "firstMoveNameEn": "Rock Slide",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-058",
+    "firstMoveName": "こごえるかぜ",
+    "firstMoveNameEn": "Icy Wind",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-059",
+    "firstMoveName": "こおりのキバ",
+    "firstMoveNameEn": "Ice Fang",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-060",
+    "firstMoveName": "ねんりき",
+    "firstMoveNameEn": "Confusion",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-061",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-5-062",
+    "firstMoveName": "メタルクロー",
+    "firstMoveNameEn": "Metal Claw",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-063",
+    "firstMoveName": "アイアンヘッド",
+    "firstMoveNameEn": "Iron Head",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-064",
+    "firstMoveName": "やきつくす",
+    "firstMoveNameEn": "Incinerate",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-065",
+    "firstMoveName": "いわなだれ",
+    "firstMoveNameEn": "Rock Slide",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-066",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-067",
+    "firstMoveName": "スパーク",
+    "firstMoveNameEn": "Spark",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-068",
+    "firstMoveName": "かわらわり",
+    "firstMoveNameEn": "Brick Break",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-069",
+    "firstMoveName": "エアカッター",
+    "firstMoveNameEn": "Air Cutter",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-070",
+    "firstMoveName": "どろぼう",
+    "firstMoveNameEn": "Thief",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-040★",
+    "firstMoveName": "ねこだまし",
+    "firstMoveNameEn": "Fake Out",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-041★",
+    "firstMoveName": "ダメおし",
+    "firstMoveNameEn": "Assurance",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-042★",
+    "firstMoveName": "ふいうち",
+    "firstMoveNameEn": "Sucker Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-060★",
+    "firstMoveName": "ねんりき",
+    "firstMoveNameEn": "Confusion",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-061★",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_ja_mismatch"
+  },
+  {
+    "id": "2-5-068★",
+    "firstMoveName": "かわらわり",
+    "firstMoveNameEn": "Brick Break",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-026A",
+    "firstMoveName": "このは",
+    "firstMoveNameEn": "Leafage",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-027A",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-029A",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-030A",
+    "firstMoveName": "ニトロチャージ",
+    "firstMoveNameEn": "Flame Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-032A",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-033A",
+    "firstMoveName": "けたぐり",
+    "firstMoveNameEn": "Low Kick",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-001",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "3-1-002",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "3-1-003",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "3-1-004",
+    "firstMoveName": "リーフストーム",
+    "firstMoveNameEn": "Leaf Storm",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-005",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "3-1-006",
+    "firstMoveName": "ハイドロポンプ",
+    "firstMoveNameEn": "Hydro Pump",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-007",
+    "firstMoveName": "アクセルブレイク",
+    "firstMoveNameEn": "Collision Course",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-008",
+    "firstMoveName": "イナズマドライブ",
+    "firstMoveNameEn": "Electro Drift",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-009",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "3-1-010",
+    "firstMoveName": "シャドーレイ",
+    "firstMoveNameEn": "Moongeist Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-011",
+    "firstMoveName": "パワーウィップ",
+    "firstMoveNameEn": "Power Whip",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-012",
+    "firstMoveName": "ゴッドバード",
+    "firstMoveNameEn": "Sky Attack",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-013",
+    "firstMoveName": "スターアサルト",
+    "firstMoveNameEn": "Meteor Assault",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-014",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "3-1-015",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "3-1-016",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "3-1-017",
+    "firstMoveName": "マジカルシャイン",
+    "firstMoveNameEn": "Dazzling Gleam",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-018",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_ja_mismatch"
+  },
+  {
+    "id": "3-1-019",
+    "firstMoveName": "あなをほる",
+    "firstMoveNameEn": "Dig",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-020",
+    "firstMoveName": "あなをほる",
+    "firstMoveNameEn": "Dig",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-021",
+    "firstMoveName": "アイススピナー",
+    "firstMoveNameEn": "Ice Spinner",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-022",
+    "firstMoveName": "ストーンエッジ",
+    "firstMoveNameEn": "Stone Edge",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-023",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_ja_mismatch"
+  },
+  {
+    "id": "3-1-024",
+    "firstMoveName": "エナジーボール",
+    "firstMoveNameEn": "Energy Ball",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-025",
+    "firstMoveName": "インファイト",
+    "firstMoveNameEn": "Close Combat",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-026",
+    "firstMoveName": "つるのムチ",
+    "firstMoveNameEn": "Vine Whip",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-027",
+    "firstMoveName": "くさわけ",
+    "firstMoveNameEn": "Trailblaze",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-028",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-029",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-030",
+    "firstMoveName": "ニトロチャージ",
+    "firstMoveNameEn": "Flame Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-031",
+    "firstMoveName": "ほのおのキバ",
+    "firstMoveNameEn": "Fire Fang",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-032",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-033",
+    "firstMoveName": "ひやみず",
+    "firstMoveNameEn": "Chilling Water",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-034",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-035",
+    "firstMoveName": "つるのムチ",
+    "firstMoveNameEn": "Vine Whip",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-036",
+    "firstMoveName": "ギガドレイン",
+    "firstMoveNameEn": "Giga Drain",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-037",
+    "firstMoveName": "はたく",
+    "firstMoveNameEn": "Pound",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-038",
+    "firstMoveName": "ようせいのかぜ",
+    "firstMoveNameEn": "Fairy Wind",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-039",
+    "firstMoveName": "エアスラッシュ",
+    "firstMoveNameEn": "Air Slash",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-040",
+    "firstMoveName": "いわくだき",
+    "firstMoveNameEn": "Rock Smash",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-041",
+    "firstMoveName": "かわらわり",
+    "firstMoveNameEn": "Brick Break",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-042",
+    "firstMoveName": "でんきショック",
+    "firstMoveNameEn": "Thunder Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-043",
+    "firstMoveName": "スパーク",
+    "firstMoveNameEn": "Spark",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-044",
+    "firstMoveName": "かみなりパンチ",
+    "firstMoveNameEn": "Thunder Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-045",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-046",
+    "firstMoveName": "チャームボイス",
+    "firstMoveNameEn": "Disarming Voice",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-047",
+    "firstMoveName": "ドレインキッス",
+    "firstMoveNameEn": "Draining Kiss",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-048",
+    "firstMoveName": "したでなめる",
+    "firstMoveNameEn": "Lick",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-049",
+    "firstMoveName": "おはかまいり",
+    "firstMoveNameEn": "Last Respects",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-050",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-051",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-052",
+    "firstMoveName": "こごえるかぜ",
+    "firstMoveNameEn": "Icy Wind",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-053",
+    "firstMoveName": "こおりのキバ",
+    "firstMoveNameEn": "Ice Fang",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-054",
+    "firstMoveName": "かぜおこし",
+    "firstMoveNameEn": "Gust",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-055",
+    "firstMoveName": "つばさでうつ",
+    "firstMoveNameEn": "Wing Attack",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-056",
+    "firstMoveName": "エアスラッシュ",
+    "firstMoveNameEn": "Air Slash",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-057",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-058",
+    "firstMoveName": "バブルこうせん",
+    "firstMoveNameEn": "Bubble Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-059",
+    "firstMoveName": "ギガドレイン",
+    "firstMoveNameEn": "Giga Drain",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-060",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-061",
+    "firstMoveName": "サイケこうせん",
+    "firstMoveNameEn": "Psybeam",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-062",
+    "firstMoveName": "ずつき",
+    "firstMoveNameEn": "Headbutt",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-063",
+    "firstMoveName": "くさわけ",
+    "firstMoveNameEn": "Trailblaze",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-064",
+    "firstMoveName": "はたきおとす",
+    "firstMoveNameEn": "Knock Off",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-065",
+    "firstMoveName": "いわなだれ",
+    "firstMoveNameEn": "Rock Slide",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-066",
+    "firstMoveName": "いわなだれ",
+    "firstMoveNameEn": "Rock Slide",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-067",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-068",
+    "firstMoveName": "スパーク",
+    "firstMoveNameEn": "Spark",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-069",
+    "firstMoveName": "たたりめ",
+    "firstMoveNameEn": "Hex",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-070",
+    "firstMoveName": "かわらわり",
+    "firstMoveNameEn": "Brick Break",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-026A",
+    "firstMoveName": "つるのムチ",
+    "firstMoveNameEn": "Vine Whip",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-029A",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-032A",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-028★",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-031★",
+    "firstMoveName": "ほのおのキバ",
+    "firstMoveNameEn": "Fire Fang",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-034★",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-060★",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-071★",
+    "firstMoveName": "ばかぢから",
+    "firstMoveNameEn": "Superpower",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-072★",
+    "firstMoveName": "でんこうそうげき",
+    "firstMoveNameEn": "Double Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-W01",
+    "firstMoveName": "かみなり",
+    "firstMoveNameEn": "Thunder",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-W02",
+    "firstMoveName": "だいもんじ",
+    "firstMoveNameEn": "Fire Blast",
+    "reason": "ok"
+  },
+  {
+    "id": "3-1-W03",
+    "firstMoveName": "ハイドロポンプ",
+    "firstMoveNameEn": "Hydro Pump",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-W01",
+    "firstMoveName": "ミストボール",
+    "firstMoveNameEn": "Mist Ball",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-W02",
+    "firstMoveName": "りゅうのはどう",
+    "firstMoveNameEn": "Dragon Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-W03",
+    "firstMoveName": "むねんのつるぎ",
+    "firstMoveNameEn": "Bitter Blade",
+    "reason": "ok"
+  },
+  {
+    "id": "2-5-W04",
+    "firstMoveName": "マジカルシャイン",
+    "firstMoveNameEn": "Dazzling Gleam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-W01",
+    "firstMoveName": "サイコキネシス",
+    "firstMoveNameEn": "Psychic",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-W02",
+    "firstMoveName": "あくのはどう",
+    "firstMoveNameEn": "Dark Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "2-4-W03",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "2-4-W04",
+    "firstMoveName": "ふぶき",
+    "firstMoveNameEn": "Blizzard",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-W01",
+    "firstMoveName": "サイコキネシス",
+    "firstMoveNameEn": "Psychic",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-W02",
+    "firstMoveName": "れいとうビーム",
+    "firstMoveNameEn": "Ice Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "2-3-W03",
+    "firstMoveName": "ふぶき",
+    "firstMoveNameEn": "Blizzard",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-W01",
+    "firstMoveName": "１０まんボルト",
+    "firstMoveNameEn": "Thunderbolt",
+    "reason": "ok"
+  },
+  {
+    "id": "2-2-W02",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "2-2-W03",
+    "firstMoveName": "あくのはどう",
+    "firstMoveNameEn": "Dark Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-W01",
+    "firstMoveName": "ふぶき",
+    "firstMoveNameEn": "Blizzard",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-W02",
+    "firstMoveName": "かみなり",
+    "firstMoveNameEn": "Thunder",
+    "reason": "ok"
+  },
+  {
+    "id": "2-1-W03",
+    "firstMoveName": "だいもんじ",
+    "firstMoveNameEn": "Fire Blast",
+    "reason": "ok"
+  },
+  {
+    "id": "1-5-W01",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "1-5-W02",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "1-5-W03",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "1-5-W04",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "1-4-W01",
+    "firstMoveName": "ハイドロポンプ",
+    "firstMoveNameEn": "Hydro Pump",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-W02",
+    "firstMoveName": "１０まんボルト",
+    "firstMoveNameEn": "Thunderbolt",
+    "reason": "ok"
+  },
+  {
+    "id": "1-4-W03",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "1-4-W04",
+    "firstMoveName": "ムーンフォース",
+    "firstMoveNameEn": "Moonblast",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-W01",
+    "firstMoveName": "ガリョウテンセイ",
+    "firstMoveNameEn": "Dragon Ascent",
+    "reason": "ok"
+  },
+  {
+    "id": "1-3-W02",
+    "firstMoveName": "ガリョウテンセイ",
+    "firstMoveNameEn": "Dragon Ascent",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-W01",
+    "firstMoveName": "シャドーボール",
+    "firstMoveNameEn": "Shadow Ball",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-W02",
+    "firstMoveName": "じゃれつく",
+    "firstMoveNameEn": "Play Rough",
+    "reason": "ok"
+  },
+  {
+    "id": "1-2-W03",
+    "firstMoveName": "むねんのつるぎ",
+    "firstMoveNameEn": "Bitter Blade",
+    "reason": "ok"
+  },
+  {
+    "id": "p120",
+    "firstMoveName": "１０まんボルト",
+    "firstMoveNameEn": "Thunderbolt",
+    "reason": "ok"
+  },
+  {
+    "id": "p119",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p118",
+    "firstMoveName": "ハイドロポンプ",
+    "firstMoveNameEn": "Hydro Pump",
+    "reason": "ok"
+  },
+  {
+    "id": "p117",
+    "firstMoveName": "クロスフレイム",
+    "firstMoveNameEn": "Fusion Flare",
+    "reason": "ok"
+  },
+  {
+    "id": "p116",
+    "firstMoveName": "クロスサンダー",
+    "firstMoveNameEn": "Fusion Bolt",
+    "reason": "ok"
+  },
+  {
+    "id": "p115",
+    "firstMoveName": "ふぶき",
+    "firstMoveNameEn": "Blizzard",
+    "reason": "ok"
+  },
+  {
+    "id": "p112",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p113",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p114",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p111",
+    "firstMoveName": "ボルテッカー",
+    "firstMoveNameEn": "Volt Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "p110",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p109",
+    "firstMoveName": "プラズマフィスト",
+    "firstMoveNameEn": "Plasma Fists",
+    "reason": "ok"
+  },
+  {
+    "id": "p108",
+    "firstMoveName": "リーフストーム",
+    "firstMoveNameEn": "Leaf Storm",
+    "reason": "ok"
+  },
+  {
+    "id": "p107",
+    "firstMoveName": "テラクラスター",
+    "firstMoveNameEn": "Tera Starstorm",
+    "reason": "ok"
+  },
+  {
+    "id": "p106",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "p105",
+    "firstMoveName": "トリックフラワー",
+    "firstMoveNameEn": "Flower Trick",
+    "reason": "ok"
+  },
+  {
+    "id": "p104",
+    "firstMoveName": "フレアソング",
+    "firstMoveNameEn": "Torch Song",
+    "reason": "ok"
+  },
+  {
+    "id": "p103",
+    "firstMoveName": "ウェーブタックル",
+    "firstMoveNameEn": "Wave Crash",
+    "reason": "ok"
+  },
+  {
+    "id": "p102",
+    "firstMoveName": "サイコキネシス",
+    "firstMoveNameEn": "Psychic",
+    "reason": "ok"
+  },
+  {
+    "id": "p101",
+    "firstMoveName": "せいなるほのお",
+    "firstMoveNameEn": "Sacred Fire",
+    "reason": "ok"
+  },
+  {
+    "id": "p100",
+    "firstMoveName": "エアロブラスト",
+    "firstMoveNameEn": "Aeroblast",
+    "reason": "ok"
+  },
+  {
+    "id": "p099",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_disagree"
+  },
+  {
+    "id": "p098",
+    "firstMoveName": "ツタこんぼう",
+    "firstMoveNameEn": "Ivy Cudgel",
+    "reason": "ok"
+  },
+  {
+    "id": "p097",
+    "firstMoveName": "ツタこんぼう",
+    "firstMoveNameEn": "Ivy Cudgel",
+    "reason": "ok"
+  },
+  {
+    "id": "p096",
+    "firstMoveName": "コアパニッシャー",
+    "firstMoveNameEn": "Core Enforcer",
+    "reason": "ok"
+  },
+  {
+    "id": "p095",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_ja_mismatch"
+  },
+  {
+    "id": "p094",
+    "firstMoveName": "このは",
+    "firstMoveNameEn": "Leafage",
+    "reason": "ok"
+  },
+  {
+    "id": "p093",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "p092",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "p091",
+    "firstMoveName": "ふぶき",
+    "firstMoveNameEn": "Blizzard",
+    "reason": "ok"
+  },
+  {
+    "id": "p090",
+    "firstMoveName": "サイコブレイク",
+    "firstMoveNameEn": "Psystrike",
+    "reason": "ok"
+  },
+  {
+    "id": "p089",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "p088",
+    "firstMoveName": "ストーンエッジ",
+    "firstMoveNameEn": "Stone Edge",
+    "reason": "ok"
+  },
+  {
+    "id": "p087",
+    "firstMoveName": "タキオンカッター",
+    "firstMoveNameEn": "Tachyon Cutter",
+    "reason": "ok"
+  },
+  {
+    "id": "p086",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p085",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p084",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p083",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p082",
+    "firstMoveName": "あくのはどう",
+    "firstMoveNameEn": "Dark Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "p081",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p080",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p079",
+    "firstMoveName": "サイコブレイク",
+    "firstMoveNameEn": "Psystrike",
+    "reason": "ok"
+  },
+  {
+    "id": "p078",
+    "firstMoveName": "ハイドロポンプ",
+    "firstMoveNameEn": "Hydro Pump",
+    "reason": "ok"
+  },
+  {
+    "id": "p077",
+    "firstMoveName": "だいふんげき",
+    "firstMoveNameEn": "Raging Fury",
+    "reason": "ok"
+  },
+  {
+    "id": "p076",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_unreadable"
+  },
+  {
+    "id": "p075",
+    "firstMoveName": "ムーンフォース",
+    "firstMoveNameEn": "Moonblast",
+    "reason": "ok"
+  },
+  {
+    "id": "p074",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p073",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p072",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p071",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p070",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p069",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_ja_mismatch"
+  },
+  {
+    "id": "p068",
+    "firstMoveName": "マジカルシャイン",
+    "firstMoveNameEn": "Dazzling Gleam",
+    "reason": "ok"
+  },
+  {
+    "id": "p063",
+    "firstMoveName": "だいふんげき",
+    "firstMoveNameEn": "Raging Fury",
+    "reason": "ok"
+  },
+  {
+    "id": "p067",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p066",
+    "firstMoveName": "だいもんじ",
+    "firstMoveNameEn": "Fire Blast",
+    "reason": "ok"
+  },
+  {
+    "id": "p065",
+    "firstMoveName": "きあいだま",
+    "firstMoveNameEn": "Focus Blast",
+    "reason": "ok"
+  },
+  {
+    "id": "p064",
+    "firstMoveName": "アイアンテール",
+    "firstMoveNameEn": "Iron Tail",
+    "reason": "ok"
+  },
+  {
+    "id": "p062",
+    "firstMoveName": "リーフストーム",
+    "firstMoveNameEn": "Leaf Storm",
+    "reason": "ok"
+  },
+  {
+    "id": "p061",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "p060",
+    "firstMoveName": "１０まんボルト",
+    "firstMoveNameEn": "Thunderbolt",
+    "reason": "ok"
+  },
+  {
+    "id": "p059",
+    "firstMoveName": "ネズミざん",
+    "firstMoveNameEn": "Population Bomb",
+    "reason": "ok"
+  },
+  {
+    "id": "p058",
+    "firstMoveName": "せいなるほのお",
+    "firstMoveNameEn": "Sacred Fire",
+    "reason": "ok"
+  },
+  {
+    "id": "p057",
+    "firstMoveName": "エアロブラスト",
+    "firstMoveNameEn": "Aeroblast",
+    "reason": "ok"
+  },
+  {
+    "id": "p056",
+    "firstMoveName": "ストーンエッジ",
+    "firstMoveNameEn": "Stone Edge",
+    "reason": "ok"
+  },
+  {
+    "id": "p055",
+    "firstMoveName": "コメットパンチ",
+    "firstMoveNameEn": "Meteor Mash",
+    "reason": "ok"
+  },
+  {
+    "id": "p054",
+    "firstMoveName": "なみのり",
+    "firstMoveNameEn": "Surf",
+    "reason": "ok"
+  },
+  {
+    "id": "p053-ayNdxXS8",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p052",
+    "firstMoveName": "１０まんボルト",
+    "firstMoveNameEn": "Thunderbolt",
+    "reason": "ok"
+  },
+  {
+    "id": "p051",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p050",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_ja_mismatch"
+  },
+  {
+    "id": "p049",
+    "firstMoveName": "ハイドロポンプ",
+    "firstMoveNameEn": "Hydro Pump",
+    "reason": "ok"
+  },
+  {
+    "id": "p048",
+    "firstMoveName": "トリックフラワー",
+    "firstMoveNameEn": "Flower Trick",
+    "reason": "ok"
+  },
+  {
+    "id": "p047",
+    "firstMoveName": "インファイト",
+    "firstMoveNameEn": "Close Combat",
+    "reason": "ok"
+  },
+  {
+    "id": "p046",
+    "firstMoveName": "ボルテッカー",
+    "firstMoveNameEn": "Volt Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "p045",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_ja_mismatch"
+  },
+  {
+    "id": "p044",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "p043",
+    "firstMoveName": "インファイト",
+    "firstMoveNameEn": "Close Combat",
+    "reason": "ok"
+  },
+  {
+    "id": "p042",
+    "firstMoveName": "デカハンマー",
+    "firstMoveNameEn": "Gigaton Hammer",
+    "reason": "ok"
+  },
+  {
+    "id": "p041",
+    "firstMoveName": "しんぴのつるぎ",
+    "firstMoveNameEn": "Secret Sword",
+    "reason": "ok"
+  },
+  {
+    "id": "p040",
+    "firstMoveName": "サイコブースト",
+    "firstMoveNameEn": "Psycho Boost",
+    "reason": "ok"
+  },
+  {
+    "id": "p039",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "p038",
+    "firstMoveName": "でんこうそうげき",
+    "firstMoveNameEn": "Double Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "p037",
+    "firstMoveName": "ストーンエッジ",
+    "firstMoveNameEn": "Stone Edge",
+    "reason": "ok"
+  },
+  {
+    "id": "p036",
+    "firstMoveName": "ダブルパンツァー",
+    "firstMoveNameEn": "Double Iron Bash",
+    "reason": "ok"
+  },
+  {
+    "id": "p035",
+    "firstMoveName": "１０まんボルト",
+    "firstMoveNameEn": "Thunderbolt",
+    "reason": "ok"
+  },
+  {
+    "id": "p034",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "p033",
+    "firstMoveName": "クロスフレイム",
+    "firstMoveNameEn": "Fusion Flare",
+    "reason": "ok"
+  },
+  {
+    "id": "p032",
+    "firstMoveName": "クロスサンダー",
+    "firstMoveNameEn": "Fusion Bolt",
+    "reason": "ok"
+  },
+  {
+    "id": "p031",
+    "firstMoveName": "ふぶき",
+    "firstMoveNameEn": "Blizzard",
+    "reason": "ok"
+  },
+  {
+    "id": "p030",
+    "firstMoveName": "ツタこんぼう",
+    "firstMoveNameEn": "Ivy Cudgel",
+    "reason": "ok"
+  },
+  {
+    "id": "p029",
+    "firstMoveName": "テラクラスター",
+    "firstMoveNameEn": "Tera Starstorm",
+    "reason": "ok"
+  },
+  {
+    "id": "p028",
+    "firstMoveName": "トリックフラワー",
+    "firstMoveNameEn": "Flower Trick",
+    "reason": "ok"
+  },
+  {
+    "id": "p027",
+    "firstMoveName": "フレアソング",
+    "firstMoveNameEn": "Torch Song",
+    "reason": "ok"
+  },
+  {
+    "id": "p026",
+    "firstMoveName": "アクアステップ",
+    "firstMoveNameEn": "Aqua Step",
+    "reason": "ok"
+  },
+  {
+    "id": "p025",
+    "firstMoveName": "みずしゅりけん",
+    "firstMoveNameEn": "Water Shuriken",
+    "reason": "ok"
+  },
+  {
+    "id": "p024",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "p023",
+    "firstMoveName": "せいなるほのお",
+    "firstMoveNameEn": "Sacred Fire",
+    "reason": "ok"
+  },
+  {
+    "id": "p022",
+    "firstMoveName": "ツタこんぼう",
+    "firstMoveNameEn": "Ivy Cudgel",
+    "reason": "ok"
+  },
+  {
+    "id": "p021",
+    "firstMoveName": "ボルテッカー",
+    "firstMoveNameEn": "Volt Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "p018",
+    "firstMoveName": "アクセルブレイク",
+    "firstMoveNameEn": "Collision Course",
+    "reason": "ok"
+  },
+  {
+    "id": "p017",
+    "firstMoveName": "イナズマドライブ",
+    "firstMoveNameEn": "Electro Drift",
+    "reason": "ok"
+  },
+  {
+    "id": "p016",
+    "firstMoveName": "１０まんボルト",
+    "firstMoveNameEn": "Thunderbolt",
+    "reason": "ok"
+  },
+  {
+    "id": "p020",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_ja_mismatch"
+  },
+  {
+    "id": "p019",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "p015",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_ja_mismatch"
+  },
+  {
+    "id": "p014",
+    "firstMoveName": "リーフストーム",
+    "firstMoveNameEn": "Leaf Storm",
+    "reason": "ok"
+  },
+  {
+    "id": "p013",
+    "firstMoveName": "デカハンマー",
+    "firstMoveNameEn": "Gigaton Hammer",
+    "reason": "ok"
+  },
+  {
+    "id": "p012",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "p011",
+    "firstMoveName": "１０まんボルト",
+    "firstMoveNameEn": "Thunderbolt",
+    "reason": "ok"
+  },
+  {
+    "id": "p010",
+    "firstMoveName": "だいもんじ",
+    "firstMoveNameEn": "Fire Blast",
+    "reason": "ok"
+  },
+  {
+    "id": "p009",
+    "firstMoveName": "トリックフラワー",
+    "firstMoveNameEn": "Flower Trick",
+    "reason": "ok"
+  },
+  {
+    "id": "p008",
+    "firstMoveName": "フレアソング",
+    "firstMoveNameEn": "Torch Song",
+    "reason": "ok"
+  },
+  {
+    "id": "p007",
+    "firstMoveName": "アクアステップ",
+    "firstMoveNameEn": "Aqua Step",
+    "reason": "ok"
+  },
+  {
+    "id": "p006",
+    "firstMoveName": "トリックフラワー",
+    "firstMoveNameEn": "Flower Trick",
+    "reason": "ok"
+  },
+  {
+    "id": "p005",
+    "firstMoveName": "フレアソング",
+    "firstMoveNameEn": "Torch Song",
+    "reason": "ok"
+  },
+  {
+    "id": "p004",
+    "firstMoveName": "アクアステップ",
+    "firstMoveNameEn": "Aqua Step",
+    "reason": "ok"
+  },
+  {
+    "id": "p003",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "p002",
+    "firstMoveName": "きあいだま",
+    "firstMoveNameEn": "Focus Blast",
+    "reason": "ok"
+  },
+  {
+    "id": "p001",
+    "firstMoveName": "１０まんボルト",
+    "firstMoveNameEn": "Thunderbolt",
+    "reason": "ok"
+  }
+]

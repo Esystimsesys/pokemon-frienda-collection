@@ -1,0 +1,338 @@
+[
+ {
+  "id": "4-1",
+  "set": "4",
+  "setLabel": "4だん",
+  "setOrder": 3,
+  "order": 1,
+  "name": "かけだしトレーナー ヨウヘイ",
+  "image": "https://pokemonfrienda.com/new/img/4/img_trainer1_sp.webp",
+  "reward": "バンダナ",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/4/img_trainer1-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/4/img_trainer1-2-modal.webp"
+  ]
+ },
+ {
+  "id": "4-2",
+  "set": "4",
+  "setLabel": "4だん",
+  "setOrder": 3,
+  "order": 2,
+  "name": "おしゃれガール アヤノ",
+  "image": "https://pokemonfrienda.com/new/img/4/img_trainer2_sp.webp",
+  "reward": "ハートシール",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/4/img_trainer2-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/4/img_trainer2-2-modal.webp"
+  ]
+ },
+ {
+  "id": "4-3",
+  "set": "4",
+  "setLabel": "4だん",
+  "setOrder": 3,
+  "order": 3,
+  "name": "マスターフレンダー シャリス",
+  "image": "https://pokemonfrienda.com/new/img/4/img_trainer3_sp.webp",
+  "reward": "バトルユニフォーム",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/4/img_trainer3-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/4/img_trainer3-2-modal.webp"
+  ]
+ },
+ {
+  "id": "5-1",
+  "set": "5",
+  "setLabel": "5だん",
+  "setOrder": 4,
+  "order": 1,
+  "name": "すししょくにん ミユ",
+  "image": "https://pokemonfrienda.com/new/img/5/img_trainer1_sp.webp",
+  "reward": "ねじりハチマキ",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/5/img_trainer1-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/5/img_trainer1-2-modal.webp"
+  ]
+ },
+ {
+  "id": "5-2",
+  "set": "5",
+  "setLabel": "5だん",
+  "setOrder": 4,
+  "order": 2,
+  "name": "かんていし ヨウジ",
+  "image": "https://pokemonfrienda.com/new/img/5/img_trainer2_sp.webp",
+  "reward": "モノクルメガネ",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/5/img_trainer2-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/5/img_trainer2-2-modal.webp"
+  ]
+ },
+ {
+  "id": "5-3",
+  "set": "5",
+  "setLabel": "5だん",
+  "setOrder": 4,
+  "order": 3,
+  "name": "マスターフレンダー ロザリー",
+  "image": "https://pokemonfrienda.com/new/img/5/img_trainer3_sp.webp",
+  "reward": "ロザリーセット（くろ）",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/5/img_trainer3-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/5/img_trainer3-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt1-1",
+  "set": "bt1",
+  "setLabel": "ベストタッグ1だん",
+  "setOrder": 5,
+  "order": 1,
+  "name": "ファーマー ナツキ",
+  "image": "https://pokemonfrienda.com/new/img/bt1/img_trainer1_sp.webp",
+  "reward": "むぎわらぼうし",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt1/img_trainer1-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt1/img_trainer1-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt1-2",
+  "set": "bt1",
+  "setLabel": "ベストタッグ1だん",
+  "setOrder": 5,
+  "order": 2,
+  "name": "けんどうか タイチ",
+  "image": "https://pokemonfrienda.com/new/img/bt1/img_trainer2_sp.webp",
+  "reward": "ほのおのめ",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt1/img_trainer2-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt1/img_trainer2-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt1-3",
+  "set": "bt1",
+  "setLabel": "ベストタッグ1だん",
+  "setOrder": 5,
+  "order": 3,
+  "name": "マスターフレンダー イデイン",
+  "image": "https://pokemonfrienda.com/new/img/bt1/img_trainer3_sp.webp",
+  "reward": "イデインのふく（しろ）",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt1/img_trainer3-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt1/img_trainer3-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt2-1",
+  "set": "bt2",
+  "setLabel": "ベストタッグ2だん",
+  "setOrder": 6,
+  "order": 1,
+  "name": "おんがくずき ノノコ",
+  "image": "https://pokemonfrienda.com/new/img/bt2/img_trainer1_sp.webp",
+  "reward": "イヤホン",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt2/img_trainer1-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt2/img_trainer1-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt2-2",
+  "set": "bt2",
+  "setLabel": "ベストタッグ2だん",
+  "setOrder": 6,
+  "order": 2,
+  "name": "だいく トモタカ",
+  "image": "https://pokemonfrienda.com/new/img/bt2/img_trainer2_sp.webp",
+  "reward": "あんぜんヘルメット",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt2/img_trainer2-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt2/img_trainer2-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt2-3",
+  "set": "bt2",
+  "setLabel": "ベストタッグ2だん",
+  "setOrder": 6,
+  "order": 3,
+  "name": "マスターフレンダー ナナ",
+  "image": "https://pokemonfrienda.com/new/img/bt2/img_trainer3_sp.webp",
+  "reward": "ナナのふく",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt2/img_trainer3-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt2/img_trainer3-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt3-1",
+  "set": "bt3",
+  "setLabel": "ベストタッグ3だん",
+  "setOrder": 7,
+  "order": 1,
+  "name": "おばけマニア マサシ",
+  "image": "https://pokemonfrienda.com/new/img/bt3/img_trainer1_sp.webp",
+  "reward": "おばけメイク",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt3/img_trainer1-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt3/img_trainer1-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt3-2",
+  "set": "bt3",
+  "setLabel": "ベストタッグ3だん",
+  "setOrder": 7,
+  "order": 2,
+  "name": "ふわふわガール ユキコ",
+  "image": "https://pokemonfrienda.com/new/img/bt3/img_trainer2_sp.webp",
+  "reward": "ふわふわイヤーマフ",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt3/img_trainer2-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt3/img_trainer2-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt3-3",
+  "set": "bt3",
+  "setLabel": "ベストタッグ3だん",
+  "setOrder": 7,
+  "order": 3,
+  "name": "マスターフレンダー ディテク",
+  "image": "https://pokemonfrienda.com/new/img/bt3/img_trainer3_sp.webp",
+  "reward": "たんていふく",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt3/img_trainer3-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt3/img_trainer3-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt4-1",
+  "set": "bt4",
+  "setLabel": "ベストタッグ4だん",
+  "setOrder": 8,
+  "order": 1,
+  "name": "むしポケモンずき アツシ",
+  "image": "https://pokemonfrienda.com/new/img/bt4/img_trainer1_sp.webp",
+  "reward": "ビスヘルメット",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt4/img_trainer1-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt4/img_trainer1-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt4-2",
+  "set": "bt4",
+  "setLabel": "ベストタッグ4だん",
+  "setOrder": 8,
+  "order": 2,
+  "name": "ほうせきコレクター ハルヒコ",
+  "image": "https://pokemonfrienda.com/new/img/bt4/img_trainer2_sp.webp",
+  "reward": "ジュエリーアクセサリー",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt4/img_trainer2-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt4/img_trainer2-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt4-3",
+  "set": "bt4",
+  "setLabel": "ベストタッグ4だん",
+  "setOrder": 8,
+  "order": 3,
+  "name": "マスターフレンダー リン",
+  "image": "https://pokemonfrienda.com/new/img/bt4/img_trainer3_sp.webp",
+  "reward": "ヒーローふういしょう",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt4/img_trainer3-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt4/img_trainer3-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt5-1",
+  "set": "bt5",
+  "setLabel": "ベストタッグ5だん",
+  "setOrder": 9,
+  "order": 1,
+  "name": "たべあるき モモエ",
+  "image": "https://pokemonfrienda.com/new/img/bt5/img_trainer1_sp.webp",
+  "reward": "ハートめがね",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt5/img_trainer1-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt5/img_trainer1-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt5-2",
+  "set": "bt5",
+  "setLabel": "ベストタッグ5だん",
+  "setOrder": 9,
+  "order": 2,
+  "name": "みならいしゃしんか ユウカ",
+  "image": "https://pokemonfrienda.com/new/img/bt5/img_trainer2_sp.webp",
+  "reward": "ハンチングぼう",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt5/img_trainer2-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt5/img_trainer2-2-modal.webp"
+  ]
+ },
+ {
+  "id": "bt5-3",
+  "set": "bt5",
+  "setLabel": "ベストタッグ5だん",
+  "setOrder": 9,
+  "order": 3,
+  "name": "マスターフレンダー レーヴ",
+  "image": "https://pokemonfrienda.com/new/img/bt5/img_trainer3_sp.webp",
+  "reward": "レーヴのふく＆ぼうし",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/bt5/img_trainer3-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/bt5/img_trainer3-2-modal.webp"
+  ]
+ },
+ {
+  "id": "xt1-1",
+  "set": "xt1",
+  "setLabel": "エクストレジャー1だん",
+  "setOrder": 10,
+  "order": 1,
+  "name": "かんそくいん トモキ",
+  "image": "https://pokemonfrienda.com/new/img/xt1/img_trainer1_sp.webp",
+  "reward": "サイバーサングラス",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/xt1/img_trainer1-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/xt1/img_trainer1-2-modal.webp"
+  ]
+ },
+ {
+  "id": "xt1-2",
+  "set": "xt1",
+  "setLabel": "エクストレジャー1だん",
+  "setOrder": 10,
+  "order": 2,
+  "name": "みならいしゃしんか ユウカ",
+  "image": "https://pokemonfrienda.com/new/img/xt1/img_trainer2_sp.webp",
+  "reward": "げんきいっぱい！バフTシャツ",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/xt1/img_trainer2-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/xt1/img_trainer2-2-modal.webp"
+  ]
+ },
+ {
+  "id": "xt1-3",
+  "set": "xt1",
+  "setLabel": "エクストレジャー1だん",
+  "setOrder": 10,
+  "order": 3,
+  "name": "マスターフレンダー レーヴ",
+  "image": "https://pokemonfrienda.com/new/img/xt1/img_trainer3_sp.webp",
+  "reward": "ブルリアのふく＆ぼうし",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/xt1/img_trainer3-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/xt1/img_trainer3-2-modal.webp"
+  ]
+ }
+]

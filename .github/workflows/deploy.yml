@@ -1,0 +1,57 @@
+name: GitHub Pages へデプロイ
+
+# main に push したら、ビルドして GitHub Pages に出す。
+# 成果物はアーティファクトとして渡すだけなので、リポジトリにはコミットされない。
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Pages への書き込みに必要な権限だけ与える
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# あとから押されたものを優先する。走っているものは途中で止めない
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24  # 手元と同じにしておく
+          cache: npm
+
+      - run: npm ci
+
+      - name: 型チェック
+        run: npx tsc --noEmit
+
+      - name: ビルド
+        # GitHub Pages はリポジトリ名がURLに入るので、そのぶんを渡す。
+        # ユーザー名.github.io という名前のリポジトリならルート配信になるので空にする。
+        run: npm run build:web
+        env:
+          EXPO_BASE_URL: ${{ github.event.repository.name == format('{0}.github.io', github.repository_owner) && '' || format('/{0}', github.event.repository.name) }}
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

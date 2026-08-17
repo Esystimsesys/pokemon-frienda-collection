@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "フレンダピックずかん",
+    "slug": "pokemon-frienda-collection",
+    "version": "1.0.0",
+    "orientation": "default",
+    "scheme": "friendadex",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.friendadex.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "lang": "ja"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
