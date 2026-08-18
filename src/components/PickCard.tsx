@@ -169,12 +169,15 @@ const styles = StyleSheet.create({
   },
   countText: { fontWeight: "900", fontSize: 12, color: "#1A365D" },
   imageBox: {
+    // 公式のサムネイルは よこ長（430x326）と たて長（186x300）の2種類ある。
+    // どちらも入るよう、その中間のかたちにしてある
     aspectRatio: 1.25,
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#F7FAFD",
   },
-  image: { width: "92%", height: "92%" },
+  // 券面をできるだけ大きく見せたいので、枠いっぱいまで使う（contentFit は contain）
+  image: { width: "100%", height: "100%" },
   // うすくしすぎると、登録のときに手もとの実物と見くらべられない
   imageDim: { opacity: 0.45 },
   unownedBadge: {
