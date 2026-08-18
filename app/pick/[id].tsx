@@ -113,14 +113,6 @@ export default function PickDetailScreen() {
                 width={heroWidth - (narrow ? 12 : 96)}
                 style={styles.image}
               />
-              {/* 押せることが分からないので、目じるしを重ねておく。
-                  絵の下がわは、おもて（きらめきの余白）でも うら（券のふち）でも
-                  だいじな印字が無いので、まん中下に置く */}
-              <View style={styles.zoomHintWrap} pointerEvents="none">
-                <View style={styles.zoomHint}>
-                  <Text style={styles.zoomHintText}>タップで おおきく</Text>
-                </View>
-              </View>
             </TouchableOpacity>
           )}
 
@@ -306,14 +298,6 @@ const styles = StyleSheet.create({
   },
   gradeText: { color: "#fff", fontWeight: "800", fontSize: 13 },
   image: { alignSelf: "center" },
-  zoomHintWrap: { position: "absolute", left: 0, right: 0, bottom: 6, alignItems: "center" },
-  zoomHint: {
-    backgroundColor: "rgba(26, 54, 93, 0.72)",
-    borderRadius: 12,
-    paddingHorizontal: 10,
-    paddingVertical: 4,
-  },
-  zoomHintText: { color: "#fff", fontSize: 11, fontWeight: "800" },
   heroBody: { flexDirection: "row", alignItems: "center", justifyContent: "center", marginTop: 10 },
   arrow: {
     width: 44,
