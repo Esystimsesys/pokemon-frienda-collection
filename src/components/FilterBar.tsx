@@ -4,6 +4,7 @@ import { ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 
 import { TypeIcon } from "@/components/TypeIcon";
 import { CARD_SIZES, type CardSize, loadFilterOpen, saveFilterOpen } from "@/lib/filterPrefs";
 import { PICK_SETS } from "@/lib/picks";
+import { useNarrow } from "@/lib/responsive";
 import { GROUP_ORDER, GROUP_STYLES, TYPE_COLORS, TYPE_ORDER } from "@/theme/pokemonTypes";
 import type { PickGroup, SetKey } from "@/types";
 
@@ -58,7 +59,9 @@ function Chip({ label, active, color = "#2B6CB0", icon, onPress }: ChipProps) {
 
 /**
  * 見出し＋チップの1行。
- * だんは13こ全部を一度に見せたいので、よこスクロールではなく折り返しにする。
+ * だんは13こ全部を一度に見せたいので、よこスクロールではなく折り返しにする
+ * （ただし せまい画面では、折り返すと13行になって画面がぜんぶ埋まってしまうので
+ *   よこスクロールに戻す。FilterBar の wrap={!narrow} を参照）。
  */
 function Row({
   title,
@@ -69,9 +72,15 @@ function Row({
   wrap?: boolean;
   children: React.ReactNode;
 }) {
+  // せまい画面では、見出しに78pxも使うとチップの置き場が無くなる
+  const narrow = useNarrow();
+
   return (
     <View style={[styles.row, wrap && styles.rowWrap]}>
-      <Text style={[styles.rowTitle, wrap && styles.rowTitleWrap]} numberOfLines={1}>
+      <Text
+        style={[styles.rowTitle, narrow && styles.rowTitleNarrow, wrap && styles.rowTitleWrap]}
+        numberOfLines={1}
+      >
         {title}
       </Text>
       {wrap ? (
@@ -106,6 +115,7 @@ export function FilterBar({ filters, onChange, compact, cardSize, onCardSizeChan
   // ひらいたままだと画面の半分ちかくを占めるので、ふだんはたたんでおく。
   // どちらにしていたかは覚えておく。
   const [open, setOpen] = useState(false);
+  const narrow = useNarrow();
 
   useEffect(() => {
     loadFilterOpen().then(setOpen);
@@ -206,7 +216,7 @@ export function FilterBar({ filters, onChange, compact, cardSize, onCardSizeChan
             />
           </Row>
 
-          <Row title="だん" wrap>
+          <Row title="だん" wrap={!narrow}>
             <Chip
               label="ぜんぶ"
               active={filters.sets.length === 0}
@@ -356,6 +366,8 @@ const styles = StyleSheet.create({
     fontWeight: "800",
     color: "#7C8DA3",
   },
+  // 「もちもの」「おおきさ」の4文字が入るぎりぎりまで詰める
+  rowTitleNarrow: { width: 66, paddingLeft: 8 },
   rowTitleWrap: { paddingTop: 8 },
   rowScroll: { paddingRight: 12, gap: 6 },
   rowWrapped: {

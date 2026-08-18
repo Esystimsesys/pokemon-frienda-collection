@@ -4,6 +4,7 @@ import { Pressable, StyleSheet, Text, View } from "react-native";
 
 import { PickImage } from "@/components/PickImage";
 import { TypeIcons } from "@/components/TypeIcon";
+import { TIGHT_CARD_WIDTH } from "@/lib/responsive";
 import { groupStyle } from "@/theme/pokemonTypes";
 import type { Pick } from "@/types";
 
@@ -19,6 +20,12 @@ type Props = {
 function PickCardBase({ pick, count, width, onPress, onAdjust }: Props) {
   const owned = count > 0;
   const grade = groupStyle(pick);
+  /**
+   * せまい画面で「ちいさい」「ふつう」を選ぶと、カードがここまで細くなる。
+   * そのままの字の大きさだと「アローラサンドパン」のような長い名前が
+   * ほとんど読めないので、小さいカードのときだけ字を詰める。
+   */
+  const tight = width < TIGHT_CARD_WIDTH;
   // ごくまれに公式にサムネイルが無いピックがある（p053-ayNdxXS8）。
   // そのときは大きい画像の表面を切り出して出す。
   const [thumbFailed, setThumbFailed] = useState(false);
@@ -74,22 +81,22 @@ function PickCardBase({ pick, count, width, onPress, onAdjust }: Props) {
           )}
         </View>
 
-        <Text style={[styles.name, !owned && styles.nameDim]} numberOfLines={1}>
+        <Text style={[styles.name, tight && styles.nameTight, !owned && styles.nameDim]} numberOfLines={1}>
           {pick.name}
         </Text>
 
         {/* 同じ名前のピックが何枚もあるので、券面の番号で見わけられるようにする */}
-        <Text style={styles.pickNo} numberOfLines={1}>
+        <Text style={[styles.pickNo, tight && styles.pickNoTight]} numberOfLines={1}>
           {pick.id}
         </Text>
 
-        <View style={styles.typeRow}>
-          <TypeIcons types={pick.types} size={26} dim={!owned} />
+        <View style={[styles.typeRow, tight && styles.typeRowTight]}>
+          <TypeIcons types={pick.types} size={tight ? 20 : 26} dim={!owned} />
         </View>
       </Pressable>
 
       {onAdjust && (
-        <View style={styles.adjustRow}>
+        <View style={[styles.adjustRow, tight && styles.adjustRowTight]}>
           <Pressable
             onPress={() => onAdjust(pick.id, -1)}
             disabled={count === 0}
@@ -105,16 +112,23 @@ function PickCardBase({ pick, count, width, onPress, onAdjust }: Props) {
             <Text style={styles.adjustText}>−</Text>
           </Pressable>
 
-          <Text style={styles.adjustCount}>{count}</Text>
+          {/* 小さいカードに ＋ − 数 の3つを並べると、どのボタンも ゆびの幅に足りない。
+              ふやすのは絵をタップすればできるので、まちがい直しの − だけを大きく置く。
+              数は 2まい以上なら 上の帯にバッジで出ている */}
+          {!tight && (
+            <>
+              <Text style={styles.adjustCount}>{count}</Text>
 
-          <Pressable
-            onPress={() => onAdjust(pick.id, 1)}
-            style={({ pressed }) => [styles.adjustButton, pressed && styles.pressed]}
-            accessibilityRole="button"
-            accessibilityLabel={`${pick.name} をふやす`}
-          >
-            <Text style={styles.adjustText}>＋</Text>
-          </Pressable>
+              <Pressable
+                onPress={() => onAdjust(pick.id, 1)}
+                style={({ pressed }) => [styles.adjustButton, pressed && styles.pressed]}
+                accessibilityRole="button"
+                accessibilityLabel={`${pick.name} をふやす`}
+              >
+                <Text style={styles.adjustText}>＋</Text>
+              </Pressable>
+            </>
+          )}
         </View>
       )}
     </View>
@@ -183,6 +197,7 @@ const styles = StyleSheet.create({
     marginTop: 6,
     paddingHorizontal: 4,
   },
+  nameTight: { fontSize: 11, marginTop: 4, paddingHorizontal: 2 },
   nameDim: { color: "#7C8DA3" },
   pickNo: {
     fontSize: 10,
@@ -192,7 +207,9 @@ const styles = StyleSheet.create({
     marginTop: 1,
     paddingHorizontal: 4,
   },
+  pickNoTight: { fontSize: 9, paddingHorizontal: 2 },
   typeRow: { flexDirection: "row", justifyContent: "center", marginTop: 5, minHeight: 26 },
+  typeRowTight: { marginTop: 3, minHeight: 20 },
 
   adjustRow: {
     flexDirection: "row",
@@ -202,6 +219,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
     paddingHorizontal: 6,
   },
+  adjustRowTight: { marginTop: 6, paddingHorizontal: 4 },
   adjustButton: {
     flex: 1,
     height: 44,

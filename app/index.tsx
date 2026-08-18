@@ -29,11 +29,13 @@ import {
   saveSetFilter,
 } from "@/lib/filterPrefs";
 import { ALL_PICKS } from "@/lib/picks";
+import { TIGHT_CARD_WIDTH, useNarrow } from "@/lib/responsive";
 import { matchesQuery } from "@/lib/search";
 
 export default function DexScreen() {
   const router = useRouter();
   const { width } = useWindowDimensions();
+  const narrow = useNarrow();
   const { collection, adjust, ready } = useCollection();
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
   const [registerMode, setRegisterMode] = useState(false);
@@ -130,9 +132,18 @@ export default function DexScreen() {
 
   // 大きさを変えると列数が変わる。まわしたときと同じ仕組みで、
   // 見ていたあたりへ戻る（下の prevColumns のところ）
-  const columns = Math.max(2, Math.floor(width / cardTarget(cardSize)));
+  //
+  // カード1枚に使う幅（target）は iPad で見て決めた値なので、スマートフォンだと
+  // どの大きさを選んでも2列にしかならず、「おおきさ」を押しても何も変わらない。
+  // せまい画面は手に持って近くで見るぶん小さくても見分けられるので、目安を縮めて
+  // 4列〜2列を選べるようにする。
+  const widthPerCard = cardTarget(cardSize) * (narrow ? 0.62 : 1);
+  // よこ向きのスマートフォンはノッチのぶん左右が使えない。
+  // 列数もカードの幅も、実際に置ける幅から出す
+  const gridWidth = width - insets.left - insets.right;
+  const columns = Math.max(2, Math.floor(gridWidth / widthPerCard));
   // グリッドの左右にも padding:6 があるので、そのぶんを引かないと右はしが切れる
-  const cardWidth = (width - 12) / columns - 12;
+  const cardWidth = (gridWidth - 12) / columns - 12;
 
   const visible = useMemo(
     () =>
@@ -264,7 +275,16 @@ export default function DexScreen() {
   return (
     <View style={styles.container}>
       <Animated.View
-        style={[styles.chrome, { paddingTop: insets.top, transform: [{ translateY: slide }] }]}
+        style={[
+          styles.chrome,
+          {
+            paddingTop: insets.top,
+            // よこ向きのスマートフォンは、ノッチの下に文字が隠れる
+            paddingLeft: insets.left,
+            paddingRight: insets.right,
+            transform: [{ translateY: slide }],
+          },
+        ]}
         onLayout={(e) => setChromeHeight(e.nativeEvent.layout.height)}
       >
       <FilterBar
@@ -275,61 +295,89 @@ export default function DexScreen() {
         onCardSizeChange={changeCardSize}
       />
 
-      <View style={styles.statusBar}>
-        <View style={styles.progressWrap}>
-          {/* 958枚だと%はなかなか動かないので、あつめた枚数のほうを主役にする */}
-          <Text style={styles.progressText}>
-            <Text style={styles.progressBig}>{ownedInView}</Text>
-            <Text> こ あつめたよ！　（ぜんぶで {visible.length} こ）</Text>
-          </Text>
-          <View style={styles.progressTrack}>
-            {ownedInView > 0 && (
-              <View style={[styles.progressFill, { width: `${Math.max(2, percent)}%` }]} />
-            )}
+      {/* せまい画面では5つが1行に入らないので、
+          「どれだけ あつめたか＋とうろく」と「ほかの画面へ」の2行に分ける */}
+      <View style={[styles.statusBar, narrow && styles.statusBarNarrow]}>
+        <View style={[styles.statusLine, narrow && styles.statusLineNarrow]}>
+          <View style={styles.progressWrap}>
+            {/* 958枚だと%はなかなか動かないので、あつめた枚数のほうを主役にする */}
+            <Text style={styles.progressText}>
+              <Text style={styles.progressBig}>{ownedInView}</Text>
+              {/* せまいと「ぜんぶで…」まで入れると2行になるので、短い言い方にする */}
+              {narrow ? (
+                <Text> / {visible.length} こ あつめたよ！</Text>
+              ) : (
+                <Text> こ あつめたよ！　（ぜんぶで {visible.length} こ）</Text>
+              )}
+            </Text>
+            <View style={styles.progressTrack}>
+              {ownedInView > 0 && (
+                <View style={[styles.progressFill, { width: `${Math.max(2, percent)}%` }]} />
+              )}
+            </View>
           </View>
+
+          <TouchableOpacity
+            onPress={() => setRegisterMode((v) => !v)}
+            activeOpacity={0.8}
+            style={[
+              styles.modeButton,
+              narrow && styles.modeButtonNarrow,
+              registerMode && styles.modeButtonOn,
+            ]}
+          >
+            {/* 状態ではなく「押したらどうなるか」を出す。ONだと何が起きるか分かりにくい */}
+            <Text style={[styles.modeText, registerMode && styles.modeTextOn]} numberOfLines={1}>
+              {registerMode ? "とうろく おわり" : "とうろくする"}
+            </Text>
+          </TouchableOpacity>
         </View>
 
-        <TouchableOpacity
-          onPress={() => setRegisterMode((v) => !v)}
-          activeOpacity={0.8}
-          style={[styles.modeButton, registerMode && styles.modeButtonOn]}
-        >
-          {/* 状態ではなく「押したらどうなるか」を出す。ONだと何が起きるか分かりにくい */}
-          <Text style={[styles.modeText, registerMode && styles.modeTextOn]}>
-            {registerMode ? "とうろく おわり" : "とうろくする"}
-          </Text>
-        </TouchableOpacity>
+        <View style={styles.navLine}>
+          <TouchableOpacity
+            onPress={() => router.push("/party")}
+            activeOpacity={0.8}
+            style={[styles.summaryButton, styles.partyButton, narrow && styles.summaryButtonNarrow]}
+          >
+            <Text style={styles.summaryText} numberOfLines={1}>
+              パーティー
+            </Text>
+          </TouchableOpacity>
 
-        <TouchableOpacity
-          onPress={() => router.push("/party")}
-          activeOpacity={0.8}
-          style={[styles.summaryButton, styles.partyButton]}
-        >
-          <Text style={styles.summaryText}>パーティー</Text>
-        </TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => router.push("/trainers")}
+            activeOpacity={0.8}
+            style={[
+              styles.summaryButton,
+              styles.trainerButton,
+              narrow && styles.summaryButtonNarrow,
+            ]}
+          >
+            <Text style={styles.summaryText} numberOfLines={1}>
+              トレーナー
+            </Text>
+          </TouchableOpacity>
 
-        <TouchableOpacity
-          onPress={() => router.push("/trainers")}
-          activeOpacity={0.8}
-          style={[styles.summaryButton, styles.trainerButton]}
-        >
-          <Text style={styles.summaryText}>トレーナー</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          onPress={() => router.push("/summary")}
-          activeOpacity={0.8}
-          style={styles.summaryButton}
-        >
-          <Text style={styles.summaryText}>きろく</Text>
-        </TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => router.push("/summary")}
+            activeOpacity={0.8}
+            style={[styles.summaryButton, narrow && styles.summaryButtonNarrow]}
+          >
+            <Text style={styles.summaryText} numberOfLines={1}>
+              きろく
+            </Text>
+          </TouchableOpacity>
+        </View>
       </View>
 
       <PrefetchBar />
 
       {registerMode && (
         <Text style={styles.modeHint}>
-          え を タップ するか ＋ を おすと 1まい ふえるよ。まちがえたら − を おそう。
+          {/* カードが小さいと ＋ を置く場所が無いので、絵をタップして数える（PickCard） */}
+          {cardWidth < TIGHT_CARD_WIDTH
+            ? "え を タップ すると 1まい ふえるよ。まちがえたら − を おそう。"
+            : "え を タップ するか ＋ を おすと 1まい ふえるよ。まちがえたら − を おそう。"}
         </Text>
       )}
       </Animated.View>
@@ -338,7 +386,16 @@ export default function DexScreen() {
         ref={listRef}
         data={gridRows}
         keyExtractor={(row) => row[0].id}
-        contentContainerStyle={[styles.grid, { paddingTop: chromeHeight + 6 }]}
+        contentContainerStyle={[
+          styles.grid,
+          {
+            paddingTop: chromeHeight + 6,
+            paddingLeft: insets.left + 6,
+            paddingRight: insets.right + 6,
+            // ホームバーの上に最後の行がかぶらないようにする
+            paddingBottom: insets.bottom + 32,
+          },
+        ]}
         onScroll={onScroll}
         scrollEventThrottle={16}
         onContentSizeChange={restore}
@@ -386,6 +443,11 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: "#E2E8F0",
   },
+  // せまいときは たて に積む。1行めが のこりの幅をとらないよう flex を切る
+  statusBarNarrow: { flexDirection: "column", alignItems: "stretch", gap: 8 },
+  statusLine: { flex: 1, flexDirection: "row", alignItems: "center", gap: 10 },
+  statusLineNarrow: { flex: 0 },
+  navLine: { flexDirection: "row", alignItems: "center", gap: 10 },
   progressWrap: { flex: 1 },
   progressText: { fontSize: 13, fontWeight: "800", color: "#1A365D", marginBottom: 4 },
   progressBig: { fontSize: 20, fontWeight: "900", color: "#2F855A" },
@@ -402,6 +464,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
+  // せまいときは、あつめた数のほうに幅をゆずる。
+  // ここも「とうろく おわり」が入る幅で固定して、押すたびに横がのび縮みしないようにする
+  modeButtonNarrow: { minWidth: 124, paddingHorizontal: 8 },
   modeButtonOn: { backgroundColor: "#C05621" },
   modeText: { color: "#C05621", fontWeight: "800", fontSize: 13 },
   modeTextOn: { color: "#fff" },
@@ -413,6 +478,8 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
+  // せまいときは3つで1行を分けあう。幅がそろっていないと押しまちがえやすい
+  summaryButtonNarrow: { flex: 1, paddingHorizontal: 6 },
   partyButton: { backgroundColor: "#7B3FBF" },
   trainerButton: { backgroundColor: "#0F9B8E" },
   summaryText: { color: "#fff", fontWeight: "800", fontSize: 13 },

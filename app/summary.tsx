@@ -12,6 +12,7 @@ import { BackupCard } from "@/components/BackupCard";
 import { OfflineCard } from "@/components/OfflineCard";
 import { useCollection } from "@/lib/collection";
 import { ALL_PICKS, PICK_BY_ID, PICK_SETS } from "@/lib/picks";
+import { useNarrow } from "@/lib/responsive";
 import { GROUP_ORDER, GROUP_STYLES, TYPE_ORDER, typeColor } from "@/theme/pokemonTypes";
 
 function ProgressBar({ value, color }: { value: number; color: string }) {
@@ -25,6 +26,7 @@ function ProgressBar({ value, color }: { value: number; color: string }) {
 
 export default function SummaryScreen() {
   const { ready, countOf, adjust } = useCollection();
+  const narrow = useNarrow();
 
   const totalPicks = ALL_PICKS.length;
   const ownedPicks = useMemo(
@@ -103,7 +105,7 @@ export default function SummaryScreen() {
     <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
       <View style={styles.card}>
         <Text style={styles.sectionTitle}>ぜんぶで</Text>
-        <View style={styles.bigRow}>
+        <View style={[styles.bigRow, narrow && styles.bigRowNarrow]}>
           <Text style={styles.bigNumber}>{ownedPicks}</Text>
           <Text style={styles.bigSlash}> / {totalPicks} こ</Text>
           <Text style={styles.bigPercent}>{totalPercent}%</Text>
@@ -181,10 +183,13 @@ export default function SummaryScreen() {
         ) : (
           duplicates.map(({ pick, count }) => {
             return (
-              <View key={pick.id} style={[styles.dupRow, count < 2 && styles.dupRowDone]}>
+              <View
+                key={pick.id}
+                style={[styles.dupRow, narrow && styles.dupRowNarrow, count < 2 && styles.dupRowDone]}
+              >
                 <Image
                   source={pick.thumb}
-                  style={styles.dupImage}
+                  style={[styles.dupImage, narrow && styles.dupImageNarrow]}
                   contentFit="contain"
                   cachePolicy="disk"
                 />
@@ -196,7 +201,7 @@ export default function SummaryScreen() {
                     {pick.setLabel}　{pick.id}
                   </Text>
                 </View>
-                <View style={styles.dupControls}>
+                <View style={[styles.dupControls, narrow && styles.dupControlsNarrow]}>
                   <TouchableOpacity
                     onPress={() => adjust(pick.id, -1)}
                     style={styles.adjButton}
@@ -206,7 +211,7 @@ export default function SummaryScreen() {
                   >
                     <Text style={styles.adjButtonText}>−</Text>
                   </TouchableOpacity>
-                  <Text style={styles.dupCount}>{count}</Text>
+                  <Text style={[styles.dupCount, narrow && styles.dupCountNarrow]}>{count}</Text>
                   <TouchableOpacity
                     onPress={() => adjust(pick.id, 1)}
                     style={styles.adjButton}
@@ -254,6 +259,8 @@ const styles = StyleSheet.create({
     alignItems: "flex-end",
     marginBottom: 10,
   },
+  // 320px幅だと「958こ 100%」まで並んだときにはみ出すので、せまい画面では折り返す
+  bigRowNarrow: { flexWrap: "wrap" },
   bigNumber: { fontSize: 52, fontWeight: "900", color: "#2F855A", lineHeight: 58 },
   bigSlash: { fontSize: 22, fontWeight: "800", color: "#1A365D", paddingBottom: 6 },
   bigPercent: {
@@ -279,7 +286,9 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     marginBottom: 4,
   },
-  rowLabel: { fontSize: 14, fontWeight: "700", color: "#1A365D" },
+  // 「エクストレジャー1だん」のような長いだんの名前があり、space-betweenの相手（%表示）と
+  // 幅を取りあってはみ出すことがあるので縮められるようにしておく
+  rowLabel: { fontSize: 14, fontWeight: "700", color: "#1A365D", flexShrink: 1 },
   rowCount: { fontSize: 13, fontWeight: "700", color: "#7C8DA3" },
 
   gradeChip: {
@@ -327,7 +336,10 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: "#E2E8F0",
   },
+  // せまい画面では画像とボタンぶんの幅の取りぶんが大きく、名前がほぼ読めなくなるので詰める
+  dupRowNarrow: { gap: 6 },
   dupImage: { width: 52, height: 42 },
+  dupImageNarrow: { width: 40, height: 32 },
   dupInfo: { flex: 1 },
   dupName: { fontSize: 14, fontWeight: "800", color: "#1A365D" },
   dupLabel: { fontSize: 11, color: "#7C8DA3", fontWeight: "600" },
@@ -336,6 +348,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     gap: 4,
   },
+  dupControlsNarrow: { gap: 2 },
   adjButton: {
     width: 44,
     height: 44,
@@ -352,4 +365,5 @@ const styles = StyleSheet.create({
     minWidth: 32,
     textAlign: "center",
   },
+  dupCountNarrow: { minWidth: 22 },
 });

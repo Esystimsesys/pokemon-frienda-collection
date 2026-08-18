@@ -6,6 +6,7 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { useCollection } from "@/lib/collection";
 import { TypeIcons } from "@/components/TypeIcon";
 import { pickParty, rankOwned, type Ranked } from "@/lib/party";
+import { useNarrow } from "@/lib/responsive";
 import { groupStyle } from "@/theme/pokemonTypes";
 
 /** 1回のバトルでピックを3まい置く */
@@ -14,11 +15,12 @@ const PARTY_SIZE = 3;
 function Row({ item, rank, onPress }: { item: Ranked; rank: number; onPress: () => void }) {
   const { pick, count, power, estimated } = item;
   const grade = groupStyle(pick);
+  const narrow = useNarrow();
 
   return (
     <Pressable
       onPress={onPress}
-      style={({ pressed }) => [styles.row, pressed && styles.pressed]}
+      style={({ pressed }) => [styles.row, narrow && styles.rowNarrow, pressed && styles.pressed]}
       accessibilityRole="button"
       accessibilityLabel={`${rank}ばんめ ${pick.name} ポケエネ ${power}`}
     >
@@ -42,7 +44,7 @@ function Row({ item, rank, onPress }: { item: Ranked; rank: number; onPress: () 
           {count > 1 && <Text style={styles.count}>{count}まい</Text>}
         </View>
       </View>
-      <View style={styles.powerBox}>
+      <View style={[styles.powerBox, narrow && styles.powerBoxNarrow]}>
         <Text style={styles.power}>{power}</Text>
         <Text style={styles.powerUnit}>{estimated ? "くらい" : "ポケエネ"}</Text>
       </View>
@@ -136,6 +138,9 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: "#E2E8F0",
   },
+  // 「アローラサンドパン」のような長い名前が名まえらんに入りきらないので、
+  // せまい画面ではすきまを詰めて名まえの場所をひろげる
+  rowNarrow: { gap: 6 },
   pressed: { opacity: 0.6 },
   rank: {
     width: 26,
@@ -152,6 +157,7 @@ const styles = StyleSheet.create({
   chipText: { color: "#fff", fontSize: 10, fontWeight: "800" },
   count: { fontSize: 11, fontWeight: "700", color: "#7C8DA3", marginLeft: 2 },
   powerBox: { alignItems: "flex-end", minWidth: 56 },
+  powerBoxNarrow: { minWidth: 44 },
   power: { fontSize: 19, fontWeight: "900", color: "#2F855A" },
   powerUnit: { fontSize: 10, fontWeight: "700", color: "#9AA8B8" },
 });

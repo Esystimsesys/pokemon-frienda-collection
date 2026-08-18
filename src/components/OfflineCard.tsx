@@ -26,9 +26,10 @@ export function OfflineCard() {
   return (
     <View style={styles.card}>
       <Text style={styles.title}>でんぱが なくても みる</Text>
+      {/* スマートフォンでも見るので「タブレット」とは言わない */}
       <Text style={styles.body}>
         {complete
-          ? "ぜんぶの えが この タブレットに はいっているよ。でんぱが なくても ずかんが みられる！"
+          ? "ぜんぶの えが この きかいに はいっているよ。でんぱが なくても ずかんが みられる！"
           : s.running
             ? `えを よみこんでいるよ。おわるまで まってね。（ぜんぶで やく ${APPROX_MB}MB）`
             : `えを ぜんぶ よみこむと、でんぱが なくても ずかんが みられるよ。（のこり ${TOTAL_IMAGES - s.done}まい）`}

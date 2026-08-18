@@ -7,6 +7,7 @@ import { PickZoom } from "@/components/PickZoom";
 import { neighbours } from "@/lib/browseOrder";
 import { useCollection } from "@/lib/collection";
 import { MAX_ENERGY, MAX_STAT, PICK_BY_ID, STAT_FIELDS } from "@/lib/picks";
+import { useNarrow } from "@/lib/responsive";
 import { MechanicCard } from "@/components/MechanicCard";
 import { TypeIcon, TypeIcons } from "@/components/TypeIcon";
 import { groupStyle, typeColor } from "@/theme/pokemonTypes";
@@ -15,6 +16,7 @@ export default function PickDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const router = useRouter();
   const { countOf, adjust } = useCollection();
+  const narrow = useNarrow();
   const [side, setSide] = useState<"front" | "back">("front");
   const [zoomed, setZoomed] = useState(false);
   const [heroWidth, setHeroWidth] = useState(0);
@@ -81,10 +83,17 @@ export default function PickDetailScreen() {
         </View>
 
         <View style={styles.heroBody}>
+          {/* せまい画面で ‹ › に左右88pxを取られると、券面が小さくて見えない。
+              絵の左右のはしに重ねて置き、そのぶん絵を大きく出す */}
           <TouchableOpacity
             onPress={() => go.current(prev)}
             disabled={!prev}
-            style={[styles.arrow, !prev && styles.arrowOff]}
+            style={[
+              styles.arrow,
+              narrow && styles.arrowFloat,
+              narrow && styles.arrowFloatLeft,
+              !prev && styles.arrowOff,
+            ]}
             accessibilityRole="button"
             accessibilityLabel="まえの ピック"
           >
@@ -98,7 +107,12 @@ export default function PickDetailScreen() {
               accessibilityRole="button"
               accessibilityLabel={`${pick.name} の えを おおきく みる`}
             >
-              <PickImage uri={pick.image} side={side} width={heroWidth - 96} style={styles.image} />
+              <PickImage
+                uri={pick.image}
+                side={side}
+                width={heroWidth - (narrow ? 12 : 96)}
+                style={styles.image}
+              />
               {/* 押せることが分からないので、目じるしを重ねておく。
                   絵の下がわは、おもて（きらめきの余白）でも うら（券のふち）でも
                   だいじな印字が無いので、まん中下に置く */}
@@ -113,7 +127,12 @@ export default function PickDetailScreen() {
           <TouchableOpacity
             onPress={() => go.current(next)}
             disabled={!next}
-            style={[styles.arrow, !next && styles.arrowOff]}
+            style={[
+              styles.arrow,
+              narrow && styles.arrowFloat,
+              narrow && styles.arrowFloatRight,
+              !next && styles.arrowOff,
+            ]}
             accessibilityRole="button"
             accessibilityLabel="つぎの ピック"
           >
@@ -295,13 +314,25 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
   },
   zoomHintText: { color: "#fff", fontSize: 11, fontWeight: "800" },
-  heroBody: { flexDirection: "row", alignItems: "center", marginTop: 10 },
+  heroBody: { flexDirection: "row", alignItems: "center", justifyContent: "center", marginTop: 10 },
   arrow: {
     width: 44,
     height: 72,
     justifyContent: "center",
     alignItems: "center",
   },
+  // 絵に重ねるので、うすい丸を敷いて矢印が絵に埋もれないようにする。
+  // たての位置は heroBody の alignItems: center にまかせる
+  arrowFloat: {
+    position: "absolute",
+    zIndex: 2,
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    backgroundColor: "rgba(255, 255, 255, 0.82)",
+  },
+  arrowFloatLeft: { left: 2 },
+  arrowFloatRight: { right: 2 },
   arrowOff: { opacity: 0.15 },
   arrowText: { fontSize: 40, fontWeight: "900", color: "#7C8DA3", lineHeight: 44 },
   flipButton: {

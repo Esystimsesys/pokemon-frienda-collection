@@ -26,8 +26,16 @@ export function PickZoom({ visible, uri, side, name, onFlip, onClose }: Props) {
   const { width, height } = useWindowDimensions();
   const insets = useSafeAreaInsets();
 
-  // 「うらを みる」ボタンと上下の余白のぶんを残して、はいる大きさを決める
-  const room = height - insets.top - insets.bottom - 120;
+  /**
+   * 「うらを みる」ボタンと上下の余白のぶんを残して、はいる大きさを決める。
+   *
+   * ただし よこ向きのスマートフォンは たてが 400px ほどしかなく、ボタンを下に積むと
+   * 券面がその3割ちいさくなってしまう。たてが足りないときはボタンを右下に重ねて置き、
+   * たてをぜんぶ券面に使う（券面はよこ長なので、絵の左右に置き場ができる）。
+   */
+  const roomHeight = height - insets.top - insets.bottom;
+  const short = roomHeight < 500;
+  const room = roomHeight - (short ? 32 : 120);
   const imageWidth = Math.min(width - 24, room * PICK_ASPECT);
 
   return (
@@ -46,7 +54,10 @@ export function PickZoom({ visible, uri, side, name, onFlip, onClose }: Props) {
 
         <Pressable
           onPress={onFlip}
-          style={styles.flipButton}
+          style={[
+            styles.flipButton,
+            short && [styles.flipButtonFloat, { bottom: insets.bottom + 12 }],
+          ]}
           accessibilityRole="button"
           accessibilityLabel={`${name} の ${side === "front" ? "うら" : "おもて"} を みる`}
         >
@@ -83,5 +94,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 28,
     paddingVertical: 13,
   },
+  // 絵の右下に重ねる。よこ長の券面なので、絵の左右には余白がある
+  flipButtonFloat: { position: "absolute", right: 16 },
   flipText: { color: "#1A365D", fontSize: 17, fontWeight: "900" },
 });

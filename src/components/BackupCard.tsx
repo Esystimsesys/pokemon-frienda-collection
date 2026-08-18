@@ -8,6 +8,7 @@ import {
   readBackupFile,
 } from "@/lib/backup";
 import { useCollection } from "@/lib/collection";
+import { useNarrow } from "@/lib/responsive";
 
 type Pending = { picks: Record<string, number>; loaded: number; skipped: number };
 
@@ -15,6 +16,7 @@ export function BackupCard() {
   const { collection, replaceAll, ownedCount } = useCollection();
   const [message, setMessage] = useState<string | null>(null);
   const [pending, setPending] = useState<Pending | null>(null);
+  const narrow = useNarrow();
 
   const save = useCallback(async () => {
     setPending(null);
@@ -56,8 +58,9 @@ export function BackupCard() {
   return (
     <View style={styles.card}>
       <Text style={styles.title}>きろくを ファイルに ほぞん</Text>
+      {/* スマートフォンでも見るので「タブレット」とは言わない */}
       <Text style={styles.body}>
-        きろくは この タブレットの なかだけに あるよ。ときどき かきだして おくと、
+        きろくは この きかいの なかだけに あるよ。ときどき かきだして おくと、
         きえてしまっても もどせるよ。
       </Text>
 
@@ -80,7 +83,7 @@ export function BackupCard() {
             よみこむと、いまの きろく（{ownedCount}こ）は きえて、ファイルの きろく（
             {pending.loaded}こ）に なるよ。いいかな？
           </Text>
-          <View style={styles.buttonRow}>
+          <View style={[styles.buttonRow, narrow && styles.buttonRowNarrow]}>
             {/* 上の「よみこむ」と同じ文字にすると、2回おしただけで通ってしまう */}
             <TouchableOpacity
               onPress={confirmLoad}
@@ -116,6 +119,8 @@ const styles = StyleSheet.create({
   title: { fontSize: 16, fontWeight: "800", color: "#1A365D", marginBottom: 8 },
   body: { fontSize: 13, fontWeight: "600", color: "#5A6C82", lineHeight: 20, marginBottom: 12 },
   buttonRow: { flexDirection: "row", gap: 10 },
+  // 「ほんとうに いれかえる」が長く、320px幅だと横ならびだと折り返して不格好になるので縦にする
+  buttonRowNarrow: { flexDirection: "column" },
   button: {
     flex: 1,
     backgroundColor: "#2B6CB0",
