@@ -1,10 +1,11 @@
-import { useLocalSearchParams, useRouter } from "expo-router";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useFocusEffect, useLocalSearchParams, useRouter } from "expo-router";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { PanResponder, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 import { PickImage } from "@/components/PickImage";
 import { PickZoom } from "@/components/PickZoom";
 import { neighbours } from "@/lib/browseOrder";
+import { loadConfirmedPickIds } from "@/lib/circle";
 import { useCollection } from "@/lib/collection";
 import { MAX_ENERGY, MAX_STAT, PICK_BY_ID, STAT_FIELDS } from "@/lib/picks";
 import { useNarrow } from "@/lib/responsive";
@@ -20,7 +21,14 @@ export default function PickDetailScreen() {
   const [side, setSide] = useState<"front" | "back">("front");
   const [zoomed, setZoomed] = useState(false);
   const [heroWidth, setHeroWidth] = useState(0);
+  const [confirmedPickIds, setConfirmedPickIds] = useState<Set<string>>(new Set());
   const pick = id ? PICK_BY_ID.get(id) : undefined;
+
+  useFocusEffect(
+    useCallback(() => {
+      loadConfirmedPickIds().then(setConfirmedPickIds);
+    }, []),
+  );
 
   const { prev, next } = useMemo(() => neighbours(id ?? ""), [id]);
 
@@ -270,6 +278,9 @@ export default function PickDetailScreen() {
         <Text style={[styles.ownedLabel, { color: count > 0 ? "#2F855A" : "#C05621" }]}>
           {count > 0 ? "もってる！" : "まだ もってない"}
         </Text>
+        {count > 0 && confirmedPickIds.has(pick.id) && (
+          <Text style={styles.circleConfirmedLabel}>✓ フレンダサークルで かくにんずみ</Text>
+        )}
       </View>
 
       <PickZoom
@@ -347,6 +358,13 @@ const styles = StyleSheet.create({
   countZero: { color: "#C3CDDA" },
   countUnit: { fontSize: 16, fontWeight: "800", color: "#7C8DA3" },
   ownedLabel: { textAlign: "center", marginTop: 10, fontSize: 16, fontWeight: "900" },
+  circleConfirmedLabel: {
+    textAlign: "center",
+    marginTop: 4,
+    fontSize: 13,
+    fontWeight: "800",
+    color: "#2F855A",
+  },
 
   moveRow: { flexDirection: "row", alignItems: "center", gap: 10 },
   moveName: { fontSize: 18, fontWeight: "800", color: "#1A365D" },

@@ -58,7 +58,11 @@ export default function RootLayout() {
           />
           <Stack.Screen
             name="trainers"
-            options={{ title: "たいせんトレーナー", headerLeft: () => <BackToDex /> }}
+            options={{ title: "トレーナー", headerLeft: () => <BackToDex /> }}
+          />
+          <Stack.Screen
+            name="scan"
+            options={{ title: "QRを よみとる", headerLeft: () => <BackToDex /> }}
           />
           <Stack.Screen
             name="pick/[id]"

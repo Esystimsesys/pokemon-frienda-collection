@@ -1,4 +1,4 @@
-import { useRouter } from "expo-router";
+import { useFocusEffect, useRouter } from "expo-router";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   Animated,
@@ -18,6 +18,7 @@ import { EMPTY_FILTERS, FilterBar, type Filters } from "@/components/FilterBar";
 import { PickCard } from "@/components/PickCard";
 import { PrefetchBar } from "@/components/PrefetchBar";
 import { setBrowseOrder } from "@/lib/browseOrder";
+import { loadConfirmedPickIds } from "@/lib/circle";
 import { useCollection } from "@/lib/collection";
 import {
   type CardSize,
@@ -40,6 +41,14 @@ export default function DexScreen() {
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
   const [registerMode, setRegisterMode] = useState(false);
   const [cardSize, setCardSize] = useState<CardSize>(DEFAULT_CARD_SIZE);
+  const [confirmedPickIds, setConfirmedPickIds] = useState<Set<string>>(new Set());
+
+  // トレーナー画面での同期をはさんで戻ってきたときに、バッジが最新になるようにする
+  useFocusEffect(
+    useCallback(() => {
+      loadConfirmedPickIds().then(setConfirmedPickIds);
+    }, []),
+  );
 
   // 前に見ていた だん と カードの大きさ を復元する。ほかの条件は毎回まっさらでよい
   useEffect(() => {
@@ -257,11 +266,12 @@ export default function DexScreen() {
             width={cardWidth}
             onPress={registerMode ? addOne : openPick}
             onAdjust={registerMode ? adjust : undefined}
+            circleConfirmed={confirmedPickIds.has(pick.id)}
           />
         ))}
       </View>
     ),
-    [collection, cardWidth, registerMode, addOne, openPick, adjust],
+    [collection, cardWidth, registerMode, addOne, openPick, adjust, confirmedPickIds],
   );
 
   if (!ready) {
