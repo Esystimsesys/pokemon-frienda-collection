@@ -10,6 +10,7 @@ import {
 
 import { BackupCard } from "@/components/BackupCard";
 import { OfflineCard } from "@/components/OfflineCard";
+import { VersionFooter } from "@/components/VersionFooter";
 import { useCollection } from "@/lib/collection";
 import { ALL_PICKS, PICK_BY_ID, PICK_SETS } from "@/lib/picks";
 import { useNarrow } from "@/lib/responsive";
@@ -230,6 +231,7 @@ export default function SummaryScreen() {
 
       <BackupCard />
       <OfflineCard />
+      <VersionFooter />
     </ScrollView>
   );
 }

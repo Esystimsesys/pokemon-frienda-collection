@@ -34,12 +34,19 @@ jobs:
       - name: 型チェック
         run: npx tsc --noEmit
 
+      - name: ビルド時刻を決める
+        run: echo "BUILD_TIME=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
+
       - name: ビルド
         # GitHub Pages はリポジトリ名がURLに入るので、そのぶんを渡す。
         # ユーザー名.github.io という名前のリポジトリならルート配信になるので空にする。
+        # BUILD_SHA / BUILD_TIME は、デプロイ後にキャッシュが切りかわったかを
+        # 「きろく」画面（VersionFooter）で確認するためのもの。
         run: npm run build:web
         env:
           EXPO_BASE_URL: ${{ github.event.repository.name == format('{0}.github.io', github.repository_owner) && '' || format('/{0}', github.event.repository.name) }}
+          EXPO_PUBLIC_BUILD_SHA: ${{ github.sha }}
+          EXPO_PUBLIC_BUILD_TIME: ${{ env.BUILD_TIME }}
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
