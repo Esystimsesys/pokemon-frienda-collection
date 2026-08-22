@@ -15,9 +15,11 @@ type Props = {
   onPress: (id: string) => void;
   /** 登録モードのときだけ渡す。カードの下に ＋ と − を出す */
   onAdjust?: (id: string, delta: number) => void;
+  /** フレンダサークルの同期で「持っている」と確認できたピックか */
+  circleConfirmed?: boolean;
 };
 
-function PickCardBase({ pick, count, width, onPress, onAdjust }: Props) {
+function PickCardBase({ pick, count, width, onPress, onAdjust, circleConfirmed }: Props) {
   const owned = count > 0;
   const grade = groupStyle(pick);
   /**
@@ -43,7 +45,9 @@ function PickCardBase({ pick, count, width, onPress, onAdjust }: Props) {
         onPress={() => onPress(pick.id)}
         style={({ pressed }) => pressed && styles.pressed}
         accessibilityRole="button"
-        accessibilityLabel={`${pick.name} ${grade.label} ${owned ? `${count}まい` : "みしゅうとく"}`}
+        accessibilityLabel={`${pick.name} ${grade.label} ${owned ? `${count}まい` : "みしゅうとく"}${
+          owned && circleConfirmed ? " フレンダサークルで かくにんずみ" : ""
+        }`}
       >
         <View style={[styles.gradeBar, { backgroundColor: owned ? grade.color : "#C3CDDA" }]}>
           <Text style={[styles.gradeText, !owned && styles.gradeTextDim]}>{grade.label}</Text>
@@ -77,6 +81,11 @@ function PickCardBase({ pick, count, width, onPress, onAdjust }: Props) {
           {!owned && (
             <View style={styles.unownedBadge}>
               <Text style={styles.unownedMark}>?</Text>
+            </View>
+          )}
+          {owned && circleConfirmed && (
+            <View style={styles.circleBadge} accessibilityElementsHidden>
+              <Text style={styles.circleBadgeMark}>✓</Text>
             </View>
           )}
         </View>
@@ -192,6 +201,18 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   unownedMark: { fontSize: 15, fontWeight: "900", color: "#7C8DA3" },
+  circleBadge: {
+    position: "absolute",
+    top: 4,
+    left: 4,
+    width: 22,
+    height: 22,
+    borderRadius: 11,
+    backgroundColor: "#2F855A",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  circleBadgeMark: { fontSize: 13, fontWeight: "900", color: "#fff" },
   name: {
     fontSize: 14,
     fontWeight: "800",

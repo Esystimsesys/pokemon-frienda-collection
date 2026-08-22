@@ -1,7 +1,6 @@
 import { Platform } from "react-native";
 
 import { ALL_PICKS } from "@/lib/picks";
-import { ALL_TRAINERS } from "@/lib/trainers";
 
 /**
  * ピック画像の先読み。
@@ -31,14 +30,8 @@ function normalize(url: string): string {
   }
 }
 
-/**
- * 先読みするもの。ピックは一覧用の小さい画像だけで、大きい画像は見たぶんだけ入る。
- * トレーナーは数が少ないので、絵も きせかえの見本も まとめて入れる。
- */
-const PREFETCH_URLS = [
-  ...ALL_PICKS.map((p) => p.thumb),
-  ...ALL_TRAINERS.flatMap((t) => [t.image, ...t.rewardImages]),
-].map(normalize);
+/** 先読みするもの。一覧用の小さい画像だけで、大きい画像は見たぶんだけ入る。 */
+const PREFETCH_URLS = ALL_PICKS.map((p) => p.thumb).map(normalize);
 
 export const TOTAL_IMAGES = PREFETCH_URLS.length;
 

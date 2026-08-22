@@ -83,19 +83,45 @@ export type Legend = "でんせつ" | "まぼろし";
 /** ピックID -> 所持枚数。0枚のものはキーごと持たない */
 export type Collection = Record<string, number>;
 
-/** だんごとに出てくる、たたかう相手のトレーナー。1〜3だんとワンダー／スペシャルには居ない */
-export type Trainer = {
-  /** だん + 出てくる順。例: bt5-2 */
-  id: string;
-  set: SetKey;
-  setLabel: string;
-  setOrder: number;
-  /** そのだんの中で何人目か */
-  order: number;
-  name: string;
-  image: string;
-  /** 勝つともらえるきせかえアイテムの名前 */
-  reward: string;
-  /** きせかえアイテムの見本の画像 */
-  rewardImages: string[];
+/**
+ * トレーナーピックのQRから読みとった、フレンダサークルとの つながり。
+ * token は QR の `s=` パラメータそのもの（フレンダサークル側の本人確認キー）。
+ */
+export type CircleConnection = {
+  token: string;
+  trainerName: string;
+  trainerPickId: string;
+  avatarType: number;
+  connectedAt: number;
+  lastSyncedAt: number | null;
+};
+
+/** 同期のたびに フレンダサークルから取ってくる、トレーナーの現在のようす */
+export type CircleSummary = {
+  trainerName: string;
+  avatarType: number;
+  partner: {
+    name: string;
+    progress: number;
+  } | null;
+  currentSeason: {
+    seasonName: string;
+    currentCount: number;
+    maxCount: number;
+  } | null;
+  training: {
+    name: string;
+    exPower: number;
+    exPowerThreshold: number;
+  } | null;
+  trainerBattle: {
+    highScore: number;
+    clearedCount: number;
+    totalCount: number;
+  } | null;
+  medalCount: number;
+  charmCount: number;
+  /** ピック図鑑に反映できた（ローカルの Pick.id と一致した）所持ピックのID一覧 */
+  ownedPickIds: string[];
+  syncedAt: number;
 };

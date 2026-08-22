@@ -13,6 +13,14 @@ import { Platform } from "react-native";
 import type { Collection } from "@/types";
 
 const STORAGE_KEY = "frienda.collection.v1";
+/**
+ * 「手で さわった」ピックID。register モードでの ＋/− や、じょうほう画面の カウンター、
+ * バックアップの読みこみで触れたものはここに入る。一度入ったら消えない。
+ * フレンダサークルの同期（applyCircleSync）は、この集合に入っていないピックだけを
+ * サークル側の一覧にあわせる（無ければ0にもどす）。手で登録した分は同期の対象外にして、
+ * ユーザーの手入力を上書きしないようにするため。
+ */
+const MANUAL_STORAGE_KEY = "frienda.collection.manual.v1";
 
 type CollectionContextValue = {
   ready: boolean;
@@ -22,6 +30,11 @@ type CollectionContextValue = {
   adjust: (id: string, delta: number) => void;
   /** 読み込み（バックアップの復元）用。いまの記録をまるごと置きかえる */
   replaceAll: (next: Collection) => void;
+  /**
+   * フレンダサークルの同期結果を反映する。手で登録していないピックだけを、
+   * サークル側の一覧に合わせる（足りなければ1枚に、サークルに無ければ0にもどす）。
+   */
+  applyCircleSync: (ownedIds: string[]) => void;
   ownedCount: number;
 };
 
@@ -29,19 +42,48 @@ const CollectionContext = createContext<CollectionContextValue | null>(null);
 
 export function CollectionProvider({ children }: { children: React.ReactNode }) {
   const [collection, setCollection] = useState<Collection>({});
+  const [manualIds, setManualIds] = useState<Set<string>>(new Set());
   const [ready, setReady] = useState(false);
   const writeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
-    AsyncStorage.getItem(STORAGE_KEY)
-      .then((raw) => {
-        if (raw) setCollection(JSON.parse(raw));
+    Promise.all([
+      AsyncStorage.getItem(STORAGE_KEY).catch(() => null),
+      AsyncStorage.getItem(MANUAL_STORAGE_KEY).catch(() => null),
+    ])
+      .then(([rawCollection, rawManual]) => {
+        if (rawCollection) setCollection(JSON.parse(rawCollection));
+        if (rawManual) setManualIds(new Set(JSON.parse(rawManual) as string[]));
       })
       .catch(() => {
         // 保存データが壊れている場合は空から始める
       })
       .finally(() => setReady(true));
   }, []);
+
+  const persistManual = useCallback((next: Set<string>) => {
+    AsyncStorage.setItem(MANUAL_STORAGE_KEY, JSON.stringify([...next])).catch(() => {});
+  }, []);
+
+  /** 渡したIDを「手でさわった」集合に加える。すでに入っているものだけなら書き出さない */
+  const markManual = useCallback(
+    (ids: string[]) => {
+      setManualIds((prev) => {
+        let changed = false;
+        const updated = new Set(prev);
+        for (const id of ids) {
+          if (!updated.has(id)) {
+            updated.add(id);
+            changed = true;
+          }
+        }
+        if (!changed) return prev;
+        persistManual(updated);
+        return updated;
+      });
+    },
+    [persistManual],
+  );
 
   /** まだ書き出していない中身。アプリが隠れるときに取りこぼさないよう持っておく */
   const pending = useRef<Collection | null>(null);
@@ -85,6 +127,7 @@ export function CollectionProvider({ children }: { children: React.ReactNode }) 
 
   const setCount = useCallback(
     (id: string, next: number) => {
+      markManual([id]);
       setCollection((prev) => {
         const value = Math.max(0, Math.min(99, Math.floor(next)));
         const updated = { ...prev };
@@ -94,11 +137,12 @@ export function CollectionProvider({ children }: { children: React.ReactNode }) 
         return updated;
       });
     },
-    [persist],
+    [persist, markManual],
   );
 
   const adjust = useCallback(
     (id: string, delta: number) => {
+      markManual([id]);
       setCollection((prev) => {
         const value = Math.max(0, Math.min(99, (prev[id] ?? 0) + delta));
         const updated = { ...prev };
@@ -108,15 +152,38 @@ export function CollectionProvider({ children }: { children: React.ReactNode }) 
         return updated;
       });
     },
-    [persist],
+    [persist, markManual],
   );
 
   const replaceAll = useCallback(
     (next: Collection) => {
+      markManual(Object.keys(next));
       setCollection(next);
       persist(next);
     },
-    [persist],
+    [persist, markManual],
+  );
+
+  /**
+   * サークルの所持ピック一覧を、手ざわりしていない分にだけ適用する。
+   * 足りなければ1枚に、サークルに無くなっていれば0にもどす（手で触った分は無視）。
+   */
+  const applyCircleSync = useCallback(
+    (ownedIds: string[]) => {
+      const ownedSet = new Set(ownedIds);
+      setCollection((prev) => {
+        const updated = { ...prev };
+        for (const id of Object.keys(updated)) {
+          if (!manualIds.has(id) && !ownedSet.has(id)) delete updated[id];
+        }
+        for (const id of ownedIds) {
+          if (!manualIds.has(id) && (updated[id] ?? 0) === 0) updated[id] = 1;
+        }
+        persist(updated);
+        return updated;
+      });
+    },
+    [manualIds, persist],
   );
 
   const value = useMemo<CollectionContextValue>(
@@ -127,9 +194,10 @@ export function CollectionProvider({ children }: { children: React.ReactNode }) 
       setCount,
       adjust,
       replaceAll,
+      applyCircleSync,
       ownedCount: Object.keys(collection).length,
     }),
-    [ready, collection, setCount, adjust, replaceAll],
+    [ready, collection, setCount, adjust, replaceAll, applyCircleSync],
   );
 
   return <CollectionContext.Provider value={value}>{children}</CollectionContext.Provider>;

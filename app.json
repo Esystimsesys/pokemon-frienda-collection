@@ -7,10 +7,6 @@
     "scheme": "friendadex",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.friendadex.app"
-    },
     "web": {
       "bundler": "metro",
       "output": "single",

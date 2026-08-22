@@ -3,6 +3,7 @@ node_modules/
 dist/
 web-build/
 *.log
+.wrangler/
 .DS_Store
 
 # 公式サイトから取得した生HTML・画像。fetch_official.py / OCRスクリプトの入力で、再取得可能。
