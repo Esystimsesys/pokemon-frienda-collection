@@ -109,11 +109,18 @@ export type CircleSummary = {
     currentCount: number;
     maxCount: number;
   } | null;
+  /** トレーニング中のポケモン。複数いる（ホームには「いま育てている1体」しか入っていない） */
   training: {
     name: string;
+    /** 券面の番号。ローカル図鑑にあれば Pick.id と一致する */
+    pickId: string;
     exPower: number;
     exPowerThreshold: number;
-  } | null;
+    /** いま重点的に育てている1体かどうか */
+    isCurrentTarget: boolean;
+    /** ローカル図鑑に無いピック用に、サークルから持ち帰った画像（data URI） */
+    image: string | null;
+  }[];
   trainerBattle: {
     highScore: number;
     clearedCount: number;
@@ -131,7 +138,6 @@ export type CircleSummary = {
   images: {
     trainerAvatar: string | null;
     partner: string | null;
-    training: string | null;
     medalIcon: string | null;
   };
   /** チャームの画像（data URI）の一覧 */

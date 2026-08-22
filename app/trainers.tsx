@@ -12,9 +12,11 @@ import {
   loadSummary,
   parseHomeResponse,
   parsePickDexResponse,
+  parseTrainingResponse,
   saveConnection,
   saveSummary,
 } from "@/lib/circle";
+import { PICK_BY_ID } from "@/lib/picks";
 import type { CircleConnection, CircleSummary } from "@/types";
 
 function formatSyncedAt(ms: number | null): string {
@@ -69,11 +71,11 @@ export default function TrainersScreen() {
     setSyncing(true);
 
     try {
-      const { homeBody, pickDexBody, images, charmImages } = await fetchCircleSync(
-        connection.token,
-      );
+      const { homeBody, trainingBody, pickDexBody, images, charmImages, pickImages } =
+        await fetchCircleSync(connection.token);
       const home = parseHomeResponse(homeBody);
       const ownedPickIds = parsePickDexResponse(pickDexBody);
+      const training = trainingBody ? parseTrainingResponse(trainingBody, pickImages) : [];
 
       if (!home) {
         setMessage("フレンダサークルの じょうほうが うまく よみとれなかったよ。");
@@ -90,7 +92,7 @@ export default function TrainersScreen() {
         avatarType: home.avatarType ?? 0,
         partner: home.partner ?? null,
         currentSeason: home.currentSeason ?? null,
-        training: home.training ?? null,
+        training,
         trainerBattle: home.trainerBattle ?? null,
         medalCount: home.medalCount ?? 0,
         charmCount: home.charmCount ?? 0,
@@ -98,7 +100,6 @@ export default function TrainersScreen() {
         images: {
           trainerAvatar: images.trainerAvatar ?? null,
           partner: images.partner ?? null,
-          training: images.training ?? null,
           medalIcon: images.medalIcon ?? null,
         },
         charmImages: Object.values(charmImages),
@@ -175,24 +176,69 @@ export default function TrainersScreen() {
         <Text style={styles.heroSynced}>{formatSyncedAt(connection.lastSyncedAt)}</Text>
       </View>
 
-      <View style={styles.grid}>
-        {summary?.partner && (
-          <View style={[styles.statCard, { borderColor: "#E0518E" }]}>
-            <Text style={[styles.statLabel, { color: "#E0518E" }]}>パートナー</Text>
-            <View style={styles.statWithImageRow}>
-              {summary.images.partner && (
-                <Image source={{ uri: summary.images.partner }} style={styles.partnerImage} />
-              )}
-              <View style={styles.statWithImageText}>
-                <Text style={styles.statBig} numberOfLines={1}>
-                  {summary.partner.name}
-                </Text>
-                <Text style={styles.statCaption}>せいちょう ★{summary.partner.progress}</Text>
-              </View>
+      {summary?.partner && (
+        <View style={[styles.card, { borderColor: "#E0518E" }]}>
+          <Text style={[styles.cardTitle, { color: "#E0518E" }]}>パートナーポケモン</Text>
+          <View style={styles.partnerRow}>
+            {summary.images.partner && (
+              <Image source={{ uri: summary.images.partner }} style={styles.partnerImage} />
+            )}
+            <View style={styles.partnerText}>
+              <Text style={styles.bigName} numberOfLines={1}>
+                {summary.partner.name}
+              </Text>
+              <Text style={styles.stars}>{"★".repeat(Math.max(0, summary.partner.progress))}</Text>
             </View>
           </View>
-        )}
+        </View>
+      )}
 
+      {!!summary && summary.training.length > 0 && (
+        <View style={[styles.card, { borderColor: "#C8930B" }]}>
+          <Text style={[styles.cardTitle, { color: "#C8930B" }]}>
+            トレーニングちゅう（{summary.training.length}ひき）
+          </Text>
+          <View style={styles.trainingList}>
+            {summary.training.map((t) => {
+              const localPick = PICK_BY_ID.get(t.pickId);
+              const uri = localPick?.thumb ?? t.image;
+              return (
+                <View key={t.pickId} style={styles.trainingItem}>
+                  {uri ? (
+                    <Image source={{ uri }} style={styles.trainingImage} />
+                  ) : (
+                    <View style={[styles.trainingImage, styles.trainingImageBlank]} />
+                  )}
+                  <View style={styles.trainingItemText}>
+                    <View style={styles.trainingNameRow}>
+                      <Text style={styles.trainingName} numberOfLines={1}>
+                        {t.name}
+                      </Text>
+                      {t.isCurrentTarget && (
+                        <View style={styles.targetBadge}>
+                          <Text style={styles.targetBadgeText}>いま そだてちゅう</Text>
+                        </View>
+                      )}
+                    </View>
+                    {t.exPowerThreshold > 0 && (
+                      <>
+                        <View style={styles.progressRow}>
+                          <Text style={styles.progressCaption}>EXパワー</Text>
+                          <Text style={styles.progressNum}>{t.exPower}</Text>
+                          <Text style={styles.progressDen}> / {t.exPowerThreshold}</Text>
+                        </View>
+                        <ProgressBar value={t.exPower / t.exPowerThreshold} color="#C8930B" />
+                      </>
+                    )}
+                  </View>
+                </View>
+              );
+            })}
+          </View>
+        </View>
+      )}
+
+      <View style={styles.grid}>
         {summary?.currentSeason && summary.currentSeason.maxCount > 0 && (
           <View style={[styles.statCard, { borderColor: "#2B6CB0" }]}>
             <Text style={[styles.statLabel, { color: "#2B6CB0" }]} numberOfLines={1}>
@@ -209,35 +255,6 @@ export default function TrainersScreen() {
           </View>
         )}
 
-        {summary?.training && (
-          <View style={[styles.statCard, { borderColor: "#C8930B" }]}>
-            <Text style={[styles.statLabel, { color: "#C8930B" }]}>トレーニングちゅう</Text>
-            <View style={styles.statWithImageRow}>
-              {summary.images.training && (
-                <Image source={{ uri: summary.images.training }} style={styles.trainingImage} />
-              )}
-              <View style={styles.statWithImageText}>
-                <Text style={styles.statBig} numberOfLines={1}>
-                  {summary.training.name}
-                </Text>
-                {summary.training.exPowerThreshold > 0 && (
-                  <>
-                    <View style={styles.progressRow}>
-                      <Text style={styles.progressCaption}>EXパワー</Text>
-                      <Text style={styles.progressNum}>{summary.training.exPower}</Text>
-                      <Text style={styles.progressDen}> / {summary.training.exPowerThreshold}</Text>
-                    </View>
-                    <ProgressBar
-                      value={summary.training.exPower / summary.training.exPowerThreshold}
-                      color="#C8930B"
-                    />
-                  </>
-                )}
-              </View>
-            </View>
-          </View>
-        )}
-
         {summary?.trainerBattle && (
           <View style={[styles.statCard, { borderColor: "#0F9B8E" }]}>
             <Text style={[styles.statLabel, { color: "#0F9B8E" }]}>トレーナーバトル</Text>
@@ -248,43 +265,40 @@ export default function TrainersScreen() {
                 {Array.from({ length: summary.trainerBattle.totalCount }, (_, i) => (
                   <View
                     key={i}
-                    style={[
-                      styles.dot,
-                      i < summary.trainerBattle!.clearedCount && styles.dotOn,
-                    ]}
+                    style={[styles.dot, i < summary.trainerBattle!.clearedCount && styles.dotOn]}
                   />
                 ))}
               </View>
             )}
           </View>
         )}
+      </View>
 
-        {!!summary && (summary.medalCount > 0 || summary.charmCount > 0) && (
-          <View style={[styles.statCard, styles.statCardWide, { borderColor: "#E8720C" }]}>
-            <View style={styles.medalCharmRow}>
-              <View style={styles.medalCharmItem}>
-                {summary.images.medalIcon && (
-                  <Image source={{ uri: summary.images.medalIcon }} style={styles.medalIcon} />
-                )}
-                <Text style={styles.statBig}>{summary.medalCount}</Text>
-                <Text style={[styles.statLabel, { color: "#E8720C" }]}>メダル</Text>
-              </View>
-              <View style={styles.medalCharmDivider} />
-              <View style={styles.medalCharmItem}>
-                {summary.charmImages.length > 0 && (
-                  <View style={styles.charmRow}>
-                    {summary.charmImages.map((uri, i) => (
-                      <Image key={i} source={{ uri }} style={styles.charmIcon} />
-                    ))}
-                  </View>
-                )}
-                <Text style={styles.statBig}>{summary.charmCount}</Text>
-                <Text style={[styles.statLabel, { color: "#E8720C" }]}>チャーム</Text>
-              </View>
+      {!!summary && (summary.medalCount > 0 || summary.charmCount > 0) && (
+        <View style={[styles.card, { borderColor: "#E8720C" }]}>
+          <View style={styles.medalCharmRow}>
+            <View style={styles.medalCharmItem}>
+              {summary.images.medalIcon && (
+                <Image source={{ uri: summary.images.medalIcon }} style={styles.medalIcon} />
+              )}
+              <Text style={styles.statBig}>{summary.medalCount}</Text>
+              <Text style={[styles.statLabel, { color: "#E8720C" }]}>メダル</Text>
+            </View>
+            <View style={styles.medalCharmDivider} />
+            <View style={styles.medalCharmItem}>
+              {summary.charmImages.length > 0 && (
+                <View style={styles.charmRow}>
+                  {summary.charmImages.map((uri, i) => (
+                    <Image key={i} source={{ uri }} style={styles.charmIcon} />
+                  ))}
+                </View>
+              )}
+              <Text style={styles.statBig}>{summary.charmCount}</Text>
+              <Text style={[styles.statLabel, { color: "#E8720C" }]}>チャーム</Text>
             </View>
           </View>
-        )}
-      </View>
+        </View>
+      )}
 
       <TouchableOpacity
         onPress={startSync}
@@ -382,13 +396,42 @@ const styles = StyleSheet.create({
   statBig: { fontSize: 20, fontWeight: "900", color: "#1A365D" },
   statCaption: { fontSize: 12, fontWeight: "700", color: "#7C8DA3" },
 
-  statWithImageRow: { flexDirection: "row", alignItems: "center", gap: 10 },
-  statWithImageText: { flex: 1, gap: 2 },
-  partnerImage: { width: 68, height: 68, resizeMode: "contain" },
-  trainingImage: { width: 56, height: 78, resizeMode: "contain" },
-  medalIcon: { width: 32, height: 32, resizeMode: "contain" },
-  charmRow: { flexDirection: "row", gap: 4 },
-  charmIcon: { width: 32, height: 32, resizeMode: "contain" },
+  card: {
+    backgroundColor: "#fff",
+    borderRadius: 16,
+    borderWidth: 2,
+    padding: 16,
+    gap: 10,
+    boxShadow: "0px 2px 6px rgba(26, 54, 93, 0.07)",
+    elevation: 2,
+  },
+  cardTitle: { fontSize: 14, fontWeight: "900" },
+  bigName: { fontSize: 24, fontWeight: "900", color: "#1A365D" },
+  stars: { fontSize: 18, color: "#E8B21C", letterSpacing: 2 },
+
+  partnerRow: { flexDirection: "row", alignItems: "center", gap: 16 },
+  partnerText: { flex: 1, gap: 2 },
+  partnerImage: { width: 110, height: 110, resizeMode: "contain" },
+
+  trainingList: { gap: 14 },
+  trainingItem: { flexDirection: "row", alignItems: "center", gap: 14 },
+  trainingItemText: { flex: 1, gap: 3 },
+  // 券面はよこ長（430x326）。図鑑のカードと同じくらいの大きさで見せる
+  trainingImage: { width: 116, height: 88, resizeMode: "contain", borderRadius: 6 },
+  trainingImageBlank: { backgroundColor: "#F7FAFD" },
+  trainingNameRow: { flexDirection: "row", alignItems: "center", gap: 8, flexWrap: "wrap" },
+  trainingName: { fontSize: 19, fontWeight: "900", color: "#1A365D" },
+  targetBadge: {
+    backgroundColor: "#C8930B",
+    borderRadius: 10,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+  },
+  targetBadgeText: { color: "#fff", fontSize: 11, fontWeight: "900" },
+
+  medalIcon: { width: 44, height: 44, resizeMode: "contain" },
+  charmRow: { flexDirection: "row", gap: 6 },
+  charmIcon: { width: 44, height: 44, resizeMode: "contain" },
 
   progressRow: { flexDirection: "row", alignItems: "baseline", marginTop: 2 },
   progressCaption: { fontSize: 12, fontWeight: "700", color: "#7C8DA3", marginRight: 6 },

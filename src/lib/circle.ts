@@ -78,9 +78,13 @@ async function recordSyncAttempt(): Promise<void> {
 
 export type CircleSyncResult = {
   homeBody: string;
+  /** トレーニング中ポケモンの一覧。取れなかったときは null */
+  trainingBody: string | null;
   pickDexBody: string;
-  images: Partial<Record<"trainerAvatar" | "partner" | "training" | "medalIcon", string>>;
+  images: Partial<Record<"trainerAvatar" | "partner" | "medalIcon", string>>;
   charmImages: Record<string, string>;
+  /** ピックの絵。img名（拡張子なし）がキー。サムネイルは "_tmb" つきで届く */
+  pickImages: Record<string, string>;
 };
 
 /**
@@ -113,9 +117,11 @@ export async function fetchCircleSync(token: string): Promise<CircleSyncResult> 
 
   return {
     homeBody: body.homeBody,
+    trainingBody: typeof body.trainingBody === "string" ? body.trainingBody : null,
     pickDexBody: body.pickDexBody,
     images: body.images && typeof body.images === "object" ? body.images : {},
     charmImages: body.charmImages && typeof body.charmImages === "object" ? body.charmImages : {},
+    pickImages: body.pickImages && typeof body.pickImages === "object" ? body.pickImages : {},
   };
 }
 
@@ -143,17 +149,19 @@ export async function loadSummary(): Promise<CircleSummary | null> {
     const raw = await AsyncStorage.getItem(SUMMARY_STORAGE_KEY);
     if (!raw) return null;
     const parsed = JSON.parse(raw) as CircleSummary;
-    // images/charmImages はあとから足したフィールド。それより前に保存された
-    // 記録には無いので、無いときは空にしておく（無いと画面がクラッシュしていた）
+    // images/charmImages/training はあとから形を変えたフィールド。古い記録には
+    // 無かったり別の形だったりするので、必ず今の形にそろえる
+    // （そろえないと画面がクラッシュする。実際に起きた不具合）
     return {
       ...parsed,
       images: {
         trainerAvatar: parsed.images?.trainerAvatar ?? null,
         partner: parsed.images?.partner ?? null,
-        training: parsed.images?.training ?? null,
         medalIcon: parsed.images?.medalIcon ?? null,
       },
       charmImages: parsed.charmImages ?? [],
+      // 以前は「1体だけのオブジェクト」だった。配列でなければ捨てる
+      training: Array.isArray(parsed.training) ? parsed.training : [],
     };
   } catch {
     return null;
@@ -213,14 +221,6 @@ export function parseHomeResponse(body: string): Partial<CircleSummary> | null {
       }
     : null;
 
-  const training = data.trainingData
-    ? {
-        name: String(data.trainingData.name ?? ""),
-        exPower: Number(data.trainingData.exPower ?? 0),
-        exPowerThreshold: Number(data.trainingData.exPowerThreshold ?? 0),
-      }
-    : null;
-
   const battleResults: any[] = data.userTrainerBattleData?.trainerBattleResult?.battleResult ?? [];
   const trainerBattle = data.userTrainerBattleData
     ? {
@@ -241,11 +241,56 @@ export function parseHomeResponse(body: string): Partial<CircleSummary> | null {
     avatarType: Number(data.userData?.avatarType ?? 0),
     partner,
     currentSeason,
-    training,
     trainerBattle,
     medalCount,
     charmCount,
   };
+}
+
+/**
+ * `clubApi/user/training/*` のレスポンス本文から、トレーニング中のポケモンを全部集める。
+ * ホームの `trainingData` には「いま重点的に育てている1体」しか入っていないので、
+ * 一覧はこちらの専用APIから取る。
+ *
+ * 絵は、ローカル図鑑に同じ番号のピックがあればそちらを使う（すでに端末にあるので速い）。
+ * スペシャルの「P」など図鑑に無いものだけ、サークルから持ち帰った絵を使う。
+ */
+export function parseTrainingResponse(
+  body: string,
+  pickImages: Record<string, string>,
+): CircleSummary["training"] {
+  let json: any;
+  try {
+    json = JSON.parse(body);
+  } catch {
+    return [];
+  }
+  const seasons: any[] = json?.params?.userTrainingData?.seasonTrainingList ?? [];
+  const out: CircleSummary["training"] = [];
+
+  for (const season of seasons) {
+    for (const grade of season?.gradeTrainingList ?? []) {
+      for (const pick of grade?.trainingPickList ?? []) {
+        const img = typeof pick?.img === "string" ? pick.img : "";
+        // 図鑑に無いピックのぶんだけ、サークルの絵を持っておく。
+        // サムネイル（_tmb つき）しか来ていないこともあるので、そちらも見る
+        const fallbackImage = PICK_BY_ID.has(img)
+          ? null
+          : (pickImages[img] ?? pickImages[`${img}_tmb`] ?? null);
+        out.push({
+          name: String(pick?.name ?? ""),
+          pickId: img,
+          exPower: Number(pick?.exPower ?? 0),
+          exPowerThreshold: Number(pick?.exPowerThreshold ?? 0),
+          isCurrentTarget: pick?.isCurrentTarget === 1,
+          image: fallbackImage,
+        });
+      }
+    }
+  }
+
+  // いま重点的に育てている子を先頭に持ってくる
+  return out.sort((a, b) => Number(b.isCurrentTarget) - Number(a.isCurrentTarget));
 }
 
 /**

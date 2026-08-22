@@ -24,6 +24,7 @@ const ALLOWED_ORIGINS = new Set([
 ]);
 
 const ENTRY_URL_BASE = "https://circle.pokemonfrienda.com/TP";
+const TRAINING_URL = "https://circle.pokemonfrienda.com/training/";
 const ZUKAN_URL = "https://circle.pokemonfrienda.com/zukan/";
 const NAV_TIMEOUT_MS = 20000;
 const WAIT_FOR_RESPONSE_MS = 10000;
@@ -93,9 +94,10 @@ export default {
 
       let homeBody = null;
       let pickDexBody = null;
+      let trainingBody = null;
       const images = {};
       const charmImages = {};
-      /** zukan/pick/ 配下の候補。{ name, promise } を img 名（拡張子なし）ごとに集める */
+      /** zukan/pick/ 配下の候補。img 名（拡張子なし）ごとに data URI の promise を集める */
       const pickImageCandidates = new Map();
 
       page.on("response", (res) => {
@@ -105,6 +107,15 @@ export default {
             .text()
             .then((t) => {
               homeBody = t;
+            })
+            .catch(() => {});
+          return;
+        }
+        if (resUrl.includes("/clubApi/user/training/")) {
+          res
+            .text()
+            .then((t) => {
+              trainingBody = t;
             })
             .catch(() => {});
           return;
@@ -157,17 +168,11 @@ export default {
       // 画像は home のレスポンスより少し遅れて届くことがあるので、少しだけ待つ
       await new Promise((resolve) => setTimeout(resolve, IMAGE_GRACE_MS));
 
-      // トレーニング中ピックの画像は、home の中身にある img 名と一致する候補だけを選ぶ
-      // （ホーム画面には他のピック画像が一緒に出ることがあるため、単純な最初勝ちだと
-      // ちがうピックの絵になってしまう。実際に発生した不具合）
-      try {
-        const trainingImgName = JSON.parse(homeBody)?.params?.userHomeData?.trainingData?.img;
-        if (typeof trainingImgName === "string" && pickImageCandidates.has(trainingImgName)) {
-          images.training = await pickImageCandidates.get(trainingImgName);
-        }
-      } catch {
-        // 解析できなくても画像が無いだけで、本体の同期は続ける
-      }
+      // トレーニング中のポケモンは複数いる（ホームには「いま育てている1体」しか
+      // 入っていない）。専用ページに一覧のAPIがあるので、そちらも見に行く
+      await page.goto(TRAINING_URL, { waitUntil: "networkidle0", timeout: NAV_TIMEOUT_MS });
+      await waitFor(() => trainingBody !== null, WAIT_FOR_RESPONSE_MS);
+      await new Promise((resolve) => setTimeout(resolve, IMAGE_GRACE_MS));
 
       await page.goto(ZUKAN_URL, { waitUntil: "networkidle0", timeout: NAV_TIMEOUT_MS });
       await waitFor(() => pickDexBody !== null, WAIT_FOR_RESPONSE_MS);
@@ -176,8 +181,19 @@ export default {
         throw new Error("pick_dex_not_received");
       }
 
+      // ピック画像は img 名をキーに返す。どのピックの絵かを名前で引けるようにしておかないと、
+      // ホーム画面に他のピックが混ざったときに取りちがえる（実際に起きた不具合）
+      const pickImages = {};
+      for (const [name, promise] of pickImageCandidates) {
+        try {
+          pickImages[name] = await promise;
+        } catch {
+          // 1枚取れなくても他は返す
+        }
+      }
+
       await browser.close();
-      return json({ homeBody, pickDexBody, images, charmImages }, 200, origin);
+      return json({ homeBody, trainingBody, pickDexBody, images, charmImages, pickImages }, 200, origin);
     } catch (err) {
       if (browser) {
         try {
