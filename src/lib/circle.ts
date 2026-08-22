@@ -142,7 +142,19 @@ export async function loadSummary(): Promise<CircleSummary | null> {
   try {
     const raw = await AsyncStorage.getItem(SUMMARY_STORAGE_KEY);
     if (!raw) return null;
-    return JSON.parse(raw) as CircleSummary;
+    const parsed = JSON.parse(raw) as CircleSummary;
+    // images/charmImages はあとから足したフィールド。それより前に保存された
+    // 記録には無いので、無いときは空にしておく（無いと画面がクラッシュしていた）
+    return {
+      ...parsed,
+      images: {
+        trainerAvatar: parsed.images?.trainerAvatar ?? null,
+        partner: parsed.images?.partner ?? null,
+        training: parsed.images?.training ?? null,
+        medalIcon: parsed.images?.medalIcon ?? null,
+      },
+      charmImages: parsed.charmImages ?? [],
+    };
   } catch {
     return null;
   }
