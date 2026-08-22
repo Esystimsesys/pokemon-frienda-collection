@@ -41,6 +41,17 @@ export function extractCircleToken(url: string): string | null {
   return token;
 }
 
+/** フレンダサークルのトップ。まだトレーナーピックをつないでいないとき用 */
+export const CIRCLE_SITE_URL = `https://${CIRCLE_HOST}/`;
+
+/**
+ * トレーナーピックのQRと同じ、本人のフレンダサークルを開くURL。
+ * ブラウザで開くと本物のサークル（ログイン済み）が見られる。
+ */
+export function buildCircleEntryUrl(token: string): string {
+  return `https://${CIRCLE_HOST}/TP?s=${encodeURIComponent(token)}`;
+}
+
 type SyncAvailability = {
   allowed: boolean;
   remaining: number;

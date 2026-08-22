@@ -1,9 +1,11 @@
 import { useRouter } from "expo-router";
 import { useCallback, useEffect, useState } from "react";
-import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { Image, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 import { useCollection } from "@/lib/collection";
 import {
+  CIRCLE_SITE_URL,
+  buildCircleEntryUrl,
   addConfirmedPickIds,
   clearConnection,
   fetchCircleSync,
@@ -16,7 +18,7 @@ import {
   saveConnection,
   saveSummary,
 } from "@/lib/circle";
-import { PICK_BY_ID } from "@/lib/picks";
+import { LATEST_SET, LATEST_SET_URL, PICK_BY_ID } from "@/lib/picks";
 import type { CircleConnection, CircleSummary } from "@/types";
 
 function formatSyncedAt(ms: number | null): string {
@@ -30,6 +32,35 @@ function formatSyncedAt(ms: number | null): string {
 function formatClock(ms: number): string {
   const d = new Date(ms);
   return `${d.getMonth() + 1}/${d.getDate()} ${d.getHours()}:${String(d.getMinutes()).padStart(2, "0")}`;
+}
+
+/**
+ * 公式サイトへの行き先。アプリの外（ブラウザ）にとぶので、
+ * 押したら外に出ることが分かるように「↗」を付けておく。
+ */
+function OfficialLinks({ token }: { token: string | null }) {
+  const circleUrl = token ? buildCircleEntryUrl(token) : CIRCLE_SITE_URL;
+  return (
+    <View style={styles.linkCard}>
+      <Text style={styles.linkCardTitle}>こうしきサイトを みる</Text>
+      <TouchableOpacity
+        onPress={() => Linking.openURL(LATEST_SET_URL)}
+        activeOpacity={0.8}
+        style={[styles.linkButton, styles.linkButtonNews]}
+        accessibilityRole="link"
+      >
+        <Text style={styles.linkButtonText}>{LATEST_SET.label}の じょうほう ↗</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => Linking.openURL(circleUrl)}
+        activeOpacity={0.8}
+        style={[styles.linkButton, styles.linkButtonCircle]}
+        accessibilityRole="link"
+      >
+        <Text style={styles.linkButtonText}>フレンダサークルを ひらく ↗</Text>
+      </TouchableOpacity>
+    </View>
+  );
 }
 
 function ProgressBar({ value, color }: { value: number; color: string }) {
@@ -155,6 +186,8 @@ export default function TrainersScreen() {
         >
           <Text style={styles.primaryButtonText}>QRコードを よみとる</Text>
         </TouchableOpacity>
+
+        <OfficialLinks token={null} />
       </ScrollView>
     );
   }
@@ -343,6 +376,8 @@ export default function TrainersScreen() {
           <Text style={styles.disconnectLink}>べつの トレーナーピックに つなぎかえる</Text>
         </TouchableOpacity>
       )}
+
+      <OfficialLinks token={connection.token} />
     </ScrollView>
   );
 }
@@ -460,6 +495,20 @@ const styles = StyleSheet.create({
   primaryButtonText: { color: "#fff", fontSize: 15, fontWeight: "800" },
   webNotice: { fontSize: 13, fontWeight: "700", color: "#9C4221" },
   message: { marginTop: -4, fontSize: 13, fontWeight: "700", color: "#2F855A", lineHeight: 20 },
+
+  linkCard: {
+    backgroundColor: "#fff",
+    borderRadius: 16,
+    padding: 16,
+    gap: 10,
+    boxShadow: "0px 2px 6px rgba(26, 54, 93, 0.07)",
+    elevation: 2,
+  },
+  linkCardTitle: { fontSize: 14, fontWeight: "900", color: "#7C8DA3" },
+  linkButton: { borderRadius: 16, paddingVertical: 14, alignItems: "center" },
+  linkButtonNews: { backgroundColor: "#E8720C" },
+  linkButtonCircle: { backgroundColor: "#0F9B8E" },
+  linkButtonText: { color: "#fff", fontSize: 15, fontWeight: "800" },
 
   disconnectLink: {
     fontSize: 13,

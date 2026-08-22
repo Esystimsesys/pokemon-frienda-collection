@@ -10,6 +10,16 @@ export const PICK_SETS: { key: SetKey; label: string }[] = [
   ...new Map(ALL_PICKS.map((p) => [p.set, { key: p.set, label: p.setLabel }])).values(),
 ];
 
+/**
+ * いちばん新しいだん。公式のナビが新しい順に並んでいるので、その先頭がそれにあたる
+ * （scripts/fetch_official.py の discover を参照）。
+ * ワンダー／スペシャルは常にうしろなので、ここに来ることはない。
+ */
+export const LATEST_SET = PICK_SETS[0];
+
+/** 公式の「さいしんだん じょうほう」のページ。だんのページは /new/<キー>.html にある */
+export const LATEST_SET_URL = `https://pokemonfrienda.com/new/${LATEST_SET.key}.html`;
+
 export const STAT_FIELDS = [
   { key: "hp", label: "HP" },
   { key: "attack", label: "こうげき" },
