@@ -52,8 +52,25 @@ export function CollectionProvider({ children }: { children: React.ReactNode }) 
       AsyncStorage.getItem(MANUAL_STORAGE_KEY).catch(() => null),
     ])
       .then(([rawCollection, rawManual]) => {
-        if (rawCollection) setCollection(JSON.parse(rawCollection));
-        if (rawManual) setManualIds(new Set(JSON.parse(rawManual) as string[]));
+        const loaded: Collection = rawCollection ? JSON.parse(rawCollection) : {};
+        if (rawCollection) setCollection(loaded);
+
+        if (rawManual !== null) {
+          setManualIds(new Set(JSON.parse(rawManual) as string[]));
+          return;
+        }
+        /**
+         * 「手でさわった」記録がまだ無い端末（この同期機能が入る前から
+         * 使っていた端末）。すでに持っているピックは、すべて手動登録で
+         * 入ったものなので、ここで一括して「手動」扱いに移行する。
+         * これをしないと、初回の同期で「非手動」と誤認識されて
+         * 手持ちの記録が丸ごと消えてしまう（実際に起きた不具合）。
+         */
+        const migrated = new Set(Object.keys(loaded));
+        setManualIds(migrated);
+        if (migrated.size > 0) {
+          AsyncStorage.setItem(MANUAL_STORAGE_KEY, JSON.stringify([...migrated])).catch(() => {});
+        }
       })
       .catch(() => {
         // 保存データが壊れている場合は空から始める
@@ -170,6 +187,9 @@ export function CollectionProvider({ children }: { children: React.ReactNode }) 
    */
   const applyCircleSync = useCallback(
     (ownedIds: string[]) => {
+      // 保存データの読みこみが終わる前に呼ばれると、まだ空の manualIds を見て
+      // 手動登録ぶんまで消してしまいかねない。読み込み終了を待つ
+      if (!ready) return;
       const ownedSet = new Set(ownedIds);
       setCollection((prev) => {
         const updated = { ...prev };
@@ -183,7 +203,7 @@ export function CollectionProvider({ children }: { children: React.ReactNode }) 
         return updated;
       });
     },
-    [manualIds, persist],
+    [ready, manualIds, persist],
   );
 
   const value = useMemo<CollectionContextValue>(

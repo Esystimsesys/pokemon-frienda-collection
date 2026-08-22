@@ -11,12 +11,17 @@ import { startAutoPrefetch } from "@/lib/offline";
  * ホーム画面アプリ（standalone）にはブラウザの戻るボタンが無い。
  * 履歴が無い状態で詳細などが開かれると expo-router は ← を出さないので、
  * かならず ずかん に帰れるボタンを自分で置く。
+ *
+ * 「1つ前の画面に戻る」ではなく、常に ずかん(index) へ直接とばす。
+ * QRの読み取り成功後（スキャン画面 → トレーナー画面へ置きかえ）のように
+ * 履歴が積み重なる経路だと、「1つ戻る」ではスキャン画面に戻ってしまい、
+ * ボタンの表記（ずかんへ もどる）と実際の動きが食いちがっていたため。
  */
 function BackToDex() {
   const router = useRouter();
   return (
     <TouchableOpacity
-      onPress={() => (router.canGoBack() ? router.back() : router.replace("/"))}
+      onPress={() => router.replace("/")}
       activeOpacity={0.7}
       style={styles.back}
       accessibilityRole="button"
