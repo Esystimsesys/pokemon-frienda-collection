@@ -18,21 +18,21 @@ export function OfflineCard() {
 
   useEffect(() => subscribePrefetch(setS), []);
 
-  if (!OFFLINE_SUPPORTED || s === null || !s.started) return null;
+  const complete = s !== null && s.done >= TOTAL_IMAGES;
+  // 読みこみが終わったら、押せるボタンも無い確認文だけが毎回居座ることになるので、
+  // やることが残っているあいだだけ出す
+  if (!OFFLINE_SUPPORTED || s === null || !s.started || complete) return null;
 
   const ratio = s.done / TOTAL_IMAGES;
-  const complete = s.done >= TOTAL_IMAGES;
 
   return (
     <View style={styles.card}>
       <Text style={styles.title}>でんぱが なくても みる</Text>
       {/* スマートフォンでも見るので「タブレット」とは言わない */}
       <Text style={styles.body}>
-        {complete
-          ? "ぜんぶの えが この きかいに はいっているよ。でんぱが なくても ずかんが みられる！"
-          : s.running
-            ? `えを よみこんでいるよ。おわるまで まってね。（ぜんぶで やく ${APPROX_MB}MB）`
-            : `えを ぜんぶ よみこむと、でんぱが なくても ずかんが みられるよ。（のこり ${TOTAL_IMAGES - s.done}まい）`}
+        {s.running
+          ? `えを よみこんでいるよ。おわるまで まってね。（ぜんぶで やく ${APPROX_MB}MB）`
+          : `えを ぜんぶ よみこむと、でんぱが なくても ずかんが みられるよ。（のこり ${TOTAL_IMAGES - s.done}まい）`}
       </Text>
 
       <View style={styles.track}>
@@ -47,15 +47,9 @@ export function OfflineCard() {
           <Text style={styles.buttonText}>とめる</Text>
         </TouchableOpacity>
       ) : (
-        !complete && (
-          <TouchableOpacity
-            onPress={() => void prefetchImages()}
-            activeOpacity={0.8}
-            style={styles.button}
-          >
-            <Text style={styles.buttonText}>いま よみこむ</Text>
-          </TouchableOpacity>
-        )
+        <TouchableOpacity onPress={() => void prefetchImages()} activeOpacity={0.8} style={styles.button}>
+          <Text style={styles.buttonText}>いま よみこむ</Text>
+        </TouchableOpacity>
       )}
     </View>
   );
