@@ -32,9 +32,12 @@ const IMAGE_GRACE_MS = 800;
 const IMAGE_PATTERNS = {
   trainerAvatar: /\/assets\/img\/common\/trainer_/,
   partner: /\/assets\/img\/mypage\/pm\/pm_partner/,
-  training: /\/assets\/img\/zukan\/pick\//,
   medalIcon: /\/assets\/img\/common\/icon-coin_white\.png/,
 };
+// トレーニング中ピック（zukan/pick/配下）は、ホーム画面に複数枚出ることがある
+// （おすすめ表示など）。trainingData.img と一致するものだけを採用したいので、
+// 個別のパターンにはせず候補として集めておき、home の中身が分かってから選ぶ
+const PICK_IMAGE_PATTERN = /\/assets\/img\/zukan\/pick\/([^/?]+)\.(?:png|webp)/;
 const CHARM_PATTERN = /\/assets\/img\/charm\/([^/?]+)\.(?:png|webp)/;
 
 function corsHeaders(origin) {
@@ -92,6 +95,8 @@ export default {
       let pickDexBody = null;
       const images = {};
       const charmImages = {};
+      /** zukan/pick/ 配下の候補。{ name, promise } を img 名（拡張子なし）ごとに集める */
+      const pickImageCandidates = new Map();
 
       page.on("response", (res) => {
         const resUrl = res.url();
@@ -111,6 +116,11 @@ export default {
               pickDexBody = t;
             })
             .catch(() => {});
+          return;
+        }
+        const pickMatch = resUrl.match(PICK_IMAGE_PATTERN);
+        if (pickMatch) {
+          pickImageCandidates.set(pickMatch[1], toDataUri(res));
           return;
         }
         for (const [key, pattern] of Object.entries(IMAGE_PATTERNS)) {
@@ -146,6 +156,18 @@ export default {
 
       // 画像は home のレスポンスより少し遅れて届くことがあるので、少しだけ待つ
       await new Promise((resolve) => setTimeout(resolve, IMAGE_GRACE_MS));
+
+      // トレーニング中ピックの画像は、home の中身にある img 名と一致する候補だけを選ぶ
+      // （ホーム画面には他のピック画像が一緒に出ることがあるため、単純な最初勝ちだと
+      // ちがうピックの絵になってしまう。実際に発生した不具合）
+      try {
+        const trainingImgName = JSON.parse(homeBody)?.params?.userHomeData?.trainingData?.img;
+        if (typeof trainingImgName === "string" && pickImageCandidates.has(trainingImgName)) {
+          images.training = await pickImageCandidates.get(trainingImgName);
+        }
+      } catch {
+        // 解析できなくても画像が無いだけで、本体の同期は続ける
+      }
 
       await page.goto(ZUKAN_URL, { waitUntil: "networkidle0", timeout: NAV_TIMEOUT_MS });
       await waitFor(() => pickDexBody !== null, WAIT_FOR_RESPONSE_MS);
