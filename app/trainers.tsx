@@ -30,6 +30,15 @@ function formatClock(ms: number): string {
   return `${d.getMonth() + 1}/${d.getDate()} ${d.getHours()}:${String(d.getMinutes()).padStart(2, "0")}`;
 }
 
+function ProgressBar({ value, color }: { value: number; color: string }) {
+  const pct = Math.min(100, Math.max(0, value * 100));
+  return (
+    <View style={styles.track}>
+      <View style={[styles.fill, { width: `${pct}%` as `${number}%`, backgroundColor: color }]} />
+    </View>
+  );
+}
+
 export default function TrainersScreen() {
   const router = useRouter();
   const { applyCircleSync } = useCollection();
@@ -141,63 +150,120 @@ export default function TrainersScreen() {
   }
 
   const onCooldown = cooldownUntil !== null && !syncing;
+  const trainerName = summary?.trainerName || connection.trainerName || "トレーナー";
 
   return (
     <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
-      <View style={styles.card}>
-        <Text style={styles.trainerName}>
-          {summary?.trainerName || connection.trainerName || "トレーナー"}
-        </Text>
-
-        {summary?.partner && (
-          <Text style={styles.row}>パートナーポケモン: {summary.partner.name}</Text>
-        )}
-        {summary?.currentSeason && (
-          <Text style={styles.row}>
-            {summary.currentSeason.seasonName}の フレンダずかん: {summary.currentSeason.currentCount}/
-            {summary.currentSeason.maxCount}
-          </Text>
-        )}
-        {summary?.training && (
-          <Text style={styles.row}>
-            トレーニングちゅう: {summary.training.name}（EXパワー {summary.training.exPower}/
-            {summary.training.exPowerThreshold}）
-          </Text>
-        )}
-        {summary?.trainerBattle && (
-          <Text style={styles.row}>
-            トレーナーバトル: ハイスコア {summary.trainerBattle.highScore}
-            {summary.trainerBattle.totalCount > 0 &&
-              `（${summary.trainerBattle.clearedCount}/${summary.trainerBattle.totalCount} かち）`}
-          </Text>
-        )}
-        {!!summary && (summary.medalCount > 0 || summary.charmCount > 0) && (
-          <Text style={styles.row}>
-            メダル {summary.medalCount}こ・チャーム {summary.charmCount}こ
-          </Text>
-        )}
-
-        <Text style={styles.syncedAt}>{formatSyncedAt(connection.lastSyncedAt)}</Text>
-
-        <TouchableOpacity
-          onPress={startSync}
-          activeOpacity={0.8}
-          disabled={syncing || onCooldown}
-          style={[styles.primaryButton, (syncing || onCooldown) && styles.buttonDisabled]}
-        >
-          <Text style={styles.primaryButtonText}>
-            {syncing ? "どうき ちゅう…" : "どうき する"}
-          </Text>
-        </TouchableOpacity>
-        {onCooldown && cooldownUntil && (
-          <Text style={styles.webNotice}>
-            きょうの どうきかいすうが いっぱいだよ。つぎは {formatClock(cooldownUntil)} いこうに
-            ためしてね。
-          </Text>
-        )}
-
-        {message && <Text style={styles.message}>{message}</Text>}
+      <View style={styles.hero}>
+        <View style={styles.heroAvatar}>
+          <Text style={styles.heroAvatarText}>{trainerName.slice(0, 1)}</Text>
+        </View>
+        <Text style={styles.heroName}>{trainerName}</Text>
+        <Text style={styles.heroSynced}>{formatSyncedAt(connection.lastSyncedAt)}</Text>
       </View>
+
+      <View style={styles.grid}>
+        {summary?.partner && (
+          <View style={[styles.statCard, { borderColor: "#E0518E" }]}>
+            <Text style={[styles.statLabel, { color: "#E0518E" }]}>パートナー</Text>
+            <Text style={styles.statBig} numberOfLines={1}>
+              {summary.partner.name}
+            </Text>
+            <Text style={styles.statCaption}>せいちょう ★{summary.partner.progress}</Text>
+          </View>
+        )}
+
+        {summary?.currentSeason && summary.currentSeason.maxCount > 0 && (
+          <View style={[styles.statCard, { borderColor: "#2B6CB0" }]}>
+            <Text style={[styles.statLabel, { color: "#2B6CB0" }]} numberOfLines={1}>
+              {summary.currentSeason.seasonName}の ずかん
+            </Text>
+            <View style={styles.progressRow}>
+              <Text style={styles.progressNum}>{summary.currentSeason.currentCount}</Text>
+              <Text style={styles.progressDen}> / {summary.currentSeason.maxCount}</Text>
+            </View>
+            <ProgressBar
+              value={summary.currentSeason.currentCount / summary.currentSeason.maxCount}
+              color="#2B6CB0"
+            />
+          </View>
+        )}
+
+        {summary?.training && (
+          <View style={[styles.statCard, { borderColor: "#C8930B" }]}>
+            <Text style={[styles.statLabel, { color: "#C8930B" }]}>トレーニングちゅう</Text>
+            <Text style={styles.statBig} numberOfLines={1}>
+              {summary.training.name}
+            </Text>
+            {summary.training.exPowerThreshold > 0 && (
+              <>
+                <View style={styles.progressRow}>
+                  <Text style={styles.progressCaption}>EXパワー</Text>
+                  <Text style={styles.progressNum}>{summary.training.exPower}</Text>
+                  <Text style={styles.progressDen}> / {summary.training.exPowerThreshold}</Text>
+                </View>
+                <ProgressBar
+                  value={summary.training.exPower / summary.training.exPowerThreshold}
+                  color="#C8930B"
+                />
+              </>
+            )}
+          </View>
+        )}
+
+        {summary?.trainerBattle && (
+          <View style={[styles.statCard, { borderColor: "#0F9B8E" }]}>
+            <Text style={[styles.statLabel, { color: "#0F9B8E" }]}>トレーナーバトル</Text>
+            <Text style={styles.statBig}>{summary.trainerBattle.highScore}</Text>
+            <Text style={styles.statCaption}>ハイスコア</Text>
+            {summary.trainerBattle.totalCount > 0 && (
+              <View style={styles.dotsRow}>
+                {Array.from({ length: summary.trainerBattle.totalCount }, (_, i) => (
+                  <View
+                    key={i}
+                    style={[
+                      styles.dot,
+                      i < summary.trainerBattle!.clearedCount && styles.dotOn,
+                    ]}
+                  />
+                ))}
+              </View>
+            )}
+          </View>
+        )}
+
+        {!!summary && (summary.medalCount > 0 || summary.charmCount > 0) && (
+          <View style={[styles.statCard, styles.statCardWide, { borderColor: "#E8720C" }]}>
+            <View style={styles.medalCharmRow}>
+              <View style={styles.medalCharmItem}>
+                <Text style={styles.statBig}>{summary.medalCount}</Text>
+                <Text style={[styles.statLabel, { color: "#E8720C" }]}>メダル</Text>
+              </View>
+              <View style={styles.medalCharmDivider} />
+              <View style={styles.medalCharmItem}>
+                <Text style={styles.statBig}>{summary.charmCount}</Text>
+                <Text style={[styles.statLabel, { color: "#E8720C" }]}>チャーム</Text>
+              </View>
+            </View>
+          </View>
+        )}
+      </View>
+
+      <TouchableOpacity
+        onPress={startSync}
+        activeOpacity={0.8}
+        disabled={syncing || onCooldown}
+        style={[styles.primaryButton, (syncing || onCooldown) && styles.buttonDisabled]}
+      >
+        <Text style={styles.primaryButtonText}>{syncing ? "どうき ちゅう…" : "どうき する"}</Text>
+      </TouchableOpacity>
+      {onCooldown && cooldownUntil && (
+        <Text style={styles.webNotice}>
+          きょうの どうきかいすうが いっぱいだよ。つぎは {formatClock(cooldownUntil)} いこうに
+          ためしてね。
+        </Text>
+      )}
+      {message && <Text style={styles.message}>{message}</Text>}
 
       {confirmingDisconnect ? (
         <View style={styles.confirm}>
@@ -235,16 +301,63 @@ const styles = StyleSheet.create({
   content: { padding: 16, paddingBottom: 40, gap: 16 },
   lead: { fontSize: 14, fontWeight: "700", color: "#5A6C82", lineHeight: 22 },
 
-  card: {
+  hero: {
+    backgroundColor: "#2B6CB0",
+    borderRadius: 18,
+    padding: 20,
+    alignItems: "center",
+    gap: 4,
+    boxShadow: "0px 3px 8px rgba(26, 54, 93, 0.18)",
+    elevation: 3,
+  },
+  heroAvatar: {
+    width: 56,
+    height: 56,
+    borderRadius: 28,
+    backgroundColor: "rgba(255,255,255,0.22)",
+    borderWidth: 2,
+    borderColor: "#fff",
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom: 6,
+  },
+  heroAvatarText: { color: "#fff", fontSize: 24, fontWeight: "900" },
+  heroName: { fontSize: 22, fontWeight: "900", color: "#fff" },
+  heroSynced: { fontSize: 12, fontWeight: "600", color: "rgba(255,255,255,0.85)", marginTop: 2 },
+
+  grid: { flexDirection: "row", flexWrap: "wrap", gap: 12 },
+  statCard: {
+    flexGrow: 1,
+    flexBasis: "45%",
+    minWidth: 150,
     backgroundColor: "#fff",
     borderRadius: 14,
-    padding: 16,
-    gap: 8,
+    borderWidth: 2,
+    padding: 14,
+    gap: 4,
     boxShadow: "0px 2px 6px rgba(26, 54, 93, 0.07)",
     elevation: 2,
   },
-  trainerName: { fontSize: 20, fontWeight: "900", color: "#1A365D", marginBottom: 4 },
-  row: { fontSize: 14, fontWeight: "700", color: "#334155", lineHeight: 21 },
+  statCardWide: { flexBasis: "100%" },
+  statLabel: { fontSize: 12, fontWeight: "800" },
+  statBig: { fontSize: 20, fontWeight: "900", color: "#1A365D" },
+  statCaption: { fontSize: 12, fontWeight: "700", color: "#7C8DA3" },
+
+  progressRow: { flexDirection: "row", alignItems: "baseline", marginTop: 2 },
+  progressCaption: { fontSize: 12, fontWeight: "700", color: "#7C8DA3", marginRight: 6 },
+  progressNum: { fontSize: 18, fontWeight: "900", color: "#1A365D" },
+  progressDen: { fontSize: 13, fontWeight: "700", color: "#94A3B8" },
+  track: { height: 8, borderRadius: 4, backgroundColor: "#E2E8F0", overflow: "hidden", marginTop: 6 },
+  fill: { height: "100%", borderRadius: 4 },
+
+  dotsRow: { flexDirection: "row", gap: 5, marginTop: 6 },
+  dot: { width: 14, height: 14, borderRadius: 7, backgroundColor: "#E2E8F0" },
+  dotOn: { backgroundColor: "#0F9B8E" },
+
+  medalCharmRow: { flexDirection: "row", alignItems: "center" },
+  medalCharmItem: { flex: 1, alignItems: "center", gap: 2 },
+  medalCharmDivider: { width: 1, height: 36, backgroundColor: "#E2E8F0" },
+
   syncedAt: { fontSize: 12, fontWeight: "600", color: "#94A3B8", marginTop: 8, marginBottom: 4 },
 
   primaryButton: {
@@ -256,7 +369,7 @@ const styles = StyleSheet.create({
   buttonDisabled: { opacity: 0.6 },
   primaryButtonText: { color: "#fff", fontSize: 15, fontWeight: "800" },
   webNotice: { fontSize: 13, fontWeight: "700", color: "#9C4221" },
-  message: { marginTop: 4, fontSize: 13, fontWeight: "700", color: "#2F855A", lineHeight: 20 },
+  message: { marginTop: -4, fontSize: 13, fontWeight: "700", color: "#2F855A", lineHeight: 20 },
 
   disconnectLink: {
     fontSize: 13,
