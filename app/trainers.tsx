@@ -1,6 +1,6 @@
 import { useRouter } from "expo-router";
 import { useCallback, useEffect, useState } from "react";
-import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 import { useCollection } from "@/lib/collection";
 import {
@@ -69,7 +69,9 @@ export default function TrainersScreen() {
     setSyncing(true);
 
     try {
-      const { homeBody, pickDexBody } = await fetchCircleSync(connection.token);
+      const { homeBody, pickDexBody, images, charmImages } = await fetchCircleSync(
+        connection.token,
+      );
       const home = parseHomeResponse(homeBody);
       const ownedPickIds = parsePickDexResponse(pickDexBody);
 
@@ -93,6 +95,13 @@ export default function TrainersScreen() {
         medalCount: home.medalCount ?? 0,
         charmCount: home.charmCount ?? 0,
         ownedPickIds,
+        images: {
+          trainerAvatar: images.trainerAvatar ?? null,
+          partner: images.partner ?? null,
+          training: images.training ?? null,
+          medalIcon: images.medalIcon ?? null,
+        },
+        charmImages: Object.values(charmImages),
         syncedAt: Date.now(),
       };
       await saveSummary(nextSummary);
@@ -156,7 +165,11 @@ export default function TrainersScreen() {
     <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
       <View style={styles.hero}>
         <View style={styles.heroAvatar}>
-          <Text style={styles.heroAvatarText}>{trainerName.slice(0, 1)}</Text>
+          {summary?.images.trainerAvatar ? (
+            <Image source={{ uri: summary.images.trainerAvatar }} style={styles.heroAvatarImage} />
+          ) : (
+            <Text style={styles.heroAvatarText}>{trainerName.slice(0, 1)}</Text>
+          )}
         </View>
         <Text style={styles.heroName}>{trainerName}</Text>
         <Text style={styles.heroSynced}>{formatSyncedAt(connection.lastSyncedAt)}</Text>
@@ -166,10 +179,17 @@ export default function TrainersScreen() {
         {summary?.partner && (
           <View style={[styles.statCard, { borderColor: "#E0518E" }]}>
             <Text style={[styles.statLabel, { color: "#E0518E" }]}>パートナー</Text>
-            <Text style={styles.statBig} numberOfLines={1}>
-              {summary.partner.name}
-            </Text>
-            <Text style={styles.statCaption}>せいちょう ★{summary.partner.progress}</Text>
+            <View style={styles.statWithImageRow}>
+              {summary.images.partner && (
+                <Image source={{ uri: summary.images.partner }} style={styles.partnerImage} />
+              )}
+              <View style={styles.statWithImageText}>
+                <Text style={styles.statBig} numberOfLines={1}>
+                  {summary.partner.name}
+                </Text>
+                <Text style={styles.statCaption}>せいちょう ★{summary.partner.progress}</Text>
+              </View>
+            </View>
           </View>
         )}
 
@@ -192,22 +212,29 @@ export default function TrainersScreen() {
         {summary?.training && (
           <View style={[styles.statCard, { borderColor: "#C8930B" }]}>
             <Text style={[styles.statLabel, { color: "#C8930B" }]}>トレーニングちゅう</Text>
-            <Text style={styles.statBig} numberOfLines={1}>
-              {summary.training.name}
-            </Text>
-            {summary.training.exPowerThreshold > 0 && (
-              <>
-                <View style={styles.progressRow}>
-                  <Text style={styles.progressCaption}>EXパワー</Text>
-                  <Text style={styles.progressNum}>{summary.training.exPower}</Text>
-                  <Text style={styles.progressDen}> / {summary.training.exPowerThreshold}</Text>
-                </View>
-                <ProgressBar
-                  value={summary.training.exPower / summary.training.exPowerThreshold}
-                  color="#C8930B"
-                />
-              </>
-            )}
+            <View style={styles.statWithImageRow}>
+              {summary.images.training && (
+                <Image source={{ uri: summary.images.training }} style={styles.trainingImage} />
+              )}
+              <View style={styles.statWithImageText}>
+                <Text style={styles.statBig} numberOfLines={1}>
+                  {summary.training.name}
+                </Text>
+                {summary.training.exPowerThreshold > 0 && (
+                  <>
+                    <View style={styles.progressRow}>
+                      <Text style={styles.progressCaption}>EXパワー</Text>
+                      <Text style={styles.progressNum}>{summary.training.exPower}</Text>
+                      <Text style={styles.progressDen}> / {summary.training.exPowerThreshold}</Text>
+                    </View>
+                    <ProgressBar
+                      value={summary.training.exPower / summary.training.exPowerThreshold}
+                      color="#C8930B"
+                    />
+                  </>
+                )}
+              </View>
+            </View>
           </View>
         )}
 
@@ -236,11 +263,21 @@ export default function TrainersScreen() {
           <View style={[styles.statCard, styles.statCardWide, { borderColor: "#E8720C" }]}>
             <View style={styles.medalCharmRow}>
               <View style={styles.medalCharmItem}>
+                {summary.images.medalIcon && (
+                  <Image source={{ uri: summary.images.medalIcon }} style={styles.medalIcon} />
+                )}
                 <Text style={styles.statBig}>{summary.medalCount}</Text>
                 <Text style={[styles.statLabel, { color: "#E8720C" }]}>メダル</Text>
               </View>
               <View style={styles.medalCharmDivider} />
               <View style={styles.medalCharmItem}>
+                {summary.charmImages.length > 0 && (
+                  <View style={styles.charmRow}>
+                    {summary.charmImages.map((uri, i) => (
+                      <Image key={i} source={{ uri }} style={styles.charmIcon} />
+                    ))}
+                  </View>
+                )}
                 <Text style={styles.statBig}>{summary.charmCount}</Text>
                 <Text style={[styles.statLabel, { color: "#E8720C" }]}>チャーム</Text>
               </View>
@@ -321,6 +358,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginBottom: 6,
   },
+  heroAvatarImage: { width: "100%", height: "100%", borderRadius: 26 },
   heroAvatarText: { color: "#fff", fontSize: 24, fontWeight: "900" },
   heroName: { fontSize: 22, fontWeight: "900", color: "#fff" },
   heroSynced: { fontSize: 12, fontWeight: "600", color: "rgba(255,255,255,0.85)", marginTop: 2 },
@@ -342,6 +380,14 @@ const styles = StyleSheet.create({
   statLabel: { fontSize: 12, fontWeight: "800" },
   statBig: { fontSize: 20, fontWeight: "900", color: "#1A365D" },
   statCaption: { fontSize: 12, fontWeight: "700", color: "#7C8DA3" },
+
+  statWithImageRow: { flexDirection: "row", alignItems: "center", gap: 10 },
+  statWithImageText: { flex: 1, gap: 2 },
+  partnerImage: { width: 44, height: 44, resizeMode: "contain" },
+  trainingImage: { width: 40, height: 56, resizeMode: "contain" },
+  medalIcon: { width: 22, height: 22, resizeMode: "contain" },
+  charmRow: { flexDirection: "row", gap: 4 },
+  charmIcon: { width: 22, height: 22, resizeMode: "contain" },
 
   progressRow: { flexDirection: "row", alignItems: "baseline", marginTop: 2 },
   progressCaption: { fontSize: 12, fontWeight: "700", color: "#7C8DA3", marginRight: 6 },

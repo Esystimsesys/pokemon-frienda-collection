@@ -76,14 +76,20 @@ async function recordSyncAttempt(): Promise<void> {
   await AsyncStorage.setItem(SYNC_LOG_KEY, JSON.stringify(log));
 }
 
+export type CircleSyncResult = {
+  homeBody: string;
+  pickDexBody: string;
+  images: Partial<Record<"trainerAvatar" | "partner" | "training" | "medalIcon", string>>;
+  charmImages: Record<string, string>;
+};
+
 /**
  * フレンダサークルの本人確認ページを、Cloudflare Worker上のヘッドレスブラウザで開いてもらい、
- * 中身（トレーナー情報・所持ピック一覧のAPIレスポンス）をそのまま受けとる。
+ * 中身（トレーナー情報・所持ピック一覧のAPIレスポンスと、本物のブラウザが実際に受けとった
+ * トレーナー・パートナー・トレーニング中ピック・チャームの画像）をそのまま受けとる。
  * 1日の回数制限をこの関数の中で確認・記録するので、呼び出し側は結果とエラーだけ見ればよい。
  */
-export async function fetchCircleSync(
-  token: string,
-): Promise<{ homeBody: string; pickDexBody: string }> {
+export async function fetchCircleSync(token: string): Promise<CircleSyncResult> {
   const availability = await getSyncAvailability();
   if (!availability.allowed) {
     throw new Error("きょうの どうきかいすうが いっぱいだよ。じかんを おいて ためしてね。");
@@ -105,7 +111,12 @@ export async function fetchCircleSync(
     );
   }
 
-  return { homeBody: body.homeBody, pickDexBody: body.pickDexBody };
+  return {
+    homeBody: body.homeBody,
+    pickDexBody: body.pickDexBody,
+    images: body.images && typeof body.images === "object" ? body.images : {},
+    charmImages: body.charmImages && typeof body.charmImages === "object" ? body.charmImages : {},
+  };
 }
 
 export async function loadConnection(): Promise<CircleConnection | null> {

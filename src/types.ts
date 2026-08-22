@@ -123,5 +123,18 @@ export type CircleSummary = {
   charmCount: number;
   /** ピック図鑑に反映できた（ローカルの Pick.id と一致した）所持ピックのID一覧 */
   ownedPickIds: string[];
+  /**
+   * トレーナー・パートナー・トレーニング中ピック・メダルの画像（data URI）。
+   * サークル側がホットリンクを拒否するため、Worker が本物のブラウザで
+   * 実際に受けとった画像をそのまま持ち帰ったもの。無ければ null
+   */
+  images: {
+    trainerAvatar: string | null;
+    partner: string | null;
+    training: string | null;
+    medalIcon: string | null;
+  };
+  /** チャームの画像（data URI）の一覧 */
+  charmImages: string[];
   syncedAt: number;
 };
