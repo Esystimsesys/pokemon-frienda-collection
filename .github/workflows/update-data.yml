@@ -81,6 +81,7 @@ jobs:
               --base main \
               --head auto/update-data \
               --title "data: 公式サイトの最新データを取り込む" \
+              --reviewer Esystimsesys \
               --body "$(printf '%s\n' \
                 'scripts/update.sh の定期実行（毎週月曜 朝）による自動更新です。' \
                 '' \
