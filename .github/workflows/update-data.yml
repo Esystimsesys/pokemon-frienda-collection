@@ -1,0 +1,89 @@
+name: ずかんデータの定期更新
+
+# 公式サイト(pokemonfrienda.com)を毎週見に行って、新しいだん・券面の
+# 読み取りぬけが無いか確認する。scripts/update.sh をそのまま動かすだけで、
+# ここに更新ロジックは書かない（手元で npm run update するのと同じ中身にする）。
+#
+# 券面の文字読み取り(scripts/ocr/*.swift)が Apple の Vision フレームワークを
+# 使うため、Ubuntu ランナーでは動かない。macOS ランナーで実行する。
+#
+# 差分が出たら、そのまま main へは push せず、必ず Pull Request にする。
+# OCRの読みちがい（テラスタルの読み落としなど、過去に実例あり）が
+# レビュー無しで公開されないようにするため。
+on:
+  schedule:
+    # 07:00 JST 毎週月曜（UTC 表記なので 9 時間ぶん前）
+    - cron: "0 22 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24 # deploy.yml と同じにしておく
+          cache: npm
+
+      - run: npm ci
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install Pillow
+
+      # 券面の画像・公式ページのHTMLはリポジトリに入れていない（再取得できるため）。
+      # 前回ぶんをキャッシュしておくと、変わっていない958枚を毎週落とし直さずに済む。
+      - uses: actions/cache@v4
+        with:
+          path: |
+            scripts/raw/official
+            scripts/raw/pick_images
+          key: frienda-raw-cache
+
+      - name: 公式サイトを見に行ってデータを作り直す
+        run: bash scripts/update.sh
+
+      - name: 差分があるか確認
+        id: diff
+        run: |
+          git add -A -- src/data scripts/raw
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Pull Request を作る
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C auto/update-data
+          git commit -m "data: 公式サイトの最新データを取り込む"
+          git push --force origin auto/update-data
+
+          if ! gh pr view auto/update-data --json state -q .state 2>/dev/null | grep -q OPEN; then
+            gh pr create \
+              --base main \
+              --head auto/update-data \
+              --title "data: 公式サイトの最新データを取り込む" \
+              --body "$(printf '%s\n' \
+                'scripts/update.sh の定期実行（毎週月曜 朝）による自動更新です。' \
+                '' \
+                '新しいだん・券面のステータス/タイプ/わざの読み取りに変化がないか、' \
+                'マージ前に差分を確認してください。とくにOCRは読みちがいがゼロではありません。')"
+          fi
