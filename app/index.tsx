@@ -33,12 +33,21 @@ import { ALL_PICKS } from "@/lib/picks";
 import { TIGHT_CARD_WIDTH, useNarrow } from "@/lib/responsive";
 import { matchesQuery } from "@/lib/search";
 
+/**
+ * じょうほう画面の「← ずかん」は router.replace("/") で戻るので、index は
+ * 作り直しになる（src/lib/browseOrder.ts と同じ事情）。
+ * useState の外に置いておき、しぼりこみとスクロール位置を持ち越す。
+ * アプリを開き直したときはモジュールごと作り直されるので、自然に まっさら へ戻る。
+ */
+let lastFilters: Filters = EMPTY_FILTERS;
+let lastScrollY = 0;
+
 export default function DexScreen() {
   const router = useRouter();
   const { width } = useWindowDimensions();
   const narrow = useNarrow();
   const { collection, adjust, ready } = useCollection();
-  const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
+  const [filters, setFilters] = useState<Filters>(lastFilters);
   const [registerMode, setRegisterMode] = useState(false);
   const [cardSize, setCardSize] = useState<CardSize>(DEFAULT_CARD_SIZE);
   const [confirmedPickIds, setConfirmedPickIds] = useState<Set<string>>(new Set());
@@ -50,7 +59,7 @@ export default function DexScreen() {
     }, []),
   );
 
-  // 前に見ていた だん と カードの大きさ を復元する。ほかの条件は毎回まっさらでよい
+  // 前に見ていた だん と カードの大きさ を復元する。ほかの条件は lastFilters が持っている
   useEffect(() => {
     loadSetFilter().then((sets) => {
       if (sets.length > 0) setFilters((prev) => ({ ...prev, sets }));
@@ -66,6 +75,7 @@ export default function DexScreen() {
   const changeFilters = useCallback(
     (next: Filters) => {
       if (next.sets !== filters.sets) saveSetFilter(next.sets);
+      lastFilters = next;
       setFilters(next);
     },
     [filters.sets],
@@ -83,18 +93,22 @@ export default function DexScreen() {
   const lastY = useRef(0);
   const scrollY = useRef(0);
   /** いま逃がしてあるかどうか。変わったときだけアニメを動かす */
-  const hidden = useRef(false);
+  const hidden = useRef(lastScrollY > 0);
+  /** chrome の高さが分かる前に作り直された場合、最初の1回だけ アニメ無しで合わせる */
+  const chromeSnapped = useRef(false);
   /**
    * 覚えておいた場所へ戻すときの行き先。戻している最中だけ数が入る。
    * ただし FlatList は描画ずみのぶんしか高さを持っていないので、遠くへは一度で飛べない。
    * 中身が伸びるたびに近づけ直す（onContentSizeChange から呼ぶ）。
+   * 作り直された直後は、前回のスクロール位置もここに入れて復元する。
    */
-  const target = useRef<number | null>(null);
+  const target = useRef<number | null>(lastScrollY > 0 ? lastScrollY : null);
 
   const onScroll = useCallback(
     (e: NativeSyntheticEvent<NativeScrollEvent>) => {
       const y = e.nativeEvent.contentOffset.y;
       scrollY.current = y;
+      lastScrollY = y;
       const dy = y - lastY.current;
       lastY.current = y;
 
@@ -295,7 +309,16 @@ export default function DexScreen() {
             transform: [{ translateY: slide }],
           },
         ]}
-        onLayout={(e) => setChromeHeight(e.nativeEvent.layout.height)}
+        onLayout={(e) => {
+          const h = e.nativeEvent.layout.height;
+          setChromeHeight(h);
+          // スクロール位置を復元して開いた直後は、アニメで動かすと出戻りに見える。
+          // 高さが分かった時点で、逃がした状態へ一気に合わせる
+          if (!chromeSnapped.current) {
+            chromeSnapped.current = true;
+            if (hidden.current) slide.setValue(-h);
+          }
+        }}
       >
       <FilterBar
         filters={filters}
