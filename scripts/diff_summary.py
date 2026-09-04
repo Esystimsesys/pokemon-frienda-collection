@@ -37,12 +37,8 @@ def short(v, limit: int = 60) -> str:
     return s if len(s) <= limit else s[: limit - 1] + "…"
 
 
-def main() -> None:
-    if len(sys.argv) < 2:
-        raise SystemExit(__doc__)
-    before = load(Path(sys.argv[1]))
-    after = load(Path(sys.argv[2]) if len(sys.argv) > 2 else CURRENT)
-
+def analyse(before: dict[str, dict], after: dict[str, dict]) -> dict:
+    """変更をピック単位に分類する。review_pr.py からも使う。"""
     added = [i for i in after if i not in before]
     removed = [i for i in before if i not in after]
 
@@ -70,6 +66,25 @@ def main() -> None:
                 filled.append(f"{label}: 空 → {short(n)}")
             else:
                 changed.append(f"{label}: {short(o)} → {short(n)}")
+
+    return {
+        "before_count": len(before),
+        "after_count": len(after),
+        "added": added,
+        "removed": removed,
+        "lost": lost,
+        "changed": changed,
+        "filled": filled,
+        "noisy_count": noisy_count,
+    }
+
+
+def render(before: dict[str, dict], after: dict[str, dict]) -> str:
+    """analyse の結果を、PR本文に貼れる Markdown にする。"""
+    r = analyse(before, after)
+    added, removed = r["added"], r["removed"]
+    lost, changed, filled = r["lost"], r["changed"], r["filled"]
+    noisy_count = r["noisy_count"]
 
     out: list[str] = []
     out.append("## 変更の要約")
@@ -132,7 +147,15 @@ def main() -> None:
             out.append(f"- ほか {len(filled) - 15}件")
         out.append("")
 
-    print("\n".join(out))
+    return "\n".join(out)
+
+
+def main() -> None:
+    if len(sys.argv) < 2:
+        raise SystemExit(__doc__)
+    before = load(Path(sys.argv[1]))
+    after = load(Path(sys.argv[2]) if len(sys.argv) > 2 else CURRENT)
+    print(render(before, after))
 
 
 if __name__ == "__main__":

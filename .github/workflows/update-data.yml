@@ -109,7 +109,8 @@ jobs:
               'OCRは環境によって読み取り結果がぶれることがあり、実際にCIのApple Visionが' \
               '手元のMacより多く読み落とした例があります。原因を確かめてから判断してください。' \
               '' \
-              '手元で内容を確かめる手順は `docs/review-update-pr.md` にあります。'
+              '新しいだんが入った回は、マージ前に `npm run gaps` と `npm run manual` で' \
+              '読み切れなかったところを埋めること。手順は `docs/review-update-pr.md` にあります。'
           } > /tmp/pr_body.md
 
           if gh pr view auto/update-data --json state -q .state 2>/dev/null | grep -q OPEN; then

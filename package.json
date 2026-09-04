@@ -5,9 +5,9 @@
   "scripts": {
     "start": "expo start",
     "web": "expo start --web",
-    "ios": "expo start --ios",
     "typecheck": "tsc --noEmit",
     "update": "bash scripts/update.sh",
+    "pr": "python3 scripts/review_pr.py",
     "manual": "python3 scripts/manual_fill.py",
     "gaps": "python3 scripts/gaps.py",
     "build:web": "expo export -p web && node scripts/build_sw.mjs",
