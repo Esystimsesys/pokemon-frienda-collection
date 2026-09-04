@@ -375,13 +375,16 @@
   "moveType": "ドラゴン"
  },
  "3-2-020": {
-  "moveType": "くさ"
+  "moveType": "くさ",
+  "moveName": "リーフブレード"
  },
  "3-2-024": {
-  "moveType": "ほのお"
+  "moveType": "ほのお",
+  "moveName": "かえんほうしゃ"
  },
  "3-2-039": {
-  "moveType": "ドラゴン"
+  "moveType": "ドラゴン",
+  "moveName": "ワイドブレイカー"
  },
  "p011": {
   "specialMove": "スパーキングギガボルト"

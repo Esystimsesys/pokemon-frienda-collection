@@ -15922,6 +15922,325 @@
     }
   },
   {
+    "id": "3-2-001",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-002",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-003",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-006",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-007",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-011",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {
+      "hp": 225
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-012",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-013",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-018",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-019",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-020",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-023",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-024",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-035",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {
+      "spDefense": 23
+    },
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-036",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-037",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {
+      "hp": 200,
+      "defense": 50
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "low_score",
+      "def": "ok",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-038",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_margin",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-039",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-044",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-045",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_margin",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-046",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-047",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-048",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
+    "id": "3-2-049",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {},
+    "raw": {
+      "hp": "low_score",
+      "atk": "low_score",
+      "def": "low_score",
+      "spatk": "low_score",
+      "spdef": "low_score"
+    }
+  },
+  {
     "id": "p001",
     "had_existing_stats": true,
     "ocr_complete": true,
@@ -18079,6 +18398,44 @@
       "def": "anchor_not_found",
       "spatk": "anchor_not_found",
       "spdef": "anchor_not_found"
+    }
+  },
+  {
+    "id": "p121",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 158,
+      "attack": 141,
+      "defense": 91,
+      "spAttack": 147,
+      "spDefense": 91
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "p122",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 157,
+      "attack": 152,
+      "defense": 142,
+      "spAttack": 103,
+      "spDefense": 93
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
     }
   }
 ]
