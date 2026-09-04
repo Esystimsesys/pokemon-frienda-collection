@@ -1,0 +1,44 @@
+name: swiftcビルドの診断（一時的・調査用）
+
+# update-data.yml の swiftc -O ビルドがCIだけ40分かかる原因調査のための
+# 使い捨てワークフロー。原因が分かったら削除する。
+on:
+  workflow_dispatch:
+
+jobs:
+  diag:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 環境情報
+        run: |
+          sw_vers
+          echo "---"
+          system_profiler SPHardwareDataType
+          echo "---"
+          sysctl -n hw.ncpu
+          sysctl -n hw.memsize
+          echo "---"
+          swift --version
+          echo "---"
+          df -h /
+
+      - name: ネットワーク到達性（署名検証がタイムアウトしていないか）
+        run: |
+          time (curl -s -o /dev/null -w "http=%{http_code} total=%{time_total}s\n" --max-time 10 https://ocsp.apple.com/ocsp04-rootg3 || echo "unreachable/timeout")
+          time (curl -s -o /dev/null -w "http=%{http_code} total=%{time_total}s\n" --max-time 10 https://api.github.com || echo "unreachable/timeout")
+
+      - name: swiftc -O ビルド（フェーズ別タイミング・リソース使用量つき）
+        run: |
+          cd scripts/ocr
+          /usr/bin/time -l swiftc -O ocr_moves.swift -o /tmp/ocr_moves_opt \
+            -Xfrontend -debug-time-compilation \
+            -Xfrontend -warn-long-function-bodies=500 \
+            -Xfrontend -warn-long-expression-type-checking=500 \
+            2>&1 | tail -150
+
+      - name: 最適化なしでも比較（-O が原因か切り分け）
+        run: |
+          cd scripts/ocr
+          /usr/bin/time -l swiftc ocr_moves.swift -o /tmp/ocr_moves_noopt 2>&1 | tail -30
