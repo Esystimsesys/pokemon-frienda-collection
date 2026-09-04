@@ -119,6 +119,20 @@ def main() -> None:
     # そのまま手入力・コミット・pushができるよう、detachではなくブランチにする。
     here = run("git", "rev-parse", "--abbrev-ref", "HEAD")
     run("git", "switch", "-C", BRANCH, f"origin/{BRANCH}")
+
+    # main を取り込んでから見る。手入力(manual.json)は main に置いてあるので、
+    # 取り込まずに数えると、すでに埋めたものがまた穴に見える。
+    # マージ後の状態で判断したいので、どのみちここで合わせておく必要がある。
+    merged = subprocess.run(
+        ["git", "merge", "--no-edit", BASE], cwd=ROOT, capture_output=True, text=True
+    )
+    if merged.returncode != 0:
+        run("git", "merge", "--abort", check=False)
+        run("git", "switch", here, check=False)
+        raise SystemExit(
+            f"■ 中止: {BASE} を取り込めなかった（衝突）。手で直すこと。\n{merged.stdout[-500:]}"
+        )
+
     try:
         todo = manual_fill.build_todo()
     except Exception:
