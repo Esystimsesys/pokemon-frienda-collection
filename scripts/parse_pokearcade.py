@@ -303,7 +303,11 @@ def main() -> None:
                 speed_filled += 1
         out_records.append(record)
 
-    OUT.write_text(json.dumps(out_records, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    # ID順にそろえて書く（並び順だけの差分でレビューできなくなるのを防ぐ）
+    OUT.write_text(
+        json.dumps(sorted(out_records, key=lambda r: r["id"]), ensure_ascii=False, indent=1) + "\n",
+        encoding="utf-8",
+    )
     print(f"\n{OUT.relative_to(ROOT.parent)} に {len(out_records)} 件書き出した")
     print(f"ポケエネを埋められた: {energy_filled} 件")
     print(f"すばやさ（1〜5ランク）を埋められた: {speed_filled} 件")

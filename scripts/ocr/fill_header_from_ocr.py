@@ -300,7 +300,12 @@ def run_all(picks: list[dict], data: dict, matcher: H.HeaderMatcher, errors: dic
         })
 
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    OUT_JSON.write_text(json.dumps(records, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    # ID順にそろえて書く。picks.json の並び順に追従すると、中身が同じでも
+    # 差分が数千行になってレビューできなくなるため。
+    OUT_JSON.write_text(
+        json.dumps(sorted(records, key=lambda r: r["id"]), ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
     if errors:
         print(f"読み取れなかった画像: {errors}")

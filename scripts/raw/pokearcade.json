@@ -980,6 +980,27 @@
   "speedRaw": 44
  },
  {
+  "id": "1-2-W01",
+  "match": "id",
+  "energy": 212,
+  "speed": 4,
+  "speedRaw": 105
+ },
+ {
+  "id": "1-2-W02",
+  "match": "id",
+  "energy": 204,
+  "speed": 3,
+  "speedRaw": 94
+ },
+ {
+  "id": "1-2-W03",
+  "match": "id",
+  "energy": 220,
+  "speed": 3,
+  "speedRaw": 80
+ },
+ {
   "id": "1-3-001",
   "match": "id",
   "energy": 256,
@@ -1468,6 +1489,20 @@
   "energy": 144,
   "speed": 3,
   "speedRaw": 55
+ },
+ {
+  "id": "1-3-W01",
+  "match": "id",
+  "energy": 272,
+  "speed": 3,
+  "speedRaw": 92
+ },
+ {
+  "id": "1-3-W02",
+  "match": "id",
+  "energy": 272,
+  "speed": 3,
+  "speedRaw": 92
  },
  {
   "id": "1-4-001",
@@ -1960,6 +1995,34 @@
   "speedRaw": 33
  },
  {
+  "id": "1-4-W01",
+  "match": "id",
+  "energy": 240,
+  "speed": 2,
+  "speedRaw": 73
+ },
+ {
+  "id": "1-4-W02",
+  "match": "id",
+  "energy": 240,
+  "speed": 4,
+  "speedRaw": 137
+ },
+ {
+  "id": "1-4-W03",
+  "match": "id",
+  "energy": 240,
+  "speed": 2,
+  "speedRaw": 73
+ },
+ {
+  "id": "1-4-W04",
+  "match": "id",
+  "energy": 240,
+  "speed": 2,
+  "speedRaw": 68
+ },
+ {
   "id": "1-5-001",
   "match": "id",
   "energy": 292,
@@ -2448,6 +2511,34 @@
   "energy": 164,
   "speed": 1,
   "speedRaw": 33
+ },
+ {
+  "id": "1-5-W01",
+  "match": "id",
+  "energy": 260,
+  "speed": 3,
+  "speedRaw": 87
+ },
+ {
+  "id": "1-5-W02",
+  "match": "id",
+  "energy": 264,
+  "speed": 4,
+  "speedRaw": 110
+ },
+ {
+  "id": "1-5-W03",
+  "match": "id",
+  "energy": 264,
+  "speed": 4,
+  "speedRaw": 110
+ },
+ {
+  "id": "1-5-W04",
+  "match": "id",
+  "energy": 264,
+  "speed": 3,
+  "speedRaw": 90
  },
  {
   "id": "2-1-001",
@@ -2940,6 +3031,27 @@
   "speedRaw": 79
  },
  {
+  "id": "2-1-W01",
+  "match": "id",
+  "energy": 284,
+  "speed": 3,
+  "speedRaw": 93
+ },
+ {
+  "id": "2-1-W02",
+  "match": "id",
+  "energy": 284,
+  "speed": 4,
+  "speedRaw": 109
+ },
+ {
+  "id": "2-1-W03",
+  "match": "id",
+  "energy": 284,
+  "speed": 4,
+  "speedRaw": 98
+ },
+ {
   "id": "2-2-001",
   "match": "id",
   "energy": 320,
@@ -3430,6 +3542,27 @@
   "speedRaw": 50
  },
  {
+  "id": "2-2-W01",
+  "match": "id",
+  "energy": 252,
+  "speed": 4,
+  "speedRaw": 152
+ },
+ {
+  "id": "2-2-W02",
+  "match": "id",
+  "energy": 260,
+  "speed": 3,
+  "speedRaw": 85
+ },
+ {
+  "id": "2-2-W03",
+  "match": "id",
+  "energy": 300,
+  "speed": 4,
+  "speedRaw": 143
+ },
+ {
   "id": "2-3-001",
   "match": "id",
   "energy": 344,
@@ -3612,6 +3745,13 @@
   "speedRaw": 40
  },
  {
+  "id": "2-3-026A",
+  "match": "id",
+  "energy": 128,
+  "speed": 1,
+  "speedRaw": 40
+ },
+ {
   "id": "2-3-027",
   "match": "id",
   "energy": 156,
@@ -3633,6 +3773,13 @@
   "speedRaw": 37
  },
  {
+  "id": "2-3-029A",
+  "match": "id",
+  "energy": 124,
+  "speed": 1,
+  "speedRaw": 37
+ },
+ {
   "id": "2-3-030",
   "match": "id",
   "energy": 160,
@@ -3648,6 +3795,13 @@
  },
  {
   "id": "2-3-032",
+  "match": "id",
+  "energy": 128,
+  "speed": 1,
+  "speedRaw": 42
+ },
+ {
+  "id": "2-3-032A",
   "match": "id",
   "energy": 128,
   "speed": 1,
@@ -3725,6 +3879,13 @@
  },
  {
   "id": "2-3-043",
+  "match": "id",
+  "energy": 180,
+  "speed": 4,
+  "speedRaw": 103
+ },
+ {
+  "id": "2-3-043A",
   "match": "id",
   "energy": 180,
   "speed": 4,
@@ -3920,32 +4081,25 @@
   "speedRaw": 101
  },
  {
-  "id": "2-3-026A",
+  "id": "2-3-W01",
   "match": "id",
-  "energy": 128,
-  "speed": 1,
-  "speedRaw": 40
- },
- {
-  "id": "2-3-029A",
-  "match": "id",
-  "energy": 124,
-  "speed": 1,
-  "speedRaw": 37
- },
- {
-  "id": "2-3-032A",
-  "match": "id",
-  "energy": 128,
-  "speed": 1,
-  "speedRaw": 42
- },
- {
-  "id": "2-3-043A",
-  "match": "id",
-  "energy": 180,
+  "energy": 312,
   "speed": 4,
-  "speedRaw": 103
+  "speedRaw": 123
+ },
+ {
+  "id": "2-3-W02",
+  "match": "id",
+  "energy": 296,
+  "speed": 3,
+  "speedRaw": 80
+ },
+ {
+  "id": "2-3-W03",
+  "match": "id",
+  "energy": 284,
+  "speed": 4,
+  "speedRaw": 138
  },
  {
   "id": "2-4-001",
@@ -4130,6 +4284,13 @@
   "speedRaw": null
  },
  {
+  "id": "2-4-026A",
+  "match": "id",
+  "energy": 132,
+  "speed": 1,
+  "speedRaw": null
+ },
+ {
   "id": "2-4-027",
   "match": "id",
   "energy": 160,
@@ -4151,6 +4312,13 @@
   "speedRaw": null
  },
  {
+  "id": "2-4-029A",
+  "match": "id",
+  "energy": 128,
+  "speed": 2,
+  "speedRaw": null
+ },
+ {
   "id": "2-4-030",
   "match": "id",
   "energy": 164,
@@ -4166,6 +4334,13 @@
  },
  {
   "id": "2-4-032",
+  "match": "id",
+  "energy": 132,
+  "speed": 2,
+  "speedRaw": null
+ },
+ {
+  "id": "2-4-032A",
   "match": "id",
   "energy": 132,
   "speed": 2,
@@ -4207,6 +4382,13 @@
   "speedRaw": null
  },
  {
+  "id": "2-4-037★",
+  "match": "id",
+  "energy": 220,
+  "speed": 2,
+  "speedRaw": null
+ },
+ {
   "id": "2-4-038",
   "match": "id",
   "energy": 124,
@@ -4235,6 +4417,13 @@
   "speedRaw": null
  },
  {
+  "id": "2-4-041★",
+  "match": "id",
+  "energy": 116,
+  "speed": 1,
+  "speedRaw": null
+ },
+ {
   "id": "2-4-042",
   "match": "id",
   "energy": 148,
@@ -4242,7 +4431,21 @@
   "speedRaw": null
  },
  {
+  "id": "2-4-042★",
+  "match": "id",
+  "energy": 148,
+  "speed": 2,
+  "speedRaw": null
+ },
+ {
   "id": "2-4-043",
+  "match": "id",
+  "energy": 220,
+  "speed": 2,
+  "speedRaw": null
+ },
+ {
+  "id": "2-4-043★",
   "match": "id",
   "energy": 220,
   "speed": 2,
@@ -4312,7 +4515,21 @@
   "speedRaw": null
  },
  {
+  "id": "2-4-052★",
+  "match": "id",
+  "energy": 140,
+  "speed": 3,
+  "speedRaw": null
+ },
+ {
   "id": "2-4-053",
+  "match": "id",
+  "energy": 220,
+  "speed": 4,
+  "speedRaw": null
+ },
+ {
+  "id": "2-4-053★",
   "match": "id",
   "energy": 220,
   "speed": 4,
@@ -4438,73 +4655,38 @@
   "speedRaw": null
  },
  {
-  "id": "2-4-037★",
-  "match": "id",
-  "energy": 220,
-  "speed": 2,
-  "speedRaw": null
- },
- {
-  "id": "2-4-041★",
-  "match": "id",
-  "energy": 116,
-  "speed": 1,
-  "speedRaw": null
- },
- {
-  "id": "2-4-042★",
-  "match": "id",
-  "energy": 148,
-  "speed": 2,
-  "speedRaw": null
- },
- {
-  "id": "2-4-043★",
-  "match": "id",
-  "energy": 220,
-  "speed": 2,
-  "speedRaw": null
- },
- {
-  "id": "2-4-052★",
-  "match": "id",
-  "energy": 140,
-  "speed": 3,
-  "speedRaw": null
- },
- {
-  "id": "2-4-053★",
-  "match": "id",
-  "energy": 220,
-  "speed": 4,
-  "speedRaw": null
- },
- {
-  "id": "2-4-026A",
-  "match": "id",
-  "energy": 132,
-  "speed": 1,
-  "speedRaw": null
- },
- {
-  "id": "2-4-029A",
-  "match": "id",
-  "energy": 128,
-  "speed": 2,
-  "speedRaw": null
- },
- {
-  "id": "2-4-032A",
-  "match": "id",
-  "energy": 132,
-  "speed": 2,
-  "speedRaw": null
- },
- {
   "id": "2-4-070A",
   "match": "id",
   "energy": 188,
   "speed": 4,
+  "speedRaw": null
+ },
+ {
+  "id": "2-4-W01",
+  "match": "id",
+  "energy": 300,
+  "speed": 4,
+  "speedRaw": null
+ },
+ {
+  "id": "2-4-W02",
+  "match": "id",
+  "energy": 300,
+  "speed": 3,
+  "speedRaw": null
+ },
+ {
+  "id": "2-4-W03",
+  "match": "id",
+  "energy": 300,
+  "speed": 4,
+  "speedRaw": null
+ },
+ {
+  "id": "2-4-W04",
+  "match": "id",
+  "energy": 300,
+  "speed": 3,
   "speedRaw": null
  },
  {
@@ -4690,7 +4872,21 @@
   "speedRaw": null
  },
  {
+  "id": "2-5-026A",
+  "match": "id",
+  "energy": 136,
+  "speed": 2,
+  "speedRaw": null
+ },
+ {
   "id": "2-5-027",
+  "match": "id",
+  "energy": 172,
+  "speed": 3,
+  "speedRaw": null
+ },
+ {
+  "id": "2-5-027A",
   "match": "id",
   "energy": 172,
   "speed": 3,
@@ -4711,7 +4907,21 @@
   "speedRaw": null
  },
  {
+  "id": "2-5-029A",
+  "match": "id",
+  "energy": 136,
+  "speed": 1,
+  "speedRaw": null
+ },
+ {
   "id": "2-5-030",
+  "match": "id",
+  "energy": 172,
+  "speed": 1,
+  "speedRaw": null
+ },
+ {
+  "id": "2-5-030A",
   "match": "id",
   "energy": 172,
   "speed": 1,
@@ -4732,7 +4942,21 @@
   "speedRaw": null
  },
  {
+  "id": "2-5-032A",
+  "match": "id",
+  "energy": 136,
+  "speed": 1,
+  "speedRaw": null
+ },
+ {
   "id": "2-5-033",
+  "match": "id",
+  "energy": 172,
+  "speed": 2,
+  "speedRaw": null
+ },
+ {
+  "id": "2-5-033A",
   "match": "id",
   "energy": 172,
   "speed": 2,
@@ -4788,6 +5012,13 @@
   "speedRaw": null
  },
  {
+  "id": "2-5-040★",
+  "match": "id",
+  "energy": 120,
+  "speed": 1,
+  "speedRaw": null
+ },
+ {
   "id": "2-5-041",
   "match": "id",
   "energy": 156,
@@ -4795,7 +5026,21 @@
   "speedRaw": null
  },
  {
+  "id": "2-5-041★",
+  "match": "id",
+  "energy": 156,
+  "speed": 2,
+  "speedRaw": null
+ },
+ {
   "id": "2-5-042",
+  "match": "id",
+  "energy": 224,
+  "speed": 2,
+  "speedRaw": null
+ },
+ {
+  "id": "2-5-042★",
   "match": "id",
   "energy": 224,
   "speed": 2,
@@ -4928,7 +5173,21 @@
   "speedRaw": null
  },
  {
+  "id": "2-5-060★",
+  "match": "id",
+  "energy": 140,
+  "speed": 1,
+  "speedRaw": null
+ },
+ {
   "id": "2-5-061",
+  "match": "id",
+  "energy": 232,
+  "speed": 1,
+  "speedRaw": null
+ },
+ {
+  "id": "2-5-061★",
   "match": "id",
   "energy": 232,
   "speed": 1,
@@ -4984,6 +5243,13 @@
   "speedRaw": null
  },
  {
+  "id": "2-5-068★",
+  "match": "id",
+  "energy": 208,
+  "speed": 2,
+  "speedRaw": null
+ },
+ {
   "id": "2-5-069",
   "match": "id",
   "energy": 208,
@@ -4998,87 +5264,31 @@
   "speedRaw": null
  },
  {
-  "id": "2-5-040★",
+  "id": "2-5-W01",
   "match": "id",
-  "energy": 120,
-  "speed": 1,
+  "energy": 320,
+  "speed": 4,
   "speedRaw": null
  },
  {
-  "id": "2-5-041★",
+  "id": "2-5-W02",
   "match": "id",
-  "energy": 156,
-  "speed": 2,
+  "energy": 320,
+  "speed": 4,
   "speedRaw": null
  },
  {
-  "id": "2-5-042★",
+  "id": "2-5-W03",
   "match": "id",
-  "energy": 224,
-  "speed": 2,
+  "energy": 284,
+  "speed": 4,
   "speedRaw": null
  },
  {
-  "id": "2-5-060★",
+  "id": "2-5-W04",
   "match": "id",
-  "energy": 140,
-  "speed": 1,
-  "speedRaw": null
- },
- {
-  "id": "2-5-061★",
-  "match": "id",
-  "energy": 232,
-  "speed": 1,
-  "speedRaw": null
- },
- {
-  "id": "2-5-068★",
-  "match": "id",
-  "energy": 208,
-  "speed": 2,
-  "speedRaw": null
- },
- {
-  "id": "2-5-026A",
-  "match": "id",
-  "energy": 136,
-  "speed": 2,
-  "speedRaw": null
- },
- {
-  "id": "2-5-027A",
-  "match": "id",
-  "energy": 172,
+  "energy": 280,
   "speed": 3,
-  "speedRaw": null
- },
- {
-  "id": "2-5-029A",
-  "match": "id",
-  "energy": 136,
-  "speed": 1,
-  "speedRaw": null
- },
- {
-  "id": "2-5-030A",
-  "match": "id",
-  "energy": 172,
-  "speed": 1,
-  "speedRaw": null
- },
- {
-  "id": "2-5-032A",
-  "match": "id",
-  "energy": 136,
-  "speed": 1,
-  "speedRaw": null
- },
- {
-  "id": "2-5-033A",
-  "match": "id",
-  "energy": 172,
-  "speed": 2,
   "speedRaw": null
  },
  {
@@ -5264,6 +5474,13 @@
   "speedRaw": null
  },
  {
+  "id": "3-1-026A",
+  "match": "id",
+  "energy": 144,
+  "speed": 1,
+  "speedRaw": null
+ },
+ {
   "id": "3-1-027",
   "match": "id",
   "energy": 172,
@@ -5278,7 +5495,21 @@
   "speedRaw": null
  },
  {
+  "id": "3-1-028★",
+  "match": "id",
+  "energy": 232,
+  "speed": 3,
+  "speedRaw": null
+ },
+ {
   "id": "3-1-029",
+  "match": "id",
+  "energy": 140,
+  "speed": 2,
+  "speedRaw": null
+ },
+ {
+  "id": "3-1-029A",
   "match": "id",
   "energy": 140,
   "speed": 2,
@@ -5299,7 +5530,21 @@
   "speedRaw": null
  },
  {
+  "id": "3-1-031★",
+  "match": "id",
+  "energy": 236,
+  "speed": 4,
+  "speedRaw": null
+ },
+ {
   "id": "3-1-032",
+  "match": "id",
+  "energy": 140,
+  "speed": 1,
+  "speedRaw": null
+ },
+ {
+  "id": "3-1-032A",
   "match": "id",
   "energy": 140,
   "speed": 1,
@@ -5314,6 +5559,13 @@
  },
  {
   "id": "3-1-034",
+  "match": "id",
+  "energy": 236,
+  "speed": 3,
+  "speedRaw": null
+ },
+ {
+  "id": "3-1-034★",
   "match": "id",
   "energy": 236,
   "speed": 3,
@@ -5502,6 +5754,13 @@
   "speedRaw": null
  },
  {
+  "id": "3-1-060★",
+  "match": "id",
+  "energy": 144,
+  "speed": 2,
+  "speedRaw": null
+ },
+ {
   "id": "3-1-061",
   "match": "id",
   "energy": 224,
@@ -5572,55 +5831,6 @@
   "speedRaw": null
  },
  {
-  "id": "3-1-026A",
-  "match": "id",
-  "energy": 144,
-  "speed": 1,
-  "speedRaw": null
- },
- {
-  "id": "3-1-029A",
-  "match": "id",
-  "energy": 140,
-  "speed": 2,
-  "speedRaw": null
- },
- {
-  "id": "3-1-032A",
-  "match": "id",
-  "energy": 140,
-  "speed": 1,
-  "speedRaw": null
- },
- {
-  "id": "3-1-028★",
-  "match": "id",
-  "energy": 232,
-  "speed": 3,
-  "speedRaw": null
- },
- {
-  "id": "3-1-031★",
-  "match": "id",
-  "energy": 236,
-  "speed": 4,
-  "speedRaw": null
- },
- {
-  "id": "3-1-034★",
-  "match": "id",
-  "energy": 236,
-  "speed": 3,
-  "speedRaw": null
- },
- {
-  "id": "3-1-060★",
-  "match": "id",
-  "energy": 144,
-  "speed": 2,
-  "speedRaw": null
- },
- {
   "id": "3-1-071★",
   "match": "id",
   "energy": 256,
@@ -5656,255 +5866,780 @@
   "speedRaw": null
  },
  {
-  "id": "2-5-W01",
-  "match": "id",
-  "energy": 320,
+  "id": "p001",
+  "match": "stats_name",
+  "energy": 120,
+  "speed": 3,
+  "speedRaw": 70
+ },
+ {
+  "id": "p002",
+  "match": "stats_name",
+  "energy": 180,
+  "speed": 3,
+  "speedRaw": 73
+ },
+ {
+  "id": "p003",
+  "match": "stats_name",
+  "energy": 132,
+  "speed": 3,
+  "speedRaw": 60
+ },
+ {
+  "id": "p004",
+  "match": "stats_name",
+  "energy": 160,
+  "speed": 2,
+  "speedRaw": 55
+ },
+ {
+  "id": "p005",
+  "match": "stats_name",
+  "energy": 164,
+  "speed": 1,
+  "speedRaw": 52
+ },
+ {
+  "id": "p006",
+  "match": "stats_name",
+  "energy": 160,
+  "speed": 3,
+  "speedRaw": 81
+ },
+ {
+  "id": "p007",
+  "match": "stats_name",
+  "energy": 144,
+  "speed": 2,
+  "speedRaw": 55
+ },
+ {
+  "id": "p008",
+  "match": "stats_name",
+  "energy": 144,
+  "speed": 1,
+  "speedRaw": 43
+ },
+ {
+  "id": "p009",
+  "match": "stats_name",
+  "energy": 144,
+  "speed": 3,
+  "speedRaw": 76
+ },
+ {
+  "id": "p010",
+  "match": "stats_name",
+  "energy": 148,
+  "speed": 3,
+  "speedRaw": 57
+ },
+ {
+  "id": "p011",
+  "match": "stats_name",
+  "energy": 136,
+  "speed": 3,
+  "speedRaw": 76
+ },
+ {
+  "id": "p012",
+  "match": "stats_name",
+  "energy": 148,
+  "speed": 3,
+  "speedRaw": 68
+ },
+ {
+  "id": "p013",
+  "match": "stats_name",
+  "energy": 152,
+  "speed": 3,
+  "speedRaw": 66
+ },
+ {
+  "id": "p014",
+  "match": "stats_name",
+  "energy": 164,
+  "speed": 3,
+  "speedRaw": 61
+ },
+ {
+  "id": "p015",
+  "match": "stats_name",
+  "energy": 156,
+  "speed": 3,
+  "speedRaw": 70
+ },
+ {
+  "id": "p016",
+  "match": "stats_name",
+  "energy": 160,
+  "speed": 3,
+  "speedRaw": 97
+ },
+ {
+  "id": "p017",
+  "match": "stats_name",
+  "energy": 176,
+  "speed": 4,
+  "speedRaw": 84
+ },
+ {
+  "id": "p018",
+  "match": "stats_name",
+  "energy": 176,
+  "speed": 4,
+  "speedRaw": 84
+ },
+ {
+  "id": "p019",
+  "match": "stats_name",
+  "energy": 176,
+  "speed": 2,
+  "speedRaw": 68
+ },
+ {
+  "id": "p020",
+  "match": "stats_name",
+  "energy": 176,
+  "speed": 3,
+  "speedRaw": 74
+ },
+ {
+  "id": "p021",
+  "match": "stats_name",
+  "energy": 152,
+  "speed": 3,
+  "speedRaw": 89
+ },
+ {
+  "id": "p022",
+  "match": "stats_name",
+  "energy": 168,
+  "speed": 3,
+  "speedRaw": 79
+ },
+ {
+  "id": "p023",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p024",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p025",
+  "match": "stats_name",
+  "energy": 164,
+  "speed": 4,
+  "speedRaw": 81
+ },
+ {
+  "id": "p026",
+  "match": "stats_name",
+  "energy": 200,
+  "speed": 3,
+  "speedRaw": 74
+ },
+ {
+  "id": "p027",
+  "match": "stats_name",
+  "energy": 200,
+  "speed": 2,
+  "speedRaw": 59
+ },
+ {
+  "id": "p028",
+  "match": "stats_name",
+  "energy": 200,
+  "speed": 4,
+  "speedRaw": 106
+ },
+ {
+  "id": "p029",
+  "match": "stats_name",
+  "energy": 164,
+  "speed": 2,
+  "speedRaw": 55
+ },
+ {
+  "id": "p030",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p031",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p032",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p033",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p034",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p035",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p036",
+  "match": "stats_name",
+  "energy": 184,
+  "speed": 1,
+  "speedRaw": 26
+ },
+ {
+  "id": "p037",
+  "match": "stats_name",
+  "energy": 236,
+  "speed": 1,
+  "speedRaw": 45
+ },
+ {
+  "id": "p038",
+  "match": "stats_name",
+  "energy": 236,
+  "speed": 4,
+  "speedRaw": 111
+ },
+ {
+  "id": "p039",
+  "match": "stats_name",
+  "energy": 236,
+  "speed": 2,
+  "speedRaw": 75
+ },
+ {
+  "id": "p040",
+  "match": "stats_name",
+  "energy": 184,
+  "speed": 4,
+  "speedRaw": 100
+ },
+ {
+  "id": "p041",
+  "match": "stats_name",
+  "energy": 208,
+  "speed": 4,
+  "speedRaw": 85
+ },
+ {
+  "id": "p042",
+  "match": "stats_name",
+  "energy": 196,
+  "speed": 3,
+  "speedRaw": 83
+ },
+ {
+  "id": "p043",
+  "match": "stats_name",
+  "energy": 248,
+  "speed": 4,
+  "speedRaw": 110
+ },
+ {
+  "id": "p044",
+  "match": "stats_name",
+  "energy": 248,
+  "speed": 4,
+  "speedRaw": 114
+ },
+ {
+  "id": "p045",
+  "match": "stats_name",
+  "energy": 248,
+  "speed": 4,
+  "speedRaw": 106
+ },
+ {
+  "id": "p046",
+  "match": "stats_name",
+  "energy": 216,
+  "speed": 4,
+  "speedRaw": 125
+ },
+ {
+  "id": "p047",
+  "match": "stats_name",
+  "energy": 220,
+  "speed": 3,
+  "speedRaw": 84
+ },
+ {
+  "id": "p048",
+  "match": "stats_name",
+  "energy": 224,
+  "speed": 4,
+  "speedRaw": 120
+ },
+ {
+  "id": "p049",
+  "match": "stats_name",
+  "energy": 212,
+  "speed": 2,
+  "speedRaw": 70
+ },
+ {
+  "id": "p050",
+  "match": "stats_name",
+  "energy": 216,
+  "speed": 3,
+  "speedRaw": 95
+ },
+ {
+  "id": "p051",
+  "match": "stats_name",
+  "energy": 212,
+  "speed": 2,
+  "speedRaw": 76
+ },
+ {
+  "id": "p052",
+  "match": "stats_name",
+  "energy": 200,
+  "speed": 4,
+  "speedRaw": 118
+ },
+ {
+  "id": "p053-ayNdxXS8",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p054",
+  "match": "stats_name",
+  "energy": 252,
+  "speed": 3,
+  "speedRaw": 83
+ },
+ {
+  "id": "p055",
+  "match": "stats_name",
+  "energy": 252,
+  "speed": 2,
+  "speedRaw": 69
+ },
+ {
+  "id": "p056",
+  "match": "stats_name",
+  "energy": 252,
+  "speed": 2,
+  "speedRaw": 59
+ },
+ {
+  "id": "p057",
+  "match": "stats_name",
+  "energy": 212,
+  "speed": 3,
+  "speedRaw": 80
+ },
+ {
+  "id": "p058",
+  "match": "stats_name",
+  "energy": 212,
+  "speed": 2,
+  "speedRaw": 67
+ },
+ {
+  "id": "p059",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p060",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p061",
+  "match": "stats_name",
+  "energy": 200,
+  "speed": 3,
+  "speedRaw": 84
+ },
+ {
+  "id": "p062",
+  "match": "stats_name",
+  "energy": 252,
+  "speed": 3,
+  "speedRaw": 94
+ },
+ {
+  "id": "p063",
+  "match": "stats_name",
+  "energy": 212,
+  "speed": 2,
+  "speedRaw": 75
+ },
+ {
+  "id": "p064",
+  "match": "stats_name",
+  "energy": 264,
+  "speed": 2,
+  "speedRaw": 61
+ },
+ {
+  "id": "p065",
+  "match": "stats_name",
+  "energy": 264,
+  "speed": 3,
+  "speedRaw": 89
+ },
+ {
+  "id": "p066",
+  "match": "stats_name",
+  "energy": 264,
+  "speed": 4,
+  "speedRaw": 101
+ },
+ {
+  "id": "p067",
+  "match": "stats_name",
+  "energy": 208,
+  "speed": 2,
+  "speedRaw": 66
+ },
+ {
+  "id": "p068",
+  "match": "stats_name",
+  "energy": 236,
+  "speed": 3,
+  "speedRaw": 65
+ },
+ {
+  "id": "p069",
+  "match": "stats_name",
+  "energy": 248,
+  "speed": 3,
+  "speedRaw": 75
+ },
+ {
+  "id": "p070",
+  "match": "stats_name",
+  "energy": 228,
+  "speed": 4,
+  "speedRaw": 84
+ },
+ {
+  "id": "p071",
+  "match": "stats_name",
+  "energy": 240,
+  "speed": 3,
+  "speedRaw": 90
+ },
+ {
+  "id": "p072",
+  "match": "stats_name",
+  "energy": 244,
+  "speed": 4,
+  "speedRaw": 85
+ },
+ {
+  "id": "p073",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p074",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p075",
+  "match": "stats_name",
+  "energy": 224,
+  "speed": 3,
+  "speedRaw": 109
+ },
+ {
+  "id": "p076",
+  "match": "stats_name",
+  "energy": 280,
+  "speed": 3,
+  "speedRaw": 101
+ },
+ {
+  "id": "p077",
+  "match": "stats_name",
+  "energy": 280,
+  "speed": 3,
+  "speedRaw": 112
+ },
+ {
+  "id": "p078",
+  "match": "stats_name",
+  "energy": 280,
+  "speed": 4,
+  "speedRaw": 112
+ },
+ {
+  "id": "p079",
+  "match": "stats_name",
+  "energy": 252,
+  "speed": 4,
+  "speedRaw": 111
+ },
+ {
+  "id": "p080",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p081",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p082",
+  "match": "stats_name",
+  "energy": 224,
+  "speed": 3,
+  "speedRaw": 78
+ },
+ {
+  "id": "p083",
+  "match": "stats_name",
+  "energy": 268,
   "speed": 4,
   "speedRaw": null
  },
  {
-  "id": "2-5-W02",
-  "match": "id",
-  "energy": 320,
+  "id": "p084",
+  "match": "stats_name",
+  "energy": 252,
+  "speed": 2,
+  "speedRaw": null
+ },
+ {
+  "id": "p085",
+  "match": "stats_name",
+  "energy": 260,
+  "speed": 3,
+  "speedRaw": null
+ },
+ {
+  "id": "p086",
+  "match": "stats_name",
+  "energy": 236,
+  "speed": 2,
+  "speedRaw": null
+ },
+ {
+  "id": "p087",
+  "match": "stats_name",
+  "energy": 288,
   "speed": 4,
   "speedRaw": null
  },
  {
-  "id": "2-5-W03",
-  "match": "id",
-  "energy": 284,
+  "id": "p088",
+  "match": "stats_name",
+  "energy": 288,
   "speed": 4,
   "speedRaw": null
  },
  {
-  "id": "2-5-W04",
-  "match": "id",
+  "id": "p089",
+  "match": "stats_name",
+  "energy": 288,
+  "speed": 4,
+  "speedRaw": null
+ },
+ {
+  "id": "p090",
+  "match": "stats_name",
+  "energy": 264,
+  "speed": 4,
+  "speedRaw": null
+ },
+ {
+  "id": "p091",
+  "match": "stats_name",
+  "energy": 264,
+  "speed": 3,
+  "speedRaw": null
+ },
+ {
+  "id": "p092",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p093",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p094",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p095",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p096",
+  "match": "stats_name",
   "energy": 280,
   "speed": 3,
   "speedRaw": null
  },
  {
-  "id": "2-4-W01",
-  "match": "id",
-  "energy": 300,
-  "speed": 4,
-  "speedRaw": null
- },
- {
-  "id": "2-4-W02",
-  "match": "id",
-  "energy": 300,
-  "speed": 3,
-  "speedRaw": null
- },
- {
-  "id": "2-4-W03",
-  "match": "id",
-  "energy": 300,
-  "speed": 4,
-  "speedRaw": null
- },
- {
-  "id": "2-4-W04",
-  "match": "id",
-  "energy": 300,
-  "speed": 3,
-  "speedRaw": null
- },
- {
-  "id": "2-3-W01",
-  "match": "id",
-  "energy": 312,
-  "speed": 4,
-  "speedRaw": 123
- },
- {
-  "id": "2-3-W02",
-  "match": "id",
-  "energy": 296,
-  "speed": 3,
-  "speedRaw": 80
- },
- {
-  "id": "2-3-W03",
-  "match": "id",
-  "energy": 284,
-  "speed": 4,
-  "speedRaw": 138
- },
- {
-  "id": "2-2-W01",
-  "match": "id",
-  "energy": 252,
-  "speed": 4,
-  "speedRaw": 152
- },
- {
-  "id": "2-2-W02",
-  "match": "id",
-  "energy": 260,
-  "speed": 3,
-  "speedRaw": 85
- },
- {
-  "id": "2-2-W03",
-  "match": "id",
-  "energy": 300,
-  "speed": 4,
-  "speedRaw": 143
- },
- {
-  "id": "2-1-W01",
-  "match": "id",
-  "energy": 284,
-  "speed": 3,
-  "speedRaw": 93
- },
- {
-  "id": "2-1-W02",
-  "match": "id",
-  "energy": 284,
-  "speed": 4,
-  "speedRaw": 109
- },
- {
-  "id": "2-1-W03",
-  "match": "id",
-  "energy": 284,
-  "speed": 4,
-  "speedRaw": 98
- },
- {
-  "id": "1-5-W01",
-  "match": "id",
-  "energy": 260,
-  "speed": 3,
-  "speedRaw": 87
- },
- {
-  "id": "1-5-W02",
-  "match": "id",
-  "energy": 264,
-  "speed": 4,
-  "speedRaw": 110
- },
- {
-  "id": "1-5-W03",
-  "match": "id",
-  "energy": 264,
-  "speed": 4,
-  "speedRaw": 110
- },
- {
-  "id": "1-5-W04",
-  "match": "id",
-  "energy": 264,
-  "speed": 3,
-  "speedRaw": 90
- },
- {
-  "id": "1-4-W01",
-  "match": "id",
-  "energy": 240,
-  "speed": 2,
-  "speedRaw": 73
- },
- {
-  "id": "1-4-W02",
-  "match": "id",
-  "energy": 240,
-  "speed": 4,
-  "speedRaw": 137
- },
- {
-  "id": "1-4-W03",
-  "match": "id",
-  "energy": 240,
-  "speed": 2,
-  "speedRaw": 73
- },
- {
-  "id": "1-4-W04",
-  "match": "id",
-  "energy": 240,
-  "speed": 2,
-  "speedRaw": 68
- },
- {
-  "id": "1-3-W01",
-  "match": "id",
-  "energy": 272,
-  "speed": 3,
-  "speedRaw": 92
- },
- {
-  "id": "1-3-W02",
-  "match": "id",
-  "energy": 272,
-  "speed": 3,
-  "speedRaw": 92
- },
- {
-  "id": "1-2-W01",
-  "match": "id",
-  "energy": 212,
-  "speed": 4,
-  "speedRaw": 105
- },
- {
-  "id": "1-2-W02",
-  "match": "id",
-  "energy": 204,
-  "speed": 3,
-  "speedRaw": 94
- },
- {
-  "id": "1-2-W03",
-  "match": "id",
-  "energy": 220,
-  "speed": 3,
-  "speedRaw": 80
- },
- {
-  "id": "p120",
+  "id": "p097",
   "match": null,
   "energy": null,
   "speed": null,
   "speedRaw": null
  },
  {
-  "id": "p119",
+  "id": "p098",
   "match": null,
   "energy": null,
   "speed": null,
   "speedRaw": null
  },
  {
-  "id": "p118",
+  "id": "p099",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p100",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p101",
+  "match": null,
+  "energy": null,
+  "speed": null,
+  "speedRaw": null
+ },
+ {
+  "id": "p102",
   "match": "stats_name",
-  "energy": 296,
+  "energy": 276,
+  "speed": 4,
+  "speedRaw": null
+ },
+ {
+  "id": "p103",
+  "match": "stats_name",
+  "energy": 292,
+  "speed": 4,
+  "speedRaw": null
+ },
+ {
+  "id": "p104",
+  "match": "stats_name",
+  "energy": 292,
   "speed": 3,
   "speedRaw": null
  },
  {
-  "id": "p117",
+  "id": "p105",
+  "match": "stats_name",
+  "energy": 292,
+  "speed": 5,
+  "speedRaw": null
+ },
+ {
+  "id": "p106",
+  "match": "stats_name",
+  "energy": 292,
+  "speed": 4,
+  "speedRaw": null
+ },
+ {
+  "id": "p107",
   "match": "stats_name",
   "energy": 300,
   "speed": 3,
   "speedRaw": null
  },
  {
-  "id": "p116",
+  "id": "p108",
+  "match": "stats_name",
+  "energy": 288,
+  "speed": 4,
+  "speedRaw": null
+ },
+ {
+  "id": "p109",
+  "match": "stats_name",
+  "energy": 300,
+  "speed": 5,
+  "speedRaw": null
+ },
+ {
+  "id": "p110",
   "match": "stats_name",
   "energy": 300,
   "speed": 3,
   "speedRaw": null
  },
  {
-  "id": "p115",
-  "match": "stats_name",
-  "energy": 300,
-  "speed": 3,
+  "id": "p111",
+  "match": null,
+  "energy": null,
+  "speed": null,
   "speedRaw": null
  },
  {
@@ -5929,780 +6664,45 @@
   "speedRaw": null
  },
  {
-  "id": "p111",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p110",
+  "id": "p115",
   "match": "stats_name",
   "energy": 300,
   "speed": 3,
   "speedRaw": null
  },
  {
-  "id": "p109",
-  "match": "stats_name",
-  "energy": 300,
-  "speed": 5,
-  "speedRaw": null
- },
- {
-  "id": "p108",
-  "match": "stats_name",
-  "energy": 288,
-  "speed": 4,
-  "speedRaw": null
- },
- {
-  "id": "p107",
+  "id": "p116",
   "match": "stats_name",
   "energy": 300,
   "speed": 3,
   "speedRaw": null
  },
  {
-  "id": "p106",
+  "id": "p117",
   "match": "stats_name",
-  "energy": 292,
-  "speed": 4,
-  "speedRaw": null
- },
- {
-  "id": "p105",
-  "match": "stats_name",
-  "energy": 292,
-  "speed": 5,
-  "speedRaw": null
- },
- {
-  "id": "p104",
-  "match": "stats_name",
-  "energy": 292,
+  "energy": 300,
   "speed": 3,
   "speedRaw": null
  },
  {
-  "id": "p103",
+  "id": "p118",
   "match": "stats_name",
-  "energy": 292,
-  "speed": 4,
+  "energy": 296,
+  "speed": 3,
   "speedRaw": null
  },
  {
-  "id": "p102",
-  "match": "stats_name",
-  "energy": 276,
-  "speed": 4,
-  "speedRaw": null
- },
- {
-  "id": "p101",
+  "id": "p119",
   "match": null,
   "energy": null,
   "speed": null,
   "speedRaw": null
  },
  {
-  "id": "p100",
+  "id": "p120",
   "match": null,
   "energy": null,
   "speed": null,
   "speedRaw": null
- },
- {
-  "id": "p099",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p098",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p097",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p096",
-  "match": "stats_name",
-  "energy": 280,
-  "speed": 3,
-  "speedRaw": null
- },
- {
-  "id": "p095",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p094",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p093",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p092",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p091",
-  "match": "stats_name",
-  "energy": 264,
-  "speed": 3,
-  "speedRaw": null
- },
- {
-  "id": "p090",
-  "match": "stats_name",
-  "energy": 264,
-  "speed": 4,
-  "speedRaw": null
- },
- {
-  "id": "p089",
-  "match": "stats_name",
-  "energy": 288,
-  "speed": 4,
-  "speedRaw": null
- },
- {
-  "id": "p088",
-  "match": "stats_name",
-  "energy": 288,
-  "speed": 4,
-  "speedRaw": null
- },
- {
-  "id": "p087",
-  "match": "stats_name",
-  "energy": 288,
-  "speed": 4,
-  "speedRaw": null
- },
- {
-  "id": "p086",
-  "match": "stats_name",
-  "energy": 236,
-  "speed": 2,
-  "speedRaw": null
- },
- {
-  "id": "p085",
-  "match": "stats_name",
-  "energy": 260,
-  "speed": 3,
-  "speedRaw": null
- },
- {
-  "id": "p084",
-  "match": "stats_name",
-  "energy": 252,
-  "speed": 2,
-  "speedRaw": null
- },
- {
-  "id": "p083",
-  "match": "stats_name",
-  "energy": 268,
-  "speed": 4,
-  "speedRaw": null
- },
- {
-  "id": "p082",
-  "match": "stats_name",
-  "energy": 224,
-  "speed": 3,
-  "speedRaw": 78
- },
- {
-  "id": "p081",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p080",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p079",
-  "match": "stats_name",
-  "energy": 252,
-  "speed": 4,
-  "speedRaw": 111
- },
- {
-  "id": "p078",
-  "match": "stats_name",
-  "energy": 280,
-  "speed": 4,
-  "speedRaw": 112
- },
- {
-  "id": "p077",
-  "match": "stats_name",
-  "energy": 280,
-  "speed": 3,
-  "speedRaw": 112
- },
- {
-  "id": "p076",
-  "match": "stats_name",
-  "energy": 280,
-  "speed": 3,
-  "speedRaw": 101
- },
- {
-  "id": "p075",
-  "match": "stats_name",
-  "energy": 224,
-  "speed": 3,
-  "speedRaw": 109
- },
- {
-  "id": "p074",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p073",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p072",
-  "match": "stats_name",
-  "energy": 244,
-  "speed": 4,
-  "speedRaw": 85
- },
- {
-  "id": "p071",
-  "match": "stats_name",
-  "energy": 240,
-  "speed": 3,
-  "speedRaw": 90
- },
- {
-  "id": "p070",
-  "match": "stats_name",
-  "energy": 228,
-  "speed": 4,
-  "speedRaw": 84
- },
- {
-  "id": "p069",
-  "match": "stats_name",
-  "energy": 248,
-  "speed": 3,
-  "speedRaw": 75
- },
- {
-  "id": "p068",
-  "match": "stats_name",
-  "energy": 236,
-  "speed": 3,
-  "speedRaw": 65
- },
- {
-  "id": "p063",
-  "match": "stats_name",
-  "energy": 212,
-  "speed": 2,
-  "speedRaw": 75
- },
- {
-  "id": "p067",
-  "match": "stats_name",
-  "energy": 208,
-  "speed": 2,
-  "speedRaw": 66
- },
- {
-  "id": "p066",
-  "match": "stats_name",
-  "energy": 264,
-  "speed": 4,
-  "speedRaw": 101
- },
- {
-  "id": "p065",
-  "match": "stats_name",
-  "energy": 264,
-  "speed": 3,
-  "speedRaw": 89
- },
- {
-  "id": "p064",
-  "match": "stats_name",
-  "energy": 264,
-  "speed": 2,
-  "speedRaw": 61
- },
- {
-  "id": "p062",
-  "match": "stats_name",
-  "energy": 252,
-  "speed": 3,
-  "speedRaw": 94
- },
- {
-  "id": "p061",
-  "match": "stats_name",
-  "energy": 200,
-  "speed": 3,
-  "speedRaw": 84
- },
- {
-  "id": "p060",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p059",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p058",
-  "match": "stats_name",
-  "energy": 212,
-  "speed": 2,
-  "speedRaw": 67
- },
- {
-  "id": "p057",
-  "match": "stats_name",
-  "energy": 212,
-  "speed": 3,
-  "speedRaw": 80
- },
- {
-  "id": "p056",
-  "match": "stats_name",
-  "energy": 252,
-  "speed": 2,
-  "speedRaw": 59
- },
- {
-  "id": "p055",
-  "match": "stats_name",
-  "energy": 252,
-  "speed": 2,
-  "speedRaw": 69
- },
- {
-  "id": "p054",
-  "match": "stats_name",
-  "energy": 252,
-  "speed": 3,
-  "speedRaw": 83
- },
- {
-  "id": "p053-ayNdxXS8",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p052",
-  "match": "stats_name",
-  "energy": 200,
-  "speed": 4,
-  "speedRaw": 118
- },
- {
-  "id": "p051",
-  "match": "stats_name",
-  "energy": 212,
-  "speed": 2,
-  "speedRaw": 76
- },
- {
-  "id": "p050",
-  "match": "stats_name",
-  "energy": 216,
-  "speed": 3,
-  "speedRaw": 95
- },
- {
-  "id": "p049",
-  "match": "stats_name",
-  "energy": 212,
-  "speed": 2,
-  "speedRaw": 70
- },
- {
-  "id": "p048",
-  "match": "stats_name",
-  "energy": 224,
-  "speed": 4,
-  "speedRaw": 120
- },
- {
-  "id": "p047",
-  "match": "stats_name",
-  "energy": 220,
-  "speed": 3,
-  "speedRaw": 84
- },
- {
-  "id": "p046",
-  "match": "stats_name",
-  "energy": 216,
-  "speed": 4,
-  "speedRaw": 125
- },
- {
-  "id": "p045",
-  "match": "stats_name",
-  "energy": 248,
-  "speed": 4,
-  "speedRaw": 106
- },
- {
-  "id": "p044",
-  "match": "stats_name",
-  "energy": 248,
-  "speed": 4,
-  "speedRaw": 114
- },
- {
-  "id": "p043",
-  "match": "stats_name",
-  "energy": 248,
-  "speed": 4,
-  "speedRaw": 110
- },
- {
-  "id": "p042",
-  "match": "stats_name",
-  "energy": 196,
-  "speed": 3,
-  "speedRaw": 83
- },
- {
-  "id": "p041",
-  "match": "stats_name",
-  "energy": 208,
-  "speed": 4,
-  "speedRaw": 85
- },
- {
-  "id": "p040",
-  "match": "stats_name",
-  "energy": 184,
-  "speed": 4,
-  "speedRaw": 100
- },
- {
-  "id": "p039",
-  "match": "stats_name",
-  "energy": 236,
-  "speed": 2,
-  "speedRaw": 75
- },
- {
-  "id": "p038",
-  "match": "stats_name",
-  "energy": 236,
-  "speed": 4,
-  "speedRaw": 111
- },
- {
-  "id": "p037",
-  "match": "stats_name",
-  "energy": 236,
-  "speed": 1,
-  "speedRaw": 45
- },
- {
-  "id": "p036",
-  "match": "stats_name",
-  "energy": 184,
-  "speed": 1,
-  "speedRaw": 26
- },
- {
-  "id": "p035",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p034",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p033",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p032",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p031",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p030",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p029",
-  "match": "stats_name",
-  "energy": 164,
-  "speed": 2,
-  "speedRaw": 55
- },
- {
-  "id": "p028",
-  "match": "stats_name",
-  "energy": 200,
-  "speed": 4,
-  "speedRaw": 106
- },
- {
-  "id": "p027",
-  "match": "stats_name",
-  "energy": 200,
-  "speed": 2,
-  "speedRaw": 59
- },
- {
-  "id": "p026",
-  "match": "stats_name",
-  "energy": 200,
-  "speed": 3,
-  "speedRaw": 74
- },
- {
-  "id": "p025",
-  "match": "stats_name",
-  "energy": 164,
-  "speed": 4,
-  "speedRaw": 81
- },
- {
-  "id": "p024",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p023",
-  "match": null,
-  "energy": null,
-  "speed": null,
-  "speedRaw": null
- },
- {
-  "id": "p022",
-  "match": "stats_name",
-  "energy": 168,
-  "speed": 3,
-  "speedRaw": 79
- },
- {
-  "id": "p021",
-  "match": "stats_name",
-  "energy": 152,
-  "speed": 3,
-  "speedRaw": 89
- },
- {
-  "id": "p018",
-  "match": "stats_name",
-  "energy": 176,
-  "speed": 4,
-  "speedRaw": 84
- },
- {
-  "id": "p017",
-  "match": "stats_name",
-  "energy": 176,
-  "speed": 4,
-  "speedRaw": 84
- },
- {
-  "id": "p016",
-  "match": "stats_name",
-  "energy": 160,
-  "speed": 3,
-  "speedRaw": 97
- },
- {
-  "id": "p020",
-  "match": "stats_name",
-  "energy": 176,
-  "speed": 3,
-  "speedRaw": 74
- },
- {
-  "id": "p019",
-  "match": "stats_name",
-  "energy": 176,
-  "speed": 2,
-  "speedRaw": 68
- },
- {
-  "id": "p015",
-  "match": "stats_name",
-  "energy": 156,
-  "speed": 3,
-  "speedRaw": 70
- },
- {
-  "id": "p014",
-  "match": "stats_name",
-  "energy": 164,
-  "speed": 3,
-  "speedRaw": 61
- },
- {
-  "id": "p013",
-  "match": "stats_name",
-  "energy": 152,
-  "speed": 3,
-  "speedRaw": 66
- },
- {
-  "id": "p012",
-  "match": "stats_name",
-  "energy": 148,
-  "speed": 3,
-  "speedRaw": 68
- },
- {
-  "id": "p011",
-  "match": "stats_name",
-  "energy": 136,
-  "speed": 3,
-  "speedRaw": 76
- },
- {
-  "id": "p010",
-  "match": "stats_name",
-  "energy": 148,
-  "speed": 3,
-  "speedRaw": 57
- },
- {
-  "id": "p009",
-  "match": "stats_name",
-  "energy": 144,
-  "speed": 3,
-  "speedRaw": 76
- },
- {
-  "id": "p008",
-  "match": "stats_name",
-  "energy": 144,
-  "speed": 1,
-  "speedRaw": 43
- },
- {
-  "id": "p007",
-  "match": "stats_name",
-  "energy": 144,
-  "speed": 2,
-  "speedRaw": 55
- },
- {
-  "id": "p006",
-  "match": "stats_name",
-  "energy": 160,
-  "speed": 3,
-  "speedRaw": 81
- },
- {
-  "id": "p005",
-  "match": "stats_name",
-  "energy": 164,
-  "speed": 1,
-  "speedRaw": 52
- },
- {
-  "id": "p004",
-  "match": "stats_name",
-  "energy": 160,
-  "speed": 2,
-  "speedRaw": 55
- },
- {
-  "id": "p003",
-  "match": "stats_name",
-  "energy": 132,
-  "speed": 3,
-  "speedRaw": 60
- },
- {
-  "id": "p002",
-  "match": "stats_name",
-  "energy": 180,
-  "speed": 3,
-  "speedRaw": 73
- },
- {
-  "id": "p001",
-  "match": "stats_name",
-  "energy": 120,
-  "speed": 3,
-  "speedRaw": 70
  }
 ]

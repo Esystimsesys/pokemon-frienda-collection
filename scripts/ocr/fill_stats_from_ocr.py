@@ -339,8 +339,10 @@ def run_all(picks: list[dict], method: str) -> None:
         )
 
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+    # ID順にそろえて書く（並び順だけの差分でレビューできなくなるのを防ぐ）
     OUT_JSON.write_text(
-        json.dumps(out_records, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(sorted(out_records, key=lambda r: r["id"]), ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
     )
 
     print(f"\n書き出し先: {OUT_JSON.relative_to(ROOT)}")
