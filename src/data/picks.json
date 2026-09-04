@@ -39,7 +39,7 @@
   "moves": [
    {
     "name": "ときのほうこう",
-    "type": null
+    "type": "ドラゴン"
    }
   ],
   "types": [
@@ -66,7 +66,7 @@
   "moves": [
    {
     "name": "あくうせつだん",
-    "type": null
+    "type": "ドラゴン"
    }
   ],
   "types": [
@@ -164,7 +164,7 @@
   "moves": [
    {
     "name": "ドラゴンハンマー",
-    "type": null
+    "type": "ドラゴン"
    }
   ],
   "types": [
@@ -269,7 +269,12 @@
   "grade": 4,
   "image": "https://pokemonfrienda.com/new/img/xt2/3-2-020_kira.webp",
   "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-020_kira_thumb.webp",
-  "moves": [],
+  "moves": [
+   {
+    "name": "リーフブレード",
+    "type": "くさ"
+   }
+  ],
   "types": [
    "くさ",
    "かくとう"
@@ -317,7 +322,12 @@
   "grade": 4,
   "image": "https://pokemonfrienda.com/new/img/xt2/3-2-024_kira.webp",
   "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-024_kira_thumb.webp",
-  "moves": [],
+  "moves": [
+   {
+    "name": "かえんほうしゃ",
+    "type": "ほのお"
+   }
+  ],
   "types": [
    "ほのお"
   ],
@@ -446,7 +456,12 @@
   "grade": 3,
   "image": "https://pokemonfrienda.com/new/img/xt2/3-2-039.webp",
   "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-039_thumb.webp",
-  "moves": [],
+  "moves": [
+   {
+    "name": "ワイドブレイカー",
+    "type": "ドラゴン"
+   }
+  ],
   "types": [
    "くさ",
    "ドラゴン"
