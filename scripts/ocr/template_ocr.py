@@ -314,9 +314,17 @@ def _prepare(vec: list[float]) -> tuple[list[float], float]:
 class TemplateMatcher:
     """digit_templates.json を読み込んでグリフを数字に照合する。"""
 
-    def __init__(self, templates: dict[str, list[float]]):
+    def __init__(self, templates: dict[str, list[float] | list[list[float]]]):
+        # 1つの数字に複数のテンプレート（字形の変種）を持てる。
+        # だんによって字形が変わることがあり、平均してしまうと
+        # どちらにも似ていないテンプレートになるため（build_templates.cluster）。
+        # 変種が1つだけの古い形式（数字→1本のベクトル）もそのまま読める。
         self.digits = sorted(templates.keys())
-        self.prepared = {d: _prepare(templates[d]) for d in self.digits}
+        self.prepared: dict[str, list[tuple[list[float], float]]] = {}
+        for d in self.digits:
+            v = templates[d]
+            variants = v if v and isinstance(v[0], list) else [v]
+            self.prepared[d] = [_prepare(t) for t in variants]
 
     @classmethod
     def load(cls, path: Path = TEMPLATES_PATH) -> "TemplateMatcher":
@@ -332,8 +340,11 @@ class TemplateMatcher:
         gc, gn = _prepare(glyph)
         scores = []
         for d in self.digits:
-            tc, tn = self.prepared[d]
-            s = sum(a * b for a, b in zip(gc, tc)) / (gn * tn)
+            # 変種のうち、いちばん似ているものをその数字の一致度とする
+            s = max(
+                sum(a * b for a, b in zip(gc, tc)) / (gn * tn)
+                for tc, tn in self.prepared[d]
+            )
             scores.append((s, d))
         scores.sort(reverse=True)
         best_s, best_d = scores[0]

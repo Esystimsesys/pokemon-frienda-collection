@@ -55,23 +55,64 @@ def collect_samples(picks: list[dict]) -> tuple[list[tuple[str, str, list[float]
     return samples, stats
 
 
-def average(samples: list[tuple[str, str, list[float]]], exclude_ids: set[str] | None = None) -> dict[str, list[float]]:
-    """数字ごとにグリフを平均してテンプレートを作る。"""
-    acc: dict[str, list[float]] = {}
-    cnt: dict[str, int] = {}
+# 同じ数字でも、だんによって字形が変わることがある。
+# 実例: エクストレジャー2だん(3-2)の「1」は、それまでの「1」にあった
+# 下の横棒（足）が無い。足あり・足なしを平均すると、どちらにも似ていない
+# ぼやけたテンプレートになり、両方の一致度が下がる。
+# そこで数字ごとに字形の変種へ分け、変種ごとにテンプレートを作る。
+# 照合側(template_ocr.match_glyph)は、変種のうち最も一致したものを採用する。
+#
+# しきい値は「同じ字形なら 0.9 は超える」という実測から決めた（既存弾は
+# 同じ数字どうしで 0.95〜0.98、足あり/足なしの「1」どうしは 0.36 まで落ちる）。
+VARIANT_THRESHOLD = 0.90
+# 変種として認めるのに必要なサンプル数。切り出しの失敗が1〜2枚混じっても
+# 独立した変種として残らないようにする
+VARIANT_MIN_SAMPLES = 2
+
+
+def _ncc(a_c: list[float], a_n: float, b_c: list[float], b_n: float) -> float:
+    return sum(x * y for x, y in zip(a_c, b_c)) / (a_n * b_n)
+
+
+def cluster(samples: list[tuple[str, str, list[float]]], exclude_ids: set[str] | None = None) -> dict[str, list[list[float]]]:
+    """数字ごとに字形の変種へ分け、変種ごとの平均をテンプレートにする。
+
+    変種の作り方は素朴な逐次クラスタリング。1件ずつ見て、既にある変種の
+    どれかと十分似ていればそこへ入れ、どれとも似ていなければ新しい変種にする。
+    数字は種類が少なく、字形の変種も高々2〜3なのでこれで足りる。
+    """
     n = T.NORM_W * T.NORM_H
+    # ch -> [(合計ベクトル, 件数, 平均の_prepare結果)]
+    groups: dict[str, list[dict]] = {}
     for pick_id, ch, g in samples:
         if exclude_ids and pick_id in exclude_ids:
             continue
-        if ch not in acc:
-            acc[ch] = [0.0] * n
-            cnt[ch] = 0
-        a = acc[ch]
-        for i, v in enumerate(g):
-            a[i] += v
-        cnt[ch] += 1
-    # ファイルを肥大させないよう5桁に丸める（NCCの結果は変わらない）
-    return {ch: [round(v / cnt[ch], 5) for v in acc[ch]] for ch in acc}
+        gc, gn = T._prepare(g)
+        best, best_s = None, -2.0
+        for grp in groups.setdefault(ch, []):
+            s = _ncc(gc, gn, grp["mean_c"], grp["mean_n"])
+            if s > best_s:
+                best, best_s = grp, s
+        if best is not None and best_s >= VARIANT_THRESHOLD:
+            acc = best["sum"]
+            for i, v in enumerate(g):
+                acc[i] += v
+            best["count"] += 1
+            mean = [v / best["count"] for v in acc]
+            best["mean_c"], best["mean_n"] = T._prepare(mean)
+        else:
+            mean_c, mean_n = T._prepare(g)
+            groups[ch].append(
+                {"sum": list(g), "count": 1, "mean_c": mean_c, "mean_n": mean_n}
+            )
+
+    out: dict[str, list[list[float]]] = {}
+    for ch, grps in groups.items():
+        keep = [g for g in grps if g["count"] >= VARIANT_MIN_SAMPLES] or grps
+        keep.sort(key=lambda g: -g["count"])
+        # ファイルを肥大させないよう5桁に丸める（NCCの結果は変わらない）
+        out[ch] = [[round(v / g["count"], 5) for v in g["sum"]] for g in keep]
+    return out
 
 
 def main() -> None:
@@ -100,7 +141,7 @@ def main() -> None:
         "norm_w": T.NORM_W,
         "norm_h": T.NORM_H,
         "sample_counts": counts,
-        "templates": average(samples),
+        "templates": cluster(samples),
     }
 
     if args.folds > 1:
@@ -109,7 +150,7 @@ def main() -> None:
         folds = []
         for k in range(args.folds):
             held = {pid for i, pid in enumerate(ids) if i % args.folds == k}
-            folds.append({"held_out": sorted(held), "templates": average(samples, exclude_ids=held)})
+            folds.append({"held_out": sorted(held), "templates": cluster(samples, exclude_ids=held)})
         out["folds"] = folds
         print(f"交差検証用テンプレート: {args.folds}分割ぶんを同梱")
 
