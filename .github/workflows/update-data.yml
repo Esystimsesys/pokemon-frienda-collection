@@ -70,6 +70,11 @@ jobs:
           # 中身が一致していることは保証されている。mtimeだけ前へずらして再ビルドを避ける。
           find scripts/ocr/build -type f -exec touch {} +
 
+      # 更新後との比較に使う。JSONの行差分は1万行を超えてレビューできないので、
+      # ピック単位の要約(scripts/diff_summary.py)を作ってPR本文に載せる。
+      - name: 更新前の picks.json を控える
+        run: cp src/data/picks.json /tmp/picks_before.json
+
       - name: 公式サイトを見に行ってデータを作り直す
         run: bash scripts/update.sh
 
@@ -83,7 +88,7 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Pull Request を作る
+      - name: Pull Request を作る（あれば中身を更新する）
         if: steps.diff.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -94,15 +99,27 @@ jobs:
           git commit -m "data: 公式サイトの最新データを取り込む"
           git push --force origin auto/update-data
 
-          if ! gh pr view auto/update-data --json state -q .state 2>/dev/null | grep -q OPEN; then
+          {
+            python3 scripts/diff_summary.py /tmp/picks_before.json
+            printf '\n---\n\n'
+            printf '%s\n' \
+              '`scripts/update.sh` の定期実行（毎週月曜 朝）による自動更新です。' \
+              '' \
+              '**「値が失われた」が0件でないときは、そのままマージしないこと。**' \
+              'OCRは環境によって読み取り結果がぶれることがあり、実際にCIのApple Visionが' \
+              '手元のMacより多く読み落とした例があります。原因を確かめてから判断してください。' \
+              '' \
+              '手元で内容を確かめる手順は `docs/review-update-pr.md` にあります。'
+          } > /tmp/pr_body.md
+
+          if gh pr view auto/update-data --json state -q .state 2>/dev/null | grep -q OPEN; then
+            # すでに開いているPRがあるときは、本文を今回の内容に置きかえる
+            gh pr edit auto/update-data --body-file /tmp/pr_body.md
+          else
             gh pr create \
               --base main \
               --head auto/update-data \
               --title "data: 公式サイトの最新データを取り込む" \
               --reviewer Esystimsesys \
-              --body "$(printf '%s\n' \
-                'scripts/update.sh の定期実行（毎週月曜 朝）による自動更新です。' \
-                '' \
-                '新しいだん・券面のステータス/タイプ/わざの読み取りに変化がないか、' \
-                'マージ前に差分を確認してください。とくにOCRは読みちがいがゼロではありません。')"
+              --body-file /tmp/pr_body.md
           fi
