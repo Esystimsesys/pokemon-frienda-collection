@@ -29,6 +29,7 @@ IMAGES = ROOT / "raw" / "pick_images"
 MANUAL = ROOT / "raw" / "manual.json"
 OCR_MOVES = ROOT / "raw" / "ocr_moves.json"
 OCR_SPECIAL = ROOT / "raw" / "ocr_special.json"
+OCR_STATS = ROOT / "raw" / "ocr_stats.json"
 TYPES_TS = ROOT.parent / "src" / "theme" / "pokemonTypes.ts"
 ICONS_PY = ROOT / "ocr" / "export_type_icons.py"
 ICONS = ROOT.parent / "assets" / "types"
@@ -97,16 +98,30 @@ def load_picks() -> list[dict]:
     return json.loads(PICKS.read_text(encoding="utf-8"))
 
 
+# ステータス欄の5項目。picks.json のキーと、券面の見出しの対応
+STAT_FIELDS = [
+    ("hp", "HP"),
+    ("attack", "ATK"),
+    ("defense", "DEF"),
+    ("spAttack", "SP.ATK"),
+    ("spDefense", "SP.DEF"),
+]
+
+
 def current(p: dict, got: dict) -> dict:
     """いま入っている値（手入力があればそれ）を、フォームに出せる形で返す"""
     move = p["moves"][0] if p["moves"] else {}
-    return {
+    stats = p["stats"] or {}
+    out = {
         "moveName": got.get("moveName", move.get("name") or ""),
         "moveType": got.get("moveType", move.get("type") or ""),
-        "energy": got.get("energy", (p["stats"] or {}).get("energy") or ""),
+        "energy": got.get("energy", stats.get("energy") or ""),
         "grade": got.get("grade", p["grade"] if p["grade"] is not None else ""),
         "specialMove": got.get("specialMove", p.get("specialMove") or ""),
     }
+    for key, _ in STAT_FIELDS:
+        out[key] = got.get(key, stats.get(key) if stats.get(key) is not None else "")
+    return out
 
 
 def build_todo() -> list[dict]:
@@ -127,6 +142,18 @@ def build_todo() -> list[dict]:
         else {}
     )
 
+    # ステータス欄が券面にあるかどうか。
+    # 読み取りに失敗した理由で分かる。アンカー（QRの目印）が見つからないのは
+    # ステータス欄ごと無いプロモで、これは聞いても埋めようがない。
+    # 桁が読めなかっただけ(low_score など)のものは欄があるので聞く。
+    stats_panel: dict[str, bool] = {}
+    if OCR_STATS.exists():
+        for r in json.loads(OCR_STATS.read_text(encoding="utf-8")):
+            raw = r.get("raw") or {}
+            stats_panel[r["id"]] = bool(raw) and not all(
+                v == "anchor_not_found" for v in raw.values()
+            )
+
     todo = []
     for p in load_picks():
         got = manual.get(p["id"], {})
@@ -142,6 +169,10 @@ def build_todo() -> list[dict]:
         # ポケエネはステータスのブロックに入るので、ブロックごと無いピックには入れられない
         if p["stats"] is not None and p["stats"]["energy"] is None and "energy" not in got:
             need.append("energy")
+        # ステータス5項目。券面に欄があるのに読めなかったものだけ聞く。
+        # 新しいだんは数字の字形が変わって照合が通らないことがある
+        if p["stats"] is None and stats_panel.get(p["id"]):
+            need += [k for k, _ in STAT_FIELDS if k not in got]
         # 仕組みが付いているのに とくべつなわざ が読めていないもの
         if p["mechanic"] and not p["specialMove"] and "specialMove" not in got:
             need.append("specialMove")
@@ -209,6 +240,10 @@ PAGE = """<!doctype html>
  .save{background:#2f855a;color:#fff} .skip{background:#e2e8f0;color:#1a365d}
  .done{padding:40px;text-align:center;font-size:18px}
  .hint{font-size:12px;color:#7c8da3;margin-top:10px;line-height:1.6}
+ .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:8px;margin:4px 0 10px}
+ .stat{display:flex;flex-direction:column;gap:2px}
+ .stat .lab{font-size:11px;font-weight:800;color:#7c8da3}
+ .stat input{margin:0}
  .hit{display:flex;gap:10px;align-items:center;padding:9px 10px;border-radius:8px;cursor:pointer}
  .hit:hover{background:#f2f6fb}
  .hit .id{font-size:11px;color:#9aa8b8;min-width:92px}
@@ -291,6 +326,15 @@ function formHtml(t, fields, buttons){
       <input id="specialMove" value="${esc(v.specialMove)}" placeholder="例: テラバースト">`);
   if(fields.includes('grade'))
     f.push(`<label>★の数</label><input id="grade" inputmode="numeric" value="${esc(v.grade)}" placeholder="1〜5">`);
+  const stats=[['hp','HP'],['attack','ATK'],['defense','DEF'],['spAttack','SP.ATK'],['spDefense','SP.DEF']]
+    .filter(([k])=>fields.includes(k));
+  if(stats.length){
+    f.push(`<label>ステータス（裏面 右下の色つきの欄）</label><div class="stats">`
+      + stats.map(([k,lab])=>
+        `<span class="stat"><span class="lab">${lab}</span>
+         <input id="${k}" inputmode="numeric" value="${esc(v[k])}" placeholder="例: 151"></span>`).join('')
+      + `</div>`);
+  }
   return `<div class="card form"><h2>${esc(t.name)}</h2>
     <div class="sub">${esc(t.setLabel)}　${esc(t.id)}</div>
     ${f.join('')}<div class="row">${buttons}</div>
@@ -323,7 +367,7 @@ function renderEdit(){
     const el=$('#q'); if(el) el.focus();
     return;
   }
-  $('#app').innerHTML = cardHtml(target.id, ['moveName','moveType','specialMove','energy','grade'], target.row) + formHtml(target, ['moveName','moveType','specialMove','energy','grade'],
+  $('#app').innerHTML = cardHtml(target.id, ['moveName','moveType','specialMove','energy','grade','hp','attack','defense','spAttack','spDefense'], target.row) + formHtml(target, ['moveName','moveType','specialMove','energy','grade','hp','attack','defense','spAttack','spDefense'],
     `<button class="act save" onclick="save()">保存</button>
      <button class="act skip" onclick="target=null;msg='';render()">別のピックを検索</button>`);
 }
@@ -346,7 +390,7 @@ function open_(n){ target=window._hits[n]; msg=''; render(); }
 
 async function save(){
   const t = view==='edit' ? target : todo[i];
-  const fields = view==='edit' ? ['moveName','moveType','specialMove','energy','grade'] : t.need;
+  const fields = view==='edit' ? ['moveName','moveType','specialMove','energy','grade','hp','attack','defense','spAttack','spDefense'] : t.need;
   keep();
   const v={};
   for(const k of fields) v[k] = t.values[k]===undefined ? '' : String(t.values[k]);

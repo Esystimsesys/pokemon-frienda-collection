@@ -184,6 +184,7 @@ def main() -> None:
 
     joined = 0
     changed = 0
+    extra_by_id: dict[str, tuple] = {}
     types_changed = 0
     dropped_moves = 0
     filled_moves = 0
@@ -247,6 +248,10 @@ def main() -> None:
         p["tagPartner"] = sp.get("tagPartner")
         p["legend"] = sp.get("legend")
 
+        # 手入力でステータス欄を作るときにも使う（下の「手が最優先」のところ）。
+        # ポケエネ・すばやさは5項目とは別に読めているので、拾えるなら拾う
+        extra_by_id[p["id"]] = (energy, speed)
+
         read = ocr.get(p["id"])
         if read:
             joined += 1
@@ -277,8 +282,26 @@ def main() -> None:
             # メガシンカのピックは2行目が実際のわざ。OCRで読めた分と同じ扱いにする
             if p["mechanic"] == "メガシンカ" and not p["moves"]:
                 p["moves"] = [{"name": got["specialMove"], "type": got.get("moveType")}]
+        # ステータス5項目。新しいだんは字形が変わって読めないことがあるので、
+        # 手で入れられるようにしてある（読めた教師データが増えれば
+        # npm run ocr:build-templates でテンプレートを作り直せる）。
+        # ステータス欄ごと無いピックには入れないので、5項目そろったときだけ作る。
+        if p["stats"] is None and all(k in got for k in OCR_FIELDS):
+            energy, speed = extra_by_id.get(p["id"], (None, None))
+            p["stats"] = {
+                "energy": energy,
+                **{k: int(got[k]) for k in OCR_FIELDS},
+                "speed": speed,
+            }
+        elif p["stats"] is not None:
+            for k in OCR_FIELDS:
+                if k in got:
+                    p["stats"][k] = int(got[k])
+
         if "energy" in got and p["stats"] is not None:
             p["stats"]["energy"] = int(got["energy"])
+        if "speed" in got and p["stats"] is not None:
+            p["stats"]["speed"] = int(got["speed"])
         if "grade" in got:
             p["grade"] = int(got["grade"])
 
