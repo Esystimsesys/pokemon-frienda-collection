@@ -169,6 +169,13 @@ def main() -> None:
         else {}
     )
     manual = json.loads(MANUAL.read_text(encoding="utf-8")) if MANUAL.exists() else {}
+    # 前回の出来上がり。読み取りが失敗した回に、前は分かっていた値を
+    # 消してしまわないようにするため（下の keep_known）。
+    previous = (
+        {p["id"]: p for p in json.loads(OUT.read_text(encoding="utf-8"))}
+        if OUT.exists()
+        else {}
+    )
     special = (
         {r["id"]: r for r in json.loads(OCR_SPECIAL.read_text(encoding="utf-8"))}
         if OCR_SPECIAL.exists()
@@ -275,7 +282,34 @@ def main() -> None:
         if "grade" in got:
             p["grade"] = int(got["grade"])
 
+    # 前は分かっていたのに、今回は空になった項目を書きもどす。
+    #
+    # picks.json は毎回ゼロから組み立て直しているので、読み取りが1回でも失敗すると
+    # 前に分かっていた値がそのまま消える。実際 CI(GitHub Actions)で走らせたとき、
+    # 手元のMacより Apple Vision の読み取りが11件多く失敗し、わざ名が10件消えた。
+    # 「読めなかった」は「無い」ではないので、消さずに前の値を残す。
+    # 中身が変わったとき（別の値が読めたとき）は、そちらを正として上書きする。
+    kept: list[str] = []
+    for p in picks:
+        old = previous.get(p["id"])
+        if not old:
+            continue
+        for field in ("moves", "types", "stats", "grade", "mechanic", "specialMove"):
+            new_value = p.get(field)
+            old_value = old.get(field)
+            empty = new_value in (None, [], {})
+            if empty and old_value not in (None, [], {}):
+                p[field] = old_value
+                kept.append(f"{p['id']} {p['name']}: {field}")
+
     OUT.write_text(json.dumps(picks, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+    if kept:
+        print(f"\n前回わかっていた値が今回は読めなかったので、前の値を残した {len(kept)}件:")
+        for x in kept[:20]:
+            print(f"  {x}")
+        if len(kept) > 20:
+            print(f"  ...ほか {len(kept) - 20}件")
 
     print(f"\ntotal {len(picks)} picks → {OUT.relative_to(ROOT.parent)}")
     print(f"ステータスあり {joined} / なし {len(picks) - joined}")
