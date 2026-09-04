@@ -22,6 +22,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import sys
 from collections import Counter, defaultdict
@@ -36,6 +37,10 @@ PICKS_PATH = ROOT / "src" / "data" / "picks.json"
 IMAGES_DIR = ROOT / "scripts" / "raw" / "pick_images"
 TEMPLATES_PATH = Path(__file__).resolve().parent / "special_templates.json"
 OUT_JSON = ROOT / "scripts" / "raw" / "ocr_special.json"
+# わざ欄1行目・2行目を Vision で読んだ生結果。1枚につき2枠 x 7通りで、
+# 984枚だと Vision の呼び出しが約1万4千回になり、CI(3コアのVM)では1時間を超える。
+# 同じ画像を同じ処理で読めば結果は同じなので、保存して次からは新しいピックだけ読む。
+READS_CACHE = ROOT / "scripts" / "raw" / "ocr_special_reads.json"
 
 FOLDS = 5
 
@@ -83,6 +88,45 @@ def read_text(picks: list[dict]) -> tuple[dict[str, dict], dict[str, dict], dict
     row0 = {k.split("#")[0]: v for k, v in raw.items() if k.endswith("#0")}
     row1 = {k.split("#")[0]: v for k, v in raw.items() if k.endswith("#1")}
     return row0, row1, errors
+
+
+def logic_fingerprint() -> str:
+    """読み取り結果を左右するファイルの中身から作る指紋。
+
+    処理を変えたら結果も変わりうるので、そのときは保存ぶんを捨てて全件読み直す
+    （fill_moves_from_ocr.py と同じ考え方）。
+    """
+    h = hashlib.sha256()
+    here = Path(__file__).resolve().parent
+    for name in ("special_ocr.py", "move_ocr.py", "ocr_moves.swift"):
+        h.update((here / name).read_bytes())
+    return h.hexdigest()
+
+
+def load_reads_cache() -> tuple[dict[str, dict], dict[str, dict]]:
+    """前回の読み取り結果。指紋が合わなければ空（＝全件読み直し）。"""
+    if not READS_CACHE.exists():
+        return {}, {}
+    try:
+        data = json.loads(READS_CACHE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}, {}
+    if data.get("fingerprint") != logic_fingerprint():
+        print("読み取り処理が変わっているので、保存ぶんは使わず全件読み直す", file=sys.stderr)
+        return {}, {}
+    return data.get("row0", {}), data.get("row1", {})
+
+
+def save_reads_cache(row0: dict[str, dict], row1: dict[str, dict]) -> None:
+    READS_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "fingerprint": logic_fingerprint(),
+        "row0": {k: row0[k] for k in sorted(row0)},
+        "row1": {k: row1[k] for k in sorted(row1)},
+    }
+    READS_CACHE.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
+    )
 
 
 # --- 仕組みの判定 -----------------------------------------------------------
@@ -377,6 +421,7 @@ def main() -> None:
     ap.add_argument("--validate", action="store_true", help="ファンサイトの表に対するカバー率・一致率を測る")
     ap.add_argument("--folds", action="store_true", help=f"--validate を{FOLDS}分割交差検証で行う")
     ap.add_argument("--run-all", action="store_true", help="全958件を読み取り scripts/raw/ocr_special.json に書き出す")
+    ap.add_argument("--full", action="store_true", help="保存ぶんを使わず、全件を読み直す")
     args = ap.parse_args()
     if not (args.scores or args.validate or args.run_all):
         ap.print_help()
@@ -387,9 +432,28 @@ def main() -> None:
     aligner = S.Aligner(templates["generic_mark"], templates["generic_slot"], templates["generic_legend"])
     base = S.SpecialMatcher(templates)
 
-    print(f"読み取り対象: {len(picks)}件", file=sys.stderr)
     data, errors = extract_all(picks, aligner)
-    row0, row1, text_errors = read_text(picks)
+
+    # 同じ画像を同じ処理で読めば結果は同じなので、前に読んだぶんは使い回す。
+    # 仕組みの判定も2行目のわざ名も、1枚ぶんの読み取りだけで決まるので、
+    # 読み直さなくても結果は変わらない。
+    cached0, cached1 = ({}, {}) if args.full else load_reads_cache()
+    todo = [p for p in picks if p["id"] not in cached0]
+    print(
+        f"読み取り対象: {len(picks)}件"
+        f"（保存ぶんを使う {len(picks) - len(todo)}件 / 新しく読む {len(todo)}件）",
+        file=sys.stderr,
+    )
+    if todo:
+        new0, new1, text_errors = read_text(todo)
+    else:
+        new0, new1, text_errors = {}, {}, {}
+
+    ids = {p["id"] for p in picks}
+    row0 = {k: v for k, v in {**cached0, **new0}.items() if k in ids}
+    row1 = {k: v for k, v in {**cached1, **new1}.items() if k in ids}
+    save_reads_cache(row0, row1)
+
     for k, v in Counter(text_errors.values()).items():
         errors[k] = errors.get(k, 0) + v
 

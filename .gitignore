@@ -18,6 +18,7 @@ scripts/raw/*
 !scripts/raw/ocr_moves.json
 # 1枚ごとの読み取り結果（突き合わせ前）。これがあると次回から新規ぶんだけOCRすればよい
 !scripts/raw/ocr_moves_reads.json
+!scripts/raw/ocr_special_reads.json
 !scripts/raw/ocr_extra.json
 !scripts/raw/ocr_special.json
 # 人が手で入れたぶん。作り直せないので必ず残す
