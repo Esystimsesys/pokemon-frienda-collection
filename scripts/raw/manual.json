@@ -396,7 +396,8 @@
   "attack": "143",
   "defense": "93",
   "spAttack": "149",
-  "spDefense": "93"
+  "spDefense": "93",
+  "moveType": "かくとう"
  },
  "3-2-007": {
   "hp": "205",
@@ -404,7 +405,8 @@
   "defense": "122",
   "spAttack": "104",
   "spDefense": "110",
-  "energy": "336"
+  "energy": "336",
+  "moveType": "ドラゴン"
  },
  "3-2-011": {
   "hp": "226",
@@ -419,7 +421,8 @@
   "attack": "124",
   "defense": "101",
   "spAttack": "147",
-  "spDefense": "90"
+  "spDefense": "90",
+  "specialMove": "ダイドラグーン"
  },
  "3-2-013": {
   "hp": "146",
@@ -757,5 +760,8 @@
  },
  "p120": {
   "moveType": "でんき"
+ },
+ "p121": {
+  "moveType": "かくとう"
  }
 }

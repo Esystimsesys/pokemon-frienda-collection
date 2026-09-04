@@ -117,7 +117,7 @@
   "moves": [
    {
     "name": "きあいだま",
-    "type": null
+    "type": "かくとう"
    }
   ],
   "types": [
@@ -152,7 +152,7 @@
   "moves": [
    {
     "name": "げきりん",
-    "type": null
+    "type": "ドラゴン"
    }
   ],
   "types": [
@@ -230,7 +230,7 @@
    "ドラゴン"
   ],
   "mechanic": "ダイマックス",
-  "specialMove": null,
+  "specialMove": "ダイドラグーン",
   "tagPartner": null,
   "legend": null,
   "stats": {
@@ -29834,7 +29834,7 @@
   "moves": [
    {
     "name": "インファイト",
-    "type": null
+    "type": "かくとう"
    }
   ],
   "types": [
