@@ -20,6 +20,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import sys
 from collections import Counter, defaultdict
@@ -32,6 +33,10 @@ ROOT = Path(__file__).resolve().parent.parent.parent
 PICKS_PATH = ROOT / "src" / "data" / "picks.json"
 IMAGES_DIR = ROOT / "scripts" / "raw" / "pick_images"
 OUT_JSON = ROOT / "scripts" / "raw" / "ocr_moves.json"
+# 1枚ごとの読み取り結果（突き合わせ前）。これがあると、次からは新しいピックだけ
+# OCRすればよくなる。958枚を毎回読むと Vision の呼び出しが 958x7 回になり、
+# CI(3コアのVM)では40分以上かかっていた。
+READS_CACHE = ROOT / "scripts" / "raw" / "ocr_moves_reads.json"
 
 # 交差検証の分割数。Vision は学習しないので読み取りそのものは分けても変わらないが、
 # 「英語名と日本語名の突き合わせ」だけは他のピックの読み取り結果を使うので、
@@ -65,7 +70,7 @@ def truth(p: dict) -> str | None:
 
 
 def read_all(picks: list[dict]) -> tuple[dict[str, M.Read], dict[str, str]]:
-    """全ピックをOCRして、ID→Read と ID→画像側のエラーを返す。"""
+    """渡したピックをOCRして、ID→Read と ID→画像側のエラーを返す。"""
     ids = [p["id"] for p in picks]
     reqs, errors = M.build_requests(ids, IMAGES_DIR)
     print(f"OCR中: {len(reqs)}件（1枚につき{M.PASSES}通り）", file=sys.stderr)
@@ -80,6 +85,57 @@ def read_all(picks: list[dict]) -> tuple[dict[str, M.Read], dict[str, str]]:
             continue
         reads[pick_id] = M.read_one(rec)
     return reads, errors
+
+
+def logic_fingerprint() -> str:
+    """読み取り結果を左右するファイルの中身から作る指紋。
+
+    同じ画像を同じ処理で読めば結果は必ず同じなので、ふだんは前回ぶんを使い回す。
+    ただし処理の方を変えたら結果は変わりうるので、そのときは指紋が変わって
+    保存ぶんが捨てられ、自動で全件読み直しになる。
+    """
+    h = hashlib.sha256()
+    here = Path(__file__).resolve().parent
+    for name in ("move_ocr.py", "ocr_moves.swift"):
+        h.update((here / name).read_bytes())
+    return h.hexdigest()
+
+
+def load_reads_cache() -> dict[str, M.Read]:
+    """前回の読み取り結果。指紋が合わなければ空（＝全件読み直し）。"""
+    if not READS_CACHE.exists():
+        return {}
+    try:
+        data = json.loads(READS_CACHE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    if data.get("fingerprint") != logic_fingerprint():
+        print("OCRの処理が変わっているので、保存ぶんは使わず全件読み直す", file=sys.stderr)
+        return {}
+    return {
+        r["id"]: M.Read(r["en"], r["ja"], r["unanimous"], r["why"])
+        for r in data.get("reads", [])
+    }
+
+
+def save_reads_cache(reads: dict[str, M.Read]) -> None:
+    """次回のために読み取り結果を残す。画像側のエラーは残さない。
+
+    画像が未取得だっただけ、ということがあるので、読めなかったものは
+    毎回やり直す。Vision が読んだうえでの「読めなかった」(no_text など)は
+    Read として残るので、そちらは次回やり直さない。
+    """
+    READS_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "fingerprint": logic_fingerprint(),
+        "reads": [
+            {"id": k, "en": r.en, "ja": r.ja, "unanimous": r.unanimous, "why": r.why}
+            for k, r in sorted(reads.items())
+        ],
+    }
+    READS_CACHE.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
 
 
 def resolve(reads: dict[str, M.Read], folds: int = 0) -> dict[str, tuple[str | None, str]]:
@@ -215,14 +271,28 @@ def main() -> None:
     ap.add_argument("--validate", action="store_true", help="既存データに対するカバー率・一致率を測る")
     ap.add_argument("--folds", action="store_true", help=f"--validate を{FOLDS}分割交差検証で行う")
     ap.add_argument("--run-all", action="store_true", help="全958件を読み取り scripts/raw/ocr_moves.json に書き出す")
+    ap.add_argument("--full", action="store_true", help="保存ぶんを使わず、全件を読み直す")
     args = ap.parse_args()
     if not (args.scores or args.validate or args.run_all):
         ap.print_help()
         sys.exit(1)
 
     picks = load_picks()
-    print(f"読み取り対象: {len(picks)}件", file=sys.stderr)
-    reads, errors = read_all(picks)
+    # 同じ画像を同じ処理で読めば結果は同じなので、前に読んだぶんは使い回す。
+    # 突き合わせ(cross_check)は全件ぶんの材料を使うため、読み直さなくても結果は変わらない。
+    cached = {} if args.full else load_reads_cache()
+    todo = [p for p in picks if p["id"] not in cached]
+    print(
+        f"読み取り対象: {len(picks)}件"
+        f"（保存ぶんを使う {len(picks) - len(todo)}件 / 新しく読む {len(todo)}件）",
+        file=sys.stderr,
+    )
+    new_reads, errors = read_all(todo) if todo else ({}, {})
+
+    # picks.json から消えたピックの読み取り結果は持ち越さない
+    ids = {p["id"] for p in picks}
+    reads = {k: v for k, v in {**cached, **new_reads}.items() if k in ids}
+    save_reads_cache(reads)
 
     if args.scores:
         show_scores(picks, reads, errors)

@@ -1,0 +1,6711 @@
+{
+  "fingerprint": "d29e70de71eb0409702240de4b8700398f24d0850ca42ce1fd3b78b3a18151f2",
+  "reads": [
+    {
+      "id": "1-1-001",
+      "en": "Collision Course",
+      "ja": "アクセルブレイク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-002",
+      "en": "Electro Drift",
+      "ja": "イナズマドライブ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-003",
+      "en": "Ivy Cudgel",
+      "ja": "ツタこんぼう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-004",
+      "en": "Flower Trick",
+      "ja": "トリックフラワー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-005",
+      "en": "Torch Song",
+      "ja": "フレアソング",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-006",
+      "en": "Aqua Step",
+      "ja": "アクアステップ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-007",
+      "en": "Focus Blast",
+      "ja": "きあいだま",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-008",
+      "en": "Leaf Storm",
+      "ja": "リーフストーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-009",
+      "en": "Fire Blast",
+      "ja": "だいもんじ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-010",
+      "en": "Surf",
+      "ja": "なみのり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-011",
+      "en": "Poison Jab",
+      "ja": "どくづき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-012",
+      "en": "Psychic",
+      "ja": "サイコキネシス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-013",
+      "en": "Play Rough",
+      "ja": "じゃれつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-014",
+      "en": "Leaf Storm",
+      "ja": "リーフストーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-015",
+      "en": "Flamethrower",
+      "ja": "かえんほうしゃ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-016",
+      "en": "Hydro Pump",
+      "ja": "ハイドロポンプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-017",
+      "en": "Surf",
+      "ja": "なみのり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-018",
+      "en": "Flamethrower",
+      "ja": "かえんほうしや",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-019",
+      "en": "Energy Ball",
+      "ja": "エナジーボール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-020",
+      "en": "Thunderbolt",
+      "ja": "１０まんボルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-021",
+      "en": "Dig",
+      "ja": "あなをほる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-022",
+      "en": "Ice Spinner",
+      "ja": "アイススピナー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-023",
+      "en": "Thunderbolt",
+      "ja": "１０まんボルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-024",
+      "en": "Ice Spinner",
+      "ja": "アイススピナー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-025",
+      "en": "Dig",
+      "ja": "あなをほる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-026",
+      "en": "Leafage",
+      "ja": "このは",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-027",
+      "en": "Trailblaze",
+      "ja": "くさわけ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-028",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-029",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-030",
+      "en": "Flame Charge",
+      "ja": "ニトロチャージ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-031",
+      "en": "Incinerate",
+      "ja": "やきつくす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-032",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-033",
+      "en": "Chilling Water",
+      "ja": "ひやみず",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-034",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-035",
+      "en": "Vine Whip",
+      "ja": "つるのムチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-036",
+      "en": "Razor Leaf",
+      "ja": "はっぱカッター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-037",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-038",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-039",
+      "en": "Flame Charge",
+      "ja": "ニトロチャージ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-040",
+      "en": "Fire Fang",
+      "ja": "ほのおのキバ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-041",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-042",
+      "en": "Chilling Water",
+      "ja": "ひやみず",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-043",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-044",
+      "en": "Absorb",
+      "ja": "すいとる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-045",
+      "en": "Mega Drain",
+      "ja": "メガドレイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-046",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-047",
+      "en": "Thunder Shock",
+      "ja": "でんきショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-048",
+      "en": "Electroweb",
+      "ja": "エレキネット",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-049",
+      "en": "Ice Shard",
+      "ja": "こおりのつぶて",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-050",
+      "en": "Ice Fang",
+      "ja": "こおりのキバ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-051",
+      "en": "Mud-Slap",
+      "ja": "どろかけ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-052",
+      "en": "Bulldoze",
+      "ja": "じならし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-053",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-054",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-055",
+      "en": "Spark",
+      "ja": "スパーク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-056",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-057",
+      "en": "Flame Wheel",
+      "ja": "かえんぐるま",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-058",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-059",
+      "en": "Brine",
+      "ja": "しおみず",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-060",
+      "en": "Avalanche",
+      "ja": "ゆきなだれ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-061",
+      "en": "Avalanche",
+      "ja": "ゆきなだれ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-062",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-063",
+      "en": "Bulldoze",
+      "ja": "じならし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-064",
+      "en": "Absorb",
+      "ja": "すいとる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-065",
+      "en": "Razor Leaf",
+      "ja": "はっぱカッター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-066",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-067",
+      "en": "Incinerate",
+      "ja": "やきつくす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-068",
+      "en": "Incinerate",
+      "ja": "やきつくす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-069",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-1-070",
+      "en": "Covet",
+      "ja": "ほしがる",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-001",
+      "en": "Dragon Ascent",
+      "ja": "ガリョウテンセイ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-002",
+      "en": "Aeroblast",
+      "ja": "エアロブラスト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-003",
+      "en": "Sacred Fire",
+      "ja": "せいなるほのお",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-004",
+      "en": "Ivy Cudgel",
+      "ja": "ツタこんぼう",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-005",
+      "en": "Ivy Cudgel",
+      "ja": "ツタこんぼう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-006",
+      "en": "Double Iron Bash",
+      "ja": "ダブルパンツァー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-007",
+      "en": "Gigaton Hammer",
+      "ja": "デカハンマー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-008",
+      "en": "Hammer Arm",
+      "ja": "アームハンマー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-009",
+      "en": "Fire Blast",
+      "ja": "だいもんじ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-010",
+      "en": "Water Shuriken",
+      "ja": "みずしゅりけん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-011",
+      "en": "Energy Ball",
+      "ja": "エナジーボール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-012",
+      "en": "Ice Spinner",
+      "ja": "アイススピナー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-013",
+      "en": "Dig",
+      "ja": "あなをほる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-014",
+      "en": "Flamethrower",
+      "ja": "かえんほうしや",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-015",
+      "en": "Flower Trick",
+      "ja": "トリックフラワー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-016",
+      "en": "Torch Song",
+      "ja": "フレアソング",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-017",
+      "en": "Aqua Step",
+      "ja": "アクアステップ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-018",
+      "en": "Brave Bird",
+      "ja": "プレイブバード",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-019",
+      "en": "Double Shock",
+      "ja": "でんこうそうげき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-020",
+      "en": "Stone Edge",
+      "ja": "ストーンエッジ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-021",
+      "en": "Iron Tail",
+      "ja": "アイアンテール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-022",
+      "en": "Hammer Arm",
+      "ja": "アームハンマー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-023",
+      "en": "Body Press",
+      "ja": "ボディプレス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-024",
+      "en": "Spin Out",
+      "ja": "ホイールスピン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-025",
+      "en": "Phantom Force",
+      "ja": "ゴーストダイプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-026",
+      "en": "Vine Whip",
+      "ja": "つるのムチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-027",
+      "en": "Trailblaze",
+      "ja": "くさわけ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-028",
+      "en": "Low Sweep",
+      "ja": "ローキック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-029",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-030",
+      "en": "Flame Charge",
+      "ja": "ニトロチャージ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-031",
+      "en": "Mystical Fire",
+      "ja": "マジカルフレイム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-032",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-033",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-034",
+      "en": "Waterfall",
+      "ja": "たきのぼり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-035",
+      "en": "Nuzzle",
+      "ja": "ほっぺすりすり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-036",
+      "en": "Thunder Shock",
+      "ja": "でんきショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-037",
+      "en": "Spark",
+      "ja": "スパーク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-038",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-039",
+      "en": "Rock Throw",
+      "ja": "いわおとし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-040",
+      "en": "Rock Tomb",
+      "ja": "がんせきふうじ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-041",
+      "en": "Smog",
+      "ja": "スモッグ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-042",
+      "en": "Sludge",
+      "ja": "ヘドロこうげき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-043",
+      "en": "Bulldoze",
+      "ja": "じならし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-044",
+      "en": "Lick",
+      "ja": "したでなめる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-045",
+      "en": "Hex",
+      "ja": "たたりめ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-046",
+      "en": "Double Kick",
+      "ja": "にどげり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-047",
+      "en": "Peck",
+      "ja": "つつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-048",
+      "en": "Acrobatics",
+      "ja": "アクロバット",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-049",
+      "en": "Pluck",
+      "ja": "ついばむ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-050",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-051",
+      "en": "Rock Tomb",
+      "ja": "がんせきふうじ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-052",
+      "en": "Rock Slide",
+      "ja": "いわなだれ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-053",
+      "en": "Charge Beam",
+      "ja": "チャージビーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-054",
+      "en": "Spark",
+      "ja": "スパーク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-055",
+      "en": "Mud-Slap",
+      "ja": "どろかけ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-056",
+      "en": "Bulldoze",
+      "ja": "じならし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-057",
+      "en": "Rock Smash",
+      "ja": "いわくだき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-058",
+      "en": "Brick Break",
+      "ja": "かわらわり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-059",
+      "en": "Peck",
+      "ja": "つつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-060",
+      "en": "Air Cutter",
+      "ja": "エアカッター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-061",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-062",
+      "en": "Low Sweep",
+      "ja": "ローキック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-063",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-064",
+      "en": "Stomp",
+      "ja": "ふみつけ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-065",
+      "en": "Arm Thrust",
+      "ja": "つっぱり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-066",
+      "en": "Vital Throw",
+      "ja": "あてみなげ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-067",
+      "en": "Steel Wing",
+      "ja": "はがねのつばさ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-068",
+      "en": "Spark",
+      "ja": "スパーク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-069",
+      "en": "Mud Shot",
+      "ja": "マッドショット",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-070",
+      "en": "Draining Kiss",
+      "ja": "ドレインキッス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-W01",
+      "en": "Shadow Ball",
+      "ja": "シャドーボール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-W02",
+      "en": "Play Rough",
+      "ja": "じゃれつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-2-W03",
+      "en": "Bitter Blade",
+      "ja": "むねんのつるぎ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-001",
+      "en": "Tera Starstorm",
+      "ja": "テラクラスター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-002",
+      "en": "Ivy Cudgel",
+      "ja": "ツタこんぼう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-003",
+      "en": "Psycho Boost",
+      "ja": "サイコブースト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-004",
+      "en": "Secret Sword",
+      "ja": "しんぴのつるぎ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-005",
+      "en": "Power Whip",
+      "ja": "パワーウィップ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-006",
+      "en": "Kowtow Cleave",
+      "ja": "ドゲザン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-007",
+      "en": "Flamethrower",
+      "ja": "かえんほうしゃ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-008",
+      "en": "Throat Chop",
+      "ja": "じごくづき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-009",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "en_disagree"
+    },
+    {
+      "id": "1-3-010",
+      "en": "Dragon Ascent",
+      "ja": "ガリョウテンセイ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-011",
+      "en": "Leaf Storm",
+      "ja": "リーフストーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-012",
+      "en": "Close Combat",
+      "ja": "インファイト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-013",
+      "en": "Flash Cannon",
+      "ja": "ラスターカノン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-014",
+      "en": "Close Combat",
+      "ja": "インファイト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-015",
+      "en": "First Impression",
+      "ja": "であいがしら",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-016",
+      "en": "Air Slash",
+      "ja": "エアスラッシュ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-017",
+      "en": "Stone Edge",
+      "ja": "ストーンエッジ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-018",
+      "en": "Poison Jab",
+      "ja": "どくづき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-019",
+      "en": "Psychic",
+      "ja": "サイコキネシス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-020",
+      "en": "Throat Chop",
+      "ja": "じこくづき",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-021",
+      "en": "Play Rough",
+      "ja": "じゃれつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-022",
+      "en": "Psychic",
+      "ja": "サイコキネシス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-023",
+      "en": "Bitter Blade",
+      "ja": "むねんのつるぎ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-024",
+      "en": "Energy Ball",
+      "ja": "エナジーボール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-025",
+      "en": "Fiery Wrath",
+      "ja": "もえあがるいかり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-026",
+      "en": "Absorb",
+      "ja": "すいとる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-027",
+      "en": "Razor Leaf",
+      "ja": "はっぱカッター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-028",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-029",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-030",
+      "en": "Mach Punch",
+      "ja": "マッハパンチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-031",
+      "en": "Low Sweep",
+      "ja": "ローキック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-032",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-033",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-034",
+      "en": "Bubble Beam",
+      "ja": "バブルこうせん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-035",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-036",
+      "en": "Headbutt",
+      "ja": "ずつき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-037",
+      "en": "Struggle Bug",
+      "ja": "むしのていこう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-038",
+      "en": "Sucker Punch",
+      "ja": "ふいうち",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-039",
+      "en": "Acid Spray",
+      "ja": "アシッドボム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-040",
+      "en": "Venoshock",
+      "ja": "ベノムショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-041",
+      "en": "Confusion",
+      "ja": "ねんりき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-042",
+      "en": "Psybeam",
+      "ja": "サイケこうせん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-043",
+      "en": "Knock Off",
+      "ja": "はたきおとす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-044",
+      "en": "Double Kick",
+      "ja": "にどげり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-045",
+      "en": "Confusion",
+      "ja": "ねんりき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-046",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-047",
+      "en": "Psybeam",
+      "ja": "サイケこうせん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-048",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-049",
+      "en": "Round",
+      "ja": "りんしょう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-050",
+      "en": "Facade",
+      "ja": "からげんき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-051",
+      "en": "Disarming Voice",
+      "ja": "チャームボイス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-052",
+      "en": "Draining Kiss",
+      "ja": "ドレインキッス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-053",
+      "en": "Swift",
+      "ja": "スピードスター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-054",
+      "en": "Quick Attack",
+      "ja": "でんこうせっか",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-055",
+      "en": "Force Palm",
+      "ja": "はっけい",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-056",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-057",
+      "en": "Bite",
+      "ja": "かみつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-058",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-059",
+      "en": "Snarl",
+      "ja": "バークアウト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-060",
+      "en": "Acid Spray",
+      "ja": "アシッドボム",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-061",
+      "en": "Sludge",
+      "ja": "ヘドロこうげき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-062",
+      "en": "Trailblaze",
+      "ja": "くさわけ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-063",
+      "en": "Knock Off",
+      "ja": "はたきおとす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-064",
+      "en": "Confusion",
+      "ja": "ねんりき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-065",
+      "en": "Psybeam",
+      "ja": "サイケこうせん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-066",
+      "en": "Confusion",
+      "ja": "ねんりき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-067",
+      "en": "Psybeam",
+      "ja": "サイケこうせん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-068",
+      "en": "Rock Smash",
+      "ja": "いわくだき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-069",
+      "en": "Revenge",
+      "ja": "リベンジ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-070",
+      "en": "Brick Break",
+      "ja": "かわらわり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-W01",
+      "en": "Dragon Ascent",
+      "ja": "ガリョウテンセイ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-3-W02",
+      "en": "Dragon Ascent",
+      "ja": "ガリョウテンセイ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-001",
+      "en": "Fusion Flare",
+      "ja": "クロスフレイム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-002",
+      "en": "Fusion Bolt",
+      "ja": "クロスサンダー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-003",
+      "en": "Blizzard",
+      "ja": "ふぶき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-004",
+      "en": "Ivy Cudgel",
+      "ja": "ツタこんぼう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-005",
+      "en": "Leaf Blade",
+      "ja": "リーフブレード",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-006",
+      "en": "Stone Edge",
+      "ja": "ストーンエッジ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-007",
+      "en": "Tachyon Cutter",
+      "ja": "タキオンカッター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-008",
+      "en": "Stone Edge",
+      "ja": "ストーンエッジ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-009",
+      "en": "Meteor Mash",
+      "ja": "コメットパンチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-010",
+      "en": "Raging Fury",
+      "ja": "だいふんげき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-011",
+      "en": "Hammer Arm",
+      "ja": "アームハンマー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-012",
+      "en": "Fire Blast",
+      "ja": "だいもんじ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-013",
+      "en": "Water Shuriken",
+      "ja": "みずしゅりけん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-014",
+      "en": "Play Rough",
+      "ja": "じゃれつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-015",
+      "en": "Shadow Ball",
+      "ja": "シャドーボール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-016",
+      "en": "Ice Beam",
+      "ja": "れいとうビーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-017",
+      "en": "Close Combat",
+      "ja": "インファイト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-018",
+      "en": "Play Rough",
+      "ja": "じゃれつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-019",
+      "en": "Gigaton Hammer",
+      "ja": "デカハンマー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-020",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "en_disagree"
+    },
+    {
+      "id": "1-4-021",
+      "en": "Stone Edge",
+      "ja": "ストーンエッジ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-022",
+      "en": "Zap Cannon",
+      "ja": "でんじほう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-023",
+      "en": "Brave Bird",
+      "ja": "プレイブバード",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-024",
+      "en": "Ice Beam",
+      "ja": "れいとうビーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-025",
+      "en": "Stone Axe",
+      "ja": "がんせきアックス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-026",
+      "en": "Vine Whip",
+      "ja": "つるのムチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-027",
+      "en": "Trailblaze",
+      "ja": "くさわけ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-028",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-029",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-030",
+      "en": "Flame Charge",
+      "ja": "ニトロチャージ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-031",
+      "en": "Fire Fang",
+      "ja": "ほのおのキバ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-032",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-033",
+      "en": "Chilling Water",
+      "ja": "ひやみず",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-034",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-035",
+      "en": "Struggle Bug",
+      "ja": "むしのていこう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-036",
+      "en": "Bug Bite",
+      "ja": "むしくい",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-037",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-038",
+      "en": "Covet",
+      "ja": "ほしがる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-039",
+      "en": "Fairy Wind",
+      "ja": "ようせいのかぜ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-040",
+      "en": "Draining Kiss",
+      "ja": "ドレインキッス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-041",
+      "en": "Metal Claw",
+      "ja": "メタルクロー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-042",
+      "en": "Pound",
+      "ja": "はたく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-043",
+      "en": "Low Sweep",
+      "ja": "ローキック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-044",
+      "en": "Brick Break",
+      "ja": "かわらわり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-045",
+      "en": "Absorb",
+      "ja": "すいとる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-046",
+      "en": "Giga Drain",
+      "ja": "ギガドレイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-047",
+      "en": "Pounce",
+      "ja": "とびつく",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-048",
+      "en": "Venoshock",
+      "ja": "ベノムショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-049",
+      "en": "Peck",
+      "ja": "つつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-050",
+      "en": "Fury Attack",
+      "ja": "みだれづき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-051",
+      "en": "Mega Drain",
+      "ja": "メガドレイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-052",
+      "en": "Ancient Power",
+      "ja": "げんしのちから",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-053",
+      "en": "Gust",
+      "ja": "かぜおこし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-054",
+      "en": "Skitter Smack",
+      "ja": "はいよるいちげき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-055",
+      "en": "Astonish",
+      "ja": "おどろかす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-056",
+      "en": "Hex",
+      "ja": "たたりめ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-057",
+      "en": "Assurance",
+      "ja": "ダメおし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-058",
+      "en": "Sucker Punch",
+      "ja": "ふいうち",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-059",
+      "en": "Rock Throw",
+      "ja": "いわおとし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-060",
+      "en": "Rock Slide",
+      "ja": "いわなだれ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-061",
+      "en": "Powder Snow",
+      "ja": "こなゆき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-062",
+      "en": "Ice Fang",
+      "ja": "こおりのキバ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-063",
+      "en": "Quick Attack",
+      "ja": "でんこうせっか",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-064",
+      "en": "Snarl",
+      "ja": "バークアウト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-065",
+      "en": "Powder Snow",
+      "ja": "こなゆき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-066",
+      "en": "Aurora Beam",
+      "ja": "オーロラビーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-067",
+      "en": "Covet",
+      "ja": "ほしがる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-068",
+      "en": "Bite",
+      "ja": "かみつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-069",
+      "en": "Parabolic Charge",
+      "ja": "パラボラチャージ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-070",
+      "en": "Hex",
+      "ja": "たたりめ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-W01",
+      "en": "Hydro Pump",
+      "ja": "ハイドロポンプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-W02",
+      "en": "Thunderbolt",
+      "ja": "１０まんボルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-W03",
+      "en": "Flamethrower",
+      "ja": "かえんほうしゃ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-4-W04",
+      "en": "Moonblast",
+      "ja": "ムーンフォース",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-001",
+      "en": "Moonblast",
+      "ja": "ムーンフォース",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-002",
+      "en": "Dark Pulse",
+      "ja": "あくのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-003",
+      "en": "Tera Starstorm",
+      "ja": "テラクラスター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-004",
+      "en": "Thunder",
+      "ja": "かみなり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-005",
+      "en": "Hydro Pump",
+      "ja": "ハイドロポンプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-006",
+      "en": "Raging Fury",
+      "ja": "だいふんげき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-007",
+      "en": "Dragon Rush",
+      "ja": "ドラゴンダイプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-008",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "en_disagree"
+    },
+    {
+      "id": "1-5-009",
+      "en": "Population Bomb",
+      "ja": "ネズミざん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-010",
+      "en": "Order Up",
+      "ja": "いっちょうあがり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-011",
+      "en": "Leaf Storm",
+      "ja": "リーフストーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-012",
+      "en": "Flare Blitz",
+      "ja": "フレアドライブ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-013",
+      "en": "Hydro Pump",
+      "ja": "ハイドロポンプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-014",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "en_disagree"
+    },
+    {
+      "id": "1-5-015",
+      "en": "Earth Power",
+      "ja": "だいちのちから",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-016",
+      "en": "Iron Head",
+      "ja": "アイアンヘッド",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-017",
+      "en": "Sludge Wave",
+      "ja": "ヘドロウェープ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-018",
+      "en": "Close Combat",
+      "ja": "インファイト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-019",
+      "en": "Dazzling Gleam",
+      "ja": "マジカルシャイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-020",
+      "en": "Thunderbolt",
+      "ja": "１０まんボルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-021",
+      "en": "Dragon Pulse",
+      "ja": "りゅうのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-022",
+      "en": "Psychic",
+      "ja": "サイコキネシス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-023",
+      "en": "Dark Pulse",
+      "ja": "あくのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-024",
+      "en": "Blizzard",
+      "ja": "ふぶき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-025",
+      "en": "Leaf Blade",
+      "ja": "リーフプレード",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-026",
+      "en": "Vine Whip",
+      "ja": "つるのムチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-027",
+      "en": "Trailblaze",
+      "ja": "くさわけ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-028",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-029",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-030",
+      "en": "Flame Charge",
+      "ja": "ニトロチャージ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-031",
+      "en": "Fire Punch",
+      "ja": "ほのおのパンチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-032",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-033",
+      "en": "Chilling Water",
+      "ja": "ひやみず",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-034",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-035",
+      "en": "Thunder Shock",
+      "ja": "でんきショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-036",
+      "en": "Electroweb",
+      "ja": "エレキネット",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-037",
+      "en": "Payback",
+      "ja": "しっぺがえし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-038",
+      "en": "Bite",
+      "ja": "かみつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-039",
+      "en": "Mud Shot",
+      "ja": "マッドショット",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-040",
+      "en": "Bulldoze",
+      "ja": "じならし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-041",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-042",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-043",
+      "en": "Pound",
+      "ja": "はたく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-044",
+      "en": "Disarming Voice",
+      "ja": "チャームボイス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-045",
+      "en": "Draining Kiss",
+      "ja": "ドレインキッス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-046",
+      "en": "Rock Smash",
+      "ja": "いわくだき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-047",
+      "en": "Low Sweep",
+      "ja": "ローキック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-048",
+      "en": "Brick Break",
+      "ja": "かわらわり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-049",
+      "en": "Pound",
+      "ja": "はたく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-050",
+      "en": "Confusion",
+      "ja": "ねんりき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-051",
+      "en": "Psybeam",
+      "ja": "サイケこうせん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-052",
+      "en": "Peck",
+      "ja": "つつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-053",
+      "en": "Pluck",
+      "ja": "ついばむ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-054",
+      "en": "Steel Wing",
+      "ja": "はがねのつばさ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-055",
+      "en": "Clear Smog",
+      "ja": "クリアスモッグ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-056",
+      "en": "Sludge",
+      "ja": "ヘドロこうげき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-057",
+      "en": "Confusion",
+      "ja": "ねんりき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-058",
+      "en": "Breaking Swipe",
+      "ja": "ワイドブレイカー",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-059",
+      "en": "Confusion",
+      "ja": "ねんりき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-060",
+      "en": "Psybeam",
+      "ja": "サイケこうせん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-061",
+      "en": "Metal Claw",
+      "ja": "メタルクロー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-062",
+      "en": "Bulldoze",
+      "ja": "じならし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-063",
+      "en": "Acid Spray",
+      "ja": "アシッドボム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-064",
+      "en": "Sludge",
+      "ja": "ヘドロこうげき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-065",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-066",
+      "en": "Flame Wheel",
+      "ja": "かえんぐるま",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-067",
+      "en": "Headbutt",
+      "ja": "ずつき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-068",
+      "en": "Brick Break",
+      "ja": "かわらわり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-069",
+      "en": "Bulldoze",
+      "ja": "じならし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-070",
+      "en": "Dragon Breath",
+      "ja": "りゅうのいぶき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "1-5-W01",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "1-5-W02",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "1-5-W03",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "1-5-W04",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-1-001",
+      "en": "Psystrike",
+      "ja": "サイコブレイク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-002",
+      "en": "Sunsteel Strike",
+      "ja": "メテオドライブ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-003",
+      "en": "Moongeist Beam",
+      "ja": "シャドーレイ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-004",
+      "en": "Malignant Chain",
+      "ja": "じゃどくのくさり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-005",
+      "en": "Doom Desire",
+      "ja": "はめつのねがい",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-006",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-1-007",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-1-008",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-1-009",
+      "en": "Dazzling Gleam",
+      "ja": "マジカルシャイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-010",
+      "en": "Fickle Beam",
+      "ja": "きまぐレーザー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-011",
+      "en": "Solar Beam",
+      "ja": "ソーラービーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-012",
+      "en": "Flamethrower",
+      "ja": "かえんほうしゃ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-013",
+      "en": "Hydro Pump",
+      "ja": "ハイドロポンプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-014",
+      "en": "Earth Power",
+      "ja": "だいちのちから",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-015",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-1-016",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-1-017",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-1-018",
+      "en": "Thunderbolt",
+      "ja": "１０まんボルト",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-019",
+      "en": "Throat Chop",
+      "ja": "じごくづき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-020",
+      "en": "Blizzard",
+      "ja": "ふぶき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-021",
+      "en": "Meteor Assault",
+      "ja": "スターアサルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-022",
+      "en": "Dragon Rush",
+      "ja": "ドラゴンダイブ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-023",
+      "en": "Sludge Wave",
+      "ja": "ヘドロウェープ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-024",
+      "en": "Twin Beam",
+      "ja": "ツインビーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-025",
+      "en": "Shadow Ball",
+      "ja": "シャドーボール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-026",
+      "en": "Trailblaze",
+      "ja": "くさわけ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-027",
+      "en": "Razor Leaf",
+      "ja": "はっぱカッター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-028",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-029",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-030",
+      "en": "Flame Wheel",
+      "ja": "かえんぐるま",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-031",
+      "en": "Burning Jealousy",
+      "ja": "しっとのほのお",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-032",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-033",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-034",
+      "en": "Flip Turn",
+      "ja": "クイックターン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-035",
+      "en": "Struggle Bug",
+      "ja": "むしのていこう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-036",
+      "en": "Psybeam",
+      "ja": "サイケこうせん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-037",
+      "en": "Breaking Swipe",
+      "ja": "ワイドプレイカー",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-038",
+      "en": "Acid Spray",
+      "ja": "アシッドボム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-039",
+      "en": "Venoshock",
+      "ja": "ベノムショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-040",
+      "en": "Confusion",
+      "ja": "ねんりき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-041",
+      "en": "Psybeam",
+      "ja": "サイケこうせん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-042",
+      "en": "Astonish",
+      "ja": "おどろかす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-043",
+      "en": "Hex",
+      "ja": "たたりめ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-044",
+      "en": "Electroweb",
+      "ja": "エレキネット",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-045",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-046",
+      "en": "Psybeam",
+      "ja": "サイケこうせん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-047",
+      "en": "Bite",
+      "ja": "かみつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-048",
+      "en": "Lick",
+      "ja": "したでなめる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-049",
+      "en": "Shadow Punch",
+      "ja": "シャドーパンチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-050",
+      "en": "Hex",
+      "ja": "たたりめ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-051",
+      "en": "Mud-Slap",
+      "ja": "どろかけ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-052",
+      "en": "Mud Shot",
+      "ja": "マッドショット",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-053",
+      "en": "Bulldoze",
+      "ja": "じならし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-054",
+      "en": "Disarming Voice",
+      "ja": "チャームボイス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-055",
+      "en": "Draining Kiss",
+      "ja": "ドレインキッス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-056",
+      "en": "Low Sweep",
+      "ja": "ローキック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-057",
+      "en": "Struggle Bug",
+      "ja": "むしのていこう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-058",
+      "en": "Pounce",
+      "ja": "とびつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-059",
+      "en": "Bug Bite",
+      "ja": "むしくい",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-060",
+      "en": "Powder Snow",
+      "ja": "こなゆき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-061",
+      "en": "Draining Kiss",
+      "ja": "ドレインキッス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-062",
+      "en": "Bite",
+      "ja": "かみつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-063",
+      "en": "Knock Off",
+      "ja": "はたきおとす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-064",
+      "en": "Rock Throw",
+      "ja": "いわおとし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-065",
+      "en": "Rock Tomb",
+      "ja": "がんせきふうじ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-066",
+      "en": "Confusion",
+      "ja": "ねんりき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-067",
+      "en": "Air Cutter",
+      "ja": "エアカッター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-068",
+      "en": "Iron Head",
+      "ja": "アイアンヘッド",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-069",
+      "en": "Air Cutter",
+      "ja": "エアカッター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-070",
+      "en": "Spark",
+      "ja": "スパーク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-W01",
+      "en": "Blizzard",
+      "ja": "ふぶき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-W02",
+      "en": "Thunder",
+      "ja": "かみなり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-1-W03",
+      "en": "Fire Blast",
+      "ja": "だいもんじ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-001",
+      "en": "Hydro Pump",
+      "ja": "ハイドロポンプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-002",
+      "en": "High Horsepower",
+      "ja": "１０まんばりき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-003",
+      "en": "Shadow Claw",
+      "ja": "シャドークロー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-004",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-2-005",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-2-006",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-2-007",
+      "en": "Blood Moon",
+      "ja": "ブラッドムーン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-008",
+      "en": "Armor Cannon",
+      "ja": "アーマーキャノン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-009",
+      "en": "Energy Ball",
+      "ja": "エナジーボール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-010",
+      "en": "Nature's Madness",
+      "ja": "しぜんのいかり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-011",
+      "en": "Shadow Ball",
+      "ja": "シャドーボール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-012",
+      "en": "Stone Edge",
+      "ja": "ストーンエッジ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-013",
+      "en": "First Impression",
+      "ja": "であいがしら",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-014",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-2-015",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-2-016",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-2-017",
+      "en": "Stone Edge",
+      "ja": "ストーンエッジ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-018",
+      "en": "Energy Ball",
+      "ja": "エナジーボール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-019",
+      "en": "Dig",
+      "ja": "あなをほる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-020",
+      "en": "Magma Storm",
+      "ja": "マグマストーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-021",
+      "en": "Steam Eruption",
+      "ja": "スチームバースト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-022",
+      "en": "Volt Tackle",
+      "ja": "ボルテッカー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-023",
+      "en": "Ice Beam",
+      "ja": "れいとうビーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-024",
+      "en": "Earth Power",
+      "ja": "だいちのちから",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-025",
+      "en": "Solar Beam",
+      "ja": "ソーラービーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-026",
+      "en": "Leafage",
+      "ja": "このは",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-027",
+      "en": "Mega Drain",
+      "ja": "メガドレイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-028",
+      "en": "Giga Drain",
+      "ja": "ギガドレイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-029",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "en_unreadable"
+    },
+    {
+      "id": "2-2-030",
+      "en": "Double Kick",
+      "ja": "にどげり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-031",
+      "en": "Brick Break",
+      "ja": "かわらわり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-032",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-033",
+      "en": "Bulldoze",
+      "ja": "じならし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-034",
+      "en": "Stomping Tantrum",
+      "ja": "じだんだ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-035",
+      "en": "Aerial Ace",
+      "ja": "つばめがえし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-036",
+      "en": "Mud-Slap",
+      "ja": "どろかけ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-037",
+      "en": "Mud Shot",
+      "ja": "マッドショット",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-038",
+      "en": "Rock Slide",
+      "ja": "いわなだれ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-039",
+      "en": "Leafage",
+      "ja": "このは",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-040",
+      "en": "Bullet Seed",
+      "ja": "タネマシンガン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-041",
+      "en": "Thunder Shock",
+      "ja": "でんきショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-042",
+      "en": "Electroweb",
+      "ja": "エレキネット",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-043",
+      "en": "Thunder Punch",
+      "ja": "かみなりパンチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-044",
+      "en": "Quick Attack",
+      "ja": "でんこうせっか",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-045",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-046",
+      "en": "Electroweb",
+      "ja": "エレキネット",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-047",
+      "en": "Fire Fang",
+      "ja": "ほのおのキバ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-048",
+      "en": "Icy Wind",
+      "ja": "こごえるかぜ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-049",
+      "en": "Avalanche",
+      "ja": "ゆきなだれ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-050",
+      "en": "Icicle Crash",
+      "ja": "つららおとし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-051",
+      "en": "Astonish",
+      "ja": "おどろかす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-052",
+      "en": "Flame Charge",
+      "ja": "ニトロチャージ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-053",
+      "en": "Hex",
+      "ja": "たたりめ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-054",
+      "en": "Smack Down",
+      "ja": "うちおとす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-055",
+      "en": "Ancient Power",
+      "ja": "げんしのちから",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-056",
+      "en": "Rock Slide",
+      "ja": "いわなだれ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-057",
+      "en": "Fury Swipes",
+      "ja": "みだれひっかき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-058",
+      "en": "Slash",
+      "ja": "きりさく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-059",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-060",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-061",
+      "en": "Gust",
+      "ja": "かぜおこし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-062",
+      "en": "Air Slash",
+      "ja": "エアスラッシュ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-063",
+      "en": "Mega Drain",
+      "ja": "メガドレイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-064",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-065",
+      "en": "Acid Spray",
+      "ja": "アシッドボム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-066",
+      "en": "Venoshock",
+      "ja": "ベノムショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-067",
+      "en": "Struggle Bug",
+      "ja": "むしのていこう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-068",
+      "en": "Pin Missile",
+      "ja": "ミサイルばり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-069",
+      "en": "Aerial Ace",
+      "ja": "つばめがえし",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-070",
+      "en": "Hex",
+      "ja": "たたりめ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-W01",
+      "en": "Thunderbolt",
+      "ja": "１０まんボルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-2-W02",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-2-W03",
+      "en": "Dark Pulse",
+      "ja": "あくのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-001",
+      "en": "Behemoth Blade",
+      "ja": "きょじゅうざん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-002",
+      "en": "Behemoth Bash",
+      "ja": "きょじゅうだん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-003",
+      "en": "Hyperspace Fury",
+      "ja": "いじげんラッシュ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-004",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-3-005",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-3-006",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-3-007",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-3-008",
+      "en": "Dazzling Gleam",
+      "ja": "マジカルシャイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-009",
+      "en": "Electro Shot",
+      "ja": "エレクトロビーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-010",
+      "en": "Wave Crash",
+      "ja": "ウェーブタックル",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-011",
+      "en": "Dazzling Gleam",
+      "ja": "マジカルシャイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-012",
+      "en": "Close Combat",
+      "ja": "インファイト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-013",
+      "en": "Sludge Wave",
+      "ja": "ヘドロウェープ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-014",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-3-015",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-3-016",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-3-017",
+      "en": "Dig",
+      "ja": "あなをほる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-018",
+      "en": "Kowtow Cleave",
+      "ja": "ドゲザン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-019",
+      "en": "Hydro Pump",
+      "ja": "ハイドロポンプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-020",
+      "en": "Zap Cannon",
+      "ja": "でんじほう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-021",
+      "en": "Sky Attack",
+      "ja": "ゴッドバード",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-022",
+      "en": "Shadow Ball",
+      "ja": "シャドーボール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-023",
+      "en": "Flare Blitz",
+      "ja": "フレアドライブ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-024",
+      "en": "Dragon Rush",
+      "ja": "ドラゴンダイプ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-025",
+      "en": "Apple Acid",
+      "ja": "りんごさん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-026",
+      "en": "Razor Leaf",
+      "ja": "はっぱカッター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-026A",
+      "en": "Razor Leaf",
+      "ja": "はっぱカッター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-027",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-028",
+      "en": "Giga Drain",
+      "ja": "ギガドレイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-029",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-029A",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-030",
+      "en": "Arm Thrust",
+      "ja": "つっぱり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-031",
+      "en": "Brick Break",
+      "ja": "かわらわり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-032",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-032A",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-033",
+      "en": "Chilling Water",
+      "ja": "ひやみず",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-034",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-035",
+      "en": "Peck",
+      "ja": "つつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-036",
+      "en": "Acrobatics",
+      "ja": "アクロバット",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-037",
+      "en": "Air Cutter",
+      "ja": "エアカッター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-038",
+      "en": "Arm Thrust",
+      "ja": "つっぱり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-039",
+      "en": "Thief",
+      "ja": "どろぼう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-040",
+      "en": "Gust",
+      "ja": "かぜおこし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-041",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "en_disagree"
+    },
+    {
+      "id": "2-3-042",
+      "en": "Draining Kiss",
+      "ja": "ドレインキッス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-043",
+      "en": "Thunder Punch",
+      "ja": "かみなりパンチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-043A",
+      "en": "Thunder Punch",
+      "ja": "かみなりパンチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-044",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-045",
+      "en": "Bullet Seed",
+      "ja": "タネマシンガン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-046",
+      "en": "Freeze-Dry",
+      "ja": "フリーズドライ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-047",
+      "en": "Thunder Shock",
+      "ja": "でんきショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-048",
+      "en": "Charge Beam",
+      "ja": "チャージビーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-049",
+      "en": "Spark",
+      "ja": "スパーク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-050",
+      "en": "Pound",
+      "ja": "はたく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-051",
+      "en": "Fairy Wind",
+      "ja": "ようせいのかぜ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-052",
+      "en": "Air Slash",
+      "ja": "エアスラッシュ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-053",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-054",
+      "en": "Fire Fang",
+      "ja": "ほのおのキバ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-055",
+      "en": "Rock Throw",
+      "ja": "いわおとし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-056",
+      "en": "Bulldoze",
+      "ja": "じならし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-057",
+      "en": "Struggle Bug",
+      "ja": "むしのていこう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-058",
+      "en": "Metal Claw",
+      "ja": "メタルクロー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-059",
+      "en": "Pounce",
+      "ja": "とびつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-060",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-061",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-062",
+      "en": "Astonish",
+      "ja": "おどろかす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-063",
+      "en": "Hex",
+      "ja": "たたりめ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-064",
+      "en": "Astonish",
+      "ja": "おどろかす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-065",
+      "en": "Dragon Breath",
+      "ja": "りゅうのいぶき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-066",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-067",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-068",
+      "en": "Draining Kiss",
+      "ja": "ドレインキッス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-069",
+      "en": "Pound",
+      "ja": "はたく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-070",
+      "en": "Double Hit",
+      "ja": "ダブルアタック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-W01",
+      "en": "Psychic",
+      "ja": "サイコキネシス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-W02",
+      "en": "Ice Beam",
+      "ja": "れいとうビーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-3-W03",
+      "en": "Blizzard",
+      "ja": "ふぶき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-001",
+      "en": "Land's Wrath",
+      "ja": "グランドフォース",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-002",
+      "en": "Shadow Force",
+      "ja": "シャドーダイブ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-003",
+      "en": "Hammer Arm",
+      "ja": "アームハンマー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-004",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-4-005",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-4-006",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-4-007",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-4-008",
+      "en": "Plasma Fists",
+      "ja": "プラズマフィスト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-009",
+      "en": "Giga Impact",
+      "ja": "ギガインパクト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-010",
+      "en": "Seed Flare",
+      "ja": "シードフレア",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-011",
+      "en": "Brave Bird",
+      "ja": "プレイブバード",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-012",
+      "en": "Dig",
+      "ja": "あなをほる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-013",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-4-014",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-4-015",
+      "en": "Outrage",
+      "ja": "げきりん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-016",
+      "en": "Sacred Sword",
+      "ja": "せいなるつるぎ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-017",
+      "en": "Stone Edge",
+      "ja": "ストーンエッジ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-018",
+      "en": "Ice Beam",
+      "ja": "れいとうビーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-019",
+      "en": "Flash Cannon",
+      "ja": "ラスターカノン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-020",
+      "en": "Rock Blast",
+      "ja": "ロックブラスト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-021",
+      "en": "Icicle Spear",
+      "ja": "つららばり",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-022",
+      "en": "Gigaton Hammer",
+      "ja": "デカハンマー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-023",
+      "en": "Tera Starstorm",
+      "ja": "テラクラスター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-024",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-4-025",
+      "en": "Malignant Chain",
+      "ja": "じゃどくのくさり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-026",
+      "en": "Vine Whip",
+      "ja": "つるのムチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-026A",
+      "en": "Vine Whip",
+      "ja": "つるのムチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-027",
+      "en": "Trailblaze",
+      "ja": "くさわけ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-028",
+      "en": "Low Sweep",
+      "ja": "ローキック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-029",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-029A",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-030",
+      "en": "Flame Charge",
+      "ja": "ニトロチャージ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-031",
+      "en": "Mystical Fire",
+      "ja": "マジカルフレイム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-032",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-032A",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-033",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-034",
+      "en": "Waterfall",
+      "ja": "たきのぼり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-035",
+      "en": "Thunder Shock",
+      "ja": "でんきショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-036",
+      "en": "Quick Attack",
+      "ja": "でんこうせっか",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-037",
+      "en": "Draining Kiss",
+      "ja": "ドレインキッス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-037★",
+      "en": "Draining Kiss",
+      "ja": "ドレインキッス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-038",
+      "en": "Sand Tomb",
+      "ja": "すなじごく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-039",
+      "en": "Dragon Tail",
+      "ja": "ドラゴンテール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-040",
+      "en": "Dragon Claw",
+      "ja": "ドラゴンクロー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-041",
+      "en": "Thunder Shock",
+      "ja": "でんきショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-041★",
+      "en": "Thunder Shock",
+      "ja": "でんきショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-042",
+      "en": "Bite",
+      "ja": "かみつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-042★",
+      "en": "Bite",
+      "ja": "かみつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-043",
+      "en": "Spark",
+      "ja": "スパーク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-043★",
+      "en": "Spark",
+      "ja": "スパーク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-044",
+      "en": "Sand Tomb",
+      "ja": "すなじごく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-045",
+      "en": "Bulldoze",
+      "ja": "じならし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-046",
+      "en": "Stomping Tantrum",
+      "ja": "じだんだ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-047",
+      "en": "Scratch",
+      "ja": "ひっかく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-048",
+      "en": "Breaking Swipe",
+      "ja": "ワイドブレイカー",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-049",
+      "en": "Dragon Pulse",
+      "ja": "りゅうのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-050",
+      "en": "Icicle Spear",
+      "ja": "つららばり",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-051",
+      "en": "Ice Punch",
+      "ja": "れいとうパンチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-052",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-052★",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-053",
+      "en": "Brine",
+      "ja": "しおみず",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-053★",
+      "en": "Brine",
+      "ja": "しおみず",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-054",
+      "en": "Rock Throw",
+      "ja": "いわおとし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-055",
+      "en": "Rock Slide",
+      "ja": "いわなだれ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-056",
+      "en": "Peck",
+      "ja": "つつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-057",
+      "en": "Dragon Breath",
+      "ja": "りゅうのいぶき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-058",
+      "en": "Sand Tomb",
+      "ja": "すなじごく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-059",
+      "en": "Smart Strike",
+      "ja": "スマートホーン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-060",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-061",
+      "en": "Venoshock",
+      "ja": "ベノムショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-062",
+      "en": "Psybeam",
+      "ja": "サイケこうせん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-063",
+      "en": "Flame Charge",
+      "ja": "ニトロチャージ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-064",
+      "en": "Psybeam",
+      "ja": "サイケこうせん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-065",
+      "en": "Shadow Claw",
+      "ja": "シャドークロー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-066",
+      "en": "Mega Punch",
+      "ja": "メガトンパンチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-067",
+      "en": "Low Sweep",
+      "ja": "ローキック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-068",
+      "en": "X-Scissor",
+      "ja": "シザークロス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-069",
+      "en": "Brick Break",
+      "ja": "かわらわり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-070",
+      "en": "Parabolic Charge",
+      "ja": "パラボラチャージ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-070A",
+      "en": "Parabolic Charge",
+      "ja": "パラボラチャージ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-W01",
+      "en": "Psychic",
+      "ja": "サイコキネシス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-W02",
+      "en": "Dark Pulse",
+      "ja": "あくのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-W03",
+      "en": "Leaf Blade",
+      "ja": "リーフブレード",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-4-W04",
+      "en": "Blizzard",
+      "ja": "ふぶき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-001",
+      "en": "Roar of Time",
+      "ja": "ときのほうこう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-002",
+      "en": "Spacial Rend",
+      "ja": "あくうせつだん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-003★",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-5-004★",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-5-005",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-5-006",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-5-007",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-5-008",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-5-009",
+      "en": "Make It Rain",
+      "ja": "ゴールドラッシュ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-010",
+      "en": "Play Rough",
+      "ja": "じゃれつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-011",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-5-012",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-5-013",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-5-014",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-5-015",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "2-5-016",
+      "en": "Shadow Claw",
+      "ja": "シャドークロー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-017",
+      "en": "Spirit Break",
+      "ja": "ソウルクラッシュ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-018",
+      "en": "Double Shock",
+      "ja": "でんこうそうげき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-019",
+      "en": "Blizzard",
+      "ja": "ふぶき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-020",
+      "en": "Crunch",
+      "ja": "かみくだく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-021",
+      "en": "Hyperspace Hole",
+      "ja": "いじげんホール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-022",
+      "en": "Land's Wrath",
+      "ja": "グランドフォース",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-023",
+      "en": "Flower Trick",
+      "ja": "トリックフラワー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-024",
+      "en": "Torch Song",
+      "ja": "フレアソング",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-025",
+      "en": "Volt Tackle",
+      "ja": "ボルテッカー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-026",
+      "en": "Leafage",
+      "ja": "このは",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-026A",
+      "en": "Leafage",
+      "ja": "このは",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-027",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-027A",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-028",
+      "en": "Night Slash",
+      "ja": "つじぎり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-029",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-029A",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-030",
+      "en": "Flame Charge",
+      "ja": "ニトロチャージ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-030A",
+      "en": "Flame Charge",
+      "ja": "ニトロチャージ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-031",
+      "en": "Incinerate",
+      "ja": "やきつくす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-032",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-032A",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-033",
+      "en": "Low Kick",
+      "ja": "けたぐり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-033A",
+      "en": "Low Kick",
+      "ja": "けたぐり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-034",
+      "en": "Brick Break",
+      "ja": "かわらわり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-035",
+      "en": "Spark",
+      "ja": "スパーク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-036",
+      "en": "Quick Attack",
+      "ja": "でんこうせっか",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-037",
+      "en": "Poison Sting",
+      "ja": "どくばり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-038",
+      "en": "Rollout",
+      "ja": "ころがる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-039",
+      "en": "Pin Missile",
+      "ja": "ミサイルばり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-040",
+      "en": "Fake Out",
+      "ja": "ねこだまし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-040★",
+      "en": "Fake Out",
+      "ja": "ねこだまし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-041",
+      "en": "Assurance",
+      "ja": "ダメおし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-041★",
+      "en": "Assurance",
+      "ja": "ダメおし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-042",
+      "en": "Sucker Punch",
+      "ja": "ふいうち",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-042★",
+      "en": "Sucker Punch",
+      "ja": "ふいうち",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-043",
+      "en": "Sand Tomb",
+      "ja": "すなじごく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-044",
+      "en": "Rock Tomb",
+      "ja": "がんせきふうじ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-045",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-046",
+      "en": "Covet",
+      "ja": "ほしがる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-047",
+      "en": "Thunder Shock",
+      "ja": "でんきショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-048",
+      "en": "Electroweb",
+      "ja": "エレキネット",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-049",
+      "en": "Thunder Punch",
+      "ja": "かみなりパンチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-050",
+      "en": "Swift",
+      "ja": "スピードスター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-051",
+      "en": "Psycho Cut",
+      "ja": "サイコカッター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-052",
+      "en": "Zen Headbutt",
+      "ja": "しねんのずつき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-053",
+      "en": "Arm Thrust",
+      "ja": "つっぱり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-054",
+      "en": "Force Palm",
+      "ja": "はっけい",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-055",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-056",
+      "en": "Rock Tomb",
+      "ja": "がんせきふうじ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-057",
+      "en": "Rock Slide",
+      "ja": "いわなだれ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-058",
+      "en": "Icy Wind",
+      "ja": "こごえるかぜ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-059",
+      "en": "Ice Fang",
+      "ja": "こおりのキバ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-060",
+      "en": "Confusion",
+      "ja": "ねんりき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-060★",
+      "en": "Confusion",
+      "ja": "ねんりき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-061",
+      "en": "Breaking Swipe",
+      "ja": "ワイドブレイカー",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-061★",
+      "en": "Breaking Swipe",
+      "ja": "ワイドブレイカー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-062",
+      "en": "Metal Claw",
+      "ja": "メタルクロー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-063",
+      "en": "Iron Head",
+      "ja": "アイアンヘッド",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-064",
+      "en": "Incinerate",
+      "ja": "やきつくす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-065",
+      "en": "Rock Slide",
+      "ja": "いわなだれ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-066",
+      "en": "Bulldoze",
+      "ja": "じならし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-067",
+      "en": "Spark",
+      "ja": "スパーク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-068",
+      "en": "Brick Break",
+      "ja": "かわらわり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-068★",
+      "en": "Brick Break",
+      "ja": "かわらわり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-069",
+      "en": "Air Cutter",
+      "ja": "エアカッター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-070",
+      "en": "Thief",
+      "ja": "どろぼう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-W01",
+      "en": "Mist Ball",
+      "ja": "ミストボール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-W02",
+      "en": "Dragon Pulse",
+      "ja": "りゅうのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-W03",
+      "en": "Bitter Blade",
+      "ja": "むねんのつるぎ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "2-5-W04",
+      "en": "Dazzling Gleam",
+      "ja": "マジカルシャイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-001",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "3-1-002",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "3-1-003",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "3-1-004",
+      "en": "Leaf Storm",
+      "ja": "リーフストーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-005",
+      "en": "Flamethrower",
+      "ja": "かえんほうしゃ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-006",
+      "en": "Hydro Pump",
+      "ja": "ハイドロポンプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-007",
+      "en": "Collision Course",
+      "ja": "アクセルブレイク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-008",
+      "en": "Electro Drift",
+      "ja": "イナズマドライブ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-009",
+      "en": "Sunsteel Strike",
+      "ja": "メテオドライブ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-010",
+      "en": "Moongeist Beam",
+      "ja": "シャドーレイ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-011",
+      "en": "Power Whip",
+      "ja": "パワーウィップ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-012",
+      "en": "Sky Attack",
+      "ja": "ゴッドバード",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-013",
+      "en": "Meteor Assault",
+      "ja": "スターアサルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-014",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "3-1-015",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "3-1-016",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "3-1-017",
+      "en": "Dazzling Gleam",
+      "ja": "マジカルシャイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-018",
+      "en": "Phantom Force",
+      "ja": "ゴーストダイプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-019",
+      "en": "Dig",
+      "ja": "あなをほる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-020",
+      "en": "Dig",
+      "ja": "あなをほる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-021",
+      "en": "Ice Spinner",
+      "ja": "アイススピナー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-022",
+      "en": "Stone Edge",
+      "ja": "ストーンエッジ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-023",
+      "en": "Brave Bird",
+      "ja": "ブレイブバード",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-024",
+      "en": "Energy Ball",
+      "ja": "エナジーボール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-025",
+      "en": "Close Combat",
+      "ja": "インファイト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-026",
+      "en": "Vine Whip",
+      "ja": "つるのムチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-026A",
+      "en": "Vine Whip",
+      "ja": "つるのムチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-027",
+      "en": "Trailblaze",
+      "ja": "くさわけ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-028",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-028★",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-029",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-029A",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-030",
+      "en": "Flame Charge",
+      "ja": "ニトロチャージ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-031",
+      "en": "Fire Fang",
+      "ja": "ほのおのキバ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-031★",
+      "en": "Fire Fang",
+      "ja": "ほのおのキバ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-032",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-032A",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-033",
+      "en": "Chilling Water",
+      "ja": "ひやみず",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-034",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-034★",
+      "en": "Water Pulse",
+      "ja": "みずのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-035",
+      "en": "Vine Whip",
+      "ja": "つるのムチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-036",
+      "en": "Giga Drain",
+      "ja": "ギガドレイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-037",
+      "en": "Pound",
+      "ja": "はたく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-038",
+      "en": "Fairy Wind",
+      "ja": "ようせいのかぜ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-039",
+      "en": "Air Slash",
+      "ja": "エアスラッシュ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-040",
+      "en": "Rock Smash",
+      "ja": "いわくだき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-041",
+      "en": "Brick Break",
+      "ja": "かわらわり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-042",
+      "en": "Thunder Shock",
+      "ja": "でんきショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-043",
+      "en": "Spark",
+      "ja": "スパーク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-044",
+      "en": "Thunder Punch",
+      "ja": "かみなりパンチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-045",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-046",
+      "en": "Disarming Voice",
+      "ja": "チャームボイス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-047",
+      "en": "Draining Kiss",
+      "ja": "ドレインキッス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-048",
+      "en": "Lick",
+      "ja": "したでなめる",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-049",
+      "en": "Last Respects",
+      "ja": "おはかまいり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-050",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-051",
+      "en": "Bulldoze",
+      "ja": "じならし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-052",
+      "en": "Icy Wind",
+      "ja": "こごえるかぜ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-053",
+      "en": "Ice Fang",
+      "ja": "こおりのキバ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-054",
+      "en": "Gust",
+      "ja": "かぜおこし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-055",
+      "en": "Wing Attack",
+      "ja": "つばさでうつ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-056",
+      "en": "Air Slash",
+      "ja": "エアスラッシュ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-057",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-058",
+      "en": "Bubble Beam",
+      "ja": "バブルこうせん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-059",
+      "en": "Giga Drain",
+      "ja": "ギガドレイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-060",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-060★",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-061",
+      "en": "Psybeam",
+      "ja": "サイケこうせん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-062",
+      "en": "Headbutt",
+      "ja": "ずつき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-063",
+      "en": "Trailblaze",
+      "ja": "くさわけ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-064",
+      "en": "Knock Off",
+      "ja": "はたきおとす",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-065",
+      "en": "Rock Slide",
+      "ja": "いわなだれ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-066",
+      "en": "Rock Slide",
+      "ja": "いわなだれ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-067",
+      "en": "Bulldoze",
+      "ja": "じならし",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-068",
+      "en": "Spark",
+      "ja": "スパーク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-069",
+      "en": "Hex",
+      "ja": "たたりめ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-070",
+      "en": "Brick Break",
+      "ja": "かわらわり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-071★",
+      "en": "Superpower",
+      "ja": "ばかぢから",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-072★",
+      "en": "Double Shock",
+      "ja": "でんこうそうげき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-W01",
+      "en": "Thunder",
+      "ja": "かみなり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-W02",
+      "en": "Fire Blast",
+      "ja": "だいもんじ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-1-W03",
+      "en": "Hydro Pump",
+      "ja": "ハイドロポンプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p001",
+      "en": "Thunderbolt",
+      "ja": "１０まんボルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p002",
+      "en": "Focus Blast",
+      "ja": "きあいだま",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p003",
+      "en": "Magical Leaf",
+      "ja": "マジカルリーフ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p004",
+      "en": "Aqua Step",
+      "ja": "アクアステップ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p005",
+      "en": "Torch Song",
+      "ja": "フレアソング",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p006",
+      "en": "Flower Trick",
+      "ja": "トリックフラワー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p007",
+      "en": "Aqua Step",
+      "ja": "アクアステップ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p008",
+      "en": "Torch Song",
+      "ja": "フレアソング",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p009",
+      "en": "Flower Trick",
+      "ja": "トリックフラワー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p010",
+      "en": "Fire Blast",
+      "ja": "だいもんじ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p011",
+      "en": "Thunderbolt",
+      "ja": "１０まんボルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p012",
+      "en": "Ivy Cudgel",
+      "ja": "ツタこんぼう",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "p013",
+      "en": "Gigaton Hammer",
+      "ja": "デカハンマー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p014",
+      "en": "Leaf Storm",
+      "ja": "リーフストーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p015",
+      "en": "Flamethrower",
+      "ja": "かえんほうしゃ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p016",
+      "en": "Thunderbolt",
+      "ja": "１０まんボルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p017",
+      "en": "Electro Drift",
+      "ja": "イナズマドライブ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p018",
+      "en": "Collision Course",
+      "ja": "アクセルブレイク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p019",
+      "en": "Phantom Force",
+      "ja": "ゴーストダイブ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "p020",
+      "en": "Flamethrower",
+      "ja": "かえんほうしゃ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p021",
+      "en": "Volt Tackle",
+      "ja": "ボルテッカー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p022",
+      "en": "Ivy Cudgel",
+      "ja": "ツタこんぼう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p023",
+      "en": "Sacred Fire",
+      "ja": "せいなるほのお",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p024",
+      "en": "Aeroblast",
+      "ja": "エアロブラスト",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "p025",
+      "en": "Water Shuriken",
+      "ja": "みずしゅりけん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p026",
+      "en": "Aqua Step",
+      "ja": "アクアステップ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p027",
+      "en": "Torch Song",
+      "ja": "フレアソング",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p028",
+      "en": "Flower Trick",
+      "ja": "トリックフラワー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p029",
+      "en": "Tera Starstorm",
+      "ja": "テラクラスター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p030",
+      "en": "Ivy Cudgel",
+      "ja": "ツタこんぼう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p031",
+      "en": "Blizzard",
+      "ja": "ふぶき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p032",
+      "en": "Fusion Bolt",
+      "ja": "クロスサンダー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p033",
+      "en": "Fusion Flare",
+      "ja": "クロスフレイム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p034",
+      "en": "Dragon Ascent",
+      "ja": "ガリョウテンセイ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "p035",
+      "en": "Thunderbolt",
+      "ja": "１０まんボルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p036",
+      "en": "Double Iron Bash",
+      "ja": "ダブルパンツァー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p037",
+      "en": "Stone Edge",
+      "ja": "ストーンエッジ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p038",
+      "en": "Double Shock",
+      "ja": "でんこうそうげき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p039",
+      "en": "Brave Bird",
+      "ja": "プレイブバード",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "p040",
+      "en": "Psycho Boost",
+      "ja": "サイコブースト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p041",
+      "en": "Secret Sword",
+      "ja": "しんぴのつるぎ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p042",
+      "en": "Gigaton Hammer",
+      "ja": "デカハンマー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p043",
+      "en": "Close Combat",
+      "ja": "インファイト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p044",
+      "en": "Throat Chop",
+      "ja": "じごくづき",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "p045",
+      "en": "Flamethrower",
+      "ja": "かえんほうしや",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p046",
+      "en": "Volt Tackle",
+      "ja": "ボルテッカー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p047",
+      "en": "Close Combat",
+      "ja": "インファイト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p048",
+      "en": "Flower Trick",
+      "ja": "トリックフラワー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p049",
+      "en": "Hydro Pump",
+      "ja": "ハイドロポンプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p050",
+      "en": "Flamethrower",
+      "ja": "かえんほうしゃ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p051",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p052",
+      "en": "Thunderbolt",
+      "ja": "１０まんボルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p053-ayNdxXS8",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p054",
+      "en": "Surf",
+      "ja": "なみのり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p055",
+      "en": "Meteor Mash",
+      "ja": "コメットパンチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p056",
+      "en": "Stone Edge",
+      "ja": "ストーンエッジ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p057",
+      "en": "Aeroblast",
+      "ja": "エアロブラスト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p058",
+      "en": "Sacred Fire",
+      "ja": "せいなるほのお",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p059",
+      "en": "Population Bomb",
+      "ja": "ネズミざん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p060",
+      "en": "Thunderbolt",
+      "ja": "１０まんボルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p061",
+      "en": "Flamethrower",
+      "ja": "かえんほうしゃ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "p062",
+      "en": "Leaf Storm",
+      "ja": "リーフストーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p063",
+      "en": "Raging Fury",
+      "ja": "だいふんげき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p064",
+      "en": "Iron Tail",
+      "ja": "アイアンテール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p065",
+      "en": "Focus Blast",
+      "ja": "きあいだま",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p066",
+      "en": "Fire Blast",
+      "ja": "だいもんじ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p067",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p068",
+      "en": "Dazzling Gleam",
+      "ja": "マジカルシャイン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p069",
+      "en": "Dragon Rush",
+      "ja": "ドラゴンダイプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p070",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p071",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p072",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p073",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p074",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p075",
+      "en": "Moonblast",
+      "ja": "ムーンフォース",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p076",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "en_unreadable"
+    },
+    {
+      "id": "p077",
+      "en": "Raging Fury",
+      "ja": "だいふんげき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p078",
+      "en": "Hydro Pump",
+      "ja": "ハイドロポンプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p079",
+      "en": "Psystrike",
+      "ja": "サイコブレイク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p080",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p081",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p082",
+      "en": "Dark Pulse",
+      "ja": "あくのはどう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p083",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p084",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p085",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p086",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p087",
+      "en": "Tachyon Cutter",
+      "ja": "タキオンカッター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p088",
+      "en": "Stone Edge",
+      "ja": "ストーンエッジ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p089",
+      "en": "Leaf Blade",
+      "ja": "リーフブレード",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "p090",
+      "en": "Psystrike",
+      "ja": "サイコブレイク",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p091",
+      "en": "Blizzard",
+      "ja": "ふぶき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p092",
+      "en": "Water Gun",
+      "ja": "みずでっぽう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p093",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p094",
+      "en": "Leafage",
+      "ja": "このは",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p095",
+      "en": "Flamethrower",
+      "ja": "かえんほうしゃ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p096",
+      "en": "Core Enforcer",
+      "ja": "コアパニッシャー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p097",
+      "en": "Ivy Cudgel",
+      "ja": "ツタこんぼう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p098",
+      "en": "Ivy Cudgel",
+      "ja": "ツタこんぼう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p099",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "en_disagree"
+    },
+    {
+      "id": "p100",
+      "en": "Aeroblast",
+      "ja": "エアロブラスト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p101",
+      "en": "Sacred Fire",
+      "ja": "せいなるほのお",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p102",
+      "en": "Psychic",
+      "ja": "サイコキネシス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p103",
+      "en": "Wave Crash",
+      "ja": "ウェーブタックル",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p104",
+      "en": "Torch Song",
+      "ja": "フレアソング",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p105",
+      "en": "Flower Trick",
+      "ja": "トリックフラワー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p106",
+      "en": "Flamethrower",
+      "ja": "かえんほうしゃ",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "p107",
+      "en": "Tera Starstorm",
+      "ja": "テラクラスター",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p108",
+      "en": "Leaf Storm",
+      "ja": "リーフストーム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p109",
+      "en": "Plasma Fists",
+      "ja": "プラズマフィスト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p110",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p111",
+      "en": "Volt Tackle",
+      "ja": "ボルテッカー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p112",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p113",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p114",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p115",
+      "en": "Blizzard",
+      "ja": "ふぶき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p116",
+      "en": "Fusion Bolt",
+      "ja": "クロスサンダー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p117",
+      "en": "Fusion Flare",
+      "ja": "クロスフレイム",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p118",
+      "en": "Hydro Pump",
+      "ja": "ハイドロポンプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p119",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p120",
+      "en": "Thunderbolt",
+      "ja": "１０まんボルト",
+      "unanimous": true,
+      "why": "ok"
+    }
+  ]
+}
