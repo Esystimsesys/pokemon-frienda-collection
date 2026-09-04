@@ -9218,6 +9218,270 @@
     "legendReason": "ok"
   },
   {
+    "id": "3-2-001",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": "まぼろし",
+    "legendReason": "ok"
+  },
+  {
+    "id": "3-2-002",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": "でんせつ",
+    "legendReason": "ok"
+  },
+  {
+    "id": "3-2-003",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": "でんせつ",
+    "legendReason": "ok"
+  },
+  {
+    "id": "3-2-006",
+    "mechanic": "メガシンカ",
+    "mechanicReason": "ok",
+    "secondMoveName": "きあいだま",
+    "secondMoveNameEn": "Focus Blast",
+    "tagPartner": null,
+    "secondMoveReason": "ok",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-007",
+    "mechanic": "メガシンカ",
+    "mechanicReason": "ok",
+    "secondMoveName": "げきりん",
+    "secondMoveNameEn": "Outrage",
+    "tagPartner": null,
+    "secondMoveReason": "ok",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-011",
+    "mechanic": "ダイマックス",
+    "mechanicReason": "ok",
+    "secondMoveName": "ダイフェアリー",
+    "secondMoveNameEn": "Max Starfall",
+    "tagPartner": null,
+    "secondMoveReason": "ok",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-012",
+    "mechanic": "ダイマックス",
+    "mechanicReason": "ok",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "ja_disagree",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-013",
+    "mechanic": "ダイマックス",
+    "mechanicReason": "ok",
+    "secondMoveName": "ダイスチル",
+    "secondMoveNameEn": "Max Steelspike",
+    "tagPartner": null,
+    "secondMoveReason": "ok",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-018",
+    "mechanic": "Zワザ",
+    "mechanicReason": "ok",
+    "secondMoveName": "ちょうぜつらせんれんげき",
+    "secondMoveNameEn": "Corkscrew Crash",
+    "tagPartner": null,
+    "secondMoveReason": "ok",
+    "legend": "でんせつ",
+    "legendReason": "ok"
+  },
+  {
+    "id": "3-2-019",
+    "mechanic": "Zワザ",
+    "mechanicReason": "ok",
+    "secondMoveName": "ワールズエンドフォール",
+    "secondMoveNameEn": "Continental Crush",
+    "tagPartner": null,
+    "secondMoveReason": "ok",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-020",
+    "mechanic": "Zワザ",
+    "mechanicReason": "ok",
+    "secondMoveName": "ブルームシャインエクストラ",
+    "secondMoveNameEn": "Bloom Doom",
+    "tagPartner": null,
+    "secondMoveReason": "ok",
+    "legend": "でんせつ",
+    "legendReason": "ok"
+  },
+  {
+    "id": "3-2-023",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-024",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-035",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-036",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-037",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-038",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-039",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-044",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-045",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-046",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-047",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-048",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-049",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
     "id": "p001",
     "mechanic": null,
     "mechanicReason": "no_mark",
@@ -10536,5 +10800,27 @@
     "secondMoveReason": "no_text",
     "legend": null,
     "legendReason": "low_score"
+  },
+  {
+    "id": "p121",
+    "mechanic": "メガシンカ",
+    "mechanicReason": "ok",
+    "secondMoveName": "インファイト",
+    "secondMoveNameEn": "Close Combat",
+    "tagPartner": null,
+    "secondMoveReason": "ok",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "p122",
+    "mechanic": null,
+    "mechanicReason": "no_mark",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "no_text",
+    "legend": "でんせつ",
+    "legendReason": "ok"
   }
 ]

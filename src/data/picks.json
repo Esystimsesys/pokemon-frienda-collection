@@ -22,9 +22,9 @@
   "mechanic": null,
   "specialMove": null,
   "tagPartner": null,
-  "legend": null,
+  "legend": "まぼろし",
   "stats": {
-   "energy": null,
+   "energy": 388,
    "hp": 217,
    "attack": 151,
    "defense": 151,
@@ -57,9 +57,9 @@
   "mechanic": null,
   "specialMove": null,
   "tagPartner": null,
-  "legend": null,
+  "legend": "でんせつ",
   "stats": {
-   "energy": null,
+   "energy": 376,
    "hp": 196,
    "attack": 129,
    "defense": 153,
@@ -92,9 +92,9 @@
   "mechanic": null,
   "specialMove": null,
   "tagPartner": null,
-  "legend": null,
+  "legend": "でんせつ",
   "stats": {
-   "energy": null,
+   "energy": 376,
    "hp": 183,
    "attack": 129,
    "defense": 129,
@@ -114,13 +114,18 @@
   "grade": 5,
   "image": "https://pokemonfrienda.com/new/img/xt2/3-2-006_kira.webp",
   "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-006_kira_thumb.webp",
-  "moves": [],
+  "moves": [
+   {
+    "name": "きあいだま",
+    "type": null
+   }
+  ],
   "types": [
    "かくとう",
    "はがね"
   ],
-  "mechanic": null,
-  "specialMove": null,
+  "mechanic": "メガシンカ",
+  "specialMove": "きあいだま",
   "tagPartner": null,
   "legend": null,
   "stats": {
@@ -144,17 +149,22 @@
   "grade": 5,
   "image": "https://pokemonfrienda.com/new/img/xt2/3-2-007_kira.webp",
   "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-007_kira_thumb.webp",
-  "moves": [],
+  "moves": [
+   {
+    "name": "げきりん",
+    "type": null
+   }
+  ],
   "types": [
    "ドラゴン",
    "じめん"
   ],
-  "mechanic": null,
-  "specialMove": null,
+  "mechanic": "メガシンカ",
+  "specialMove": "げきりん",
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": null,
+   "energy": 336,
    "hp": 205,
    "attack": 166,
    "defense": 122,
@@ -184,8 +194,8 @@
    "ノーマル",
    "フェアリー"
   ],
-  "mechanic": null,
-  "specialMove": null,
+  "mechanic": "ダイマックス",
+  "specialMove": "ダイフェアリー",
   "tagPartner": null,
   "legend": null,
   "stats": {
@@ -219,7 +229,7 @@
    "くさ",
    "ドラゴン"
   ],
-  "mechanic": null,
+  "mechanic": "ダイマックス",
   "specialMove": null,
   "tagPartner": null,
   "legend": null,
@@ -254,8 +264,8 @@
    "でんき",
    "はがね"
   ],
-  "mechanic": null,
-  "specialMove": null,
+  "mechanic": "ダイマックス",
+  "specialMove": "ダイスチル",
   "tagPartner": null,
   "legend": null,
   "stats": {
@@ -289,10 +299,10 @@
    "はがね",
    "かくとう"
   ],
-  "mechanic": null,
-  "specialMove": null,
+  "mechanic": "Zワザ",
+  "specialMove": "ちょうぜつらせんれんげき",
   "tagPartner": null,
-  "legend": null,
+  "legend": "でんせつ",
   "stats": {
    "energy": 292,
    "hp": 165,
@@ -324,8 +334,8 @@
    "いわ",
    "かくとう"
   ],
-  "mechanic": null,
-  "specialMove": null,
+  "mechanic": "Zワザ",
+  "specialMove": "ワールズエンドフォール",
   "tagPartner": null,
   "legend": null,
   "stats": {
@@ -359,10 +369,10 @@
    "くさ",
    "かくとう"
   ],
-  "mechanic": null,
-  "specialMove": null,
+  "mechanic": "Zワザ",
+  "specialMove": "ブルームシャインエクストラ",
   "tagPartner": null,
-  "legend": null,
+  "legend": "でんせつ",
   "stats": {
    "energy": 292,
    "hp": 165,
@@ -29799,7 +29809,7 @@
   "mechanic": null,
   "specialMove": null,
   "tagPartner": null,
-  "legend": null,
+  "legend": "でんせつ",
   "stats": {
    "energy": 296,
    "hp": 157,
@@ -29821,13 +29831,18 @@
   "grade": null,
   "image": "https://pokemonfrienda.com/new/special/img/p121.webp",
   "thumb": "https://pokemonfrienda.com/new/special/img/p121_thumb.webp",
-  "moves": [],
+  "moves": [
+   {
+    "name": "インファイト",
+    "type": null
+   }
+  ],
   "types": [
    "かくとう",
    "はがね"
   ],
-  "mechanic": null,
-  "specialMove": null,
+  "mechanic": "メガシンカ",
+  "specialMove": "インファイト",
   "tagPartner": null,
   "legend": null,
   "stats": {
