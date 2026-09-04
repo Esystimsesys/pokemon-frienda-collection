@@ -23,11 +23,15 @@ python3 scripts/parse_official.py
 step "3/7 裏面の画像を取得（あるぶんは飛ばす）"
 python3 scripts/ocr/fetch_pick_images.py
 
-step "4/7 券面を読む（ステータス／タイプ・★／わざ名／すばやさ・ポケエネ）"
+step "4/7 券面を読む（ステータス／タイプ・★／わざ名／すばやさ・ポケエネ／仕組み）"
 python3 scripts/ocr/fill_stats_from_ocr.py --run-all
 python3 scripts/ocr/fill_header_from_ocr.py --run-all
 python3 scripts/ocr/fill_moves_from_ocr.py --run-all
 python3 scripts/ocr/fill_extra_from_ocr.py --run-all
+# テラスタル等の仕組みと、メガシンカのピックの本当のわざ名（2行目）を読む。
+# これが抜けていると、新しいだんのメガシンカのピックはわざ名が空のまま出る
+# （エクストレジャー2だんで実際に3件そうなった）。
+python3 scripts/ocr/fill_special_from_ocr.py --run-all
 
 # すばやさは券面から100%読めるので、ここはポケエネを補うためだけに使う。
 # 券面だけでもポケエネの85%は埋まるので、取れなくても止めない。
