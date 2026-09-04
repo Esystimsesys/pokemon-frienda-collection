@@ -7542,6 +7542,222 @@
     }
   },
   {
+    "id": "3-2-001",
+    "speed": 5,
+    "energy": null,
+    "reason": {
+      "speed": "ok",
+      "energy": "low_score"
+    }
+  },
+  {
+    "id": "3-2-002",
+    "speed": 4,
+    "energy": null,
+    "reason": {
+      "speed": "ok",
+      "energy": "no_candidate"
+    }
+  },
+  {
+    "id": "3-2-003",
+    "speed": 5,
+    "energy": null,
+    "reason": {
+      "speed": "ok",
+      "energy": "low_score"
+    }
+  },
+  {
+    "id": "3-2-006",
+    "speed": 4,
+    "energy": 304,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-007",
+    "speed": 4,
+    "energy": null,
+    "reason": {
+      "speed": "ok",
+      "energy": "low_score"
+    }
+  },
+  {
+    "id": "3-2-011",
+    "speed": 2,
+    "energy": 236,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-012",
+    "speed": 2,
+    "energy": 276,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-013",
+    "speed": 2,
+    "energy": 280,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-018",
+    "speed": 4,
+    "energy": 292,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-019",
+    "speed": 4,
+    "energy": 292,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-020",
+    "speed": 4,
+    "energy": 292,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-023",
+    "speed": 4,
+    "energy": 284,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-024",
+    "speed": 3,
+    "energy": 284,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-035",
+    "speed": 1,
+    "energy": 108,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-036",
+    "speed": 1,
+    "energy": 132,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-037",
+    "speed": 1,
+    "energy": 208,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-038",
+    "speed": 1,
+    "energy": 152,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-039",
+    "speed": 1,
+    "energy": 248,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-044",
+    "speed": 3,
+    "energy": 164,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-045",
+    "speed": 4,
+    "energy": 212,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-046",
+    "speed": 3,
+    "energy": 252,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-047",
+    "speed": 3,
+    "energy": 168,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-048",
+    "speed": 3,
+    "energy": 212,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-049",
+    "speed": 3,
+    "energy": 252,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
     "id": "p001",
     "speed": 3,
     "energy": 120,
@@ -8616,6 +8832,24 @@
     "id": "p120",
     "speed": 4,
     "energy": 236,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "p121",
+    "speed": 4,
+    "energy": 296,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "p122",
+    "speed": 3,
+    "energy": 296,
     "reason": {
       "speed": "ok",
       "energy": "ok"

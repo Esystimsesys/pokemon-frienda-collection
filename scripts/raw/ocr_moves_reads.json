@@ -5868,6 +5868,174 @@
       "why": "ok"
     },
     {
+      "id": "3-2-001",
+      "en": "Judgment",
+      "ja": "さばきのつぶて",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-002",
+      "en": "Roar of Time",
+      "ja": "ときのほうこう",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-003",
+      "en": "Spacial Rend",
+      "ja": "あくうせつだん",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-006",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "3-2-007",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "3-2-011",
+      "en": "Play Rough",
+      "ja": "じゃれつく",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-012",
+      "en": "Dragon Hammer",
+      "ja": "ドラゴンハンマー",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-013",
+      "en": "Flash Cannon",
+      "ja": "ラスターカノン",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-018",
+      "en": "Iron Head",
+      "ja": "アイアンヘッド",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-019",
+      "en": "Stone Edge",
+      "ja": "ストーンエッジ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-020",
+      "en": "Leaf Blade",
+      "ja": "リーフブレード",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-023",
+      "en": "Wild Charge",
+      "ja": "ワイルドボルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-024",
+      "en": "Flamethrower",
+      "ja": "かえんほうしや",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-035",
+      "en": "Tackle",
+      "ja": "たいあたり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-036",
+      "en": "Disarming Voice",
+      "ja": "チャームボイス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-037",
+      "en": "Draining Kiss",
+      "ja": "ドレインキッス",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-038",
+      "en": "Confusion",
+      "ja": "ねんりき",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-039",
+      "en": "Breaking Swipe",
+      "ja": "ワイドブレイカー",
+      "unanimous": false,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-044",
+      "en": "Thunder Shock",
+      "ja": "でんきショック",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-045",
+      "en": "Shock Wave",
+      "ja": "でんげきは",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-046",
+      "en": "Thunder Punch",
+      "ja": "かみなりパンチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-047",
+      "en": "Ember",
+      "ja": "ひのこ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-048",
+      "en": "Flame Wheel",
+      "ja": "かえんぐるま",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-049",
+      "en": "Fire Punch",
+      "ja": "ほのおのパンチ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
       "id": "p001",
       "en": "Thunderbolt",
       "ja": "１０まんボルト",
@@ -6704,6 +6872,20 @@
       "id": "p120",
       "en": "Thunderbolt",
       "ja": "１０まんボルト",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p121",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p122",
+      "en": "High Horsepower",
+      "ja": "１０まんばりき",
       "unanimous": true,
       "why": "ok"
     }

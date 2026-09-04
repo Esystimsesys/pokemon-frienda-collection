@@ -5028,6 +5028,150 @@
     "reason": "ok"
   },
   {
+    "id": "3-2-001",
+    "firstMoveName": "さばきのつぶて",
+    "firstMoveNameEn": "Judgment",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-002",
+    "firstMoveName": "ときのほうこう",
+    "firstMoveNameEn": "Roar of Time",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-003",
+    "firstMoveName": "あくうせつだん",
+    "firstMoveNameEn": "Spacial Rend",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-006",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "3-2-007",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "3-2-011",
+    "firstMoveName": "じゃれつく",
+    "firstMoveNameEn": "Play Rough",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-012",
+    "firstMoveName": "ドラゴンハンマー",
+    "firstMoveNameEn": "Dragon Hammer",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-013",
+    "firstMoveName": "ラスターカノン",
+    "firstMoveNameEn": "Flash Cannon",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-018",
+    "firstMoveName": "アイアンヘッド",
+    "firstMoveNameEn": "Iron Head",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-019",
+    "firstMoveName": "ストーンエッジ",
+    "firstMoveNameEn": "Stone Edge",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-020",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "3-2-023",
+    "firstMoveName": "ワイルドボルト",
+    "firstMoveNameEn": "Wild Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-024",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "3-2-035",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-036",
+    "firstMoveName": "チャームボイス",
+    "firstMoveNameEn": "Disarming Voice",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-037",
+    "firstMoveName": "ドレインキッス",
+    "firstMoveNameEn": "Draining Kiss",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-038",
+    "firstMoveName": "ねんりき",
+    "firstMoveNameEn": "Confusion",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-039",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "ja_disagree"
+  },
+  {
+    "id": "3-2-044",
+    "firstMoveName": "でんきショック",
+    "firstMoveNameEn": "Thunder Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-045",
+    "firstMoveName": "でんげきは",
+    "firstMoveNameEn": "Shock Wave",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-046",
+    "firstMoveName": "かみなりパンチ",
+    "firstMoveNameEn": "Thunder Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-047",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-048",
+    "firstMoveName": "かえんぐるま",
+    "firstMoveNameEn": "Flame Wheel",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-049",
+    "firstMoveName": "ほのおのパンチ",
+    "firstMoveNameEn": "Fire Punch",
+    "reason": "ok"
+  },
+  {
     "id": "p001",
     "firstMoveName": "１０まんボルト",
     "firstMoveNameEn": "Thunderbolt",
@@ -5745,6 +5889,18 @@
     "id": "p120",
     "firstMoveName": "１０まんボルト",
     "firstMoveNameEn": "Thunderbolt",
+    "reason": "ok"
+  },
+  {
+    "id": "p121",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "p122",
+    "firstMoveName": "１０まんばりき",
+    "firstMoveNameEn": "High Horsepower",
     "reason": "ok"
   }
 ]
