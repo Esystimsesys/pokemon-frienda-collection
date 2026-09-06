@@ -92,10 +92,15 @@ export default function DexScreen() {
   const slide = useRef(new Animated.Value(0)).current;
   const lastY = useRef(0);
   const scrollY = useRef(0);
-  /** いま逃がしてあるかどうか。変わったときだけアニメを動かす */
-  const hidden = useRef(lastScrollY > 0);
-  /** chrome の高さが分かる前に作り直された場合、最初の1回だけ アニメ無しで合わせる */
-  const chromeSnapped = useRef(false);
+  /**
+   * いま逃がしてあるかどうか。変わったときだけアニメを動かす。
+   *
+   * 作り直された直後も、かならず「出ている」から始める。位置を戻せるとみて
+   * 先に隠してしまうと、戻せなかったときに「いちばん上にいるのにしぼりこみが
+   * 隠れたまま」になる。そこからは上にスクロールできず、スクロールも起きないので
+   * 二度と出てこない。実際に下へ動いたことが分かってから隠せばよい。
+   */
+  const hidden = useRef(false);
   /**
    * 覚えておいた場所へ戻すときの行き先。戻している最中だけ数が入る。
    * ただし FlatList は描画ずみのぶんしか高さを持っていないので、遠くへは一度で飛べない。
@@ -112,9 +117,16 @@ export default function DexScreen() {
       const dy = y - lastY.current;
       lastY.current = y;
 
-      // 自分でスクロールし直している最中（まわしたとき・カードの大きさを変えたとき）は
-      // 動かさない。ここで逃がしてしまうと、しぼりこみが消えて大きさを続けて選べない
-      if (target.current !== null) return;
+      // 自分でスクロールし直している最中（まわしたとき・カードの大きさを変えたとき、
+      // じょうほう画面から戻ったとき）は動かさない。ここで逃がしてしまうと、
+      // しぼりこみが消えて大きさを続けて選べない。
+      //
+      // 着いたら必ずここで終わりにする。終わりにし忘れると、以降ずっと
+      // この行で返ってしまい、しぼりこみが上に隠れたまま二度と出てこなくなる。
+      if (target.current !== null) {
+        if (Math.abs(y - target.current) >= 4) return;
+        target.current = null;
+      }
 
       // 上のほうに居るあいだは、かならず出しておく。
       // 小さな揺れで出たり消えたりしないよう、うごきは12pxから見る
@@ -253,6 +265,20 @@ export default function DexScreen() {
     if (Math.abs(scrollY.current - target.current) < 4) target.current = null;
   }, []);
 
+  /**
+   * 位置を戻すのは「うまくいけばそこへ、だめならそのまま」でよい。
+   * ただし、だめだったときに「戻している最中」のままにしておくと、onScroll が
+   * ずっと途中で返ってしまい、しぼりこみの出し入れが止まったままになる。
+   * 少し待って着いていなければあきらめる。
+   */
+  useEffect(() => {
+    if (target.current === null) return;
+    const timer = setTimeout(() => {
+      target.current = null;
+    }, 1500);
+    return () => clearTimeout(timer);
+  }, []);
+
   useEffect(() => {
     if (pending === null || rowHeight === 0 || rowHeight === pending.fromHeight) return;
     const row = Math.floor(pending.index / columns);
@@ -309,16 +335,7 @@ export default function DexScreen() {
             transform: [{ translateY: slide }],
           },
         ]}
-        onLayout={(e) => {
-          const h = e.nativeEvent.layout.height;
-          setChromeHeight(h);
-          // スクロール位置を復元して開いた直後は、アニメで動かすと出戻りに見える。
-          // 高さが分かった時点で、逃がした状態へ一気に合わせる
-          if (!chromeSnapped.current) {
-            chromeSnapped.current = true;
-            if (hidden.current) slide.setValue(-h);
-          }
-        }}
+        onLayout={(e) => setChromeHeight(e.nativeEvent.layout.height)}
       >
       <FilterBar
         filters={filters}
