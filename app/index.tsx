@@ -41,6 +41,15 @@ import { matchesQuery } from "@/lib/search";
  */
 let lastFilters: Filters = EMPTY_FILTERS;
 let lastScrollY = 0;
+/**
+ * 1行の高さ。作り直したときに、描画を待たずに位置を戻すために覚えておく。
+ *
+ * FlatList は既定では「描画ずみのぶん」しか高さを知らないので、まだ描いていない
+ * 遠くへは飛べない。描画が進むたびに近づけ直す作りにしていたが、これは
+ * 描画の速さ次第で、iPad の Safari では一度も届かないまま終わっていた。
+ * 行の高さを渡してやれば全体の高さが最初から決まるので、一発で戻せる。
+ */
+let lastRowHeight = 0;
 
 export default function DexScreen() {
   const router = useRouter();
@@ -159,7 +168,7 @@ export default function DexScreen() {
   const listRef = useRef<FlatList<(typeof ALL_PICKS)[number][]>>(null);
   // 行の高さは state で持つ。まわしたあと「新しい高さが出そろってから」戻したいので、
   // ref だと変化に気づけない
-  const [rowHeight, setRowHeight] = useState(0);
+  const [rowHeight, setRowHeight] = useState(lastRowHeight);
   // 「どのピックに戻すか」と「そのとき行が何pxだったか」。
   // 高さが変わるまで待たないと、ふるい高さで計算して見当ちがいの場所に飛ぶ
   const [pending, setPending] = useState<{ index: number; fromHeight: number } | null>(null);
@@ -265,6 +274,13 @@ export default function DexScreen() {
     if (Math.abs(scrollY.current - target.current) < 4) target.current = null;
   }, []);
 
+  // 行の高さが分かった時点でも戻しにいく。onContentSizeChange だけに任せると、
+  // 中身の高さが変わらない場合（getItemLayout を渡していて最初から確定している場合）に
+  // 一度も呼ばれないことがある
+  useEffect(() => {
+    if (rowHeight > 0) restore();
+  }, [rowHeight, restore]);
+
   /**
    * 位置を戻すのは「うまくいけばそこへ、だめならそのまま」でよい。
    * ただし、だめだったときに「戻している最中」のままにしておくと、onScroll が
@@ -275,7 +291,7 @@ export default function DexScreen() {
     if (target.current === null) return;
     const timer = setTimeout(() => {
       target.current = null;
-    }, 1500);
+    }, 2500);
     return () => clearTimeout(timer);
   }, []);
 
@@ -295,6 +311,7 @@ export default function DexScreen() {
         style={styles.gridRow}
         onLayout={(e) => {
           const h = e.nativeEvent.layout.height;
+          lastRowHeight = h;
           setRowHeight((prev) => (Math.abs(prev - h) > 1 ? h : prev));
         }}
       >
@@ -449,6 +466,18 @@ export default function DexScreen() {
         onScroll={onScroll}
         scrollEventThrottle={16}
         onContentSizeChange={restore}
+        {...(rowHeight > 0
+          ? {
+              // 行はどれも同じ高さなので、測った値をそのまま渡せる。
+              // これがあると FlatList が全体の高さを最初から知るので、
+              // まだ描いていない場所へも一度で戻せる
+              getItemLayout: (_: unknown, index: number) => ({
+                length: rowHeight,
+                offset: rowHeight * index,
+                index,
+              }),
+            }
+          : {})}
         initialNumToRender={24}
         windowSize={7}
         removeClippedSubviews
