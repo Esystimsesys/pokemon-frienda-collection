@@ -4,6 +4,13 @@
   下のプレースホルダはビルド時に app.json の値へ置き換わり、bundle の読み込みタグが
   body の末尾に差し込まれる。置換は「最初に見つかった1か所だけ」なので、
   プレースホルダと同じ文字列をこのコメントに書いてはいけない。
+
+  title は検索に出したい文言（長い）で、ホーム画面に出る名前（短い）とは別もの。
+  ホーム画面の名前は public/manifest.json と apple-mobile-web-app-title が決める。
+  なので title には app.json のプレースホルダを使わず、ここに直接書いている。
+
+  %SITE_URL% は expo export のあとに scripts/build_seo.mjs が絶対URLへ置きかえる。
+  canonical と OGP は相対パスが使えず、ここだけは配信先のURLを知る必要があるため。
 -->
 <html lang="%LANG_ISO_CODE%">
   <head>
@@ -14,7 +21,45 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
     />
-    <title>%WEB_TITLE%</title>
+    <title>フレンダピックずかん｜ポケモンフレンダのピックをさがす・きろくする</title>
+    <meta
+      name="description"
+      content="ポケモンフレンダのピックを、弾・レア・タイプでしぼりこんで さがせる図鑑。もっているピックに ✓ をつけて あつめた数をかぞえられます。わざ・つよさ・とくべつなちからも見られる、5歳から使えるアプリです。"
+    />
+
+    <link rel="canonical" href="%SITE_URL%" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="フレンダピックずかん" />
+    <meta property="og:title" content="フレンダピックずかん｜ポケモンフレンダのピックをさがす" />
+    <meta
+      property="og:description"
+      content="ポケモンフレンダのピックを、弾・レア・タイプでしぼりこんで さがせる図鑑。もっているピックをきろくできます。"
+    />
+    <meta property="og:url" content="%SITE_URL%" />
+    <!-- 共有カードの絵。scripts/gen_og_image.py が作る 1200x630 -->
+    <meta property="og:image" content="%SITE_URL%og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="フレンダピックずかん — もっているピックを きろくする" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- 指名検索（「フレンダピックずかん」）で何のサイトか伝わるようにする -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "フレンダピックずかん",
+        "url": "%SITE_URL%",
+        "applicationCategory": "ReferenceApplication",
+        "operatingSystem": "Web",
+        "browserRequirements": "JavaScript が動くブラウザ",
+        "inLanguage": "ja",
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
+        "description": "ポケモンフレンダのピックをさがして、もっているものをきろくできる図鑑。"
+      }
+    </script>
 
     <link rel="manifest" href="./manifest.json" />
     <meta name="theme-color" content="#2B6CB0" />

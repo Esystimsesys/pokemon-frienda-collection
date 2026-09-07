@@ -15,8 +15,11 @@ const DIST = fileURLToPath(new URL("../dist", import.meta.url));
 
 /**
  * sw.js 自身とビルド情報は除く。404.html は index.html と同じ中身なので入れない。
+ * sitemap.xml・robots.txt・所有権の確認ファイル（google〜.html）・共有カードの絵（og.png）は
+ * 検索エンジンやSNSだけが読むもので、端末に置く意味がない。
  */
-const SKIP = new Set(["sw.js", "metadata.json", "404.html"]);
+const SKIP = new Set(["sw.js", "metadata.json", "404.html", "sitemap.xml", "robots.txt", "og.png"]);
+const SKIP_PATTERN = /^google[0-9a-f]+\.html$/;
 
 function walk(dir) {
   const out = [];
@@ -30,7 +33,7 @@ function walk(dir) {
 
 const files = walk(DIST)
   .map((f) => relative(DIST, f).split(/[\\/]/).join(posix.sep))
-  .filter((f) => !SKIP.has(f))
+  .filter((f) => !SKIP.has(f) && !SKIP_PATTERN.test(f))
   .sort();
 
 /**
