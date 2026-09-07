@@ -5,6 +5,7 @@
 行の差分ではなく「ピック単位で何がどう変わったか」に直して出す。
 
   python3 scripts/diff_summary.py <前のpicks.json> [今のpicks.json]
+  python3 scripts/diff_summary.py <前のpicks.json> --base-ref <更新前のコミット>
 
 前のファイルは `git show main:src/data/picks.json > /tmp/before.json` などで作る。
 出力はそのままGitHubのPR本文に貼れる Markdown。
@@ -12,8 +13,9 @@
 
 from __future__ import annotations
 
+import argparse
 import json
-import sys
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -150,12 +152,87 @@ def render(before: dict[str, dict], after: dict[str, dict]) -> str:
     return "\n".join(out)
 
 
+def summarise_records(old: list[dict], new: list[dict]) -> str:
+    """OCR結果と実行時の状態記録を分けて数える（単位はピック）。"""
+    before = {r["id"]: r for r in old}
+    after = {r["id"]: r for r in new}
+    common = before.keys() & after.keys()
+    updated = [i for i in common if before[i] != after[i]]
+    metadata_only = [i for i in updated if
+                     {k: v for k, v in before[i].items() if k != "had_existing_stats"} ==
+                     {k: v for k, v in after[i].items() if k != "had_existing_stats"}]
+    completed = sum(before[i].get("ocr_complete") is False and
+                    after[i].get("ocr_complete") is True for i in common)
+    regressed = sum(before[i].get("ocr_complete") is True and
+                    after[i].get("ocr_complete") is False for i in common)
+    parts = [f"追加 {len(after.keys() - before.keys())}件",
+             f"削除 {len(before.keys() - after.keys())}件",
+             f"読み取り結果等の変更 {len(updated) - len(metadata_only)}件",
+             f"既存ステータスの有無の記録だけ {len(metadata_only)}件"]
+    if completed or regressed:
+        parts.append(f"読み取り不完全→完了 {completed}件 / 完了→不完全 {regressed}件")
+    if old != new and not updated and before == after:
+        parts.append("レコードの並び順のみ変更")
+    return "、".join(parts)
+
+
+def render_data_changes(base_ref: str, picks_unchanged: bool) -> str:
+    """PR作成の判定と同じ範囲を比較し、JSON以外も変更一覧に含める。"""
+    def git(*args: str) -> bytes:
+        return subprocess.check_output(["git", *args], cwd=ROOT)
+
+    # オプションをrefと誤認しないよう、先にコミットIDへ解決する。
+    base = git("rev-parse", "--verify", "--end-of-options", f"{base_ref}^{{commit}}").decode().strip()
+    paths = git("diff", "--name-only", "--no-renames", "-z", base,
+                "--", "src/data", "scripts/raw").decode().split("\0")
+    paths = [p for p in paths if p]
+    out = ["", "## PRが作成された理由", ""]
+    if not paths:
+        out.append("対象データにファイル差分はありません。")
+        return "\n".join(out)
+    if picks_unchanged:
+        out.append("**図鑑のピックデータ（picks.json）に変更はありません。**")
+        if all(p.startswith("scripts/raw/") for p in paths):
+            out.append("このPRは、次回のデータ生成に使う中間データを更新するために作成されました。")
+        else:
+            out.append("ピック以外のデータや生成ファイルに差分があるため、PRが作成されました。")
+    else:
+        out.append("図鑑のピックデータに変更があります。上の要約と以下の変更ファイルを確認してください。")
+    out += ["", "### 変更ファイル", ""]
+    for path in paths:
+        target = ROOT / path
+        exists_before = bool(git("ls-tree", "--name-only", base, "--", path))
+        detail = "更新"
+        if not target.exists():
+            detail = "削除"
+        elif not exists_before:
+            detail = "追加"
+        elif path.startswith("scripts/raw/") and target.suffix == ".json":
+            try:
+                old = json.loads(git("show", f"{base}:{path}"))
+                new = json.loads(target.read_text(encoding="utf-8"))
+                if all(isinstance(v, list) and all(isinstance(r, dict) and "id" in r for r in v)
+                       for v in (old, new)):
+                    detail = summarise_records(old, new)
+                else:
+                    detail = "中間データの更新（詳細はファイル差分を確認）"
+            except (ValueError, UnicodeError):
+                detail = "ファイル更新（JSONとして比較できないため、差分を確認）"
+        out.append(f"- `{path}`: {detail}")
+    return "\n".join(out)
+
+
 def main() -> None:
-    if len(sys.argv) < 2:
-        raise SystemExit(__doc__)
-    before = load(Path(sys.argv[1]))
-    after = load(Path(sys.argv[2]) if len(sys.argv) > 2 else CURRENT)
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("before", type=Path)
+    ap.add_argument("after", type=Path, nargs="?", default=CURRENT)
+    ap.add_argument("--base-ref", help="更新前のコミット。指定すると中間データの差分も要約する")
+    args = ap.parse_args()
+    before = load(args.before)
+    after = load(args.after)
     print(render(before, after))
+    if args.base_ref:
+        print(render_data_changes(args.base_ref, before == after))
 
 
 if __name__ == "__main__":

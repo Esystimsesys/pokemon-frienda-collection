@@ -73,7 +73,10 @@ jobs:
       # 更新後との比較に使う。JSONの行差分は1万行を超えてレビューできないので、
       # ピック単位の要約(scripts/diff_summary.py)を作ってPR本文に載せる。
       - name: 更新前の picks.json を控える
-        run: cp src/data/picks.json /tmp/picks_before.json
+        id: before
+        run: |
+          cp src/data/picks.json /tmp/picks_before.json
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: 公式サイトを見に行ってデータを作り直す
         run: bash scripts/update.sh
@@ -92,6 +95,7 @@ jobs:
         if: steps.diff.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
+          BEFORE_SHA: ${{ steps.before.outputs.sha }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -100,7 +104,7 @@ jobs:
           git push --force origin auto/update-data
 
           {
-            python3 scripts/diff_summary.py /tmp/picks_before.json
+            python3 scripts/diff_summary.py /tmp/picks_before.json --base-ref "$BEFORE_SHA"
             printf '\n---\n\n'
             printf '%s\n' \
               '`scripts/update.sh` の定期実行（毎週月曜 朝）による自動更新です。' \
