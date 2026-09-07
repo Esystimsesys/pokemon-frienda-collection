@@ -1,0 +1,11 @@
+# robots.txt は「ホストのルート」に置かないと Google が読まない。
+# いまは https://esystimsesys.github.io/pokemon-frienda-collection/ という
+# サブディレクトリ配信なので、このファイルは読まれない。
+# （読まれなくても困らない。robots.txt が無い＝全許可なので、クロールは妨げられていない）
+#
+# ルート配信に移したときにそのまま効くよう、置いてある。
+# サイトマップはこのファイル経由ではなく Search Console から直接送ること。
+User-agent: *
+Allow: /
+
+Sitemap: https://esystimsesys.github.io/pokemon-frienda-collection/sitemap.xml
