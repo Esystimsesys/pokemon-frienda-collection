@@ -470,7 +470,9 @@ def main() -> None:
                 return f["matcher"]
         return base
 
-    truth = S.load_truth()
+    # ファンサイトの正解データは精度検証専用。通常更新では不要で、
+    # 生HTMLを持たないCIでも --run-all を実行できるようにする。
+    truth = S.load_truth() if args.scores or args.validate else {}
     # 書き出しは必ず全件ぶんのテンプレートで行う。交差検証用のテンプレートは
     # --validate のときだけ使い、--run-all の結果には混ぜない。
     mechs = resolve_mechanics(picks, data, row0, lambda _: base)
