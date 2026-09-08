@@ -61,7 +61,11 @@
       }
     </script>
 
-    <link rel="manifest" href="./manifest.json" />
+    <!-- The build changes this value to the Pages project path. Keep / for expo start. -->
+    <script>
+      window.__FRIENDA_APP_BASE__ = "/";
+    </script>
+    <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#2B6CB0" />
 
     <!-- iOS はマニフェストの display を見ないので、こちらでも全画面を指定する -->
@@ -69,11 +73,10 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="ピックずかん" />
-    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
-    <link rel="icon" href="./favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
 
-    <!-- リポジトリ名がURLに入る置きかた（GitHub Pages）でも動くよう、
-         ここのパスはすべて相対にしてある。ルート配信なら結果は同じ -->
+    <!-- 公開ビルドでは scripts/build_seo.mjs が EXPO_BASE_URL のパスを付ける。 -->
     <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
     <style id="expo-reset">
       /* These styles make the body full-height */
@@ -107,7 +110,8 @@
       // 開発サーバーには存在しないので、失敗しても黙って無視する。
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("./sw.js").catch(function () {});
+          var base = window.__FRIENDA_APP_BASE__ || "/";
+          navigator.serviceWorker.register(base + "sw.js").catch(function () {});
         });
       }
     </script>

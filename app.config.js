@@ -5,7 +5,7 @@ const app = require("./app.json");
  * ビルドのときだけ EXPO_BASE_URL でそのぶんを渡す。
  * 手元の開発サーバーはルート配信なので、なにも渡さなければ今までどおり。
  *
- * これに合わせて public/index.html・manifest.json・sw.js も相対パスにしてある。
+ * 公開ビルドの public/index.html は、この値を manifest・アイコン・sw.js の基準パスに反映する。
  */
 const baseUrl = (process.env.EXPO_BASE_URL || "").replace(/\/+$/, "");
 

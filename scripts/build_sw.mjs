@@ -8,10 +8,12 @@
 
 import { createHash } from "node:crypto";
 import { readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
-import { join, posix, relative } from "node:path";
+import { join, posix, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const DIST = fileURLToPath(new URL("../dist", import.meta.url));
+const DIST = process.env.DIST_DIR
+  ? resolve(process.env.DIST_DIR)
+  : fileURLToPath(new URL("../dist", import.meta.url));
 
 /**
  * sw.js 自身とビルド情報は除く。404.html は index.html と同じ中身なので入れない。
