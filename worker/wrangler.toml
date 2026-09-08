@@ -4,3 +4,12 @@ compatibility_date = "2026-08-04"
 
 [browser]
 binding = "MYBROWSER"
+
+[durable_objects]
+bindings = [
+  { name = "RATE_LIMIT", class_name = "RateLimit" }
+]
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["RateLimit"]

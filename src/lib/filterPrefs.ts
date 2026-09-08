@@ -29,8 +29,8 @@ export async function loadSetFilter(): Promise<SetKey[]> {
 }
 
 export function saveSetFilter(value: SetKey[]): void {
-  const write =
-    value.length === 0 ? AsyncStorage.removeItem(KEY) : AsyncStorage.setItem(KEY, JSON.stringify(value));
+  // 空配列も保存して、旧キーの値を再び移行しないようにする。
+  const write = AsyncStorage.setItem(KEY, JSON.stringify(value));
   write.catch(() => {
     // 覚えられなくても使えなくはならない
   });

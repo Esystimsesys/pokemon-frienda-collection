@@ -24,11 +24,11 @@
  */
 
 import { readFileSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
+import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = fileURLToPath(new URL("..", import.meta.url));
-const DIST = join(ROOT, "dist");
+const DIST = process.env.DIST_DIR ? resolve(process.env.DIST_DIR) : join(ROOT, "dist");
 
 /**
  * 配信先の絶対URL。既定は GitHub Pages のプロジェクトページ。
@@ -36,13 +36,17 @@ const DIST = join(ROOT, "dist");
  */
 const raw = process.env.SITE_URL ?? "https://esystimsesys.github.io/pokemon-frienda-collection/";
 const siteUrl = raw.endsWith("/") ? raw : `${raw}/`;
+const configuredBase = process.env.EXPO_BASE_URL ?? "";
+const trimmedBase = configuredBase.replace(/^\/+|\/+$/g, "");
+const appBase = trimmedBase ? `/${trimmedBase}/` : "/";
 
 // --- 1. index.html の絶対URLを埋める ---------------------------------------
 
 const indexPath = join(DIST, "index.html");
-const html = readFileSync(indexPath, "utf8");
+let html = readFileSync(indexPath, "utf8");
 if (html.includes("%SITE_URL%")) {
-  writeFileSync(indexPath, html.split("%SITE_URL%").join(siteUrl));
+  html = html.split("%SITE_URL%").join(siteUrl);
+  writeFileSync(indexPath, html);
   console.log(`dist/index.html  canonical/OGP = ${siteUrl}`);
 } else if (html.includes('rel="canonical"')) {
   // このスクリプトだけを二度目に走らせたとき（サイトマップの作り直しなど）。
@@ -52,6 +56,21 @@ if (html.includes("%SITE_URL%")) {
   // public/index.html から canonical / OGP が消えたときに気づけるようにする。
   // 黙って通すと、絶対URLの無いページが本番に出ていく。
   console.error("dist/index.html に canonical が無い。public/index.html を確認すること");
+  process.exit(1);
+}
+
+// GitHub Pages serves the same 404.html at /pick/<id>. Relative asset URLs then
+// resolve below /pick/; make the deployment base explicit before build_sw copies
+// this file to 404.html. The source template keeps / so expo start still works.
+const baseMarker = 'window.__FRIENDA_APP_BASE__ = "/";';
+if (html.includes(baseMarker)) {
+  html = html.replace(baseMarker, `window.__FRIENDA_APP_BASE__ = ${JSON.stringify(appBase)};`);
+  for (const asset of ["manifest.json", "apple-touch-icon.png", "favicon.png"]) {
+    html = html.replaceAll(`href="/${asset}"`, `href="${appBase}${asset}"`);
+  }
+  writeFileSync(indexPath, html);
+} else if (!html.includes(`window.__FRIENDA_APP_BASE__ = ${JSON.stringify(appBase)};`)) {
+  console.error("dist/index.html のアプリ基準パスを確認できない");
   process.exit(1);
 }
 

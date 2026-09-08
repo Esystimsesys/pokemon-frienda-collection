@@ -34,6 +34,9 @@ jobs:
       - name: 型チェック
         run: npx tsc --noEmit
 
+      - name: 回帰テスト
+        run: npm test && npm run test:data && npm --prefix worker test
+
       - name: ビルド時刻を決める
         run: echo "BUILD_TIME=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
 

@@ -317,7 +317,7 @@ def main() -> None:
         old = previous.get(p["id"])
         if not old:
             continue
-        for field in ("moves", "types", "stats", "grade", "mechanic", "specialMove"):
+        for field in ("moves", "types", "stats", "grade", "mechanic", "specialMove", "tagPartner", "legend"):
             new_value = p.get(field)
             old_value = old.get(field)
             empty = new_value in (None, [], {})
