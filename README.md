@@ -37,6 +37,8 @@ iPad や iPhone の Safari で開いて「ホーム画面に追加」すると�
 | `npm run manual` | 機械で読めなかった分を手で埋める／直す管理画面 |
 | `npm run build:web` | web を書き出す（`dist/`） |
 | `npm run typecheck` | 型チェック |
+| `npm test` / `npm run test:data` | 同期・保存・PWAとデータ生成の回帰テスト |
+| `npm --prefix worker test` | サークル同期のサーバー側制限の回帰テスト |
 
 新しい弾が出ても**コードを直す必要はない**。`npm run update` だけでよい
 （弾の一覧は公式サイトのナビから自動で見つける）。
@@ -62,8 +64,9 @@ iPad や iPhone の Safari で開いて「ホーム画面に追加」すると�
 
 リポジトリ名がURLに入るので、ビルド時に `EXPO_BASE_URL=/リポジトリ名` を渡している
 （ワークフローがリポジトリ名から自動で決める。`ユーザー名.github.io` という名前なら空になる）。
-これに合わせて `public/index.html`・`public/manifest.json`・生成される `sw.js` は
-**すべて相対パス**にしてあるので、ルート配信でもサブパス配信でもそのまま動く。
+これに合わせて `scripts/build_seo.mjs` が `index.html` の manifest・アイコン・Service Worker の
+URLに `EXPO_BASE_URL` を付ける。`manifest.json` 内の `./` は manifest 自身を基準に解決されるので、
+ルート配信でもサブパス配信でも直リンクから同じ場所を参照できる。
 
 GitHub Pages には書き換えの設定が無いため、`dist/404.html` に `index.html` と同じものを置いて
 直リンクに対応している（HTTPステータスは404のままだが、画面は出て JS が正しく遷移する）。

@@ -6,6 +6,8 @@
     "start": "expo start",
     "web": "expo start --web",
     "typecheck": "tsc --noEmit",
+    "test": "node --test scripts/test_*.mjs",
+    "test:data": "python3 -m unittest discover -s scripts -p 'test_*.py'",
     "update": "bash scripts/update.sh",
     "pr": "python3 scripts/review_pr.py",
     "manual": "python3 scripts/manual_fill.py",
