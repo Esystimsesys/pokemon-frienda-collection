@@ -113,6 +113,9 @@ export async function fetchCircleSync(token: string): Promise<CircleSyncResult> 
   await recordSyncAttempt();
 
   const res = await fetch(`${WORKER_URL}?token=${encodeURIComponent(token)}`);
+  if (res.status === 429) {
+    throw new Error("どうきかいすうが いっぱいだよ。じかんを おいて ためしてね。");
+  }
   let body: any = null;
   try {
     body = await res.json();
@@ -316,23 +319,31 @@ export function parseTrainingResponse(
  * 突き合わせて確認ずみ。
  */
 export function parsePickDexResponse(body: string): string[] {
+  const invalid = () => new Error("ピックの じょうほうが よめなかったよ。きろくは かえずに のこしてあるよ。");
   let json: any;
   try {
     json = JSON.parse(body);
   } catch {
-    return [];
+    throw invalid();
   }
-  const seasons: any[] = json?.params?.seasonDexStateList ?? [];
+  // 「読めなかった」と正常な所持ゼロを区別する。空配列を返すと同期側が
+  // 以前取り込んだ所持記録を削除するため、階層の欠落・型違いは同期を止める。
+  const seasons: unknown = json?.params?.seasonDexStateList;
+  if (!Array.isArray(seasons)) throw invalid();
   const ids = new Set<string>();
 
   for (const season of seasons) {
-    const grades: any[] = season?.gradeDexStateList ?? [];
+    const grades: unknown = season?.gradeDexStateList;
+    if (!Array.isArray(grades)) throw invalid();
     for (const grade of grades) {
-      const entries: any[] = grade?.pPickDexStateList ?? [];
+      const entries: unknown = grade?.pPickDexStateList;
+      if (!Array.isArray(entries)) throw invalid();
       for (const entry of entries) {
-        if (typeof entry?.getState !== "number" || entry.getState < 2) continue;
+        if (!Number.isInteger(entry?.getState) || entry.getState < 0) throw invalid();
+        if (entry.getState < 2) continue;
         const candidate = Array.isArray(entry?.img) ? entry.img[0] : null;
-        if (typeof candidate === "string" && PICK_BY_ID.has(candidate)) {
+        if (typeof candidate !== "string" || !candidate) throw invalid();
+        if (PICK_BY_ID.has(candidate)) {
           ids.add(candidate);
         }
       }

@@ -33,3 +33,16 @@ GitHub Pagesの公開URLがREADMEに書かれているものと違う場合、
 
 `worker/src/index.js` を直したら `npm run deploy` するだけ。
 GitHub Pages側のような自動デプロイは組んでいない（変更頻度が低いため、手動で十分）。
+
+## レート制限
+
+Worker はトークンのハッシュごと・クライアントIPのハッシュごとに専用の Durable Object SQLiteへ
+直近24時間の同期回数を保存し、それぞれ10回まで許可する。2つのDOを順番に消費するため、IP側で
+拒否された場合も先に消費したトークン側の1枠は戻らない。これは競合時に上限を超えないための
+fail-closedな仕様で、どちらかが上限に達した場合は `429` と `Retry-After` を返す。各DO内の判定と
+記録は同じSQLiteトランザクションで行うため、同時リクエストでも個別の上限を超えてブラウザを起動しない。
+同じWi-FiやNAT配下の端末は、Cloudflareから同じ公開IPに見える場合、そのIP側の10回枠を共有する。
+
+Cloudflareの `CF-Connecting-IP` が付かないリクエストは拒否する。`wrangler dev` のローカルテストでは
+このヘッダーを付けて試すこと。Workerのコードまたは `wrangler.toml` を変更したときは、Durable Object
+のバインディングとSQLite migrationを含めて `npm run deploy` を実行する必要がある。

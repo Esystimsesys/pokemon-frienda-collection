@@ -1,4 +1,26 @@
 import puppeteer from "@cloudflare/puppeteer";
+import { DurableObject } from "cloudflare:workers";
+import { consumeTokenAndIp } from "./rate-limit-core.mjs";
+import { checkAndConsumeSql, initializeRateLimitSql } from "./rate-limit-storage.mjs";
+
+async function sha256Hex(value) {
+  const bytes = new TextEncoder().encode(value);
+  const digest = await crypto.subtle.digest("SHA-256", bytes);
+  return [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, "0")).join("");
+}
+
+export class RateLimit extends DurableObject {
+  constructor(ctx, env) {
+    super(ctx, env);
+    ctx.blockConcurrencyWhile(async () => {
+      initializeRateLimitSql(ctx.storage.sql);
+    });
+  }
+
+  checkAndConsume() {
+    return this.ctx.storage.transactionSync(() => checkAndConsumeSql(this.ctx.storage.sql));
+  }
+}
 
 /**
  * フレンダサークル（circle.pokemonfrienda.com）はFirebase認証つきのJSアプリで、
@@ -53,7 +75,11 @@ function corsHeaders(origin) {
 function json(body, status, origin) {
   return new Response(JSON.stringify(body), {
     status,
-    headers: { "Content-Type": "application/json", ...corsHeaders(origin) },
+    headers: {
+      "Content-Type": "application/json",
+      "Cache-Control": "no-store",
+      ...corsHeaders(origin),
+    },
   });
 }
 
@@ -85,6 +111,38 @@ export default {
     const token = url.searchParams.get("token");
     if (!token || !/^[A-Za-z0-9_-]+$/.test(token)) {
       return json({ error: "invalid_token" }, 400, origin);
+    }
+    const clientIp = request.headers.get("CF-Connecting-IP")?.trim();
+    if (!clientIp) {
+      return json({ error: "client_ip_required" }, 400, origin);
+    }
+
+    const [tokenHash, ipHash] = await Promise.all([
+      sha256Hex(token),
+      sha256Hex(clientIp),
+    ]);
+    let tokenLimiter;
+    let ipLimiter;
+    try {
+      tokenLimiter = env.RATE_LIMIT.getByName(`token:${tokenHash}`);
+      ipLimiter = env.RATE_LIMIT.getByName(`ip:${ipHash}`);
+    } catch {
+      return json({ error: "rate_limit_unavailable" }, 503, origin);
+    }
+    const decision = await consumeTokenAndIp(tokenLimiter, ipLimiter);
+    if (decision.unavailable) {
+      return json({ error: "rate_limit_unavailable" }, 503, origin);
+    }
+    if (!decision.allowed) {
+      return new Response(JSON.stringify({ error: "rate_limited" }), {
+        status: 429,
+        headers: {
+          "Content-Type": "application/json",
+          "Cache-Control": "no-store",
+          "Retry-After": String(decision.retryAfter),
+          ...corsHeaders(origin),
+        },
+      });
     }
 
     let browser;
