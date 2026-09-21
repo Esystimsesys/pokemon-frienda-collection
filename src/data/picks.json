@@ -104,6 +104,75 @@
   }
  },
  {
+  "id": "3-2-004",
+  "no": "3-2-004",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ラプラス",
+  "group": "super",
+  "grade": 5,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-004_kira.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-004_kira_thumb.webp",
+  "moves": [
+   {
+    "name": "れいとうビーム",
+    "type": "こおり"
+   }
+  ],
+  "types": [
+   "みず",
+   "こおり"
+  ],
+  "mechanic": "ダイマックス",
+  "specialMove": "キョダイセンリツ",
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": null,
+   "hp": 236,
+   "attack": 112,
+   "defense": 106,
+   "spAttack": 112,
+   "spDefense": 124,
+   "speed": 3
+  }
+ },
+ {
+  "id": "3-2-005",
+  "no": "3-2-005",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "メルメタル",
+  "group": "super",
+  "grade": 5,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-005_kira.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-005_kira_thumb.webp",
+  "moves": [
+   {
+    "name": "ダブルパンツァー",
+    "type": "はがね"
+   }
+  ],
+  "types": [
+   "はがね"
+  ],
+  "mechanic": "ダイマックス",
+  "specialMove": "キョダイユウゲキ",
+  "tagPartner": null,
+  "legend": "まぼろし",
+  "stats": {
+   "energy": 336,
+   "hp": 239,
+   "attack": 182,
+   "defense": 182,
+   "spAttack": 104,
+   "spDefense": 85,
+   "speed": 1
+  }
+ },
+ {
   "id": "3-2-006",
   "no": "3-2-006",
   "set": "xt2",
@@ -170,6 +239,110 @@
    "defense": 122,
    "spAttack": 104,
    "spDefense": 110,
+   "speed": 4
+  }
+ },
+ {
+  "id": "3-2-008",
+  "no": "3-2-008",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ヌメルゴン",
+  "group": "super",
+  "grade": 5,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-008_kira.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-008_kira_thumb.webp",
+  "moves": [
+   {
+    "name": "りゅうのはどう",
+    "type": null
+   }
+  ],
+  "types": [
+   "ドラゴン"
+  ],
+  "mechanic": "テラスタル",
+  "specialMove": "テラバースト",
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": null,
+   "hp": 183,
+   "attack": 129,
+   "defense": 91,
+   "spAttack": 141,
+   "spDefense": 191,
+   "speed": 4
+  }
+ },
+ {
+  "id": "3-2-009",
+  "no": "3-2-009",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ヒスイゾロアーク",
+  "group": "super",
+  "grade": 5,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-009_kira.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-009_kira_thumb.webp",
+  "moves": [
+   {
+    "name": "うらみつらみ",
+    "type": "ゴースト"
+   }
+  ],
+  "types": [
+   "ノーマル",
+   "ゴースト"
+  ],
+  "mechanic": "テラスタル",
+  "specialMove": "テラバースト",
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 300,
+   "hp": 144,
+   "attack": 133,
+   "defense": 81,
+   "spAttack": 165,
+   "spDefense": 81,
+   "speed": 4
+  }
+ },
+ {
+  "id": "3-2-010",
+  "no": "3-2-010",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "サザンドラ",
+  "group": "super",
+  "grade": 5,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-010_kira.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-010_kira_thumb.webp",
+  "moves": [
+   {
+    "name": "かみくだく",
+    "type": "あく"
+   }
+  ],
+  "types": [
+   "あく",
+   "ドラゴン"
+  ],
+  "mechanic": "Zワザ",
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 336,
+   "hp": 186,
+   "attack": 135,
+   "defense": 116,
+   "spAttack": 160,
+   "spDefense": 116,
    "speed": 4
   }
  },
@@ -279,6 +452,145 @@
   }
  },
  {
+  "id": "3-2-014",
+  "no": "3-2-014",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ムクホーク",
+  "group": "treasure",
+  "grade": 4,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-014_kira.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-014_kira_thumb.webp",
+  "moves": [
+   {
+    "name": "インファイト",
+    "type": null
+   }
+  ],
+  "types": [
+   "ノーマル",
+   "ひこう"
+  ],
+  "mechanic": "メガシンカ",
+  "specialMove": "インファイト",
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 256,
+   "hp": 163,
+   "attack": 141,
+   "defense": 84,
+   "spAttack": 62,
+   "spDefense": 73,
+   "speed": 4
+  }
+ },
+ {
+  "id": "3-2-015",
+  "no": "3-2-015",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "デンリュウ",
+  "group": "treasure",
+  "grade": 4,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-015_kira.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-015_kira_thumb.webp",
+  "moves": [
+   {
+    "name": "かみなり",
+    "type": null
+   }
+  ],
+  "types": [
+   "でんき"
+  ],
+  "mechanic": "メガシンカ",
+  "specialMove": "かみなり",
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 268,
+   "hp": 169,
+   "attack": 90,
+   "defense": 101,
+   "spAttack": 136,
+   "spDefense": 107,
+   "speed": 2
+  }
+ },
+ {
+  "id": "3-2-016",
+  "no": "3-2-016",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "フライゴン",
+  "group": "treasure",
+  "grade": 4,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-016_kira.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-016_kira_thumb.webp",
+  "moves": [
+   {
+    "name": "あなをほる",
+    "type": "じめん"
+   }
+  ],
+  "types": [
+   "じめん",
+   "ドラゴン"
+  ],
+  "mechanic": "テラスタル",
+  "specialMove": "テラバースト",
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 272,
+   "hp": 158,
+   "attack": 119,
+   "defense": 96,
+   "spAttack": 96,
+   "spDefense": 96,
+   "speed": 4
+  }
+ },
+ {
+  "id": "3-2-017",
+  "no": "3-2-017",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ユキノオー",
+  "group": "treasure",
+  "grade": 4,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-017_kira.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-017_kira_thumb.webp",
+  "moves": [
+   {
+    "name": "ふぶき",
+    "type": "こおり"
+   }
+  ],
+  "types": [
+   "くさ",
+   "こおり"
+  ],
+  "mechanic": "テラスタル",
+  "specialMove": "テラバースト",
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 260,
+   "hp": 169,
+   "attack": 109,
+   "defense": 90,
+   "spAttack": 109,
+   "spDefense": 101,
+   "speed": 2
+  }
+ },
+ {
   "id": "3-2-018",
   "no": "3-2-018",
   "set": "xt2",
@@ -384,6 +696,74 @@
   }
  },
  {
+  "id": "3-2-021",
+  "no": "3-2-021",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ゴチルゼル",
+  "group": "treasure",
+  "grade": 4,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-021_kira.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-021_kira_thumb.webp",
+  "moves": [
+   {
+    "name": "サイコキネシス",
+    "type": "エスパー"
+   }
+  ],
+  "types": [
+   "エスパー"
+  ],
+  "mechanic": "タッグわざ",
+  "specialMove": "サイケこうせん",
+  "tagPartner": "クエスパトラ",
+  "legend": null,
+  "stats": {
+   "energy": 260,
+   "hp": 146,
+   "attack": 67,
+   "defense": 113,
+   "spAttack": 113,
+   "spDefense": 130,
+   "speed": 3
+  }
+ },
+ {
+  "id": "3-2-022",
+  "no": "3-2-022",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "マホイップ",
+  "group": "treasure",
+  "grade": 4,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-022_kira.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-022_kira_thumb.webp",
+  "moves": [
+   {
+    "name": "マジカルシャイン",
+    "type": "フェアリー"
+   }
+  ],
+  "types": [
+   "フェアリー"
+  ],
+  "mechanic": "タッグわざ",
+  "specialMove": "ムーンフォース",
+  "tagPartner": "サーナイト",
+  "legend": null,
+  "stats": {
+   "energy": 260,
+   "hp": 141,
+   "attack": 73,
+   "defense": 90,
+   "spAttack": 130,
+   "spDefense": 142,
+   "speed": 3
+  }
+ },
+ {
   "id": "3-2-023",
   "no": "3-2-023",
   "set": "xt2",
@@ -449,6 +829,342 @@
    "spAttack": 147,
    "spDefense": 113,
    "speed": 3
+  }
+ },
+ {
+  "id": "3-2-025",
+  "no": "3-2-025",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "コノヨザル",
+  "group": "treasure",
+  "grade": 4,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-025_kira.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-025_kira_thumb.webp",
+  "moves": [
+   {
+    "name": "ふんどのこぶし",
+    "type": "ゴースト"
+   }
+  ],
+  "types": [
+   "かくとう",
+   "ゴースト"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 280,
+   "hp": 192,
+   "attack": 136,
+   "defense": 96,
+   "spAttack": 62,
+   "spDefense": 107,
+   "speed": 4
+  }
+ },
+ {
+  "id": "3-2-026",
+  "no": "3-2-026",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ハリマロン",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-026.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-026_thumb.webp",
+  "moves": [
+   {
+    "name": "つるのムチ",
+    "type": "くさ"
+   }
+  ],
+  "types": [
+   "くさ"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 148,
+   "hp": 107,
+   "attack": 61,
+   "defense": 64,
+   "spAttack": 49,
+   "spDefense": 46,
+   "speed": 1
+  }
+ },
+ {
+  "id": "3-2-027",
+  "no": "3-2-027",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ハリボーグ",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-027.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-027_thumb.webp",
+  "moves": [
+   {
+    "name": "くさわけ",
+    "type": "くさ"
+   }
+  ],
+  "types": [
+   "くさ"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": null
+ },
+ {
+  "id": "3-2-028",
+  "no": "3-2-028",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ブリガロン",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-028.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-028_thumb.webp",
+  "moves": [
+   {
+    "name": "ローキック",
+    "type": "かくとう"
+   }
+  ],
+  "types": [
+   "くさ",
+   "かくとう"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 248,
+   "hp": 148,
+   "attack": 112,
+   "defense": 127,
+   "spAttack": 79,
+   "spDefense": 80,
+   "speed": 2
+  }
+ },
+ {
+  "id": "3-2-029",
+  "no": "3-2-029",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "フォッコ",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-029.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-029_thumb.webp",
+  "moves": [
+   {
+    "name": "ひのこ",
+    "type": "ほのお"
+   }
+  ],
+  "types": [
+   "ほのお"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 144,
+   "hp": 92,
+   "attack": 46,
+   "defense": 41,
+   "spAttack": 62,
+   "spDefense": 60,
+   "speed": 2
+  }
+ },
+ {
+  "id": "3-2-030",
+  "no": "3-2-030",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "テールナー",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-030.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-030_thumb.webp",
+  "moves": [
+   {
+    "name": "ニトロチャージ",
+    "type": "ほのお"
+   }
+  ],
+  "types": [
+   "ほのお"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 180,
+   "hp": 108,
+   "attack": 58,
+   "defense": 57,
+   "spAttack": 86,
+   "spDefense": 68,
+   "speed": 2
+  }
+ },
+ {
+  "id": "3-2-031",
+  "no": "3-2-031",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "マフォクシー",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-031.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-031_thumb.webp",
+  "moves": [
+   {
+    "name": "マジカルフレイム",
+    "type": "ほのお"
+   }
+  ],
+  "types": [
+   "ほのお",
+   "エスパー"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 248,
+   "hp": 135,
+   "attack": 74,
+   "defense": 77,
+   "spAttack": 119,
+   "spDefense": 105,
+   "speed": 4
+  }
+ },
+ {
+  "id": "3-2-032",
+  "no": "3-2-032",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ケロマツ",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-032.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-032_thumb.webp",
+  "moves": [
+   {
+    "name": "みずでっぽう",
+    "type": "みず"
+   }
+  ],
+  "types": [
+   "みず"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 148,
+   "hp": 93,
+   "attack": 56,
+   "defense": 41,
+   "spAttack": 62,
+   "spDefense": 45,
+   "speed": 2
+  }
+ },
+ {
+  "id": "3-2-033",
+  "no": "3-2-033",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ゲコガシラ",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-033.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-033_thumb.webp",
+  "moves": [
+   {
+    "name": "みずのはどう",
+    "type": "みず"
+   }
+  ],
+  "types": [
+   "みず"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 180,
+   "hp": 105,
+   "attack": 62,
+   "defense": 52,
+   "spAttack": 81,
+   "spDefense": 56,
+   "speed": 3
+  }
+ },
+ {
+  "id": "3-2-034",
+  "no": "3-2-034",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ゲッコウガ",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-034.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-034_thumb.webp",
+  "moves": [
+   {
+    "name": "たきのぼり",
+    "type": "みず"
+   }
+  ],
+  "types": [
+   "みず",
+   "あく"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 248,
+   "hp": 132,
+   "attack": 100,
+   "defense": 72,
+   "spAttack": 108,
+   "spDefense": 76,
+   "speed": 4
   }
  },
  {
@@ -624,6 +1340,144 @@
    "spAttack": 130,
    "spDefense": 80,
    "speed": 1
+  }
+ },
+ {
+  "id": "3-2-040",
+  "no": "3-2-040",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ユキカブリ",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-040.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-040_thumb.webp",
+  "moves": [
+   {
+    "name": "こおりのつぶて",
+    "type": "こおり"
+   }
+  ],
+  "types": [
+   "くさ",
+   "こおり"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 156,
+   "hp": 111,
+   "attack": 62,
+   "defense": 51,
+   "spAttack": 62,
+   "spDefense": 60,
+   "speed": 1
+  }
+ },
+ {
+  "id": "3-2-041",
+  "no": "3-2-041",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ユキノオー",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-041.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-041_thumb.webp",
+  "moves": [
+   {
+    "name": "れいとうパンチ",
+    "type": "こおり"
+   }
+  ],
+  "types": [
+   "くさ",
+   "こおり"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 232,
+   "hp": 150,
+   "attack": 97,
+   "defense": 80,
+   "spAttack": 97,
+   "spDefense": 90,
+   "speed": 2
+  }
+ },
+ {
+  "id": "3-2-042",
+  "no": "3-2-042",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "マホミル",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-042.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-042_thumb.webp",
+  "moves": [
+   {
+    "name": "たいあたり",
+    "type": "ノーマル"
+   }
+  ],
+  "types": [
+   "フェアリー"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 132,
+   "hp": 97,
+   "attack": 41,
+   "defense": 41,
+   "spAttack": 51,
+   "spDefense": 61,
+   "speed": 1
+  }
+ },
+ {
+  "id": "3-2-043",
+  "no": "3-2-043",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "マホイップ",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-043.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-043_thumb.webp",
+  "moves": [
+   {
+    "name": "ドレインキッス",
+    "type": "フェアリー"
+   }
+  ],
+  "types": [
+   "フェアリー"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 232,
+   "hp": 125,
+   "attack": 65,
+   "defense": 80,
+   "spAttack": 115,
+   "spDefense": 126,
+   "speed": 2
   }
  },
  {
@@ -828,6 +1682,992 @@
    "spAttack": 130,
    "spDefense": 100,
    "speed": 3
+  }
+ },
+ {
+  "id": "3-2-050",
+  "no": "3-2-050",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "マンキー",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-050.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-050_thumb.webp",
+  "moves": [
+   {
+    "name": "たいあたり",
+    "type": "ノーマル"
+   }
+  ],
+  "types": [
+   "かくとう"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 144,
+   "hp": 92,
+   "attack": 78,
+   "defense": 37,
+   "spAttack": 37,
+   "spDefense": 46,
+   "speed": 2
+  }
+ },
+ {
+  "id": "3-2-051",
+  "no": "3-2-051",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "オコリザル",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-051.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-051_thumb.webp",
+  "moves": [
+   {
+    "name": "いわくだき",
+    "type": "かくとう"
+   }
+  ],
+  "types": [
+   "かくとう"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 200,
+   "hp": 115,
+   "attack": 101,
+   "defense": 60,
+   "spAttack": 60,
+   "spDefense": 69,
+   "speed": 3
+  }
+ },
+ {
+  "id": "3-2-052",
+  "no": "3-2-052",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "コノヨザル",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-052.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-052_thumb.webp",
+  "moves": [
+   {
+    "name": "ローキック",
+    "type": "かくとう"
+   }
+  ],
+  "types": [
+   "かくとう",
+   "ゴースト"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": null
+ },
+ {
+  "id": "3-2-053",
+  "no": "3-2-053",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ドードー",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-053.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-053_thumb.webp",
+  "moves": [],
+  "types": [
+   "ノーマル",
+   "ひこう"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 148,
+   "hp": 88,
+   "attack": 83,
+   "defense": 46,
+   "spAttack": 37,
+   "spDefense": 37,
+   "speed": 2
+  }
+ },
+ {
+  "id": "3-2-054",
+  "no": "3-2-054",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ドードリオ",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-054.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-054_thumb.webp",
+  "moves": [
+   {
+    "name": "みだれづき",
+    "type": "ノーマル"
+   }
+  ],
+  "types": [
+   "ノーマル",
+   "ひこう"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": null
+ },
+ {
+  "id": "3-2-055",
+  "no": "3-2-055",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ムウマ",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-055.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-055_thumb.webp",
+  "moves": [
+   {
+    "name": "おどろかす",
+    "type": "ゴースト"
+   }
+  ],
+  "types": [
+   "ゴースト"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": null
+ },
+ {
+  "id": "3-2-056",
+  "no": "3-2-056",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ムウマージ",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-056.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-056_thumb.webp",
+  "moves": [
+   {
+    "name": "たたりめ",
+    "type": "ゴースト"
+   }
+  ],
+  "types": [
+   "ゴースト"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": null
+ },
+ {
+  "id": "3-2-057",
+  "no": "3-2-057",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "エアームド",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-057.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-057_thumb.webp",
+  "moves": [],
+  "types": [
+   "はがね",
+   "ひこう"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 220,
+   "hp": 125,
+   "attack": 85,
+   "defense": 145,
+   "spAttack": 45,
+   "spDefense": 75,
+   "speed": 2
+  }
+ },
+ {
+  "id": "3-2-058",
+  "no": "3-2-058",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "パチリス",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-058.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-058_thumb.webp",
+  "moves": [
+   {
+    "name": "スパーク",
+    "type": "でんき"
+   }
+  ],
+  "types": [
+   "でんき"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": null
+ },
+ {
+  "id": "3-2-059",
+  "no": "3-2-059",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "テッシード",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-059.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-059_thumb.webp",
+  "moves": [
+   {
+    "name": "たいあたり",
+    "type": "ノーマル"
+   }
+  ],
+  "types": [
+   "くさ",
+   "はがね"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 144,
+   "hp": 96,
+   "attack": 51,
+   "defense": 88,
+   "spAttack": 27,
+   "spDefense": 84,
+   "speed": 1
+  }
+ },
+ {
+  "id": "3-2-060",
+  "no": "3-2-060",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ナットレイ",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-060.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-060_thumb.webp",
+  "moves": [
+   {
+    "name": "メタルクロー",
+    "type": "はがね"
+   }
+  ],
+  "types": [
+   "くさ",
+   "はがね"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 228,
+   "hp": 134,
+   "attack": 99,
+   "defense": 136,
+   "spAttack": 59,
+   "spDefense": 121,
+   "speed": 1
+  }
+ },
+ {
+  "id": "3-2-061",
+  "no": "3-2-061",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ドロバンコ",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-061.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-061_thumb.webp",
+  "moves": [
+   {
+    "name": "じならし",
+    "type": "じめん"
+   }
+  ],
+  "types": [
+   "じめん"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 172,
+   "hp": 120,
+   "attack": 97,
+   "defense": 69,
+   "spAttack": 46,
+   "spDefense": 55,
+   "speed": 1
+  }
+ },
+ {
+  "id": "3-2-062",
+  "no": "3-2-062",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "バンバドロ",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-062.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-062_thumb.webp",
+  "moves": [
+   {
+    "name": "じだんだ",
+    "type": "じめん"
+   }
+  ],
+  "types": [
+   "じめん"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": null
+ },
+ {
+  "id": "3-2-063",
+  "no": "3-2-063",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ネッコアラ",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-063.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-063_thumb.webp",
+  "moves": [
+   {
+    "name": "こうそくスピン",
+    "type": "ノーマル"
+   }
+  ],
+  "types": [
+   "ノーマル"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 228,
+   "hp": 125,
+   "attack": 120,
+   "defense": 70,
+   "spAttack": 80,
+   "spDefense": 100,
+   "speed": 2
+  }
+ },
+ {
+  "id": "3-2-064",
+  "no": "3-2-064",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ジジーロン",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-064.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-064_thumb.webp",
+  "moves": [
+   {
+    "name": "りゅうのいぶき",
+    "type": null
+   }
+  ],
+  "types": [
+   "ノーマル",
+   "ドラゴン"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 228,
+   "hp": 138,
+   "attack": 65,
+   "defense": 90,
+   "spAttack": 140,
+   "spDefense": 96,
+   "speed": 1
+  }
+ },
+ {
+  "id": "3-2-065",
+  "no": "3-2-065",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "カジッチュ",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-065.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-065_thumb.webp",
+  "moves": [
+   {
+    "name": "おどろかす",
+    "type": "ゴースト"
+   }
+  ],
+  "types": [
+   "くさ",
+   "ドラゴン"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": null,
+   "hp": 92,
+   "attack": 41,
+   "defense": 78,
+   "spAttack": 41,
+   "spDefense": 41,
+   "speed": 1
+  }
+ },
+ {
+  "id": "3-2-066",
+  "no": "3-2-066",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "アップリュー",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-066.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-066_thumb.webp",
+  "moves": [
+   {
+    "name": "りゅうのいぶき",
+    "type": null
+   }
+  ],
+  "types": [
+   "くさ",
+   "ドラゴン"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 228,
+   "hp": 130,
+   "attack": 115,
+   "defense": 86,
+   "spAttack": 100,
+   "spDefense": 65,
+   "speed": 2
+  }
+ },
+ {
+  "id": "3-2-067",
+  "no": "3-2-067",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "タルップル",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-067.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-067_thumb.webp",
+  "moves": [
+   {
+    "name": "マジカルリーフ",
+    "type": "くさ"
+   }
+  ],
+  "types": [
+   "くさ",
+   "ドラゴン"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": null
+ },
+ {
+  "id": "3-2-068",
+  "no": "3-2-068",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "サシカマス",
+  "group": "basic",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-068.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-068_thumb.webp",
+  "moves": [
+   {
+    "name": "アクアジェット",
+    "type": "みず"
+   }
+  ],
+  "types": [
+   "みず"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": null,
+   "hp": 93,
+   "attack": 62,
+   "defense": 41,
+   "spAttack": 41,
+   "spDefense": 32,
+   "speed": 2
+  }
+ },
+ {
+  "id": "3-2-069",
+  "no": "3-2-069",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "カマスジョー",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-069.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-069_thumb.webp",
+  "moves": [
+   {
+    "name": "みずのはどう",
+    "type": "みず"
+   }
+  ],
+  "types": [
+   "みず"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 232,
+   "hp": 121,
+   "attack": 128,
+   "defense": 66,
+   "spAttack": 65,
+   "spDefense": 55,
+   "speed": 4
+  }
+ },
+ {
+  "id": "3-2-070",
+  "no": "3-2-070",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ミミズズ",
+  "group": "basic",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-070.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-070_thumb.webp",
+  "moves": [
+   {
+    "name": "じならし",
+    "type": "じめん"
+   }
+  ],
+  "types": [
+   "はがね"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 228,
+   "hp": 130,
+   "attack": 90,
+   "defense": 150,
+   "spAttack": 65,
+   "spDefense": 60,
+   "speed": 2
+  }
+ },
+ {
+  "id": "3-2-036A",
+  "no": "3-2-036A",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "プリン",
+  "group": "parallel",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-036A.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-036A_thumb.webp",
+  "moves": [
+   {
+    "name": "チャームボイス",
+    "type": "フェアリー"
+   }
+  ],
+  "types": [
+   "ノーマル",
+   "フェアリー"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 132,
+   "hp": 161,
+   "attack": 46,
+   "defense": 23,
+   "spAttack": 46,
+   "spDefense": 28,
+   "speed": 1
+  }
+ },
+ {
+  "id": "3-2-044A",
+  "no": "3-2-044A",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "エレキッド",
+  "group": "parallel",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-044A.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-044A_thumb.webp",
+  "moves": [
+   {
+    "name": "でんきショック",
+    "type": "でんき"
+   }
+  ],
+  "types": [
+   "でんき"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": null,
+   "hp": 97,
+   "attack": 62,
+   "defense": 39,
+   "spAttack": 64,
+   "spDefense": 55,
+   "speed": 3
+  }
+ },
+ {
+  "id": "3-2-047A",
+  "no": "3-2-047A",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ブビィ",
+  "group": "parallel",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-047A.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-047A_thumb.webp",
+  "moves": [
+   {
+    "name": "ひのこ",
+    "type": "ほのお"
+   }
+  ],
+  "types": [
+   "ほのお"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": null
+ },
+ {
+  "id": "3-2-063A",
+  "no": "3-2-063A",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ネッコアラ",
+  "group": "parallel",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-063A.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-063A_thumb.webp",
+  "moves": [
+   {
+    "name": "こうそくスピン",
+    "type": "ノーマル"
+   }
+  ],
+  "types": [
+   "ノーマル"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": null,
+   "hp": 125,
+   "attack": 120,
+   "defense": 70,
+   "spAttack": 80,
+   "spDefense": 100,
+   "speed": 2
+  }
+ },
+ {
+  "id": "3-2-043★",
+  "no": "3-2-043★",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "マホイップ",
+  "group": "shiny",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-043★.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-043★_thumb.webp",
+  "moves": [
+   {
+    "name": "ドレインキッス",
+    "type": "フェアリー"
+   }
+  ],
+  "types": [
+   "フェアリー"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": null
+ },
+ {
+  "id": "3-2-054★",
+  "no": "3-2-054★",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ドードリオ",
+  "group": "shiny",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-054★.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-054★_thumb.webp",
+  "moves": [
+   {
+    "name": "みだれづき",
+    "type": "ノーマル"
+   }
+  ],
+  "types": [
+   "ノーマル",
+   "ひこう"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 224,
+   "hp": 120,
+   "attack": 115,
+   "defense": 76,
+   "spAttack": 65,
+   "spDefense": 65,
+   "speed": 4
+  }
+ },
+ {
+  "id": "3-2-056★",
+  "no": "3-2-056★",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ムウマージ",
+  "group": "shiny",
+  "grade": 3,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-056★.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-056★_thumb.webp",
+  "moves": [
+   {
+    "name": "たたりめ",
+    "type": "ゴースト"
+   }
+  ],
+  "types": [
+   "ゴースト"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 232,
+   "hp": 120,
+   "attack": 65,
+   "defense": 65,
+   "spAttack": 110,
+   "spDefense": 110,
+   "speed": 4
+  }
+ },
+ {
+  "id": "3-2-065★",
+  "no": "3-2-065★",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "カジッチュ",
+  "group": "shiny",
+  "grade": 2,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-065★.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-065★_thumb.webp",
+  "moves": [
+   {
+    "name": "おどろかす",
+    "type": "ゴースト"
+   }
+  ],
+  "types": [
+   "くさ",
+   "ドラゴン"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": null,
+   "hp": 92,
+   "attack": 41,
+   "defense": 78,
+   "spAttack": 41,
+   "spDefense": 41,
+   "speed": 1
+  }
+ },
+ {
+  "id": "3-2-071★",
+  "no": "3-2-071★",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ウインディ",
+  "group": "shiny",
+  "grade": 4,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-071★_kira.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-071★_kira_thumb.webp",
+  "moves": [
+   {
+    "name": "だいもんじ",
+    "type": "ほのお"
+   }
+  ],
+  "types": [
+   "ほのお"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 288,
+   "hp": 169,
+   "attack": 130,
+   "defense": 96,
+   "spAttack": 119,
+   "spDefense": 96,
+   "speed": 4
+  }
+ },
+ {
+  "id": "3-2-072★",
+  "no": "3-2-072★",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "name": "ヘラクロス",
+  "group": "shiny",
+  "grade": 4,
+  "image": "https://pokemonfrienda.com/new/img/xt2/3-2-072★_kira.webp",
+  "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-072★_kira_thumb.webp",
+  "moves": [
+   {
+    "name": "メガホーン",
+    "type": "むし"
+   }
+  ],
+  "types": [
+   "むし",
+   "かくとう"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 264,
+   "hp": 158,
+   "attack": 147,
+   "defense": 90,
+   "spAttack": 50,
+   "spDefense": 113,
+   "speed": 4
   }
  },
  {
@@ -29783,6 +31623,110 @@
    "defense": 77,
    "spAttack": 59,
    "spDefense": 95,
+   "speed": 3
+  }
+ },
+ {
+  "id": "p125",
+  "no": "P",
+  "set": "special",
+  "setLabel": "スペシャルピック",
+  "setOrder": 13,
+  "name": "ゼルネアス",
+  "group": "special",
+  "grade": null,
+  "image": "https://pokemonfrienda.com/new/special/img/p125.webp",
+  "thumb": "https://pokemonfrienda.com/new/special/img/p125_thumb.webp",
+  "moves": [
+   {
+    "name": "ムーンフォース",
+    "type": "フェアリー"
+   }
+  ],
+  "types": [
+   "フェアリー"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": "でんせつ",
+  "stats": {
+   "energy": null,
+   "hp": 186,
+   "attack": 136,
+   "defense": 100,
+   "spAttack": 136,
+   "spDefense": 103,
+   "speed": 4
+  }
+ },
+ {
+  "id": "p124",
+  "no": "P",
+  "set": "special",
+  "setLabel": "スペシャルピック",
+  "setOrder": 13,
+  "name": "イベルタル",
+  "group": "special",
+  "grade": null,
+  "image": "https://pokemonfrienda.com/new/special/img/p124.webp",
+  "thumb": "https://pokemonfrienda.com/new/special/img/p124_thumb.webp",
+  "moves": [
+   {
+    "name": "あくのはどう",
+    "type": "あく"
+   }
+  ],
+  "types": [
+   "あく",
+   "ひこう"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": "でんせつ",
+  "stats": {
+   "energy": 308,
+   "hp": 186,
+   "attack": 136,
+   "defense": 100,
+   "spAttack": 136,
+   "spDefense": 103,
+   "speed": 4
+  }
+ },
+ {
+  "id": "p123",
+  "no": "P",
+  "set": "special",
+  "setLabel": "スペシャルピック",
+  "setOrder": 13,
+  "name": "ジガルデ",
+  "group": "special",
+  "grade": null,
+  "image": "https://pokemonfrienda.com/new/special/img/p123.webp",
+  "thumb": "https://pokemonfrienda.com/new/special/img/p123_thumb.webp",
+  "moves": [
+   {
+    "name": "コアパニッシャー",
+    "type": null
+   }
+  ],
+  "types": [
+   "ドラゴン",
+   "じめん"
+  ],
+  "mechanic": null,
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": "でんせつ",
+  "stats": {
+   "energy": 308,
+   "hp": 270,
+   "attack": 103,
+   "defense": 123,
+   "spAttack": 94,
+   "spDefense": 98,
    "speed": 3
   }
  },

@@ -11399,6 +11399,33 @@
     }
   },
   {
+    "id": "3-2-004",
+    "types": [
+      "みず",
+      "こおり"
+    ],
+    "grade": 5,
+    "firstMoveType": "こおり",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-005",
+    "types": [
+      "はがね"
+    ],
+    "grade": 5,
+    "firstMoveType": "はがね",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
     "id": "3-2-006",
     "types": [
       "かくとう",
@@ -11424,6 +11451,47 @@
       "types": "ok",
       "grade": "ok",
       "firstMoveType": "low_score"
+    }
+  },
+  {
+    "id": "3-2-008",
+    "types": [
+      "ドラゴン"
+    ],
+    "grade": 5,
+    "firstMoveType": null,
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "low_score"
+    }
+  },
+  {
+    "id": "3-2-009",
+    "types": [
+      "ノーマル",
+      "ゴースト"
+    ],
+    "grade": 5,
+    "firstMoveType": "ゴースト",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-010",
+    "types": [
+      "あく",
+      "ドラゴン"
+    ],
+    "grade": 5,
+    "firstMoveType": "あく",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
     }
   },
   {
@@ -11462,6 +11530,61 @@
     ],
     "grade": 4,
     "firstMoveType": "はがね",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-014",
+    "types": [
+      "ノーマル",
+      "ひこう"
+    ],
+    "grade": 4,
+    "firstMoveType": null,
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "low_score"
+    }
+  },
+  {
+    "id": "3-2-015",
+    "types": [
+      "でんき"
+    ],
+    "grade": 4,
+    "firstMoveType": null,
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "low_score"
+    }
+  },
+  {
+    "id": "3-2-016",
+    "types": [
+      "じめん",
+      "ドラゴン"
+    ],
+    "grade": 4,
+    "firstMoveType": "じめん",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-017",
+    "types": [
+      "くさ",
+      "こおり"
+    ],
+    "grade": 4,
+    "firstMoveType": "こおり",
     "reason": {
       "types": "ok",
       "grade": "ok",
@@ -11511,6 +11634,32 @@
     }
   },
   {
+    "id": "3-2-021",
+    "types": [
+      "エスパー"
+    ],
+    "grade": 4,
+    "firstMoveType": "エスパー",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-022",
+    "types": [
+      "フェアリー"
+    ],
+    "grade": 4,
+    "firstMoveType": "フェアリー",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
     "id": "3-2-023",
     "types": [
       "でんき"
@@ -11537,6 +11686,140 @@
     }
   },
   {
+    "id": "3-2-025",
+    "types": [
+      "かくとう",
+      "ゴースト"
+    ],
+    "grade": 4,
+    "firstMoveType": "ゴースト",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-026",
+    "types": [
+      "くさ"
+    ],
+    "grade": 2,
+    "firstMoveType": "くさ",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-027",
+    "types": [
+      "くさ"
+    ],
+    "grade": 2,
+    "firstMoveType": "くさ",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-028",
+    "types": [
+      "くさ",
+      "かくとう"
+    ],
+    "grade": 3,
+    "firstMoveType": "かくとう",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-029",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "firstMoveType": "ほのお",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-030",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "firstMoveType": "ほのお",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-031",
+    "types": [
+      "ほのお",
+      "エスパー"
+    ],
+    "grade": 3,
+    "firstMoveType": "ほのお",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-032",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "firstMoveType": "みず",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-033",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "firstMoveType": "みず",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-034",
+    "types": [
+      "みず",
+      "あく"
+    ],
+    "grade": 3,
+    "firstMoveType": "みず",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
     "id": "3-2-035",
     "types": [
       "ノーマル",
@@ -11552,6 +11835,20 @@
   },
   {
     "id": "3-2-036",
+    "types": [
+      "ノーマル",
+      "フェアリー"
+    ],
+    "grade": 2,
+    "firstMoveType": "フェアリー",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-036A",
     "types": [
       "ノーマル",
       "フェアリー"
@@ -11607,7 +11904,87 @@
     }
   },
   {
+    "id": "3-2-040",
+    "types": [
+      "くさ",
+      "こおり"
+    ],
+    "grade": 2,
+    "firstMoveType": "こおり",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-041",
+    "types": [
+      "くさ",
+      "こおり"
+    ],
+    "grade": 3,
+    "firstMoveType": "こおり",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-042",
+    "types": [
+      "フェアリー"
+    ],
+    "grade": 2,
+    "firstMoveType": "ノーマル",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-043",
+    "types": [
+      "フェアリー"
+    ],
+    "grade": 3,
+    "firstMoveType": "フェアリー",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-043★",
+    "types": [
+      "フェアリー"
+    ],
+    "grade": 3,
+    "firstMoveType": "フェアリー",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
     "id": "3-2-044",
+    "types": [
+      "でんき"
+    ],
+    "grade": 2,
+    "firstMoveType": "でんき",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-044A",
     "types": [
       "でんき"
     ],
@@ -11659,6 +12036,19 @@
     }
   },
   {
+    "id": "3-2-047A",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 2,
+    "firstMoveType": "ほのお",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
     "id": "3-2-048",
     "types": [
       "ほのお"
@@ -11678,6 +12068,370 @@
     ],
     "grade": 3,
     "firstMoveType": "ほのお",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-050",
+    "types": [
+      "かくとう"
+    ],
+    "grade": 2,
+    "firstMoveType": "ノーマル",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-051",
+    "types": [
+      "かくとう"
+    ],
+    "grade": 2,
+    "firstMoveType": "かくとう",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-052",
+    "types": [
+      "かくとう",
+      "ゴースト"
+    ],
+    "grade": 3,
+    "firstMoveType": "かくとう",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-053",
+    "types": [
+      "ノーマル",
+      "ひこう"
+    ],
+    "grade": 2,
+    "firstMoveType": "ひこう",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-054",
+    "types": [
+      "ノーマル",
+      "ひこう"
+    ],
+    "grade": 3,
+    "firstMoveType": "ノーマル",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-054★",
+    "types": [
+      "ノーマル",
+      "ひこう"
+    ],
+    "grade": 3,
+    "firstMoveType": "ノーマル",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-055",
+    "types": [
+      "ゴースト"
+    ],
+    "grade": 2,
+    "firstMoveType": "ゴースト",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-056",
+    "types": [
+      "ゴースト"
+    ],
+    "grade": 3,
+    "firstMoveType": "ゴースト",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-056★",
+    "types": [
+      "ゴースト"
+    ],
+    "grade": 3,
+    "firstMoveType": "ゴースト",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-057",
+    "types": [
+      "はがね",
+      "ひこう"
+    ],
+    "grade": 3,
+    "firstMoveType": "ひこう",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-058",
+    "types": [
+      "でんき"
+    ],
+    "grade": 3,
+    "firstMoveType": "でんき",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-059",
+    "types": [
+      "くさ",
+      "はがね"
+    ],
+    "grade": 2,
+    "firstMoveType": "ノーマル",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-060",
+    "types": [
+      "くさ",
+      "はがね"
+    ],
+    "grade": 3,
+    "firstMoveType": "はがね",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-061",
+    "types": [
+      "じめん"
+    ],
+    "grade": 2,
+    "firstMoveType": "じめん",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-062",
+    "types": [
+      "じめん"
+    ],
+    "grade": 3,
+    "firstMoveType": "じめん",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-063",
+    "types": [
+      "ノーマル"
+    ],
+    "grade": 3,
+    "firstMoveType": "ノーマル",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-063A",
+    "types": [
+      "ノーマル"
+    ],
+    "grade": 3,
+    "firstMoveType": "ノーマル",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-064",
+    "types": [
+      "ノーマル",
+      "ドラゴン"
+    ],
+    "grade": 3,
+    "firstMoveType": null,
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "low_score"
+    }
+  },
+  {
+    "id": "3-2-065",
+    "types": [
+      "くさ",
+      "ドラゴン"
+    ],
+    "grade": 2,
+    "firstMoveType": "ゴースト",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-065★",
+    "types": [
+      "くさ",
+      "ドラゴン"
+    ],
+    "grade": 2,
+    "firstMoveType": "ゴースト",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-066",
+    "types": [
+      "くさ",
+      "ドラゴン"
+    ],
+    "grade": 3,
+    "firstMoveType": null,
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "low_score"
+    }
+  },
+  {
+    "id": "3-2-067",
+    "types": [
+      "くさ",
+      "ドラゴン"
+    ],
+    "grade": 3,
+    "firstMoveType": "くさ",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-068",
+    "types": [
+      "みず"
+    ],
+    "grade": 2,
+    "firstMoveType": "みず",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-069",
+    "types": [
+      "みず"
+    ],
+    "grade": 3,
+    "firstMoveType": "みず",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-070",
+    "types": [
+      "はがね"
+    ],
+    "grade": 3,
+    "firstMoveType": "じめん",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-071★",
+    "types": [
+      "ほのお"
+    ],
+    "grade": 4,
+    "firstMoveType": "ほのお",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-072★",
+    "types": [
+      "むし",
+      "かくとう"
+    ],
+    "grade": 4,
+    "firstMoveType": "むし",
     "reason": {
       "types": "ok",
       "grade": "ok",
@@ -13352,6 +14106,47 @@
     ],
     "grade": null,
     "firstMoveType": "じめん",
+    "reason": {
+      "types": "ok",
+      "grade": "no_star",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "p123",
+    "types": [
+      "ドラゴン",
+      "じめん"
+    ],
+    "grade": null,
+    "firstMoveType": null,
+    "reason": {
+      "types": "ok",
+      "grade": "no_star",
+      "firstMoveType": "low_score"
+    }
+  },
+  {
+    "id": "p124",
+    "types": [
+      "あく",
+      "ひこう"
+    ],
+    "grade": null,
+    "firstMoveType": "あく",
+    "reason": {
+      "types": "ok",
+      "grade": "no_star",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "p125",
+    "types": [
+      "フェアリー"
+    ],
+    "grade": null,
+    "firstMoveType": "フェアリー",
     "reason": {
       "types": "ok",
       "grade": "no_star",

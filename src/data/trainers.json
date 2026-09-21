@@ -1,5 +1,47 @@
 [
  {
+  "id": "xt2-1",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "order": 1,
+  "name": "きのこマニア シノ",
+  "image": "https://pokemonfrienda.com/new/img/xt2/img_trainer1_sp.webp",
+  "reward": "きのこアクセサリー",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/xt2/img_trainer1-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/xt2/img_trainer1-2-modal.webp"
+  ]
+ },
+ {
+  "id": "xt2-2",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "order": 2,
+  "name": "ふわふわガール ユキコ",
+  "image": "https://pokemonfrienda.com/new/img/xt2/img_trainer2_sp.webp",
+  "reward": "ふわもこパジャマ＆アクセサリー",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/xt2/img_trainer2-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/xt2/img_trainer2-2-modal.webp"
+  ]
+ },
+ {
+  "id": "xt2-3",
+  "set": "xt2",
+  "setLabel": "エクストレジャー2だん",
+  "setOrder": 0,
+  "order": 3,
+  "name": "マスターフレンダー ベリウス",
+  "image": "https://pokemonfrienda.com/new/img/xt2/img_trainer3_sp.webp",
+  "reward": "ベリウスのふく＆ぼうし",
+  "rewardImages": [
+   "https://pokemonfrienda.com/new/img/xt2/img_trainer3-1-modal.webp",
+   "https://pokemonfrienda.com/new/img/xt2/img_trainer3-2-modal.webp"
+  ]
+ },
+ {
   "id": "xt1-1",
   "set": "xt1",
   "setLabel": "エクストレジャー1だん",
