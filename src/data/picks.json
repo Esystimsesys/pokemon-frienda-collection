@@ -132,7 +132,7 @@
    "energy": 308,
    "hp": 236,
    "attack": 112,
-   "defense": 106,
+   "defense": 105,
    "spAttack": 112,
    "spDefense": 124,
    "speed": 3
@@ -924,7 +924,15 @@
   "specialMove": null,
   "tagPartner": null,
   "legend": null,
-  "stats": null
+  "stats": {
+   "energy": 180,
+   "hp": 112,
+   "attack": 76,
+   "defense": 92,
+   "spAttack": 56,
+   "spDefense": 58,
+   "speed": 2
+  }
  },
  {
   "id": "3-2-028",
@@ -1777,7 +1785,15 @@
   "specialMove": null,
   "tagPartner": null,
   "legend": null,
-  "stats": null
+  "stats": {
+   "energy": 248,
+   "hp": 170,
+   "attack": 120,
+   "defense": 85,
+   "spAttack": 55,
+   "spDefense": 95,
+   "speed": 3
+  }
  },
  {
   "id": "3-2-053",
@@ -1839,7 +1855,15 @@
   "specialMove": null,
   "tagPartner": null,
   "legend": null,
-  "stats": null
+  "stats": {
+   "energy": 224,
+   "hp": 120,
+   "attack": 115,
+   "defense": 75,
+   "spAttack": 65,
+   "spDefense": 65,
+   "speed": 4
+  }
  },
  {
   "id": "3-2-055",
@@ -1865,7 +1889,15 @@
   "specialMove": null,
   "tagPartner": null,
   "legend": null,
-  "stats": null
+  "stats": {
+   "energy": 192,
+   "hp": 111,
+   "attack": 60,
+   "defense": 60,
+   "spAttack": 83,
+   "spDefense": 83,
+   "speed": 3
+  }
  },
  {
   "id": "3-2-056",
@@ -1891,7 +1923,15 @@
   "specialMove": null,
   "tagPartner": null,
   "legend": null,
-  "stats": null
+  "stats": {
+   "energy": 232,
+   "hp": 120,
+   "attack": 65,
+   "defense": 65,
+   "spAttack": 110,
+   "spDefense": 110,
+   "speed": 4
+  }
  },
  {
   "id": "3-2-057",
@@ -1952,7 +1992,15 @@
   "specialMove": null,
   "tagPartner": null,
   "legend": null,
-  "stats": null
+  "stats": {
+   "energy": 196,
+   "hp": 120,
+   "attack": 50,
+   "defense": 75,
+   "spAttack": 50,
+   "spDefense": 95,
+   "speed": 3
+  }
  },
  {
   "id": "3-2-059",
@@ -2082,7 +2130,15 @@
   "specialMove": null,
   "tagPartner": null,
   "legend": null,
-  "stats": null
+  "stats": {
+   "energy": 236,
+   "hp": 160,
+   "attack": 130,
+   "defense": 105,
+   "spAttack": 60,
+   "spDefense": 90,
+   "speed": 1
+  }
  },
  {
   "id": "3-2-063",
@@ -2248,7 +2304,15 @@
   "specialMove": null,
   "tagPartner": null,
   "legend": null,
-  "stats": null
+  "stats": {
+   "energy": 228,
+   "hp": 170,
+   "attack": 90,
+   "defense": 85,
+   "spAttack": 105,
+   "spDefense": 85,
+   "speed": 1
+  }
  },
  {
   "id": "3-2-068",
@@ -2312,7 +2376,7 @@
    "energy": 232,
    "hp": 121,
    "attack": 128,
-   "defense": 66,
+   "defense": 65,
    "spAttack": 65,
    "spDefense": 55,
    "speed": 4
@@ -2445,7 +2509,15 @@
   "specialMove": null,
   "tagPartner": null,
   "legend": null,
-  "stats": null
+  "stats": {
+   "energy": 168,
+   "hp": 97,
+   "attack": 74,
+   "defense": 39,
+   "spAttack": 69,
+   "spDefense": 55,
+   "speed": 3
+  }
  },
  {
   "id": "3-2-063A",
@@ -2505,7 +2577,15 @@
   "specialMove": null,
   "tagPartner": null,
   "legend": null,
-  "stats": null
+  "stats": {
+   "energy": 232,
+   "hp": 125,
+   "attack": 65,
+   "defense": 80,
+   "spAttack": 115,
+   "spDefense": 126,
+   "speed": 2
+  }
  },
  {
   "id": "3-2-054★",
