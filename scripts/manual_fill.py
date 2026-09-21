@@ -98,6 +98,13 @@ def load_picks() -> list[dict]:
     return json.loads(PICKS.read_text(encoding="utf-8"))
 
 
+def missing_required_values(req: dict) -> list[str]:
+    """未入力補完では、空欄を保存済みとして先へ進ませない。"""
+    if not req.get("requireNonEmpty"):
+        return []
+    return [k for k, v in req.get("values", {}).items() if not str(v).strip()]
+
+
 # ステータス欄の5項目。picks.json のキーと、券面の見出しの対応
 STAT_FIELDS = [
     ("hp", "HP"),
@@ -259,6 +266,8 @@ PAGE = """<!doctype html>
 <main id="app"></main>
 <script>
 let todo=[],types=[],i=0,view='fill',target=null,msg='';
+const VALUE_FIELDS=['moveName','moveType','specialMove','energy','grade','hp','attack','defense','spAttack','spDefense'];
+const FIELD_LABELS={moveName:'わざ名',moveType:'わざタイプ',specialMove:'とくべつなわざ',energy:'ポケエネ',grade:'★',hp:'HP',attack:'ATK',defense:'DEF',spAttack:'SP.ATK',spDefense:'SP.DEF'};
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
@@ -285,7 +294,7 @@ function pickType(t){ (view==='edit'?target:todo[i]).values.moveType=t; keep(); 
 // 描き直す前に、いま入力欄に打ってあるものを持ち越す
 function keep(){
   const t = view==='edit'?target:todo[i]; if(!t) return;
-  for(const k of ['moveName','energy','grade','specialMove']){
+  for(const k of VALUE_FIELDS){
     const el=document.getElementById(k); if(el) t.values[k]=el.value;
   }
 }
@@ -390,16 +399,35 @@ function open_(n){ target=window._hits[n]; msg=''; render(); }
 
 async function save(){
   const t = view==='edit' ? target : todo[i];
-  const fields = view==='edit' ? ['moveName','moveType','specialMove','energy','grade','hp','attack','defense','spAttack','spDefense'] : t.need;
+  const fields = view==='edit' ? VALUE_FIELDS : t.need;
   keep();
   const v={};
   for(const k of fields) v[k] = t.values[k]===undefined ? '' : String(t.values[k]);
-  await fetch('/api/save',{method:'POST',body:JSON.stringify({id:t.id,values:v})});
-  if(view==='edit'){
-    msg='保存しました';
-    target = await (await fetch('/api/pick/'+encodeURIComponent(t.id))).json();
+  if(view!=='edit'){
+    const missing=fields.filter(k=>!v[k].trim());
+    if(missing.length){
+      msg='未入力があります: '+missing.map(k=>FIELD_LABELS[k]||k).join('、');
+      render(); return;
+    }
+  }
+  try{
+    const response=await fetch('/api/save',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({id:t.id,values:v,requireNonEmpty:view!=='edit'})
+    });
+    if(!response.ok){
+      const body=await response.json().catch(()=>({}));
+      throw new Error(body.error||`HTTP ${response.status}`);
+    }
+    if(view==='edit'){
+      msg='保存しました';
+      target = await (await fetch('/api/pick/'+encodeURIComponent(t.id))).json();
+      render();
+    } else { i++; msg=''; render(); }
+  }catch(e){
+    msg='保存できませんでした: '+(e instanceof Error?e.message:String(e));
     render();
-  } else { i++; msg=''; render(); }
+  }
 }
 
 addEventListener('keydown',e=>{
@@ -476,6 +504,14 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         req = json.loads(self.rfile.read(int(self.headers.get("Content-Length", 0))))
+        missing = missing_required_values(req)
+        if missing:
+            body = json.dumps(
+                {"error": f"未入力の項目があります: {', '.join(missing)}"},
+                ensure_ascii=False,
+            ).encode("utf-8")
+            self.send(400, body, "application/json; charset=utf-8")
+            return
         manual = load_manual()
         entry = manual.get(req["id"], {})
         for k, v in req["values"].items():

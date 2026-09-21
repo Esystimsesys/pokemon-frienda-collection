@@ -15979,6 +15979,44 @@
     }
   },
   {
+    "id": "3-2-004",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 236,
+      "attack": 112,
+      "defense": 106,
+      "spAttack": 112,
+      "spDefense": 124
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-005",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 239,
+      "attack": 182,
+      "defense": 182,
+      "spAttack": 104,
+      "spDefense": 85
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
     "id": "3-2-006",
     "had_existing_stats": true,
     "ocr_complete": true,
@@ -16007,6 +16045,63 @@
       "defense": 122,
       "spAttack": 104,
       "spDefense": 110
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-008",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 183,
+      "attack": 129,
+      "defense": 91,
+      "spAttack": 141,
+      "spDefense": 191
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-009",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 144,
+      "attack": 133,
+      "defense": 81,
+      "spAttack": 165,
+      "spDefense": 81
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-010",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 186,
+      "attack": 135,
+      "defense": 116,
+      "spAttack": 160,
+      "spDefense": 116
     },
     "raw": {
       "hp": "ok",
@@ -16074,6 +16169,82 @@
     }
   },
   {
+    "id": "3-2-014",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 163,
+      "attack": 141,
+      "defense": 84,
+      "spAttack": 62,
+      "spDefense": 73
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-015",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 169,
+      "attack": 90,
+      "defense": 101,
+      "spAttack": 136,
+      "spDefense": 107
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-016",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 158,
+      "attack": 119,
+      "defense": 96,
+      "spAttack": 96,
+      "spDefense": 96
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-017",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 169,
+      "attack": 109,
+      "defense": 90,
+      "spAttack": 109,
+      "spDefense": 101
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
     "id": "3-2-018",
     "had_existing_stats": true,
     "ocr_complete": true,
@@ -16131,6 +16302,44 @@
     }
   },
   {
+    "id": "3-2-021",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 146,
+      "attack": 67,
+      "defense": 113,
+      "spAttack": 113,
+      "spDefense": 130
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-022",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 141,
+      "attack": 73,
+      "defense": 90,
+      "spAttack": 130,
+      "spDefense": 142
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
     "id": "3-2-023",
     "had_existing_stats": true,
     "ocr_complete": true,
@@ -16169,6 +16378,195 @@
     }
   },
   {
+    "id": "3-2-025",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 192,
+      "attack": 136,
+      "defense": 96,
+      "spAttack": 62,
+      "spDefense": 107
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-026",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 107,
+      "attack": 61,
+      "defense": 64,
+      "spAttack": 49,
+      "spDefense": 46
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-027",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {
+      "hp": 112,
+      "attack": 76,
+      "defense": 92,
+      "spAttack": 56
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "low_margin"
+    }
+  },
+  {
+    "id": "3-2-028",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 148,
+      "attack": 112,
+      "defense": 127,
+      "spAttack": 79,
+      "spDefense": 80
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-029",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 92,
+      "attack": 46,
+      "defense": 41,
+      "spAttack": 62,
+      "spDefense": 60
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-030",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 108,
+      "attack": 58,
+      "defense": 57,
+      "spAttack": 86,
+      "spDefense": 68
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-031",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 135,
+      "attack": 74,
+      "defense": 77,
+      "spAttack": 119,
+      "spDefense": 105
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-032",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 93,
+      "attack": 56,
+      "defense": 41,
+      "spAttack": 62,
+      "spDefense": 45
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-033",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 105,
+      "attack": 62,
+      "defense": 52,
+      "spAttack": 81,
+      "spDefense": 56
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-034",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 132,
+      "attack": 100,
+      "defense": 72,
+      "spAttack": 108,
+      "spDefense": 76
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
     "id": "3-2-035",
     "had_existing_stats": true,
     "ocr_complete": true,
@@ -16190,6 +16588,25 @@
   {
     "id": "3-2-036",
     "had_existing_stats": true,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 161,
+      "attack": 46,
+      "defense": 23,
+      "spAttack": 46,
+      "spDefense": 28
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-036A",
+    "had_existing_stats": false,
     "ocr_complete": true,
     "ocr_values": {
       "hp": 161,
@@ -16264,8 +16681,121 @@
     }
   },
   {
+    "id": "3-2-040",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 111,
+      "attack": 62,
+      "defense": 51,
+      "spAttack": 62,
+      "spDefense": 60
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-041",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 150,
+      "attack": 97,
+      "defense": 80,
+      "spAttack": 97,
+      "spDefense": 90
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-042",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 97,
+      "attack": 41,
+      "defense": 41,
+      "spAttack": 51,
+      "spDefense": 61
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-043",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 125,
+      "attack": 65,
+      "defense": 80,
+      "spAttack": 115,
+      "spDefense": 126
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-043★",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {
+      "hp": 125,
+      "defense": 80,
+      "spAttack": 115,
+      "spDefense": 126
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "low_margin",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
     "id": "3-2-044",
     "had_existing_stats": true,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 97,
+      "attack": 62,
+      "defense": 39,
+      "spAttack": 64,
+      "spDefense": 55
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-044A",
+    "had_existing_stats": false,
     "ocr_complete": true,
     "ocr_values": {
       "hp": 97,
@@ -16340,6 +16870,24 @@
     }
   },
   {
+    "id": "3-2-047A",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {
+      "hp": 97,
+      "attack": 74,
+      "defense": 39,
+      "spAttack": 69
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "low_margin"
+    }
+  },
+  {
     "id": "3-2-048",
     "had_existing_stats": true,
     "ocr_complete": true,
@@ -16368,6 +16916,510 @@
       "defense": 72,
       "spAttack": 130,
       "spDefense": 100
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-050",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 92,
+      "attack": 78,
+      "defense": 37,
+      "spAttack": 37,
+      "spDefense": 46
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-051",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 115,
+      "attack": 101,
+      "defense": 60,
+      "spAttack": 60,
+      "spDefense": 69
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-052",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {
+      "hp": 170,
+      "attack": 120,
+      "defense": 85,
+      "spAttack": 55
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "low_margin"
+    }
+  },
+  {
+    "id": "3-2-053",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 88,
+      "attack": 83,
+      "defense": 46,
+      "spAttack": 37,
+      "spDefense": 37
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-054",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {
+      "hp": 120,
+      "attack": 115,
+      "spAttack": 65,
+      "spDefense": 65
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "low_margin",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-054★",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 120,
+      "attack": 115,
+      "defense": 76,
+      "spAttack": 65,
+      "spDefense": 65
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-055",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {
+      "hp": 111,
+      "attack": 60,
+      "spAttack": 83,
+      "spDefense": 83
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "low_margin",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-056",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {
+      "hp": 120,
+      "spAttack": 110,
+      "spDefense": 110
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "low_margin",
+      "def": "low_margin",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-056★",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 120,
+      "attack": 65,
+      "defense": 65,
+      "spAttack": 110,
+      "spDefense": 110
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-057",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 125,
+      "attack": 85,
+      "defense": 145,
+      "spAttack": 45,
+      "spDefense": 75
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-058",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {
+      "hp": 120,
+      "attack": 50,
+      "defense": 75
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "low_margin",
+      "spdef": "low_margin"
+    }
+  },
+  {
+    "id": "3-2-059",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 96,
+      "attack": 51,
+      "defense": 88,
+      "spAttack": 27,
+      "spDefense": 84
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-060",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 134,
+      "attack": 99,
+      "defense": 136,
+      "spAttack": 59,
+      "spDefense": 121
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-061",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 120,
+      "attack": 97,
+      "defense": 69,
+      "spAttack": 46,
+      "spDefense": 55
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-062",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {
+      "hp": 160,
+      "attack": 130,
+      "spAttack": 60,
+      "spDefense": 90
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "low_margin",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-063",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 125,
+      "attack": 120,
+      "defense": 70,
+      "spAttack": 80,
+      "spDefense": 100
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-063A",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 125,
+      "attack": 120,
+      "defense": 70,
+      "spAttack": 80,
+      "spDefense": 100
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-064",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 138,
+      "attack": 65,
+      "defense": 90,
+      "spAttack": 140,
+      "spDefense": 96
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-065",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 92,
+      "attack": 41,
+      "defense": 78,
+      "spAttack": 41,
+      "spDefense": 41
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-065★",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 92,
+      "attack": 41,
+      "defense": 78,
+      "spAttack": 41,
+      "spDefense": 41
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-066",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 130,
+      "attack": 115,
+      "defense": 86,
+      "spAttack": 100,
+      "spDefense": 65
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-067",
+    "had_existing_stats": false,
+    "ocr_complete": false,
+    "ocr_values": {
+      "hp": 170,
+      "attack": 90,
+      "spAttack": 105,
+      "spDefense": 85
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "low_margin",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-068",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 93,
+      "attack": 62,
+      "defense": 41,
+      "spAttack": 41,
+      "spDefense": 32
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-069",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 121,
+      "attack": 128,
+      "defense": 66,
+      "spAttack": 65,
+      "spDefense": 55
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-070",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 130,
+      "attack": 90,
+      "defense": 150,
+      "spAttack": 65,
+      "spDefense": 60
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-071★",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 169,
+      "attack": 130,
+      "defense": 96,
+      "spAttack": 119,
+      "spDefense": 96
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "3-2-072★",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 158,
+      "attack": 147,
+      "defense": 90,
+      "spAttack": 50,
+      "spDefense": 113
     },
     "raw": {
       "hp": "ok",
@@ -18566,6 +19618,63 @@
       "defense": 142,
       "spAttack": 103,
       "spDefense": 93
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "p123",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 270,
+      "attack": 103,
+      "defense": 123,
+      "spAttack": 94,
+      "spDefense": 98
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "p124",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 186,
+      "attack": 136,
+      "defense": 100,
+      "spAttack": 136,
+      "spDefense": 103
+    },
+    "raw": {
+      "hp": "ok",
+      "atk": "ok",
+      "def": "ok",
+      "spatk": "ok",
+      "spdef": "ok"
+    }
+  },
+  {
+    "id": "p125",
+    "had_existing_stats": false,
+    "ocr_complete": true,
+    "ocr_values": {
+      "hp": 186,
+      "attack": 136,
+      "defense": 100,
+      "spAttack": 136,
+      "spDefense": 103
     },
     "raw": {
       "hp": "ok",

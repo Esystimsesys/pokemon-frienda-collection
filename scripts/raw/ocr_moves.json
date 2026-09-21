@@ -5046,6 +5046,18 @@
     "reason": "ok"
   },
   {
+    "id": "3-2-004",
+    "firstMoveName": "れいとうビーム",
+    "firstMoveNameEn": "Ice Beam",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-005",
+    "firstMoveName": "ダブルパンツァー",
+    "firstMoveNameEn": "Double Iron Bash",
+    "reason": "ok"
+  },
+  {
     "id": "3-2-006",
     "firstMoveName": null,
     "firstMoveNameEn": null,
@@ -5056,6 +5068,24 @@
     "firstMoveName": null,
     "firstMoveNameEn": null,
     "reason": "no_text"
+  },
+  {
+    "id": "3-2-008",
+    "firstMoveName": "りゅうのはどう",
+    "firstMoveNameEn": "Dragon Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-009",
+    "firstMoveName": "うらみつらみ",
+    "firstMoveNameEn": "Bitter Malice",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-010",
+    "firstMoveName": "かみくだく",
+    "firstMoveNameEn": "Crunch",
+    "reason": "ok"
   },
   {
     "id": "3-2-011",
@@ -5073,6 +5103,30 @@
     "id": "3-2-013",
     "firstMoveName": "ラスターカノン",
     "firstMoveNameEn": "Flash Cannon",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-014",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "3-2-015",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "3-2-016",
+    "firstMoveName": "あなをほる",
+    "firstMoveNameEn": "Dig",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-017",
+    "firstMoveName": "ふぶき",
+    "firstMoveNameEn": "Blizzard",
     "reason": "ok"
   },
   {
@@ -5094,6 +5148,18 @@
     "reason": "ja_disagree"
   },
   {
+    "id": "3-2-021",
+    "firstMoveName": "サイコキネシス",
+    "firstMoveNameEn": "Psychic",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-022",
+    "firstMoveName": "マジカルシャイン",
+    "firstMoveNameEn": "Dazzling Gleam",
+    "reason": "ok"
+  },
+  {
     "id": "3-2-023",
     "firstMoveName": "ワイルドボルト",
     "firstMoveNameEn": "Wild Charge",
@@ -5106,6 +5172,66 @@
     "reason": "ja_disagree"
   },
   {
+    "id": "3-2-025",
+    "firstMoveName": "ふんどのこぶし",
+    "firstMoveNameEn": "Rage Fist",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-026",
+    "firstMoveName": "つるのムチ",
+    "firstMoveNameEn": "Vine Whip",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-027",
+    "firstMoveName": "くさわけ",
+    "firstMoveNameEn": "Trailblaze",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-028",
+    "firstMoveName": "ローキック",
+    "firstMoveNameEn": "Low Sweep",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-029",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-030",
+    "firstMoveName": "ニトロチャージ",
+    "firstMoveNameEn": "Flame Charge",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-031",
+    "firstMoveName": "マジカルフレイム",
+    "firstMoveNameEn": "Mystical Fire",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-032",
+    "firstMoveName": "みずでっぽう",
+    "firstMoveNameEn": "Water Gun",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-033",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-034",
+    "firstMoveName": "たきのぼり",
+    "firstMoveNameEn": "Waterfall",
+    "reason": "ok"
+  },
+  {
     "id": "3-2-035",
     "firstMoveName": "たいあたり",
     "firstMoveNameEn": "Tackle",
@@ -5113,6 +5239,12 @@
   },
   {
     "id": "3-2-036",
+    "firstMoveName": "チャームボイス",
+    "firstMoveNameEn": "Disarming Voice",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-036A",
     "firstMoveName": "チャームボイス",
     "firstMoveNameEn": "Disarming Voice",
     "reason": "ok"
@@ -5136,7 +5268,43 @@
     "reason": "ja_disagree"
   },
   {
+    "id": "3-2-040",
+    "firstMoveName": "こおりのつぶて",
+    "firstMoveNameEn": "Ice Shard",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-041",
+    "firstMoveName": "れいとうパンチ",
+    "firstMoveNameEn": "Ice Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-042",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-043",
+    "firstMoveName": "ドレインキッス",
+    "firstMoveNameEn": "Draining Kiss",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-043★",
+    "firstMoveName": "ドレインキッス",
+    "firstMoveNameEn": "Draining Kiss",
+    "reason": "ok"
+  },
+  {
     "id": "3-2-044",
+    "firstMoveName": "でんきショック",
+    "firstMoveNameEn": "Thunder Shock",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-044A",
     "firstMoveName": "でんきショック",
     "firstMoveNameEn": "Thunder Shock",
     "reason": "ok"
@@ -5160,6 +5328,12 @@
     "reason": "ok"
   },
   {
+    "id": "3-2-047A",
+    "firstMoveName": "ひのこ",
+    "firstMoveNameEn": "Ember",
+    "reason": "ok"
+  },
+  {
     "id": "3-2-048",
     "firstMoveName": "かえんぐるま",
     "firstMoveNameEn": "Flame Wheel",
@@ -5169,6 +5343,168 @@
     "id": "3-2-049",
     "firstMoveName": "ほのおのパンチ",
     "firstMoveNameEn": "Fire Punch",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-050",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-051",
+    "firstMoveName": "いわくだき",
+    "firstMoveNameEn": "Rock Smash",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-052",
+    "firstMoveName": "ローキック",
+    "firstMoveNameEn": "Low Sweep",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-053",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_unreadable"
+  },
+  {
+    "id": "3-2-054",
+    "firstMoveName": "みだれづき",
+    "firstMoveNameEn": "Fury Attack",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-054★",
+    "firstMoveName": "みだれづき",
+    "firstMoveNameEn": "Fury Attack",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-055",
+    "firstMoveName": "おどろかす",
+    "firstMoveNameEn": "Astonish",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-056",
+    "firstMoveName": "たたりめ",
+    "firstMoveNameEn": "Hex",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-056★",
+    "firstMoveName": "たたりめ",
+    "firstMoveNameEn": "Hex",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-057",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "en_unreadable"
+  },
+  {
+    "id": "3-2-058",
+    "firstMoveName": "スパーク",
+    "firstMoveNameEn": "Spark",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-059",
+    "firstMoveName": "たいあたり",
+    "firstMoveNameEn": "Tackle",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-060",
+    "firstMoveName": "メタルクロー",
+    "firstMoveNameEn": "Metal Claw",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-061",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-062",
+    "firstMoveName": "じだんだ",
+    "firstMoveNameEn": "Stomping Tantrum",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-063",
+    "firstMoveName": "こうそくスピン",
+    "firstMoveNameEn": "Rapid Spin",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-063A",
+    "firstMoveName": "こうそくスピン",
+    "firstMoveNameEn": "Rapid Spin",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-064",
+    "firstMoveName": "りゅうのいぶき",
+    "firstMoveNameEn": "Dragon Breath",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-065",
+    "firstMoveName": "おどろかす",
+    "firstMoveNameEn": "Astonish",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-065★",
+    "firstMoveName": "おどろかす",
+    "firstMoveNameEn": "Astonish",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-066",
+    "firstMoveName": "りゅうのいぶき",
+    "firstMoveNameEn": "Dragon Breath",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-067",
+    "firstMoveName": "マジカルリーフ",
+    "firstMoveNameEn": "Magical Leaf",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-068",
+    "firstMoveName": "アクアジェット",
+    "firstMoveNameEn": "Aqua Jet",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-069",
+    "firstMoveName": "みずのはどう",
+    "firstMoveNameEn": "Water Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-070",
+    "firstMoveName": "じならし",
+    "firstMoveNameEn": "Bulldoze",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-071★",
+    "firstMoveName": "だいもんじ",
+    "firstMoveNameEn": "Fire Blast",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-072★",
+    "firstMoveName": "メガホーン",
+    "firstMoveNameEn": "Megahorn",
     "reason": "ok"
   },
   {
@@ -5901,6 +6237,24 @@
     "id": "p122",
     "firstMoveName": "１０まんばりき",
     "firstMoveNameEn": "High Horsepower",
+    "reason": "ok"
+  },
+  {
+    "id": "p123",
+    "firstMoveName": "コアパニッシャー",
+    "firstMoveNameEn": "Core Enforcer",
+    "reason": "ok"
+  },
+  {
+    "id": "p124",
+    "firstMoveName": "あくのはどう",
+    "firstMoveNameEn": "Dark Pulse",
+    "reason": "ok"
+  },
+  {
+    "id": "p125",
+    "firstMoveName": "ムーンフォース",
+    "firstMoveNameEn": "Moonblast",
     "reason": "ok"
   }
 ]

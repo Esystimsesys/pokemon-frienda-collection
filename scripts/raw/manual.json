@@ -391,6 +391,10 @@
   "spDefense": "153",
   "energy": "376"
  },
+ "3-2-004": {
+  "defense": "105",
+  "energy": "308"
+ },
  "3-2-006": {
   "hp": "161",
   "attack": "143",
@@ -407,6 +411,13 @@
   "spDefense": "110",
   "energy": "336",
   "moveType": "ドラゴン"
+ },
+ "3-2-008": {
+  "moveType": "ドラゴン",
+  "energy": "336"
+ },
+ "3-2-010": {
+  "specialMove": "ブラックホールイクリプス"
  },
  "3-2-011": {
   "hp": "226",
@@ -430,6 +441,12 @@
   "defense": "136",
   "spAttack": "153",
   "spDefense": "107"
+ },
+ "3-2-014": {
+  "moveType": "かくとう"
+ },
+ "3-2-015": {
+  "moveType": "でんき"
  },
  "3-2-018": {
   "hp": "165",
@@ -470,6 +487,15 @@
   "spAttack": "147",
   "spDefense": "113"
  },
+ "3-2-027": {
+  "hp": "112",
+  "attack": "76",
+  "defense": "92",
+  "spAttack": "56",
+  "spDefense": "58",
+  "energy": "180",
+  "speed": "2"
+ },
  "3-2-035": {
   "hp": "138",
   "attack": "32",
@@ -507,12 +533,22 @@
   "spAttack": "130",
   "spDefense": "80"
  },
+ "3-2-043★": {
+  "hp": "125",
+  "attack": "65",
+  "defense": "80",
+  "spAttack": "115",
+  "spDefense": "126"
+ },
  "3-2-044": {
   "hp": "97",
   "attack": "62",
   "defense": "39",
   "spAttack": "64",
   "spDefense": "55"
+ },
+ "3-2-044A": {
+  "energy": "164"
  },
  "3-2-045": {
   "hp": "115",
@@ -535,6 +571,13 @@
   "spAttack": "69",
   "spDefense": "55"
  },
+ "3-2-047A": {
+  "hp": "97",
+  "attack": "74",
+  "defense": "39",
+  "spAttack": "69",
+  "spDefense": "55"
+ },
  "3-2-048": {
   "hp": "115",
   "attack": "92",
@@ -548,6 +591,84 @@
   "defense": "72",
   "spAttack": "130",
   "spDefense": "100"
+ },
+ "3-2-052": {
+  "hp": "170",
+  "attack": "120",
+  "defense": "85",
+  "spAttack": "55",
+  "spDefense": "95"
+ },
+ "3-2-053": {
+  "moveName": "つつく",
+  "moveType": "ひこう"
+ },
+ "3-2-054": {
+  "hp": "120",
+  "attack": "115",
+  "defense": "75",
+  "spAttack": "65",
+  "spDefense": "65"
+ },
+ "3-2-055": {
+  "hp": "111",
+  "attack": "60",
+  "defense": "60",
+  "spAttack": "83",
+  "spDefense": "83"
+ },
+ "3-2-056": {
+  "hp": "120",
+  "attack": "65",
+  "defense": "65",
+  "spAttack": "110",
+  "spDefense": "110"
+ },
+ "3-2-057": {
+  "moveName": "つばさでうつ",
+  "moveType": "ひこう"
+ },
+ "3-2-058": {
+  "hp": "120",
+  "attack": "50",
+  "defense": "75",
+  "spAttack": "50",
+  "spDefense": "95"
+ },
+ "3-2-062": {
+  "hp": "160",
+  "attack": "130",
+  "defense": "105",
+  "spAttack": "60",
+  "spDefense": "90"
+ },
+ "3-2-063A": {
+  "energy": "228"
+ },
+ "3-2-064": {
+  "moveType": "ドラゴン"
+ },
+ "3-2-065": {
+  "energy": "128"
+ },
+ "3-2-065★": {
+  "energy": "128"
+ },
+ "3-2-066": {
+  "moveType": "ドラゴン"
+ },
+ "3-2-067": {
+  "hp": "170",
+  "attack": "90",
+  "defense": "85",
+  "spAttack": "105",
+  "spDefense": "85"
+ },
+ "3-2-068": {
+  "energy": "132"
+ },
+ "3-2-069": {
+  "defense": "65"
  },
  "p011": {
   "specialMove": "スパーキングギガボルト"
@@ -763,5 +884,11 @@
  },
  "p121": {
   "moveType": "かくとう"
+ },
+ "p123": {
+  "moveType": "ドラゴン"
+ },
+ "p125": {
+  "energy": "308"
  }
 }

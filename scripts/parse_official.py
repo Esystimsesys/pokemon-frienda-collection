@@ -132,17 +132,46 @@ def parse_page(key: str, subdir: str, order: int) -> list[dict]:
 
 def main() -> None:
     if not SETS.exists():
-        raise SystemExit(f"{SETS.name} が無い。先に `npm run fetch:data` を実行すること")
+        raise SystemExit(
+            "\n■ ピックデータを作成できません\n\n"
+            f"公式一覧の保存データ（{SETS.name}）がありません。\n"
+            "次にすること:\n"
+            "  1. npm run fetch:data\n"
+            "  2. npm run build:data"
+        )
 
+    previous = (
+        {p["id"]: p for p in json.loads(OUT.read_text(encoding="utf-8"))}
+        if OUT.exists()
+        else {}
+    )
+
+    print("=== ピックデータの作成 ===")
+    print("[1/3] 保存済みの公式一覧を読み込んでいます…")
     picks: list[dict] = []
     for entry in json.loads(SETS.read_text(encoding="utf-8")):
         page = parse_page(entry["key"], entry["subdir"], entry["order"])
         picks.extend(page)
-        print(f"{entry['key']:8} {len(page):4} 件")
+        print(f"      {entry['key']:8} {len(page):4}件")
 
     dupes = [i for i, n in Counter(p["id"] for p in picks).items() if n > 1]
     if dupes:
         raise SystemExit(f"IDが重複: {dupes[:20]}")
+
+    missing_ids = sorted(set(previous) - {p["id"] for p in picks})
+    if missing_ids:
+        sample = ", ".join(missing_ids[:10])
+        more = f" ほか{len(missing_ids) - 10}件" if len(missing_ids) > 10 else ""
+        raise SystemExit(
+            "\n■ 古い公式一覧が使われている可能性があるため、作成を停止しました\n\n"
+            f"現在の picks.json: {len(previous)}件\n"
+            f"保存済みの公式一覧: {len(picks)}件\n"
+            f"一覧から消えてしまうピック: {len(missing_ids)}件（{sample}{more}）\n\n"
+            "src/data/picks.json は書き換えていません。\n\n"
+            "次にすること:\n"
+            "  1. npm run fetch:data で最新の公式一覧を取得する\n"
+            "  2. npm run build:data をもう一度実行する"
+        )
 
     if not OCR.exists():
         # 黙って旧データにフォールバックすると、間違ったステータスのまま出てしまう
@@ -169,18 +198,14 @@ def main() -> None:
         else {}
     )
     manual = json.loads(MANUAL.read_text(encoding="utf-8")) if MANUAL.exists() else {}
-    # 前回の出来上がり。読み取りが失敗した回に、前は分かっていた値を
-    # 消してしまわないようにするため（下の keep_known）。
-    previous = (
-        {p["id"]: p for p in json.loads(OUT.read_text(encoding="utf-8"))}
-        if OUT.exists()
-        else {}
-    )
     special = (
         {r["id"]: r for r in json.loads(OCR_SPECIAL.read_text(encoding="utf-8"))}
         if OCR_SPECIAL.exists()
         else {}
     )
+
+    print(f"      合計 {len(picks)}件（前回 {len(previous)}件）")
+    print("[2/3] OCR結果・旧データ・手入力を統合しています…")
 
     joined = 0
     changed = 0
@@ -334,18 +359,58 @@ def main() -> None:
         if len(kept) > 20:
             print(f"  ...ほか {len(kept) - 20}件")
 
-    print(f"\ntotal {len(picks)} picks → {OUT.relative_to(ROOT.parent)}")
-    print(f"ステータスあり {joined} / なし {len(picks) - joined}")
-    print(f"裏面OCRで確定 {len(ocr)} / うち旧データと違っていた {changed}")
-    print(f"タイプあり {sum(1 for p in picks if p['types'])} / 旧データと違っていた {types_changed}")
-    print(f"★わかっている {sum(1 for p in picks if p['grade'] is not None)}")
-    print(f"わざあり {sum(1 for p in picks if p['moves'])} / うち名前も裏面から {ocr_named} / タイプだけ照合できた旧データ {filled_moves} / 信用できず外した {dropped_moves}")
-    print(f"てで入れたぶん {hand}")
-    print(f"メガシンカの2行目をわざにした {mega_moves} / 仕組みあり {sum(1 for p in picks if p['mechanic'])} / とくべつなわざ {sum(1 for p in picks if p['specialMove'])} / でんせつ・まぼろし {sum(1 for p in picks if p['legend'])}")
-    print(f"ポケエネあり {sum(1 for p in picks if p['stats'] and p['stats']['energy'] is not None)}")
-    print(f"すばやさあり {sum(1 for p in picks if p['stats'] and p['stats']['speed'] is not None)}")
-    print("グループ:", dict(Counter(p["group"] for p in picks)))
-    print("グレード:", dict(Counter(str(p["grade"]) for p in picks)))
+    total = len(picks)
+    stats_count = sum(1 for p in picks if p["stats"] is not None)
+    types_count = sum(1 for p in picks if p["types"])
+    grade_count = sum(1 for p in picks if p["grade"] is not None)
+    moves_count = sum(1 for p in picks if p["moves"])
+    energy_count = sum(
+        1 for p in picks if p["stats"] and p["stats"]["energy"] is not None
+    )
+    speed_count = sum(
+        1 for p in picks if p["stats"] and p["stats"]["speed"] is not None
+    )
+    group_labels = {
+        "super": "スーパー",
+        "treasure": "トレジャー",
+        "basic": "通常",
+        "parallel": "パラレル",
+        "shiny": "色違い",
+        "wonder": "ワンダー",
+        "special": "スペシャル",
+    }
+    groups = Counter(p["group"] for p in picks)
+    group_summary = " / ".join(
+        f"{group_labels.get(key, key)} {count}件" for key, count in groups.items()
+    )
+
+    print(f"[3/3] {OUT.relative_to(ROOT.parent)} に書き込みました。")
+    print("\n■ 完了: ピックデータを作成しました")
+    print(f"  総数: {total}件（前回から {total - len(previous):+d}件）")
+    print(f"  内訳: {group_summary}")
+    print("\n主な項目の収録状況:")
+    print(f"  - タイプ: {types_count}/{total}件")
+    print(f"  - わざ: {moves_count}/{total}件")
+    print(f"  - ステータス: {stats_count}/{total}件（未収録 {total - stats_count}件）")
+    print(f"  - ポケエネ: {energy_count}/{total}件")
+    print(f"  - すばやさ: {speed_count}/{total}件")
+    print(f"  - ★: {grade_count}/{total}件（スペシャルなど★表記のないものを含む）")
+    print(f"  - 手入力を反映: {hand}ピック")
+    print("\n読み取り処理の参考情報（エラーではありません）:")
+    print(f"  - 裏面OCR結果: {len(ocr)}件（旧データから修正 {changed}件）")
+    print(f"  - タイプを旧データから修正: {types_changed}件")
+    print(
+        f"  - わざ名を裏面から取得: {ocr_named}件 / "
+        f"旧データを券面タイプと照合: {filled_moves}件 / 不一致で除外: {dropped_moves}件"
+    )
+    print(
+        f"  - メガシンカの2行目をわざとして採用: {mega_moves}件 / "
+        f"仕組みあり: {sum(1 for p in picks if p['mechanic'])}件 / "
+        f"とくべつなわざあり: {sum(1 for p in picks if p['specialMove'])}件 / "
+        f"でんせつ・まぼろし: {sum(1 for p in picks if p['legend'])}件"
+    )
+    print("\nこのコマンドはファイルを作り直しただけで、コミットやpushはしていません。")
+    print("次に git diff -- src/data/picks.json で、手入力した内容を確認してください。")
 
 
 if __name__ == "__main__":
