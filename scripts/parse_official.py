@@ -360,6 +360,7 @@ def main() -> None:
             print(f"  ...ほか {len(kept) - 20}件")
 
     total = len(picks)
+    stats_count = sum(1 for p in picks if p["stats"] is not None)
     types_count = sum(1 for p in picks if p["types"])
     grade_count = sum(1 for p in picks if p["grade"] is not None)
     moves_count = sum(1 for p in picks if p["moves"])
@@ -390,7 +391,7 @@ def main() -> None:
     print("\n主な項目の収録状況:")
     print(f"  - タイプ: {types_count}/{total}件")
     print(f"  - わざ: {moves_count}/{total}件")
-    print(f"  - ステータス: {joined}/{total}件（未収録 {total - joined}件）")
+    print(f"  - ステータス: {stats_count}/{total}件（未収録 {total - stats_count}件）")
     print(f"  - ポケエネ: {energy_count}/{total}件")
     print(f"  - すばやさ: {speed_count}/{total}件")
     print(f"  - ★: {grade_count}/{total}件（スペシャルなど★表記のないものを含む）")

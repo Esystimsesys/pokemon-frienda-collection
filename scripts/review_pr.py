@@ -207,8 +207,35 @@ def main() -> None:
             next_steps,
         )
 
+    branch = run("git", "branch", "--show-current") or "（ブランチ名なし）"
+    if branch not in (BASE, BRANCH):
+        raise stop(
+            "別の作業ブランチにいるため、PR確認を開始していません",
+            f"  現在のブランチ: {branch}\n  PR確認で使うブランチ: {BASE} または {BRANCH}",
+            "このままPR確認用ブランチへ切り替えると、現在のブランチに保存した補完データを見落とす可能性があります。",
+            [
+                "現在のブランチに必要なコミットが残っていないか確認する",
+                f"必要なコミットを {BASE} または {BRANCH} へ取り込む",
+                f"git switch {BASE} または git switch {BRANCH} を実行する",
+                "npm run pr をもう一度実行する",
+            ],
+        )
+
     print("[1/5] GitHubから最新のPRを取得しています…")
     run("git", "fetch", "origin", BASE, BRANCH, check=False)
+
+    if branch == BRANCH:
+        ahead = int(run("git", "rev-list", "--count", f"origin/{BRANCH}..HEAD") or "0")
+        if ahead:
+            raise stop(
+                "pushしていないコミットがあるため、PR確認を開始していません",
+                f"  {BRANCH} はリモートより {ahead}コミット先に進んでいます。",
+                "このままリモートのPRブランチへ合わせると、ローカルの補完コミットを見失う可能性があります。",
+                [
+                    f"git push origin {BRANCH} を実行する",
+                    "push完了後に npm run pr をもう一度実行する",
+                ],
+            )
 
     prs = api(f"/pulls?state=open&head={REPO.split('/')[0]}:{BRANCH}")
     if not prs:
