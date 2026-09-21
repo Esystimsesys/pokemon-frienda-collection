@@ -129,7 +129,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": null,
+   "energy": 308,
    "hp": 236,
    "attack": 112,
    "defense": 106,
@@ -256,7 +256,7 @@
   "moves": [
    {
     "name": "りゅうのはどう",
-    "type": null
+    "type": "ドラゴン"
    }
   ],
   "types": [
@@ -267,7 +267,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": null,
+   "energy": 336,
    "hp": 183,
    "attack": 129,
    "defense": 91,
@@ -333,7 +333,7 @@
    "ドラゴン"
   ],
   "mechanic": "Zワザ",
-  "specialMove": null,
+  "specialMove": "ブラックホールイクリプス",
   "tagPartner": null,
   "legend": null,
   "stats": {
@@ -465,7 +465,7 @@
   "moves": [
    {
     "name": "インファイト",
-    "type": null
+    "type": "かくとう"
    }
   ],
   "types": [
@@ -500,7 +500,7 @@
   "moves": [
    {
     "name": "かみなり",
-    "type": null
+    "type": "でんき"
    }
   ],
   "types": [
@@ -1790,7 +1790,12 @@
   "grade": 2,
   "image": "https://pokemonfrienda.com/new/img/xt2/3-2-053.webp",
   "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-053_thumb.webp",
-  "moves": [],
+  "moves": [
+   {
+    "name": "つつく",
+    "type": "ひこう"
+   }
+  ],
   "types": [
    "ノーマル",
    "ひこう"
@@ -1899,7 +1904,12 @@
   "grade": 3,
   "image": "https://pokemonfrienda.com/new/img/xt2/3-2-057.webp",
   "thumb": "https://pokemonfrienda.com/new/img/xt2/3-2-057_thumb.webp",
-  "moves": [],
+  "moves": [
+   {
+    "name": "つばさでうつ",
+    "type": "ひこう"
+   }
+  ],
   "types": [
    "はがね",
    "ひこう"
@@ -2122,7 +2132,7 @@
   "moves": [
    {
     "name": "りゅうのいぶき",
-    "type": null
+    "type": "ドラゴン"
    }
   ],
   "types": [
@@ -2169,7 +2179,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": null,
+   "energy": 128,
    "hp": 92,
    "attack": 41,
    "defense": 78,
@@ -2192,7 +2202,7 @@
   "moves": [
    {
     "name": "りゅうのいぶき",
-    "type": null
+    "type": "ドラゴン"
    }
   ],
   "types": [
@@ -2265,7 +2275,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": null,
+   "energy": 132,
    "hp": 93,
    "attack": 62,
    "defense": 41,
@@ -2402,7 +2412,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": null,
+   "energy": 164,
    "hp": 97,
    "attack": 62,
    "defense": 39,
@@ -2462,7 +2472,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": null,
+   "energy": 228,
    "hp": 125,
    "attack": 120,
    "defense": 70,
@@ -2592,7 +2602,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": null,
+   "energy": 128,
    "hp": 92,
    "attack": 41,
    "defense": 78,
@@ -31651,7 +31661,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": null,
+   "energy": 308,
    "hp": 186,
    "attack": 136,
    "defense": 100,
@@ -31709,7 +31719,7 @@
   "moves": [
    {
     "name": "コアパニッシャー",
-    "type": null
+    "type": "ドラゴン"
    }
   ],
   "types": [
