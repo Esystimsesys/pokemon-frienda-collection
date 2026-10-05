@@ -5508,6 +5508,24 @@
     "reason": "ok"
   },
   {
+    "id": "3-2-W01",
+    "firstMoveName": "シャドーボール",
+    "firstMoveNameEn": "Shadow Ball",
+    "reason": "ok"
+  },
+  {
+    "id": "3-2-W02",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
+  },
+  {
+    "id": "3-2-W03",
+    "firstMoveName": "シャドースチール",
+    "firstMoveNameEn": "Spectral Thief",
+    "reason": "ok"
+  },
+  {
     "id": "p001",
     "firstMoveName": "１０まんボルト",
     "firstMoveNameEn": "Thunderbolt",
@@ -6256,5 +6274,11 @@
     "firstMoveName": "ムーンフォース",
     "firstMoveNameEn": "Moonblast",
     "reason": "ok"
+  },
+  {
+    "id": "p126",
+    "firstMoveName": null,
+    "firstMoveNameEn": null,
+    "reason": "no_text"
   }
 ]

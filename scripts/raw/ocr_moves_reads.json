@@ -6428,6 +6428,27 @@
       "why": "ok"
     },
     {
+      "id": "3-2-W01",
+      "en": "Shadow Ball",
+      "ja": "シャドーボール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-W02",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "3-2-W03",
+      "en": "Spectral Thief",
+      "ja": "シャドースチール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
       "id": "p001",
       "en": "Thunderbolt",
       "ja": "１０まんボルト",
@@ -7301,6 +7322,13 @@
       "ja": "ムーンフォース",
       "unanimous": true,
       "why": "ok"
+    },
+    {
+      "id": "p126",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
     }
   ]
 }
