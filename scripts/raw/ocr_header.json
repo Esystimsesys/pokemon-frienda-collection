@@ -12439,6 +12439,48 @@
     }
   },
   {
+    "id": "3-2-W01",
+    "types": [
+      "ゴースト",
+      "どく"
+    ],
+    "grade": 5,
+    "firstMoveType": "ゴースト",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "3-2-W02",
+    "types": [
+      "ゴースト",
+      "ほのお"
+    ],
+    "grade": 5,
+    "firstMoveType": null,
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "low_score"
+    }
+  },
+  {
+    "id": "3-2-W03",
+    "types": [
+      "かくとう",
+      "ゴースト"
+    ],
+    "grade": 5,
+    "firstMoveType": "ゴースト",
+    "reason": {
+      "types": "ok",
+      "grade": "ok",
+      "firstMoveType": "ok"
+    }
+  },
+  {
     "id": "p001",
     "types": [
       "でんき"
@@ -14151,6 +14193,19 @@
       "types": "ok",
       "grade": "no_star",
       "firstMoveType": "ok"
+    }
+  },
+  {
+    "id": "p126",
+    "types": [
+      "でんき"
+    ],
+    "grade": null,
+    "firstMoveType": null,
+    "reason": {
+      "types": "ok",
+      "grade": "no_star",
+      "firstMoveType": "low_score"
     }
   }
 ]

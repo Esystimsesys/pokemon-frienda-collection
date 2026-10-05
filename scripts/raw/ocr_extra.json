@@ -8262,6 +8262,33 @@
     }
   },
   {
+    "id": "3-2-W01",
+    "speed": 4,
+    "energy": null,
+    "reason": {
+      "speed": "ok",
+      "energy": "low_score"
+    }
+  },
+  {
+    "id": "3-2-W02",
+    "speed": 4,
+    "energy": 300,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
+    "id": "3-2-W03",
+    "speed": 5,
+    "energy": 340,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
+    }
+  },
+  {
     "id": "p001",
     "speed": 3,
     "energy": 120,
@@ -9384,6 +9411,15 @@
     "reason": {
       "speed": "ok",
       "energy": "low_score"
+    }
+  },
+  {
+    "id": "p126",
+    "speed": 5,
+    "energy": 300,
+    "reason": {
+      "speed": "ok",
+      "energy": "ok"
     }
   }
 ]

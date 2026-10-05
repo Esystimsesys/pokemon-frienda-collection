@@ -2785,7 +2785,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 368,
+   "energy": null,
    "hp": 200,
    "attack": 139,
    "defense": 114,
@@ -2819,7 +2819,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 368,
+   "energy": null,
    "hp": 200,
    "attack": 139,
    "defense": 114,
@@ -2923,7 +2923,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 308,
+   "energy": null,
    "hp": 171,
    "attack": 110,
    "defense": 103,
@@ -2992,7 +2992,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 364,
+   "energy": null,
    "hp": 193,
    "attack": 169,
    "defense": 145,
@@ -3027,7 +3027,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 364,
+   "energy": null,
    "hp": 193,
    "attack": 108,
    "defense": 127,
@@ -3062,7 +3062,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 368,
+   "energy": null,
    "hp": 238,
    "attack": 172,
    "defense": 135,
@@ -3097,7 +3097,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 368,
+   "energy": null,
    "hp": 238,
    "attack": 142,
    "defense": 113,
@@ -5197,7 +5197,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 144,
+   "energy": null,
    "hp": 93,
    "attack": 48,
    "defense": 48,
@@ -5231,7 +5231,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 140,
+   "energy": null,
    "hp": 88,
    "attack": 50,
    "defense": 42,
@@ -5265,7 +5265,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 140,
+   "energy": null,
    "hp": 92,
    "attack": 47,
    "defense": 62,
@@ -5507,7 +5507,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 352,
+   "energy": null,
    "hp": 184,
    "attack": 144,
    "defense": 144,
@@ -5542,7 +5542,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 352,
+   "energy": null,
    "hp": 172,
    "attack": 144,
    "defense": 121,
@@ -5612,7 +5612,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 364,
+   "energy": null,
    "hp": 318,
    "attack": 121,
    "defense": 145,
@@ -5715,7 +5715,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 296,
+   "energy": null,
    "hp": 205,
    "attack": 155,
    "defense": 84,
@@ -5784,7 +5784,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 300,
+   "energy": null,
    "hp": 174,
    "attack": 77,
    "defense": 119,
@@ -5819,7 +5819,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 276,
+   "energy": null,
    "hp": 140,
    "attack": 116,
    "defense": 104,
@@ -6823,7 +6823,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 216,
+   "energy": null,
    "hp": 113,
    "attack": 99,
    "defense": 88,
@@ -7336,7 +7336,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 212,
+   "energy": null,
    "hp": 192,
    "attack": 117,
    "defense": 61,
@@ -7682,7 +7682,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 212,
+   "energy": null,
    "hp": 113,
    "attack": 78,
    "defense": 131,
@@ -7889,7 +7889,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 212,
+   "energy": null,
    "hp": 122,
    "attack": 101,
    "defense": 84,
@@ -8166,7 +8166,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 172,
+   "energy": null,
    "hp": 105,
    "attack": 73,
    "defense": 59,
@@ -8234,7 +8234,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 172,
+   "energy": null,
    "hp": 122,
    "attack": 52,
    "defense": 72,
@@ -8372,7 +8372,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 348,
+   "energy": null,
    "hp": 238,
    "attack": 141,
    "defense": 119,
@@ -8476,7 +8476,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 316,
+   "energy": null,
    "hp": 173,
    "attack": 160,
    "defense": 115,
@@ -8546,7 +8546,7 @@
   "tagPartner": null,
   "legend": "まぼろし",
   "stats": {
-   "energy": 316,
+   "energy": null,
    "hp": 184,
    "attack": 121,
    "defense": 121,
@@ -8614,7 +8614,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 296,
+   "energy": null,
    "hp": 262,
    "attack": 137,
    "defense": 83,
@@ -8649,7 +8649,7 @@
   "tagPartner": null,
   "legend": "まぼろし",
   "stats": {
-   "energy": 316,
+   "energy": null,
    "hp": 184,
    "attack": 124,
    "defense": 92,
@@ -9718,7 +9718,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 116,
+   "energy": null,
    "hp": 87,
    "attack": 58,
    "defense": 32,
@@ -10339,7 +10339,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 216,
+   "energy": null,
    "hp": 154,
    "attack": 126,
    "defense": 59,
@@ -10477,7 +10477,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 112,
+   "energy": null,
    "hp": 83,
    "attack": 46,
    "defense": 37,
@@ -10787,7 +10787,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 116,
+   "energy": null,
    "hp": 87,
    "attack": 58,
    "defense": 32,
@@ -11201,7 +11201,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 292,
+   "energy": null,
    "hp": 163,
    "attack": 105,
    "defense": 98,
@@ -11236,7 +11236,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 308,
+   "energy": null,
    "hp": 158,
    "attack": 158,
    "defense": 153,
@@ -11271,7 +11271,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 308,
+   "energy": null,
    "hp": 190,
    "attack": 153,
    "defense": 113,
@@ -11306,7 +11306,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 288,
+   "energy": null,
    "hp": 151,
    "attack": 155,
    "defense": 83,
@@ -11340,7 +11340,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 284,
+   "energy": null,
    "hp": 152,
    "attack": 79,
    "defense": 98,
@@ -11375,7 +11375,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 308,
+   "energy": null,
    "hp": 169,
    "attack": 124,
    "defense": 153,
@@ -12482,7 +12482,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 216,
+   "energy": null,
    "hp": 126,
    "attack": 65,
    "defense": 73,
@@ -12653,7 +12653,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 212,
+   "energy": null,
    "hp": 108,
    "attack": 56,
    "defense": 99,
@@ -12758,7 +12758,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 216,
+   "energy": null,
    "hp": 113,
    "attack": 65,
    "defense": 103,
@@ -12862,7 +12862,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 216,
+   "energy": null,
    "hp": 126,
    "attack": 48,
    "defense": 86,
@@ -13516,7 +13516,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 128,
+   "energy": null,
    "hp": 84,
    "attack": 43,
    "defense": 55,
@@ -13550,7 +13550,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 124,
+   "energy": null,
    "hp": 99,
    "attack": 54,
    "defense": 40,
@@ -13584,7 +13584,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 128,
+   "energy": null,
    "hp": 88,
    "attack": 55,
    "defense": 54,
@@ -13618,7 +13618,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 180,
+   "energy": null,
    "hp": 106,
    "attack": 67,
    "defense": 50,
@@ -13756,7 +13756,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 268,
+   "energy": null,
    "hp": 149,
    "attack": 155,
    "defense": 121,
@@ -13791,7 +13791,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 276,
+   "energy": null,
    "hp": 146,
    "attack": 80,
    "defense": 80,
@@ -13861,7 +13861,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 288,
+   "energy": null,
    "hp": 195,
    "attack": 84,
    "defense": 141,
@@ -13896,7 +13896,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 280,
+   "energy": null,
    "hp": 166,
    "attack": 74,
    "defense": 121,
@@ -15308,7 +15308,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 144,
+   "energy": null,
    "hp": 84,
    "attack": 53,
    "defense": 53,
@@ -16071,7 +16071,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 312,
+   "energy": null,
    "hp": 169,
    "attack": 117,
    "defense": 96,
@@ -16106,7 +16106,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 312,
+   "energy": null,
    "hp": 200,
    "attack": 144,
    "defense": 114,
@@ -16176,7 +16176,7 @@
   "tagPartner": null,
   "legend": "まぼろし",
   "stats": {
-   "energy": 288,
+   "energy": null,
    "hp": 156,
    "attack": 98,
    "defense": 174,
@@ -16211,7 +16211,7 @@
   "tagPartner": null,
   "legend": "まぼろし",
   "stats": {
-   "energy": 288,
+   "energy": null,
    "hp": 169,
    "attack": 111,
    "defense": 111,
@@ -16246,7 +16246,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 260,
+   "energy": null,
    "hp": 133,
    "attack": 77,
    "defense": 72,
@@ -16316,7 +16316,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 268,
+   "energy": null,
    "hp": 142,
    "attack": 126,
    "defense": 82,
@@ -16351,7 +16351,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 264,
+   "energy": null,
    "hp": 139,
    "attack": 76,
    "defense": 76,
@@ -17491,7 +17491,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 112,
+   "energy": null,
    "hp": 73,
    "attack": 36,
    "defense": 36,
@@ -17697,7 +17697,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 116,
+   "energy": null,
    "hp": 66,
    "attack": 29,
    "defense": 26,
@@ -18707,7 +18707,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 276,
+   "energy": null,
    "hp": 155,
    "attack": 140,
    "defense": 85,
@@ -18742,7 +18742,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 276,
+   "energy": 278,
    "hp": 135,
    "attack": 115,
    "defense": 130,
@@ -18776,7 +18776,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 252,
+   "energy": null,
    "hp": 151,
    "attack": 90,
    "defense": 84,
@@ -18810,7 +18810,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 264,
+   "energy": null,
    "hp": 226,
    "attack": 113,
    "defense": 129,
@@ -19192,7 +19192,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 216,
+   "energy": null,
    "hp": 123,
    "attack": 53,
    "defense": 62,
@@ -23090,7 +23090,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 152,
+   "energy": null,
    "hp": 91,
    "attack": 44,
    "defense": 44,
@@ -23402,7 +23402,7 @@
   "tagPartner": null,
   "legend": "まぼろし",
   "stats": {
-   "energy": 260,
+   "energy": 280,
    "hp": 104,
    "attack": 146,
    "defense": 52,
@@ -28495,7 +28495,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 216,
+   "energy": 218,
    "hp": 134,
    "attack": 56,
    "defense": 72,
@@ -30578,6 +30578,106 @@
   }
  },
  {
+  "id": "3-2-W01",
+  "no": "W",
+  "set": "wonder",
+  "setLabel": "ワンダーピック",
+  "setOrder": 12,
+  "name": "ゲンガー",
+  "group": "wonder",
+  "grade": 5,
+  "image": "https://pokemonfrienda.com/new/wonder/img/3-2-W01.webp",
+  "thumb": "https://pokemonfrienda.com/new/wonder/img/3-2-W01_thumb.webp",
+  "moves": [
+   {
+    "name": "シャドーボール",
+    "type": "ゴースト"
+   }
+  ],
+  "types": [
+   "ゴースト",
+   "どく"
+  ],
+  "mechanic": "ダイマックス",
+  "specialMove": "キョダイゲンエイ",
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": null,
+   "hp": 148,
+   "attack": 86,
+   "defense": 80,
+   "spAttack": 168,
+   "spDefense": 99,
+   "speed": 4
+  }
+ },
+ {
+  "id": "3-2-W02",
+  "no": "W",
+  "set": "wonder",
+  "setLabel": "ワンダーピック",
+  "setOrder": 12,
+  "name": "シャンデラ",
+  "group": "wonder",
+  "grade": 5,
+  "image": "https://pokemonfrienda.com/new/wonder/img/3-2-W02.webp",
+  "thumb": "https://pokemonfrienda.com/new/wonder/img/3-2-W02_thumb.webp",
+  "moves": [],
+  "types": [
+   "ゴースト",
+   "ほのお"
+  ],
+  "mechanic": "メガシンカ",
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": null,
+  "stats": {
+   "energy": 300,
+   "hp": 148,
+   "attack": 74,
+   "defense": 118,
+   "spAttack": 187,
+   "spDefense": 118,
+   "speed": 4
+  }
+ },
+ {
+  "id": "3-2-W03",
+  "no": "W",
+  "set": "wonder",
+  "setLabel": "ワンダーピック",
+  "setOrder": 12,
+  "name": "マーシャドー",
+  "group": "wonder",
+  "grade": 5,
+  "image": "https://pokemonfrienda.com/new/wonder/img/3-2-W03.webp",
+  "thumb": "https://pokemonfrienda.com/new/wonder/img/3-2-W03_thumb.webp",
+  "moves": [
+   {
+    "name": "シャドースチール",
+    "type": "ゴースト"
+   }
+  ],
+  "types": [
+   "かくとう",
+   "ゴースト"
+  ],
+  "mechanic": "Zワザ",
+  "specialMove": null,
+  "tagPartner": null,
+  "legend": "まぼろし",
+  "stats": {
+   "energy": 340,
+   "hp": 186,
+   "attack": 162,
+   "defense": 105,
+   "spAttack": 118,
+   "spDefense": 118,
+   "speed": 5
+  }
+ },
+ {
   "id": "3-1-W01",
   "no": "W",
   "set": "wonder",
@@ -30705,7 +30805,7 @@
   "tagPartner": "ラティオス",
   "legend": "でんせつ",
   "stats": {
-   "energy": 320,
+   "energy": null,
    "hp": 163,
    "attack": 99,
    "defense": 111,
@@ -30740,7 +30840,7 @@
   "tagPartner": "ラティアス",
   "legend": "でんせつ",
   "stats": {
-   "energy": 320,
+   "energy": null,
    "hp": 163,
    "attack": 111,
    "defense": 99,
@@ -30775,7 +30875,7 @@
   "tagPartner": "グレンアルマ",
   "legend": null,
   "stats": {
-   "energy": 284,
+   "energy": null,
    "hp": 157,
    "attack": 152,
    "defense": 99,
@@ -30810,7 +30910,7 @@
   "tagPartner": "エルレイド",
   "legend": null,
   "stats": {
-   "energy": 280,
+   "energy": null,
    "hp": 149,
    "attack": 81,
    "defense": 81,
@@ -30844,7 +30944,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 300,
+   "energy": null,
    "hp": 152,
    "attack": 85,
    "defense": 79,
@@ -30912,7 +31012,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 300,
+   "energy": null,
    "hp": 152,
    "attack": 141,
    "defense": 166,
@@ -30946,7 +31046,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 300,
+   "energy": null,
    "hp": 152,
    "attack": 79,
    "defense": 141,
@@ -31015,7 +31115,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 296,
+   "energy": null,
    "hp": 226,
    "attack": 107,
    "defense": 101,
@@ -31050,7 +31150,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 284,
+   "energy": null,
    "hp": 160,
    "attack": 86,
    "defense": 96,
@@ -31187,7 +31287,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 284,
+   "energy": null,
    "hp": 161,
    "attack": 96,
    "defense": 113,
@@ -31222,7 +31322,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 284,
+   "energy": null,
    "hp": 161,
    "attack": 102,
    "defense": 96,
@@ -31257,7 +31357,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 284,
+   "energy": null,
    "hp": 161,
    "attack": 113,
    "defense": 102,
@@ -31498,7 +31598,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 240,
+   "energy": null,
    "hp": 122,
    "attack": 132,
    "defense": 63,
@@ -31532,7 +31632,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 240,
+   "energy": null,
    "hp": 152,
    "attack": 68,
    "defense": 68,
@@ -31714,6 +31814,40 @@
    "spAttack": 59,
    "spDefense": 95,
    "speed": 3
+  }
+ },
+ {
+  "id": "p126",
+  "no": "P",
+  "set": "special",
+  "setLabel": "スペシャルピック",
+  "setOrder": 13,
+  "name": "ゼラオラ",
+  "group": "special",
+  "grade": null,
+  "image": "https://pokemonfrienda.com/new/special/img/p126.webp",
+  "thumb": "https://pokemonfrienda.com/new/special/img/p126_thumb.webp",
+  "moves": [
+   {
+    "name": "プラズマフィスト",
+    "type": null
+   }
+  ],
+  "types": [
+   "でんき"
+  ],
+  "mechanic": "メガシンカ",
+  "specialMove": "プラズマフィスト",
+  "tagPartner": null,
+  "legend": "まぼろし",
+  "stats": {
+   "energy": 300,
+   "hp": 161,
+   "attack": 128,
+   "defense": 87,
+   "spAttack": 117,
+   "spDefense": 93,
+   "speed": 5
   }
  },
  {
@@ -32037,7 +32171,7 @@
   "tagPartner": null,
   "legend": "でんせつ",
   "stats": {
-   "energy": 300,
+   "energy": null,
    "hp": 157,
    "attack": 152,
    "defense": 122,
@@ -32142,7 +32276,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 316,
+   "energy": null,
    "hp": 184,
    "attack": 160,
    "defense": 132,
@@ -32177,7 +32311,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 316,
+   "energy": null,
    "hp": 173,
    "attack": 160,
    "defense": 115,
@@ -32376,7 +32510,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 292,
+   "energy": null,
    "hp": 163,
    "attack": 105,
    "defense": 98,
@@ -34182,7 +34316,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 200,
+   "energy": null,
    "hp": 117,
    "attack": 74,
    "defense": 55,
@@ -34390,7 +34524,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 216,
+   "energy": null,
    "hp": 127,
    "attack": 80,
    "defense": 60,
@@ -35193,7 +35327,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 152,
+   "energy": null,
    "hp": 89,
    "attack": 56,
    "defense": 42,
@@ -35367,7 +35501,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 176,
+   "energy": null,
    "hp": 97,
    "attack": 92,
    "defense": 61,
@@ -35540,7 +35674,7 @@
   "tagPartner": null,
   "legend": null,
   "stats": {
-   "energy": 136,
+   "energy": null,
    "hp": 81,
    "attack": 51,
    "defense": 38,

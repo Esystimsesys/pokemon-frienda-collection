@@ -10098,6 +10098,39 @@
     "legendReason": "low_score"
   },
   {
+    "id": "3-2-W01",
+    "mechanic": "ダイマックス",
+    "mechanicReason": "ok",
+    "secondMoveName": "キョダイゲンエイ",
+    "secondMoveNameEn": "G-Max Terror",
+    "tagPartner": null,
+    "secondMoveReason": "ok",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-W02",
+    "mechanic": "メガシンカ",
+    "mechanicReason": "ok",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "ja_disagree",
+    "legend": null,
+    "legendReason": "low_score"
+  },
+  {
+    "id": "3-2-W03",
+    "mechanic": "Zワザ",
+    "mechanicReason": "ok",
+    "secondMoveName": null,
+    "secondMoveNameEn": null,
+    "tagPartner": null,
+    "secondMoveReason": "en_unreadable",
+    "legend": "まぼろし",
+    "legendReason": "ok"
+  },
+  {
     "id": "p001",
     "mechanic": null,
     "mechanicReason": "no_mark",
@@ -11470,6 +11503,17 @@
     "tagPartner": null,
     "secondMoveReason": "no_text",
     "legend": "でんせつ",
+    "legendReason": "ok"
+  },
+  {
+    "id": "p126",
+    "mechanic": "メガシンカ",
+    "mechanicReason": "ok",
+    "secondMoveName": "プラズマフィスト",
+    "secondMoveNameEn": "Plasma Fists",
+    "tagPartner": null,
+    "secondMoveReason": "ok",
+    "legend": "まぼろし",
     "legendReason": "ok"
   }
 ]
