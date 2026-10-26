@@ -6428,6 +6428,27 @@
       "why": "ok"
     },
     {
+      "id": "3-2-W01",
+      "en": "Shadow Ball",
+      "ja": "シャドーボール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "3-2-W02",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "3-2-W03",
+      "en": "Spectral Thief",
+      "ja": "シャドースチール",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
       "id": "p001",
       "en": "Thunderbolt",
       "ja": "１０まんボルト",
@@ -7299,6 +7320,41 @@
       "id": "p125",
       "en": "Moonblast",
       "ja": "ムーンフォース",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p126",
+      "en": null,
+      "ja": null,
+      "unanimous": false,
+      "why": "no_text"
+    },
+    {
+      "id": "p127",
+      "en": "Hydro Pump",
+      "ja": "ハイドロポンプ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p128",
+      "en": "Fire Blast",
+      "ja": "だいもんじ",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p129",
+      "en": "Thunder",
+      "ja": "かみなり",
+      "unanimous": true,
+      "why": "ok"
+    },
+    {
+      "id": "p130",
+      "en": "Dragon Rush",
+      "ja": "ドラゴンダイプ",
       "unanimous": true,
       "why": "ok"
     }
